@@ -1,0 +1,22 @@
+{
+  "model_labels": {
+    "0": "SAFE",
+    "1": "INJECTION"
+  },
+  "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "fixed_nonbenchmark_smoke_probabilities": [
+    [
+      0.9999808073043823,
+      1.9167684513377026e-05
+    ],
+    [
+      1.9127872974422644e-07,
+      0.9999997615814209
+    ]
+  ]
+}

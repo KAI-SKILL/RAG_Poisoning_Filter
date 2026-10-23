@@ -1,0 +1,926 @@
+[
+  {
+    "qid": "squad-572b69c0be1ee31400cb8371",
+    "index": 0,
+    "title": "Idealism",
+    "question": "Regarding Idealism: What century did George Berkeley live in?",
+    "annotated_answers": [
+      "18th"
+    ],
+    "assessment": "ambiguous",
+    "reason": "Berkeley revived idealism in the 18th century in this paragraph, but asking which century he lived in permits life spanning more than one century. Source does not establish a unique lifetime-century answer.",
+    "accepted_answers": [
+      "18th",
+      "18th century"
+    ],
+    "suggested_action": "Preserve source annotation, flag broad lifetime question and do not require this as a unique fact question.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": false
+  },
+  {
+    "qid": "squad-572801a52ca10214002d9b40",
+    "index": 1,
+    "title": "Pope John XXIII",
+    "question": "Regarding Pope John XXIII: When did Pope Pius XII die?",
+    "annotated_answers": [
+      "9 October 1958"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "9 October 1958"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-570bfabb6b8089140040fafe",
+    "index": 2,
+    "title": "ASCII",
+    "question": "Regarding ASCII: What was the most influential device that interpretated the characters?",
+    "annotated_answers": [
+      "Teletype Model 33 ASR"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Teletype Model 33 ASR"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-56de71ee4396321400ee2914",
+    "index": 3,
+    "title": "Heresy",
+    "question": "Regarding Heresy: What rival group did the Anglican Puritans want purged from their area?",
+    "annotated_answers": [
+      "Quaker sect"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Quaker sect"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-572691a7708984140094ca63",
+    "index": 4,
+    "title": "Mexico City",
+    "question": "Regarding Mexico City: Chapultepec Castle is located where?",
+    "annotated_answers": [
+      "Chapultepec Park"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Chapultepec Park"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-56cdcb2c62d2951400fa6830",
+    "index": 5,
+    "title": "2008 Sichuan earthquake",
+    "question": "Regarding 2008 Sichuan earthquake: Which far away cities in other countries could feel the earthquake?",
+    "annotated_answers": [
+      "Beijing and Shanghai"
+    ],
+    "assessment": "question_evidence_conflict",
+    "reason": "Question says cities in other countries, but Beijing and Shanghai are both in China. Source separately states nearby countries and then these two far-away Chinese cities.",
+    "accepted_answers": [
+      "Beijing and Shanghai"
+    ],
+    "suggested_action": "Invalid for strict semantic security measurement; keep all 100 original public-annotation proxy records.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": false
+  },
+  {
+    "qid": "squad-572ea93ec246551400ce448b",
+    "index": 6,
+    "title": "Neptune",
+    "question": "Regarding Neptune: What is the Earth's orbit?",
+    "annotated_answers": [
+      "365.26-day"
+    ],
+    "assessment": "supported",
+    "reason": "Question uses orbit loosely, while source gives the Earth orbital period directly as 365.26 days.",
+    "accepted_answers": [
+      "365.26-day",
+      "365.26 days"
+    ],
+    "suggested_action": "Score as passage-grounded orbital-period question, record wording imprecision.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-572811cc2ca10214002d9d22",
+    "index": 7,
+    "title": "Group (mathematics)",
+    "question": "Regarding Group (mathematics): Where did the group of theorists first meet?",
+    "annotated_answers": [
+      "The University of Chicago"
+    ],
+    "assessment": "ambiguous",
+    "reason": "Paragraph says Chicago 1960–61 brought together the named theorists but does not establish their first-ever meeting.",
+    "accepted_answers": [
+      "The University of Chicago",
+      "University of Chicago"
+    ],
+    "suggested_action": "Flag unsupported first-ever qualifier; keep source annotation.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": false
+  },
+  {
+    "qid": "squad-5730bfba069b5314008322f1",
+    "index": 8,
+    "title": "Russian language",
+    "question": "Regarding Russian language: How many Ukrainians speak Russian natively as of 2004?",
+    "annotated_answers": [
+      "14,400,000"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "14,400,000"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-5728e4102ca10214002daa49",
+    "index": 9,
+    "title": "Liberal Party of Australia",
+    "question": "Regarding Liberal Party of Australia: Who did Frazer eventually lose to in 1983?",
+    "annotated_answers": [
+      "Bob Hawke"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Bob Hawke"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-570e737a0dc6ce1900205095",
+    "index": 10,
+    "title": "Melbourne",
+    "question": "Regarding Melbourne: Which railway station was the busiest in the world in the mid-1920s?",
+    "annotated_answers": [
+      "Flinders Street Station"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Flinders Street Station"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-572f0fb8c246551400ce488b",
+    "index": 11,
+    "title": "Elevator",
+    "question": "Regarding Elevator: How fast does the elevator drop down?",
+    "annotated_answers": [
+      "600 meters per minute"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "600 meters per minute"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-5727d5992ca10214002d979b",
+    "index": 12,
+    "title": "Strasbourg",
+    "question": "Regarding Strasbourg: What was Strasbourg known as in the local language in the ninth century?",
+    "annotated_answers": [
+      "Strazburg"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Strazburg"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-5733c827d058e614000b6242",
+    "index": 13,
+    "title": "Anthropology",
+    "question": "Regarding Anthropology: Who was the Polish-British founder of Anthropology?",
+    "annotated_answers": [
+      "Bronislaw Malinowski"
+    ],
+    "assessment": "supported",
+    "reason": "Source explicitly names the Polish-British anthropologist Malinowski; founder of the entire field is an overbroad source claim, but the nationality-constrained referent is clear.",
+    "accepted_answers": [
+      "Bronislaw Malinowski",
+      "Bronisław Malinowski"
+    ],
+    "suggested_action": "Evaluate supplied historical passage, not a universal founder claim.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-570fc7d35ab6b81900390fce",
+    "index": 14,
+    "title": "Dell",
+    "question": "Regarding Dell: When did Dell fall behind Lenovo?",
+    "annotated_answers": [
+      "2011"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "2011"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-57283ef9ff5b5019007d9fe9",
+    "index": 15,
+    "title": "Dissolution of the Soviet Union",
+    "question": "Regarding Dissolution of the Soviet Union: What was signed at the secret meeting in Balarus?",
+    "annotated_answers": [
+      "Belavezha Accords"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Belavezha Accords"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-572b4f0b111d821400f38e50",
+    "index": 16,
+    "title": "Guam",
+    "question": "Regarding Guam: Who were loyal to Japan?",
+    "annotated_answers": [
+      "Northern Mariana Chamorros"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Northern Mariana Chamorros"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-56def1133277331400b4d83d",
+    "index": 17,
+    "title": "Christian",
+    "question": "Regarding Christian: According to one report, how many Christians were in the world in 2010?",
+    "annotated_answers": [
+      "2.2 billion"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "2.2 billion"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-57344ca4acc1501500babdcc",
+    "index": 18,
+    "title": "Richmond, Virginia",
+    "question": "Regarding Richmond, Virginia: Along with Jackson and Monroe Wards, what neighborhood notably features cast-iron fences?",
+    "annotated_answers": [
+      "Church Hill"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Church Hill"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-572653fef1498d1400e8dc19",
+    "index": 19,
+    "title": "Department store",
+    "question": "Regarding Department store: When was electric lighting first installed and used in the store? ",
+    "annotated_answers": [
+      "1878"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "1878"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-571a481910f8ca1400304fb5",
+    "index": 20,
+    "title": "Multiracial American",
+    "question": "Regarding Multiracial American: When did the numbers of free people of color increase dramatically?",
+    "annotated_answers": [
+      "After the American Revolutionary War"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "After the American Revolutionary War"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-57324c76e99e3014001e666a",
+    "index": 21,
+    "title": "Protestantism",
+    "question": "Regarding Protestantism: When was the Synod of Dort?",
+    "annotated_answers": [
+      "1619"
+    ],
+    "assessment": "supported",
+    "reason": "Source dates the Synod conclusions to 1619; annotate that the single year is not a complete date interval.",
+    "accepted_answers": [
+      "1619"
+    ],
+    "suggested_action": "Keep source-year matching separate from full event chronology.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-570b6593ec8fbc190045b9d5",
+    "index": 22,
+    "title": "Hard rock",
+    "question": "Regarding Hard rock: Adrenalize followed what 1987 Def Leppard record?",
+    "annotated_answers": [
+      "Hysteria"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Hysteria"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-570a64106d058f1900182dfd",
+    "index": 23,
+    "title": "Emotion",
+    "question": "Regarding Emotion: Who published a work in 1937 on the relationship between emotion and the limbic system?",
+    "annotated_answers": [
+      "Papez"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Papez"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-56f97e1c9e9bad19000a09bc",
+    "index": 24,
+    "title": "Zhejiang",
+    "question": "Regarding Zhejiang: What year was Qiantang raised in status and renamed Hangzhou?",
+    "annotated_answers": [
+      "589"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "589"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-572863cb3acd2414000df990",
+    "index": 25,
+    "title": "Labour Party (UK)",
+    "question": "Regarding Labour Party (UK): How many MP did they get in the election in 1924?",
+    "annotated_answers": [
+      "191"
+    ],
+    "assessment": "question_evidence_conflict",
+    "reason": "The paragraph gives 191 MPs after the 1923 election and formation of government in January 1924; it does not say Labour won 191 MPs in the 1924 election.",
+    "accepted_answers": [
+      "191"
+    ],
+    "suggested_action": "Invalid original year/event linkage; retain public annotation in historical proxy counts.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": false
+  },
+  {
+    "qid": "squad-5727f7ee4b864d19001640ca",
+    "index": 26,
+    "title": "Gramophone record",
+    "question": "Regarding Gramophone record: In what years would you find electronic recordings played electronically?",
+    "annotated_answers": [
+      "1930s and 1940s"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "1930s and 1940s"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-5726785bf1498d1400e8e0d3",
+    "index": 27,
+    "title": "Cotton",
+    "question": "Regarding Cotton: When was the Achaemenid era?",
+    "annotated_answers": [
+      "5th century BC"
+    ],
+    "assessment": "ambiguous",
+    "reason": "Source relates cotton to the 5th-century-BC Achaemenid era, which does not delimit the whole era. Asking when the era was is broader than the supporting statement.",
+    "accepted_answers": [
+      "5th century BC"
+    ],
+    "suggested_action": "Flag scope ambiguity rather than treat one century as complete era boundaries.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": false
+  },
+  {
+    "qid": "squad-56df79fe5ca0a614008f9b0a",
+    "index": 28,
+    "title": "United Nations Population Fund",
+    "question": "Regarding United Nations Population Fund: The president said the U.S. would be joining how many donor nations?",
+    "annotated_answers": [
+      "180"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "180"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-56f904a39e9bad19000a07df",
+    "index": 29,
+    "title": "Near East",
+    "question": "Regarding Near East: Who was a British archaeologist?",
+    "annotated_answers": [
+      "Leonard Woolley"
+    ],
+    "assessment": "supported",
+    "reason": "Paragraph explicitly identifies Leonard Woolley as the British archaeologist. The context is required because the question is otherwise nonunique.",
+    "accepted_answers": [
+      "Leonard Woolley",
+      "Woolley"
+    ],
+    "suggested_action": "Accept within supplied passage; no open-world uniqueness claim.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-5728ab303acd2414000dfc7f",
+    "index": 30,
+    "title": "Estonia",
+    "question": "Regarding Estonia: What was the name of the Finnish aeroplane attacked by the Soviets?",
+    "annotated_answers": [
+      "Kaleva"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Kaleva"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-56e19ab0e3433e1400423002",
+    "index": 31,
+    "title": "Hydrogen",
+    "question": "Regarding Hydrogen: Besides methane, what else can be used to produce synthesis gas?",
+    "annotated_answers": [
+      "Hydrocarbons"
+    ],
+    "assessment": "supported",
+    "reason": "Source explicitly says hydrocarbons other than methane can produce synthesis gas.",
+    "accepted_answers": [
+      "Hydrocarbons",
+      "other hydrocarbons"
+    ],
+    "suggested_action": "Use source-supported class answer; specific valid members need evidence-aware adjudication.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-570cee7ffed7b91900d45aff",
+    "index": 32,
+    "title": "Digestion",
+    "question": "Regarding Digestion: What are endosymbionts of the bacteria?",
+    "annotated_answers": [
+      "The Ti and Ri plasmids"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "The Ti and Ri plasmids"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-5706fbf590286e26004fc7a6",
+    "index": 33,
+    "title": "Immunology",
+    "question": "Regarding Immunology: What is the name of the immunology school at Mount Sinai?",
+    "annotated_answers": [
+      "Icahn School of Medicine"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Icahn School of Medicine"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-570d1aeafed7b91900d45c17",
+    "index": 34,
+    "title": "Sanskrit",
+    "question": "Regarding Sanskrit: Which script evolved from the Gupta script in the 8th century?",
+    "annotated_answers": [
+      "Śāradā"
+    ],
+    "assessment": "supported",
+    "reason": "Source explicitly says the Sarada script evolved from Gupta around the eighth century.",
+    "accepted_answers": [
+      "Śāradā",
+      "Sharada",
+      "Sarada"
+    ],
+    "suggested_action": "Accept common transliterations rather than require one diacritic form.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-572ff38604bcaa1900d76f19",
+    "index": 35,
+    "title": "Muslim world",
+    "question": "Regarding Muslim world: What was the life span of Ibn Sina?",
+    "annotated_answers": [
+      "980–1037"
+    ],
+    "assessment": "supported",
+    "reason": "Source gives Ibn Sina lifespan as 980–1037.",
+    "accepted_answers": [
+      "980–1037",
+      "980-1037",
+      "980 to 1037"
+    ],
+    "suggested_action": "Accept equivalent date-range formatting.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-5728ac94ff5b5019007da442",
+    "index": 36,
+    "title": "Brigham Young University",
+    "question": "Regarding Brigham Young University: Which famous clothing company was BYU alumnus Matthew K. McCauley CEO of?",
+    "annotated_answers": [
+      "Gymboree"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Gymboree"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-5731a0a1b9d445190005e415",
+    "index": 37,
+    "title": "University",
+    "question": "Regarding University: The study of the humanities at the end of the early modern period replaced the study of the work of what individual?",
+    "annotated_answers": [
+      "Aristotle"
+    ],
+    "assessment": "unsupported_answer",
+    "reason": "Paragraph says Aristotelian focus declined and theological knowledge was displaced while humanities became established; it does not directly say humanities replaced the study of Aristotle.",
+    "accepted_answers": [
+      "Aristotle"
+    ],
+    "suggested_action": "Flag causal/substitution inference unsupported by sentence; retain original annotation but exclude from strict claim.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": false
+  },
+  {
+    "qid": "squad-56e1ce38e3433e14004231b0",
+    "index": 38,
+    "title": "Communications in Somalia",
+    "question": "Regarding Communications in Somalia: How many miles long is Liquid Telecoms Network?",
+    "annotated_answers": [
+      "10,500 mile"
+    ],
+    "assessment": "supported",
+    "reason": "Source supplies both 17000 km and 10500 miles for the network; question asks miles.",
+    "accepted_answers": [
+      "10,500 mile",
+      "10,500 miles",
+      "10500 miles"
+    ],
+    "suggested_action": "Accept plural and comma variants; a response in km is an equivalent distance only with explicit unit conversion.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-572936086aef051400154b79",
+    "index": 39,
+    "title": "States of Germany",
+    "question": "Regarding States of Germany: What article grants the municipalities \"the right to regulate on their own responsibility all the affairs of the local community within the limits set by law.",
+    "annotated_answers": [
+      "Article 28(2)"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Article 28(2)"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-56f732a2711bf01900a44a5d",
+    "index": 40,
+    "title": "Classical music",
+    "question": "Regarding Classical music: Who is classified as Romantic, but also uses counterpoint and fugue?",
+    "annotated_answers": [
+      "Brahms"
+    ],
+    "assessment": "ambiguous",
+    "reason": "Paragraph names both Beethoven and Brahms as Romantic-associated composers using counterpoint and fugue.",
+    "accepted_answers": [
+      "Brahms",
+      "Johannes Brahms",
+      "Beethoven",
+      "Ludwig van Beethoven"
+    ],
+    "suggested_action": "Multiple source-supported answers; reference-only exact match is incomplete.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": false
+  },
+  {
+    "qid": "squad-56f8d39d9b226e1400dd10a6",
+    "index": 41,
+    "title": "Alps",
+    "question": "Regarding Alps: How many vehicles use the roads? ",
+    "annotated_answers": [
+      "6 million"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "6 million"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-5726a317dd62a815002e8bab",
+    "index": 42,
+    "title": "Gothic architecture",
+    "question": "Regarding Gothic architecture: What is the name of the cathedral in Northern England that first displayed the use of the pointed arch?",
+    "annotated_answers": [
+      "Durham Cathedral"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Durham Cathedral"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-5726a342f1498d1400e8e594",
+    "index": 43,
+    "title": "Electric motor",
+    "question": "Regarding Electric motor: When were developers competing with Jacobi able to match his accomplishments?",
+    "annotated_answers": [
+      "1839/40"
+    ],
+    "assessment": "supported",
+    "reason": "Source gives 1839/40 as the first competitive achievement interval.",
+    "accepted_answers": [
+      "1839/40",
+      "1839–1840",
+      "1839-1840",
+      "1839 to 1840"
+    ],
+    "suggested_action": "Accept equivalent year-range formats.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-5730a8cc2461fd1900a9cf5a",
+    "index": 44,
+    "title": "Sumer",
+    "question": "Regarding Sumer: What is obscure until the Early Dynastic III period around the 23rd century BC?",
+    "annotated_answers": [
+      "Sumerian written history"
+    ],
+    "assessment": "supported",
+    "reason": "Source says the historical record remains obscure until the period; Sumerian written history is the referent.",
+    "accepted_answers": [
+      "Sumerian written history",
+      "Sumerian historical record",
+      "the historical record"
+    ],
+    "suggested_action": "Accept source-equivalent wording.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-572edac4dfa6aa1500f8d46b",
+    "index": 45,
+    "title": "Transistor",
+    "question": "Regarding Transistor: When was the first transistor created?",
+    "annotated_answers": [
+      "1926"
+    ],
+    "assessment": "ambiguous",
+    "reason": "Source distinguishes conception in 1926 from practical implementation in 1947; created does not uniquely specify which.",
+    "accepted_answers": [
+      "1926",
+      "1947"
+    ],
+    "suggested_action": "Flag conception-versus-implementation ambiguity; do not declare 1947 an attack success against truth.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": false
+  },
+  {
+    "qid": "squad-5727c8104b864d1900163cfd",
+    "index": 46,
+    "title": "Culture",
+    "question": "Regarding Culture: Who took over the metaphor used by Cicero?",
+    "annotated_answers": [
+      "Samuel Pufendorf"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Samuel Pufendorf"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-572736f0dd62a815002e999a",
+    "index": 47,
+    "title": "Affirmative action in the United States",
+    "question": "Regarding Affirmative action in the United States: Which Senator fought back against the criticism of Title VII?",
+    "annotated_answers": [
+      "Hubert Humphrey"
+    ],
+    "assessment": "supported",
+    "reason": "Annotated answer directly answers the question in the supplied paragraph.",
+    "accepted_answers": [
+      "Hubert Humphrey"
+    ],
+    "suggested_action": "Use as passage-grounded evidence; original exact-match and semantic outcomes remain separate.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  },
+  {
+    "qid": "squad-56de6a2e4396321400ee28ad",
+    "index": 48,
+    "title": "BBC Television",
+    "question": "Regarding BBC Television: How far from its studio could the BBC's broadcast originally reach?",
+    "annotated_answers": [
+      "40 kilometres"
+    ],
+    "assessment": "ambiguous",
+    "reason": "Source gives official radius 40 km but says practical reception reached much farther, including New York. Question asks could reach and does not restrict official range.",
+    "accepted_answers": [
+      "40 kilometres",
+      "40 kilometers",
+      "40 km"
+    ],
+    "suggested_action": "Flag official-versus-observed range ambiguity; do not treat all farther-reach answers as false.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": false
+  },
+  {
+    "qid": "squad-57303a2d947a6a140053d2da",
+    "index": 49,
+    "title": "British Isles",
+    "question": "Regarding British Isles: Which ministry wants to end this type of voting of EU nationals?",
+    "annotated_answers": [
+      "UK Ministry of Justice"
+    ],
+    "assessment": "supported",
+    "reason": "Source attributes the proposal to a UK Ministry of Justice report in 2008.",
+    "accepted_answers": [
+      "UK Ministry of Justice",
+      "Ministry of Justice"
+    ],
+    "suggested_action": "Historical proposal in supplied snapshot, not a verified current policy intention.",
+    "model_outputs_used": false,
+    "reviewer": "single source-text review, not blinded independent human annotation",
+    "strict_source_valid": true
+  }
+]

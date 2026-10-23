@@ -1,0 +1,16 @@
+{
+  "done": 1604,
+  "batch_seconds": 373.0404728090007,
+  "batches": 134,
+  "at_cap_count": 0,
+  "truncated_text_count": 0,
+  "max_original_tokens": 362,
+  "max_observed_tokens": 362,
+  "load_seconds": 1.0476110229992628,
+  "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "FROZEN_BEFORE_NEW_GENERATION",
+  "recorded_utc": "2026-10-20T06:20:16.456618+00:00",
+  "source_analysis_sha256": {
+    "analyse.py": "34ce4d7e0a9b921194b96ad7e9638e4b7528df589be132be46d074cb5c913c6d",
+    "analysis_protocol.json": "0d28390a134c2e32dac7f2a803169662638640f69131c2057f0331cd3c21c1d1",
+    "requests.jsonl": "a08328a2a7fe0af333e3d500ca6b75c22822e813f2a6d123e0683933c323e444"
+  },
+  "literature_review_100_complete": true,
+  "review_ledger_sha256": {
+    "r1": "d7feae5166df20ce233bb0dfcd23436dcc694362c9e5e9b984875d83ff01441c",
+    "r2": "842c0e01dfe2c2dba393b9014c81f1f86f828eba088cd0a36f330e5a6ebb1edd",
+    "r3": "7e64f7cfda6abdb6ea62af9a79b86e8d22b17bd273fece063b2d34d3280f611f",
+    "r4": "2a169a809cb58eaf5e0dff09023ab49a2dca962ef96907abde0ef10bea88ead1"
+  },
+  "original_main_study_unchanged": true,
+  "new_requested_rows": 125,
+  "new_unique_prompts": 125,
+  "initial_cache_hits": 0,
+  "posthoc_extension": true
+}

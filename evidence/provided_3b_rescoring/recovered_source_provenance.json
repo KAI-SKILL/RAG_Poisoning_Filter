@@ -1,0 +1,870 @@
+{
+  "schema_version": 1,
+  "source_zip": "drive-download-20261020T060104Z-1-001.zip",
+  "source_zip_sha256": "f1aee2b8e32797e032ba36af880f9c8a036ac29bc4cd7fa88d8da182ccedb4b9",
+  "raw_files": [
+    {
+      "source_path": "results/nq/none_hf/combine.jsonl",
+      "retained_path": "raw/none_hf/combine.jsonl",
+      "bytes": 188304,
+      "sha256": "1138733d9909e37ce94223363db4acad2d47ca7214daf5f44b7bebb19dc79bbb",
+      "rows": 100,
+      "defense": "none",
+      "setting": "combine",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/none_hf/escape.jsonl",
+      "retained_path": "raw/none_hf/escape.jsonl",
+      "bytes": 162342,
+      "sha256": "0fd2d927a7f9e2f1d9661d5a2acab41e1d0d450e61fffe7ecfd9e74c1311af00",
+      "rows": 100,
+      "defense": "none",
+      "setting": "escape",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/none_hf/fake_comp.jsonl",
+      "retained_path": "raw/none_hf/fake_comp.jsonl",
+      "bytes": 184927,
+      "sha256": "5e472d4d6d9ecde5997e36e3ac3f20ed12cba19888ca43bebbe0abab703bbb84",
+      "rows": 100,
+      "defense": "none",
+      "setting": "fake_comp",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/none_hf/ignore.jsonl",
+      "retained_path": "raw/none_hf/ignore.jsonl",
+      "bytes": 182580,
+      "sha256": "02fce6030db4a088eb4a6b74710a40c93d2ae2e84b0ba9aa6ae708ce17211b64",
+      "rows": 100,
+      "defense": "none",
+      "setting": "ignore",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/none_hf/naive.jsonl",
+      "retained_path": "raw/none_hf/naive.jsonl",
+      "bytes": 162676,
+      "sha256": "075935fc99f21c50825f86572eecf94ddef6044545997692b2605ada16dcebe1",
+      "rows": 100,
+      "defense": "none",
+      "setting": "naive",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/none_hf/none.jsonl",
+      "retained_path": "raw/none_hf/none.jsonl",
+      "bytes": 328819,
+      "sha256": "e60eaefa2fdce6001cff99a4e90618750a45b6f1ee484827ecdd8f7d3f5dcbaf",
+      "rows": 100,
+      "defense": "none",
+      "setting": "none",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/none_hf/poison.jsonl",
+      "retained_path": "raw/none_hf/poison.jsonl",
+      "bytes": 182379,
+      "sha256": "d157cd677aeb2ae181151ddba9902157520685e8fe6c9de7471e0282a0041435",
+      "rows": 100,
+      "defense": "none",
+      "setting": "poison",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/none_hf/stealth.jsonl",
+      "retained_path": "raw/none_hf/stealth.jsonl",
+      "bytes": 199935,
+      "sha256": "7a8f7ebeaf0a9663173b4d322325c2783a1b75b6d26b0a2f69c3f1ab6f52e8ac",
+      "rows": 100,
+      "defense": "none",
+      "setting": "stealth",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/oracle_hf/combine.jsonl",
+      "retained_path": "raw/none_hf/none.jsonl",
+      "bytes": 328819,
+      "sha256": "e60eaefa2fdce6001cff99a4e90618750a45b6f1ee484827ecdd8f7d3f5dcbaf",
+      "rows": 100,
+      "defense": "oracle",
+      "setting": "combine",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/oracle_hf/escape.jsonl",
+      "retained_path": "raw/none_hf/none.jsonl",
+      "bytes": 328819,
+      "sha256": "e60eaefa2fdce6001cff99a4e90618750a45b6f1ee484827ecdd8f7d3f5dcbaf",
+      "rows": 100,
+      "defense": "oracle",
+      "setting": "escape",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/oracle_hf/fake_comp.jsonl",
+      "retained_path": "raw/none_hf/none.jsonl",
+      "bytes": 328819,
+      "sha256": "e60eaefa2fdce6001cff99a4e90618750a45b6f1ee484827ecdd8f7d3f5dcbaf",
+      "rows": 100,
+      "defense": "oracle",
+      "setting": "fake_comp",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/oracle_hf/ignore.jsonl",
+      "retained_path": "raw/none_hf/none.jsonl",
+      "bytes": 328819,
+      "sha256": "e60eaefa2fdce6001cff99a4e90618750a45b6f1ee484827ecdd8f7d3f5dcbaf",
+      "rows": 100,
+      "defense": "oracle",
+      "setting": "ignore",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/oracle_hf/naive.jsonl",
+      "retained_path": "raw/none_hf/none.jsonl",
+      "bytes": 328819,
+      "sha256": "e60eaefa2fdce6001cff99a4e90618750a45b6f1ee484827ecdd8f7d3f5dcbaf",
+      "rows": 100,
+      "defense": "oracle",
+      "setting": "naive",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/oracle_hf/none.jsonl",
+      "retained_path": "raw/none_hf/none.jsonl",
+      "bytes": 328819,
+      "sha256": "e60eaefa2fdce6001cff99a4e90618750a45b6f1ee484827ecdd8f7d3f5dcbaf",
+      "rows": 100,
+      "defense": "oracle",
+      "setting": "none",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/oracle_hf/poison.jsonl",
+      "retained_path": "raw/none_hf/none.jsonl",
+      "bytes": 328819,
+      "sha256": "e60eaefa2fdce6001cff99a4e90618750a45b6f1ee484827ecdd8f7d3f5dcbaf",
+      "rows": 100,
+      "defense": "oracle",
+      "setting": "poison",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/oracle_hf/stealth.jsonl",
+      "retained_path": "raw/none_hf/none.jsonl",
+      "bytes": 328819,
+      "sha256": "e60eaefa2fdce6001cff99a4e90618750a45b6f1ee484827ecdd8f7d3f5dcbaf",
+      "rows": 100,
+      "defense": "oracle",
+      "setting": "stealth",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/trust_ctx_hf/combine.jsonl",
+      "retained_path": "raw/trust_ctx_hf/combine.jsonl",
+      "bytes": 334975,
+      "sha256": "4d7cfa0086fc8141c9a299c86c5ec61ec945305d59b79effbfa4f1c5ab9d71c6",
+      "rows": 100,
+      "defense": "trust_ctx",
+      "setting": "combine",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_ctx_hf/escape.jsonl",
+      "retained_path": "raw/trust_ctx_hf/escape.jsonl",
+      "bytes": 331172,
+      "sha256": "c0aa6b05f89fe0898b022880c7d4365cf8bbcdf81f655b8695ab73e5dea20160",
+      "rows": 100,
+      "defense": "trust_ctx",
+      "setting": "escape",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_ctx_hf/fake_comp.jsonl",
+      "retained_path": "raw/trust_ctx_hf/fake_comp.jsonl",
+      "bytes": 333204,
+      "sha256": "f4fd8ab603bf231fe2bda0b1bdcba91173d7a20ccc430a7ae78fb65d2f3657bf",
+      "rows": 100,
+      "defense": "trust_ctx",
+      "setting": "fake_comp",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_ctx_hf/ignore.jsonl",
+      "retained_path": "raw/trust_ctx_hf/ignore.jsonl",
+      "bytes": 332230,
+      "sha256": "91fd6b5795fe2df516bd4a79144c51dfbd9b4059a18181dfc47398dc7c73f007",
+      "rows": 100,
+      "defense": "trust_ctx",
+      "setting": "ignore",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_ctx_hf/naive.jsonl",
+      "retained_path": "raw/trust_ctx_hf/naive.jsonl",
+      "bytes": 331353,
+      "sha256": "ac98be88c1483a0d909e767721c18c513f24accce014024fff1d7cd070a79b3a",
+      "rows": 100,
+      "defense": "trust_ctx",
+      "setting": "naive",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_ctx_hf/none.jsonl",
+      "retained_path": "raw/trust_ctx_hf/none.jsonl",
+      "bytes": 343717,
+      "sha256": "cfa0464d667866cfd3845ab2e0172011a3598d40b01c6e34ceec2e262b077a78",
+      "rows": 100,
+      "defense": "trust_ctx",
+      "setting": "none",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_ctx_hf/poison.jsonl",
+      "retained_path": "raw/trust_ctx_hf/poison.jsonl",
+      "bytes": 324426,
+      "sha256": "11a6ee43099d995a4ff025afb901e21e81ae8718b76745e0fff647b3936c18e6",
+      "rows": 100,
+      "defense": "trust_ctx",
+      "setting": "poison",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_ctx_hf/stealth.jsonl",
+      "retained_path": "raw/trust_ctx_hf/stealth.jsonl",
+      "bytes": 328638,
+      "sha256": "7286ff541e86b1082a4ac8b9e5371276d4cc28b8180dc81521012c25b733dbea",
+      "rows": 100,
+      "defense": "trust_ctx",
+      "setting": "stealth",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_fused_hf/combine.jsonl",
+      "retained_path": "raw/trust_fused_hf/combine.jsonl",
+      "bytes": 331973,
+      "sha256": "475ed02b42ad38a74c7e0a874c7a84a04415cdd69e7d55230aae5ce8dbe041a8",
+      "rows": 100,
+      "defense": "trust_fused",
+      "setting": "combine",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_fused_hf/escape.jsonl",
+      "retained_path": "raw/trust_fused_hf/escape.jsonl",
+      "bytes": 329378,
+      "sha256": "64cef95768cea31590331dc13e946e141c77d4f907173cedeea9581eab7df291",
+      "rows": 100,
+      "defense": "trust_fused",
+      "setting": "escape",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_fused_hf/fake_comp.jsonl",
+      "retained_path": "raw/trust_fused_hf/fake_comp.jsonl",
+      "bytes": 331998,
+      "sha256": "35b5d5f76f9e9b1e72b4043ac9a09ca7606bc5931785c223da412d47a663bf56",
+      "rows": 100,
+      "defense": "trust_fused",
+      "setting": "fake_comp",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_fused_hf/ignore.jsonl",
+      "retained_path": "raw/trust_fused_hf/ignore.jsonl",
+      "bytes": 331366,
+      "sha256": "932096021aa82d8f74d7eda846eaa0c2b0a4b21cd404a8f97d35e7ed94cbac33",
+      "rows": 100,
+      "defense": "trust_fused",
+      "setting": "ignore",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_fused_hf/naive.jsonl",
+      "retained_path": "raw/trust_fused_hf/naive.jsonl",
+      "bytes": 329846,
+      "sha256": "c49cc5bbeeab2aae0ca3ae874620064edc512f46227142043200f5e195c55579",
+      "rows": 100,
+      "defense": "trust_fused",
+      "setting": "naive",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_fused_hf/none.jsonl",
+      "retained_path": "raw/trust_fused_hf/none.jsonl",
+      "bytes": 348159,
+      "sha256": "e317f9d018feab03de17b5165c00574f14269890ed7d56511ebde422728585c9",
+      "rows": 100,
+      "defense": "trust_fused",
+      "setting": "none",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_fused_hf/poison.jsonl",
+      "retained_path": "raw/trust_fused_hf/poison.jsonl",
+      "bytes": 321995,
+      "sha256": "6a1faf56e6917d049ed3b51fc8577074dfd77a56289cd426e5c8d814131e90d1",
+      "rows": 100,
+      "defense": "trust_fused",
+      "setting": "poison",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_fused_hf/stealth.jsonl",
+      "retained_path": "raw/trust_fused_hf/stealth.jsonl",
+      "bytes": 326286,
+      "sha256": "407244c4ad72b9131ebdbf715550100e19ad5c566607461b0ebb31ccfa8042b4",
+      "rows": 100,
+      "defense": "trust_fused",
+      "setting": "stealth",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_guard_hf/combine.jsonl",
+      "retained_path": "raw/trust_guard_hf/combine.jsonl",
+      "bytes": 288661,
+      "sha256": "887f7acd265d62d455861e3cdf302ebf789d658d473d8ce8ec3dd8f5522f4b4e",
+      "rows": 100,
+      "defense": "trust_guard",
+      "setting": "combine",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_guard_hf/escape.jsonl",
+      "retained_path": "raw/trust_guard_hf/escape.jsonl",
+      "bytes": 166532,
+      "sha256": "a6317175d9d7109af217db86a5dbe06b7fd34f37c54cc495c2d62b62762525e2",
+      "rows": 100,
+      "defense": "trust_guard",
+      "setting": "escape",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_guard_hf/fake_comp.jsonl",
+      "retained_path": "raw/trust_guard_hf/fake_comp.jsonl",
+      "bytes": 215256,
+      "sha256": "3b7f7fa67f665b85a78cf6aed9cfa89230c5a964376148db442d82b54b70d0bf",
+      "rows": 100,
+      "defense": "trust_guard",
+      "setting": "fake_comp",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_guard_hf/ignore.jsonl",
+      "retained_path": "raw/trust_guard_hf/ignore.jsonl",
+      "bytes": 300975,
+      "sha256": "e928c87084c0b9b7df24a3b548316eb69504548c865e1bc8c57a339b208f4155",
+      "rows": 100,
+      "defense": "trust_guard",
+      "setting": "ignore",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_guard_hf/naive.jsonl",
+      "retained_path": "raw/trust_guard_hf/naive.jsonl",
+      "bytes": 168230,
+      "sha256": "36dae4006387a4e82732ed4a4667779e52e2e99699f780087f56ae60ed2a5e65",
+      "rows": 100,
+      "defense": "trust_guard",
+      "setting": "naive",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_guard_hf/none.jsonl",
+      "retained_path": "raw/trust_guard_hf/none.jsonl",
+      "bytes": 330371,
+      "sha256": "af05024fbc7278b2a683263745dc1022ea32036abcc9e88353472adaea201fe3",
+      "rows": 100,
+      "defense": "trust_guard",
+      "setting": "none",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_guard_hf/poison.jsonl",
+      "retained_path": "raw/trust_guard_hf/poison.jsonl",
+      "bytes": 191828,
+      "sha256": "8661d1670870631c399bc0a3825587daf0e5c67aab772f16c4f94fd8f7e3c1b0",
+      "rows": 100,
+      "defense": "trust_guard",
+      "setting": "poison",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_guard_hf/stealth.jsonl",
+      "retained_path": "raw/trust_guard_hf/stealth.jsonl",
+      "bytes": 224329,
+      "sha256": "bc7850e68155fad2a90611dbd62518f28c0042264ced7a3f03e4a209a14df2b3",
+      "rows": 100,
+      "defense": "trust_guard",
+      "setting": "stealth",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_rule_hf/combine.jsonl",
+      "retained_path": "raw/trust_rule_hf/combine.jsonl",
+      "bytes": 328720,
+      "sha256": "74c7c8038dffd52a7283681bbff8cd50bca36794b6d4b08def32fefbc6835054",
+      "rows": 100,
+      "defense": "trust_rule",
+      "setting": "combine",
+      "byte_identical_logical_source_reuses_physical_file": false
+    },
+    {
+      "source_path": "results/nq/trust_rule_hf/escape.jsonl",
+      "retained_path": "raw/trust_rule_hf/combine.jsonl",
+      "bytes": 328720,
+      "sha256": "74c7c8038dffd52a7283681bbff8cd50bca36794b6d4b08def32fefbc6835054",
+      "rows": 100,
+      "defense": "trust_rule",
+      "setting": "escape",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/trust_rule_hf/fake_comp.jsonl",
+      "retained_path": "raw/trust_rule_hf/combine.jsonl",
+      "bytes": 328720,
+      "sha256": "74c7c8038dffd52a7283681bbff8cd50bca36794b6d4b08def32fefbc6835054",
+      "rows": 100,
+      "defense": "trust_rule",
+      "setting": "fake_comp",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/trust_rule_hf/ignore.jsonl",
+      "retained_path": "raw/trust_rule_hf/combine.jsonl",
+      "bytes": 328720,
+      "sha256": "74c7c8038dffd52a7283681bbff8cd50bca36794b6d4b08def32fefbc6835054",
+      "rows": 100,
+      "defense": "trust_rule",
+      "setting": "ignore",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/trust_rule_hf/naive.jsonl",
+      "retained_path": "raw/trust_rule_hf/combine.jsonl",
+      "bytes": 328720,
+      "sha256": "74c7c8038dffd52a7283681bbff8cd50bca36794b6d4b08def32fefbc6835054",
+      "rows": 100,
+      "defense": "trust_rule",
+      "setting": "naive",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/trust_rule_hf/none.jsonl",
+      "retained_path": "raw/trust_rule_hf/combine.jsonl",
+      "bytes": 328720,
+      "sha256": "74c7c8038dffd52a7283681bbff8cd50bca36794b6d4b08def32fefbc6835054",
+      "rows": 100,
+      "defense": "trust_rule",
+      "setting": "none",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/trust_rule_hf/poison.jsonl",
+      "retained_path": "raw/none_hf/poison.jsonl",
+      "bytes": 182379,
+      "sha256": "d157cd677aeb2ae181151ddba9902157520685e8fe6c9de7471e0282a0041435",
+      "rows": 100,
+      "defense": "trust_rule",
+      "setting": "poison",
+      "byte_identical_logical_source_reuses_physical_file": true
+    },
+    {
+      "source_path": "results/nq/trust_rule_hf/stealth.jsonl",
+      "retained_path": "raw/none_hf/stealth.jsonl",
+      "bytes": 199935,
+      "sha256": "7a8f7ebeaf0a9663173b4d322325c2783a1b75b6d26b0a2f69c3f1ab6f52e8ac",
+      "rows": 100,
+      "defense": "trust_rule",
+      "setting": "stealth",
+      "byte_identical_logical_source_reuses_physical_file": true
+    }
+  ],
+  "bounded_source_files_omitted_as_reproducible_duplicates": [
+    {
+      "source_path": "results_bounded/nq/none_hf/combine.jsonl",
+      "bytes": 202229,
+      "sha256": "ccc3ef86aea246a5453af3d8f28eed035e522d753997c06c0b62989149433e27",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/none_hf/escape.jsonl",
+      "bytes": 176250,
+      "sha256": "b62c95a9bf0bef83bb58488033a5dc4b0056f7d9de394d89f67f4be5166e5f38",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/none_hf/fake_comp.jsonl",
+      "bytes": 198836,
+      "sha256": "1ac10965b2af6a38f659c8da2194fdfcffb5f65c0f94d4a43d8cf5b127004c6e",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/none_hf/ignore.jsonl",
+      "bytes": 196493,
+      "sha256": "f9e4091b9edd303d595127d3af3e66d70a0d14dfe3635003ce3a2bae344e57d4",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/none_hf/naive.jsonl",
+      "bytes": 176586,
+      "sha256": "d7f2ff88c8b47d4939e7767039fb1ed3e40946706c126732dc99a767446008b8",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/none_hf/none.jsonl",
+      "bytes": 342817,
+      "sha256": "e2081c1a65794ba4edfb33cfd2d7081a1777dfe24d3643146fd738e519c2e122",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/none_hf/poison.jsonl",
+      "bytes": 196298,
+      "sha256": "c3a1f1bea2c7d152b97ed46ffa27894546e79aabc3605a8175897f6fc80c894b",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/none_hf/stealth.jsonl",
+      "bytes": 213842,
+      "sha256": "eb71de6e6816a664892b92d63644af5e7d4ec5dc793e092cfbefefae8ad94bd5",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/oracle_hf/combine.jsonl",
+      "bytes": 342817,
+      "sha256": "e2081c1a65794ba4edfb33cfd2d7081a1777dfe24d3643146fd738e519c2e122",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/oracle_hf/escape.jsonl",
+      "bytes": 342817,
+      "sha256": "e2081c1a65794ba4edfb33cfd2d7081a1777dfe24d3643146fd738e519c2e122",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/oracle_hf/fake_comp.jsonl",
+      "bytes": 342817,
+      "sha256": "e2081c1a65794ba4edfb33cfd2d7081a1777dfe24d3643146fd738e519c2e122",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/oracle_hf/ignore.jsonl",
+      "bytes": 342817,
+      "sha256": "e2081c1a65794ba4edfb33cfd2d7081a1777dfe24d3643146fd738e519c2e122",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/oracle_hf/naive.jsonl",
+      "bytes": 342817,
+      "sha256": "e2081c1a65794ba4edfb33cfd2d7081a1777dfe24d3643146fd738e519c2e122",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/oracle_hf/none.jsonl",
+      "bytes": 342817,
+      "sha256": "e2081c1a65794ba4edfb33cfd2d7081a1777dfe24d3643146fd738e519c2e122",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/oracle_hf/poison.jsonl",
+      "bytes": 342817,
+      "sha256": "e2081c1a65794ba4edfb33cfd2d7081a1777dfe24d3643146fd738e519c2e122",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/oracle_hf/stealth.jsonl",
+      "bytes": 342817,
+      "sha256": "e2081c1a65794ba4edfb33cfd2d7081a1777dfe24d3643146fd738e519c2e122",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_ctx_hf/combine.jsonl",
+      "bytes": 348973,
+      "sha256": "70359188ce73efa7a06b177cc61e74ed197b49454ea9c8680d9725712b58afda",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_ctx_hf/escape.jsonl",
+      "bytes": 345167,
+      "sha256": "3762667c140386b0cf5b4cc5c7fa27552370ffc60613f8e2c9ea8af270495b70",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_ctx_hf/fake_comp.jsonl",
+      "bytes": 347202,
+      "sha256": "332cfd7c7ed4ff292005b419f4a5e8446dd7843ab3e1097df02631327f07ee62",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_ctx_hf/ignore.jsonl",
+      "bytes": 346229,
+      "sha256": "8c8f0b317f6077763b9c0ebfe04d09bff0e6c9292cf0acf68775681f3d7908bc",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_ctx_hf/naive.jsonl",
+      "bytes": 345352,
+      "sha256": "80aa5f90271df0da43ca88d35b552d626f99db564b8913f7df111c3f1aeb613c",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_ctx_hf/none.jsonl",
+      "bytes": 357716,
+      "sha256": "9cbe8412ff384732eb04ddb1066713b28aea305cfea948b20fecee1b2182fce8",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_ctx_hf/poison.jsonl",
+      "bytes": 338421,
+      "sha256": "a336cc54578e6c16a67293213d4c269c3e128effe0566e669f20d86c7461b0e9",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_ctx_hf/stealth.jsonl",
+      "bytes": 342634,
+      "sha256": "32486a2412c8ef9d84ef9953946de87edb053c759cfb70714e858a34b2d368be",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_fused_hf/combine.jsonl",
+      "bytes": 345970,
+      "sha256": "a22acbe615a21202e6d020c4a42112a847d43b7a3109bf73e0fcf335786a2f8e",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_fused_hf/escape.jsonl",
+      "bytes": 343373,
+      "sha256": "c51a78a8e34592a438d90c90ed9e8e6716fdd867c9ea584643d475aabf4aabe6",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_fused_hf/fake_comp.jsonl",
+      "bytes": 345996,
+      "sha256": "b71a3265bcd6396bbf2fc97d90814bc8e7ee6a52106345f2f72a1a64eac4f2f5",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_fused_hf/ignore.jsonl",
+      "bytes": 345364,
+      "sha256": "0eb5f05ff070400cb520b4d1ef97924d2a91b148880d56b2a98aae10dc45abd6",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_fused_hf/naive.jsonl",
+      "bytes": 343843,
+      "sha256": "f96363c2dec269164534bd4d57b04fb089049fb172c327177afe7343f089b1e6",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_fused_hf/none.jsonl",
+      "bytes": 362162,
+      "sha256": "ab2371a496b70417c031a682d95e03de8be51facb2dd4ae46b980e92c092958a",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_fused_hf/poison.jsonl",
+      "bytes": 335986,
+      "sha256": "d9eb74400b11786f640a0c4ce2072d2655fd178c87b061b7bab256afeb6fa742",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_fused_hf/stealth.jsonl",
+      "bytes": 340277,
+      "sha256": "12cdd7b57faee60a73109ff36fe3017d018f0425d2bae6c0e7c1d39b2dbd0602",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_guard_hf/combine.jsonl",
+      "bytes": 302619,
+      "sha256": "2fc197b6e70a4392c88dc6fc67742e8cc6c596db8d40cbe69edb26e652a94ba7",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_guard_hf/escape.jsonl",
+      "bytes": 180439,
+      "sha256": "95e38296aad563d7911659abb926d4221e3fac8e3dda492c3e7586e541138b5a",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_guard_hf/fake_comp.jsonl",
+      "bytes": 229172,
+      "sha256": "4abcbc5780366c76879675bda8f8dfb17268a83f013d83f27cb3d876583471dc",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_guard_hf/ignore.jsonl",
+      "bytes": 314926,
+      "sha256": "a95bb28532c1744660f9435f6c27ee8a718df6a110b6bcbd0addecfa5c9eb525",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_guard_hf/naive.jsonl",
+      "bytes": 182138,
+      "sha256": "cea5f81fdaa49c59c70f4c587f67b40c5efb166dc5a3e3b922077ccd23b2de66",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_guard_hf/none.jsonl",
+      "bytes": 344371,
+      "sha256": "a611574e43c613e954dc395fe61595c0d04960a37636c53026d6f549ea8a7197",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_guard_hf/poison.jsonl",
+      "bytes": 205746,
+      "sha256": "1d9b2cfa3d507c4883c37ba9a3bfa47233be6da4d47fd7e6766606b19f955cb5",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_guard_hf/stealth.jsonl",
+      "bytes": 238236,
+      "sha256": "8c80306164b2e4e7362719d0fefcb5e273eb2381c1c0d77ff852e734045f225e",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_rule_hf/combine.jsonl",
+      "bytes": 342717,
+      "sha256": "92384741dbdfff127810098045c2edac175b366074bffc610f27d66984712217",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_rule_hf/escape.jsonl",
+      "bytes": 342717,
+      "sha256": "92384741dbdfff127810098045c2edac175b366074bffc610f27d66984712217",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_rule_hf/fake_comp.jsonl",
+      "bytes": 342717,
+      "sha256": "92384741dbdfff127810098045c2edac175b366074bffc610f27d66984712217",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_rule_hf/ignore.jsonl",
+      "bytes": 342717,
+      "sha256": "92384741dbdfff127810098045c2edac175b366074bffc610f27d66984712217",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_rule_hf/naive.jsonl",
+      "bytes": 342717,
+      "sha256": "92384741dbdfff127810098045c2edac175b366074bffc610f27d66984712217",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_rule_hf/none.jsonl",
+      "bytes": 342717,
+      "sha256": "92384741dbdfff127810098045c2edac175b366074bffc610f27d66984712217",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_rule_hf/poison.jsonl",
+      "bytes": 196298,
+      "sha256": "c3a1f1bea2c7d152b97ed46ffa27894546e79aabc3605a8175897f6fc80c894b",
+      "rows": 100
+    },
+    {
+      "source_path": "results_bounded/nq/trust_rule_hf/stealth.jsonl",
+      "bytes": 213842,
+      "sha256": "eb71de6e6816a664892b92d63644af5e7d4ec5dc793e092cfbefefae8ad94bd5",
+      "rows": 100
+    }
+  ],
+  "bounded_flag_fields_in_digest_order": [
+    "correct_hit",
+    "attack_success",
+    "correct_exact",
+    "target_exact",
+    "abstain",
+    "both",
+    "correct_hit_substr",
+    "attack_success_substr"
+  ],
+  "bounded_flags_semantic_sha256": "ea1bd73f85fae5bcf61628294129db9036fd932f4bb55db86881e10e13b19302",
+  "changed_rows_source_path": "results_bounded/nq/changed_rows.csv",
+  "changed_rows_source_sha256": "a1f97962c1197c5577d84cf6dea1cd1f4941636a827b2d6a10a599a59754a889",
+  "changed_rows_semantic_sha256": "987aa1ef60896b716eaf2e8fb54a58aff9eb920b689e45ed04855a6fba5a3e46",
+  "minimal_runtime_declarations": [
+    {
+      "source_path": "rag_trust/llm.py",
+      "retained_path": "runtime_declarations/llm.py",
+      "sha256": "2f252e7c7b00bcc8a5249a60d4923eb81023de52f6f0ad00a08f92ca512ae9ad",
+      "bytes": 3633
+    },
+    {
+      "source_path": "rag_trust/step4_run_rag.py",
+      "retained_path": "runtime_declarations/step4_run_rag.py",
+      "sha256": "b0c6626fbac0165633733be74fc6bd11a63531c7ccba7317df9fe62e943e1660",
+      "bytes": 4187
+    },
+    {
+      "source_path": "rag_trust/rag_trust_colab.ipynb",
+      "retained_path": "runtime_declarations/colab_workflow.ipynb",
+      "sha256": "68a563269d91e354d71a9b85e2d24641ebfc791aeb686a17a73196734393918e",
+      "bytes": 13773
+    }
+  ],
+  "targets_canonical_path": "improved_generation/inputs/targets.json",
+  "targets_source_sha256": "8bf0545b08debf98d9d2c61fc235e9fb594243df4d5000a5ae40eddba45a441d",
+  "targets_canonical_sha256": "8bf0545b08debf98d9d2c61fc235e9fb594243df4d5000a5ae40eddba45a441d",
+  "old_scorer_implementation_source_sha256": "74f2cefa8a2d1ecc769b9e313b69d44eddb536e114dd9bdac5582b6b5868f35c",
+  "old_scorer_implementation_difference": "Same scoring logic as existing source_scripts/step8_rescore_bounded.py; only final error message differs",
+  "recovered_summary": {
+    "status": "passed",
+    "original_rows": 4800,
+    "original_files": 48,
+    "independent_qids": 100,
+    "policies": 6,
+    "conditions": 8,
+    "identical_raw_fields_preserved_in_bounded_rows": 4800,
+    "bounded_derived_flags_recomputed": 38400,
+    "canonical_metric_rows_reproduced": 48,
+    "canonical_pair_rows_recomputed": 120,
+    "changed_rows_recomputed": 43,
+    "changed_source_rows_exact_match": true,
+    "unique_complete_prompts": 1207,
+    "identical_prompt_different_response_groups": 1,
+    "trusted_apostrophe_scorer_mention_disagreements": 0,
+    "notebook_code_cells": 19,
+    "notebook_executed_cells": 0,
+    "notebook_saved_output_cells": 0,
+    "model_identity": "Declared defaultQwen2.5-3B; no immutable loaded-checkpoint/revision/hash/runtime attestation found",
+    "new_inference_performed": false,
+    "source_zip_sha256": "f1aee2b8e32797e032ba36af880f9c8a036ac29bc4cd7fa88d8da182ccedb4b9",
+    "logical_original_files": 48,
+    "unique_physical_original_files": 33
+  },
+  "upstream_sources": {
+    "CleanBase": "72561aa902dab57f7428cfd337fb25ad3d11a955",
+    "PoisonedRAG": "f660d72174f06b13fae5163ce656e7b235db858f",
+    "Open-Prompt-Injection": "fbed5cca347488f88363790ae3ae97c56116da6a"
+  },
+  "physical_storage": {
+    "logical_source_files": 48,
+    "unique_physical_raw_files": 33,
+    "raw_logical_rows": 4800,
+    "physical_saved_rows": 3300,
+    "deduplication": "Exact whole-file SHA256 equality only; explicit defense/setting metadata reconstructs48logicalsourcefiles without changing any response or role",
+    "removed_byte_identical_physical_copies": [
+      "raw/oracle_hf/combine.jsonl",
+      "raw/oracle_hf/escape.jsonl",
+      "raw/oracle_hf/fake_comp.jsonl",
+      "raw/oracle_hf/ignore.jsonl",
+      "raw/oracle_hf/naive.jsonl",
+      "raw/oracle_hf/none.jsonl",
+      "raw/oracle_hf/poison.jsonl",
+      "raw/oracle_hf/stealth.jsonl",
+      "raw/trust_rule_hf/escape.jsonl",
+      "raw/trust_rule_hf/fake_comp.jsonl",
+      "raw/trust_rule_hf/ignore.jsonl",
+      "raw/trust_rule_hf/naive.jsonl",
+      "raw/trust_rule_hf/none.jsonl",
+      "raw/trust_rule_hf/poison.jsonl",
+      "raw/trust_rule_hf/stealth.jsonl"
+    ]
+  }
+}

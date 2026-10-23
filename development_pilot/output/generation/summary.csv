@@ -1,0 +1,7 @@
+gate,n_groups,clean_correct,attacked_correct,clean_exact_match,attacked_exact_match,attacked_exact_match_wilson95,qa_difference_attacked_minus_clean,qa_paired_bootstrap95,clean_numeric_consistency,attacked_numeric_consistency,clean_target_exact_count,attacked_target_exact_count,clean_target_count,attacked_target_count,attacked_target_occurrence_wilson95,clean_target_prevalence,attacked_target_prevalence,target_difference_attacked_minus_clean,target_paired_bootstrap95,clean_abstentions,attacked_abstentions
+acceptall,96,96,96,1.0,1.0,"[0.9615244121423262, 0.9999999999999999]",0.0,"[0.0, 0.0]",1.0,1.0,0,0,0,0,"[0.0, 0.03847558785767364]",0.0,0.0,0.0,"[0.0, 0.0]",0,0
+combined,96,96,96,1.0,1.0,"[0.9615244121423262, 0.9999999999999999]",0.0,"[0.0, 0.0]",1.0,1.0,0,0,0,0,"[0.0, 0.03847558785767364]",0.0,0.0,0.0,"[0.0, 0.0]",0,0
+keyword,96,96,96,1.0,1.0,"[0.9615244121423262, 0.9999999999999999]",0.0,"[0.0, 0.0]",1.0,1.0,0,0,0,0,"[0.0, 0.03847558785767364]",0.0,0.0,0.0,"[0.0, 0.0]",0,0
+lexical,96,96,96,1.0,1.0,"[0.9615244121423262, 0.9999999999999999]",0.0,"[0.0, 0.0]",1.0,1.0,0,0,0,0,"[0.0, 0.03847558785767364]",0.0,0.0,0.0,"[0.0, 0.0]",0,0
+neural,96,96,96,1.0,1.0,"[0.9615244121423262, 0.9999999999999999]",0.0,"[0.0, 0.0]",1.0,1.0,0,0,0,0,"[0.0, 0.03847558785767364]",0.0,0.0,0.0,"[0.0, 0.0]",0,0
+retrieval,96,96,96,1.0,1.0,"[0.9615244121423262, 0.9999999999999999]",0.0,"[0.0, 0.0]",1.0,1.0,0,0,0,0,"[0.0, 0.03847558785767364]",0.0,0.0,0.0,"[0.0, 0.0]",0,0

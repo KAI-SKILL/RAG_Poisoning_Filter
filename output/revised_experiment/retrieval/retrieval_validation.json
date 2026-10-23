@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "scope": "Exact normal top20 over declared source-disjoint split subcorpora",
+  "corpus_counts": {
+    "dev": 179,
+    "calibration": 600,
+    "test": 600
+  },
+  "query_quality": {
+    "dev": {
+      "queries": 30,
+      "annotated_document_in_top20": 30,
+      "annotated_document_in_top1": 24,
+      "annotated_document_in_top5": 29
+    },
+    "calibration": {
+      "queries": 100,
+      "annotated_document_in_top20": 100,
+      "annotated_document_in_top1": 83,
+      "annotated_document_in_top5": 100
+    },
+    "test": {
+      "queries": 100,
+      "annotated_document_in_top20": 100,
+      "annotated_document_in_top1": 72,
+      "annotated_document_in_top5": 100
+    }
+  },
+  "cross_split_candidate_count": 0,
+  "core_output_contains_deprecated_attack_targets": false,
+  "core_sha256": "4c4a295cc97fd0d7e26db50e9399ef54f7f647fa27f71c92e87e3635293e5d1a",
+  "script_sha256": "f4dec2e1e50b1ee6d3bb620027d16ce7b118f3b41277fac199ca48451e2a81d7",
+  "feature_module_sha256": "4d9e9c20d225b0d92d96b29e218ef2027da8cf4c5270be1d5670e7a31dcd3c34",
+  "note": "Annotated document retrieval is not proof of semantic answer correctness. Original100 and question repairs remain separate evidence.",
+  "query_context_note": "Questions name their source article to make passage-conditioned interpretation explicit; this and the small subcorpus make retrieval controlled, not representative open-web retrieval difficulty.",
+  "canonical_scoring_source_sha256": "a8d69ca97b02cea71e5a872e1bc9919e05fc4938ef263dd4acf06834f16e8034",
+  "canonical_numeric_revision_impact": "../fresh_features/numerical_revision/score_revision_impact.json",
+  "historical_code_hash_note": "script_sha256/feature_module_sha256 above refer to initial neural/retrieval execution; canonical dot scoring reuses those identical vectors and preserves every normal top20 ID/order.",
+  "archived_float32_core_sha256": "d3f81dbccf5f3215af9e70add709da57506061d5460eb4d7f734301995293048"
+}

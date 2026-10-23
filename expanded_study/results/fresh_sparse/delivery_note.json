@@ -1,0 +1,9 @@
+{
+  "status": "READY_FOR_PARENT_DELIVERY",
+  "result_directory": "/project/outputs/Group9_Fresh_Sparse_2026-10-22",
+  "executed_evaluator_sha256": "4439e38bae0776e480ac7b5584dac5f1f22cbb3e6d45b386533609457dd11a19",
+  "elapsed_total_seconds": 267.3943535779981,
+  "all_14_compared_bytes_identical": true,
+  "actual_predict_batches_total": 584,
+  "data_kind": "Actual fresh sparse scoring and lexical retrieval; zero new generator outputs"
+}

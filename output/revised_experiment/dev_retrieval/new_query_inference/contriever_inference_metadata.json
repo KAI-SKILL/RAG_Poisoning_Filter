@@ -1,0 +1,39 @@
+{
+  "configuration": {
+    "kind": "contriever",
+    "model_repository": "facebook/contriever",
+    "model_revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+    "model_manifest_sha256": "376253867876053ec627fe18165ee4fb06fd338fce73689f08173ecfbd06a0ea",
+    "text_list_sha256": "7050d8c0a431ac9ad031fe6e70bd873bd7c695c0a0f45964d3c4d6c726e87eef",
+    "text_count": 3,
+    "max_tokens": 512,
+    "batch_size": 12,
+    "threads": 2,
+    "torch": "2.14.1+cpu",
+    "transformers": "5.20.1",
+    "backend": "cpu_float32",
+    "representation": "guard=text only; encoder mean pooling; relevance=title+text dot query; density=text-only cosine"
+  },
+  "execution": {
+    "done": 3,
+    "batch_seconds": 0.16653671099993517,
+    "batches": 1,
+    "at_cap_count": 0,
+    "truncated_text_count": 0,
+    "max_original_tokens": 30,
+    "max_observed_tokens": 30,
+    "load_seconds": 0.3234617039997829,
+    "loading_info": {
+      "missing_keys": [],
+      "unexpected_keys": [
+        "pooler.dense.bias",
+        "pooler.dense.weight"
+      ],
+      "mismatched_keys": [],
+      "error_msgs": []
+    },
+    "call_wall_seconds": 5.415275510999891,
+    "timing_scope": "One feature-cache call: hashing/model setup/full-length token audit/batched text inference/cache writes; not end-to-end RAG latency or per-query independence.",
+    "process_peak_rss_bytes": 878039040
+  }
+}

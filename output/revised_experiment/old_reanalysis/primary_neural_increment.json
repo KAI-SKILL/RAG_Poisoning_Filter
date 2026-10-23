@@ -1,0 +1,72 @@
+{
+  "1pct": {
+    "poison": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "questions": 100,
+      "source_groups": 83,
+      "bootstrap_draws": 2000,
+      "scope": "Conditional on fixed fitted folds; no model refitting in bootstrap. Source-group resampling, question-weighted mean."
+    },
+    "ignore": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "questions": 100,
+      "source_groups": 83,
+      "bootstrap_draws": 2000,
+      "scope": "Conditional on fixed fitted folds; no model refitting in bootstrap. Source-group resampling, question-weighted mean."
+    },
+    "stealth": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "questions": 100,
+      "source_groups": 83,
+      "bootstrap_draws": 2000,
+      "scope": "Conditional on fixed fitted folds; no model refitting in bootstrap. Source-group resampling, question-weighted mean."
+    }
+  },
+  "5pct": {
+    "poison": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "questions": 100,
+      "source_groups": 83,
+      "bootstrap_draws": 2000,
+      "scope": "Conditional on fixed fitted folds; no model refitting in bootstrap. Source-group resampling, question-weighted mean."
+    },
+    "ignore": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "questions": 100,
+      "source_groups": 83,
+      "bootstrap_draws": 2000,
+      "scope": "Conditional on fixed fitted folds; no model refitting in bootstrap. Source-group resampling, question-weighted mean."
+    },
+    "stealth": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "questions": 100,
+      "source_groups": 83,
+      "bootstrap_draws": 2000,
+      "scope": "Conditional on fixed fitted folds; no model refitting in bootstrap. Source-group resampling, question-weighted mean."
+    }
+  }
+}

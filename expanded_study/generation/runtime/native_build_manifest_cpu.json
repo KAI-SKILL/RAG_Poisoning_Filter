@@ -1,0 +1,79 @@
+{
+  "status": "CPU_NATIVE_SERVER_BUILT_AND_HELP_VERIFIED",
+  "created_utc": "2026-10-21T22:58:15.796980+00:00",
+  "python_tag": "v0.3.36",
+  "python_tag_commit": "1652066e0af45f2313b339670ef9555e8a54e545",
+  "vendor_llama_cpp_commit": "0c1e57098bba43ac29e6e3b677cdceebdd22334f",
+  "source_url": "https://codeload.github.com/ggml-org/llama.cpp/tar.gz/0c1e57098bba43ac29e6e3b677cdceebdd22334f",
+  "archive_sha256": "6a85ec945b57789c875e1af90e66109fbf136a3c79802d5ca0333b043e10407f",
+  "version_text": "version: 0.5.0-dev (build 0, commit unknown)\nbuilt with GNU 13.3.0 for Linux x86_64\n",
+  "required_flags_present": [
+    "--parallel",
+    "--threads-batch",
+    "--batch-size",
+    "--ubatch-size",
+    "--kv-unified-per-slot",
+    "--cache-ram",
+    "--cache-prompt",
+    "--no-cache-prompt",
+    "--no-context-shift",
+    "--fit",
+    "--no-webui"
+  ],
+  "build_type": "Release",
+  "cpu_target": "GGML_NATIVE=ON; -march=native, OpenMP; no CUDA/Vulkan/BLAS",
+  "build_tools": {
+    "cmake": "4.4.4",
+    "ninja": "1.13.2"
+  },
+  "artifacts": [
+    {
+      "path": "build/bin/llama-server",
+      "bytes": 17880,
+      "sha256": "1090fc9c03d8d38bca84c36e447007f4a6aaf66ddb6dfd6d1c9fd9c34e794fca"
+    },
+    {
+      "path": "build/bin/libggml-base.so",
+      "bytes": 950344,
+      "sha256": "4e31f624ebb6918b8c02cd822beeef7591920044cf766284dcfb349227580c72"
+    },
+    {
+      "path": "build/bin/libggml-cpu.so",
+      "bytes": 1673752,
+      "sha256": "7622f3dfd44f36341ee4b2eefac15eede9cd2e65a32a976b34871a80a6a507e9"
+    },
+    {
+      "path": "build/bin/libggml.so",
+      "bytes": 60720,
+      "sha256": "8b2942ff744d90960748085485b468fdada2d0fb3bbe74793a9b3ec7a19f24b2"
+    },
+    {
+      "path": "build/bin/libllama-common.so",
+      "bytes": 6085056,
+      "sha256": "f8ade17bc7ae45014cfd3421bfc0e73a15598cb8cbac44b5d5563299aeef12c1"
+    },
+    {
+      "path": "build/bin/libllama-server-impl.so",
+      "bytes": 3796152,
+      "sha256": "23cad4a4687c579ddfabd792c1df47137635908a3b532bcf0c8097fb2871fa23"
+    },
+    {
+      "path": "build/bin/libllama.so",
+      "bytes": 4842424,
+      "sha256": "24ef119b8b977fdc719826c0b7e71e4572a3c8a6310c76dcd433bb9c3a948a25"
+    },
+    {
+      "path": "build/bin/libmtmd.so",
+      "bytes": 1971384,
+      "sha256": "768aa80456c69fd62ce22175bf128dd317623e33c9ffbebf69851c3c37c2dc30"
+    }
+  ],
+  "model_loads": 0,
+  "model_downloads": 0,
+  "generation_calls": 0,
+  "notes": [
+    "Version may print unknown because upstream source archive lacks .git; exact official vendor commit and source archive hash are separately bound.",
+    "Server supports multiple explicit full prompts in one /completion request with an array result.",
+    "Default RAM cache must be disabled or explicitly capped under the 8GiB cgroup."
+  ]
+}

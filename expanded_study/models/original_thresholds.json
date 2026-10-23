@@ -1,0 +1,30 @@
+{
+  "LR": {
+    "threshold": 0.5030478024149353,
+    "default_threshold": 0.5,
+    "benign_calibration_n": 69,
+    "benign_calibration_fp": 3,
+    "observed_calibration_fpr": 0.043478260869565216,
+    "empirical_step": 0.014492753623188406,
+    "one_sided_95pct_clopper_pearson_upper_iid": 0.10855291465738341,
+    "warning": "threshold selected on this calibration sample; binomial interval is descriptive and ignores threshold selection/dependence, not a valid post-selection bound or 5pct guarantee",
+    "feature_counts": {
+      "word": 2281,
+      "char": 17691
+    }
+  },
+  "LinearSVC": {
+    "threshold": 0.02209076325627035,
+    "default_threshold": 0.0,
+    "benign_calibration_n": 69,
+    "benign_calibration_fp": 3,
+    "observed_calibration_fpr": 0.043478260869565216,
+    "empirical_step": 0.014492753623188406,
+    "one_sided_95pct_clopper_pearson_upper_iid": 0.10855291465738341,
+    "warning": "threshold selected on this calibration sample; binomial interval is descriptive and ignores threshold selection/dependence, not a valid post-selection bound or 5pct guarantee",
+    "feature_counts": {
+      "word": 2281,
+      "char": 17691
+    }
+  }
+}

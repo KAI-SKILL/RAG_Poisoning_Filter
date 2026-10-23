@@ -1,0 +1,46 @@
+{
+  "status": "FROZEN_BEFORE_NEW_DETECTOR_SCORING",
+  "date_nz": "2026-10-22",
+  "created_utc": "2026-10-21T22:21:51.296556+00:00",
+  "seed": 20261022,
+  "requested_expansion": "12 operational attack families,24templates,1200 source-question instances pertemplate",
+  "construction": "Controlled project constructions inspired by primary papers; no claim of reproducing published optimized/adaptive algorithms.",
+  "source": "Official SQuADv1.1train, SHA3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955; exclude prior230 SQuADgroups andoldNQtitle/question/text",
+  "source_roles": {
+    "calibration": "1200 unchanged normal passages from first50unusedarticlehashgroups",
+    "test": "1200 questions on distinct answer-bearing paragraphs fromremaining155unusedgroups, numeric-answer subset for mechanically matched targets",
+    "training": "No additional detector fitting. Frozen models from previous deepset437fit.",
+    "independent_unit": "Source article; templates are repeated paired conditions on shared1200questions, not28800independenttasks."
+  },
+  "targets": "Numeric perturbation of released answer span, preserved formatting and absent from original passage; snapshot corruption proxy, not independent current-world verification.",
+  "modes": {
+    "placement": [
+      "beginning",
+      "middle",
+      "end"
+    ],
+    "instruction_delivery": [
+      "plain_en",
+      "base64_en",
+      "rot13_en",
+      "mixed_en_zh",
+      "mixed_en_es"
+    ],
+    "note": "Balanced deterministic assignment across instruction templates; modes are orthogonal metadata, not counted as separate mechanisms. Factual fullpassage templates retain plain text; coordinated cases assessed jointly."
+  },
+  "paired_controls": "Same host,requested target vocabulary,matched insertion count; quoted or analytical harmless use retaining original evidence. Not an exhaustive natural-benign benchmark.",
+  "detectors": [
+    "frozenword_char_LR",
+    "frozenword_char_LinearSVC"
+  ],
+  "operating_points": {
+    "primary": "Higher99th percentile of independent normalcalibration scores, reject strictlygreater",
+    "secondary": "Higher95th percentile of independent normalcalibration scores",
+    "legacy": "Unchangedprevious5pctthreshold learned from69benigncalibration examples"
+  },
+  "statistics": "Per-template/source/mode confusion counts andsingleclass recalls/FPR;precision/AP/AUC onlybalancedbothlabels. Articlepairedbootstrap2000seed20261022 where feasible, warnfewgroups. Jointcase maxscore not equated to an optimal jointdetector.",
+  "retrieval": "Additional transparent exact word+bigram TFIDF corpus retrieval baseline,normaltestcorpus,top20filterbackfilltop5,pureappend. Authenticgoldneverremovedfromcorpus. Validateinsertionsortingagainstfullcorpus forspecifiedsample. This does not rerun original Contriever or generator.",
+  "external": "InjecAgent1054fullcontextattackcases with62payloadparents/17taskparents; AgentDojo141deduplicated benign tooloutputs withall348archivedorigins. Passive archivedtext classification only.",
+  "execution_limits": "New detector inference and exactTFIDFretrieval are executed; no pretrainedneuralforwardpasses,no LLMgeneratorcalls,no toolactions, no real exfiltration.",
+  "reporting": "Keepnewconstruction counts,independentarticle/questioncounts,modes,externaldata andactualexecutions distinct; preserve all unfavorable results. Do not upgrade construction labels to verified attack success."
+}

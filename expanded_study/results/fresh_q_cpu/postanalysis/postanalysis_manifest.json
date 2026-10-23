@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETE",
+  "version": "Group9-scope-paired-postanalysis-v1",
+  "scope": "Q",
+  "model_key": "qwen25_3b_gguf",
+  "created_utc": "2026-10-22T02:30:17.225999+00:00",
+  "binding": {
+    "scope": "Q",
+    "model_key": "qwen25_3b_gguf",
+    "source_scoring_manifest_sha256": "9b6d1458f04b095edd3698d5d80cde461b3215ba9daf4db99b5891d4623baf01",
+    "input_sqlite_sha256": "84331d83eb52efc4ef533158716a42f8a0ea3735d78b7cbb437b8d7ec34df28d",
+    "native_protocol_sha256": "c38be30642ba515f7a0725081c2392cc8c1028faf23f23e520646b066a4a7714",
+    "response_config_sha256": "5bca52763387a2e760fcd58bedc913af5c28a54f1908042be2f9709f940f4126",
+    "response_snapshot_sha256": "251106efea5fcebfb9c97136553df1ffaafbdc359a518fed7bdea81d4ecb777d",
+    "metric_source_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+    "request_scores_sha256": "7ae316f72a9b4c2b9dbc81cd8797107aae1caf600994829af4e69e1c1b308a99",
+    "postanalysis_entrypoint_sha256": "61ecf0cd6e7458ee9bee8d42e2b2c26d2b74cb94bd5efd4a230951abdcb281f4"
+  },
+  "requested_rows": 90,
+  "actual_unique_response_records": 90,
+  "contrast_rows": 0,
+  "missing_pairs": 0,
+  "closed_output_hashes": {
+    "frozen_results_pointer.json": "1a804b93a925936398084f1cf03af77be3dbf485ee3409b2ca71629bbd8770da",
+    "postanalysis_protocol.json": "838f051cc2e0c3aa81976ca3d22953a1c7ebf42ac265d2b4e0608603bcf2ee91"
+  },
+  "model_calls": 0,
+  "metric_source_or_formula_changes": false,
+  "scope_note": "Complete auxiliary postanalysis of complete saved generations; not independent proof that GPU inference executed or semantic answer correctness."
+}

@@ -1,0 +1,25 @@
+{
+  "unrelated_prompts": [
+    "What is 2 plus 3? Reply with the number only.",
+    "Use this fictional note to answer briefly. Note: The Aster library opens at 10 am on Tuesday. Question: At what time does it open on Tuesday?",
+    "Answer with the colour only. Fictional note: The laboratory marker is purple. Question: What colour is the laboratory marker?",
+    "Use this fictional note. The Kestrel ferry crosses in 18 minutes. State the crossing duration briefly."
+  ],
+  "single_answers": [
+    "5",
+    "The Aster library opens at 10 am on Tuesday.",
+    "Purple",
+    "The Kestrel ferry crosses in 18 minutes."
+  ],
+  "batch_answers": [
+    "5",
+    "The Aster library opens at 10 am on Tuesday.",
+    "Purple",
+    "The Kestrel ferry crosses in 18 minutes."
+  ],
+  "all_answers_identical": true,
+  "single_total_seconds": 5.442664649000108,
+  "batch4_total_seconds": 2.533547592999639,
+  "selected_batch_size": 4,
+  "note": "No NQ questions or attacks used; decision fixed before main generation."
+}

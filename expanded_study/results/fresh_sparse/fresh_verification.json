@@ -1,0 +1,135 @@
+{
+  "status": "PASS_ACTUAL_FRESH_RUN_WITH_CLOSED_OUTPUT_VERIFICATION",
+  "counts": {
+    "document_predictions.jsonl": 67200,
+    "case_predictions.jsonl": 57600,
+    "retrieval_delivery.jsonl": 57600,
+    "normal_retrieval.jsonl": 1200,
+    "external_predictions.jsonl": 1195,
+    "unique_document_scores.jsonl": 146754,
+    "calibration_scores.jsonl": 2400
+  },
+  "actual_predict_counters": {
+    "LR": {
+      "loaded_models": 1,
+      "predict_calls_started": 292,
+      "predict_calls_returned": 292,
+      "texts_returned": 74577,
+      "fit_calls": 0
+    },
+    "LinearSVC": {
+      "loaded_models": 1,
+      "predict_calls_started": 292,
+      "predict_calls_returned": 292,
+      "texts_returned": 74577,
+      "fit_calls": 0
+    }
+  },
+  "source_bytes_unchanged": true,
+  "same_inputs_and_detectors": true,
+  "score_and_delivery_comparisons": [
+    {
+      "fresh": "calibration_scores.jsonl",
+      "previous": "calibration_scores.jsonl",
+      "fresh_sha256": "74b4f981cb238045e1adf514e66dc1fa1afc96564d83cc5b4e4a022d41f1848c",
+      "previous_sha256": "74b4f981cb238045e1adf514e66dc1fa1afc96564d83cc5b4e4a022d41f1848c",
+      "byte_identical": true
+    },
+    {
+      "fresh": "thresholds_frozen.json",
+      "previous": "thresholds_frozen.json",
+      "fresh_sha256": "c82664eecddfb3a95d9f1a8265a41ce39c8f0a7768458abadce57c0c7f5848b8",
+      "previous_sha256": "c82664eecddfb3a95d9f1a8265a41ce39c8f0a7768458abadce57c0c7f5848b8",
+      "byte_identical": true
+    },
+    {
+      "fresh": "unique_document_scores.jsonl",
+      "previous": "unique_document_scores.jsonl",
+      "fresh_sha256": "d12b9390e47bedbfec4c7e707e65f965cb8e4e73034e283c47183419e61f954c",
+      "previous_sha256": "d12b9390e47bedbfec4c7e707e65f965cb8e4e73034e283c47183419e61f954c",
+      "byte_identical": true
+    },
+    {
+      "fresh": "document_predictions.jsonl",
+      "previous": "document_predictions.jsonl",
+      "fresh_sha256": "0b7b6db5c633b03460172d7831ef37ebdd2a14732659ddae5eb29ec0d557b8a2",
+      "previous_sha256": "0b7b6db5c633b03460172d7831ef37ebdd2a14732659ddae5eb29ec0d557b8a2",
+      "byte_identical": true
+    },
+    {
+      "fresh": "case_predictions.jsonl",
+      "previous": "case_predictions_complete.jsonl",
+      "fresh_sha256": "11cdf51f0be90cd367e0f28cf2055b994a9c7cd00ca6da577751bb4f40752c8e",
+      "previous_sha256": "11cdf51f0be90cd367e0f28cf2055b994a9c7cd00ca6da577751bb4f40752c8e",
+      "byte_identical": true
+    },
+    {
+      "fresh": "external_predictions.jsonl",
+      "previous": "external_predictions.jsonl",
+      "fresh_sha256": "b9a7075c41e1eb55eba4466c2d0b93c24a4862ce70b829f0fe1df2c044a273be",
+      "previous_sha256": "b9a7075c41e1eb55eba4466c2d0b93c24a4862ce70b829f0fe1df2c044a273be",
+      "byte_identical": true
+    },
+    {
+      "fresh": "classification_summary.json",
+      "previous": "classification_summary.json",
+      "fresh_sha256": "275a8e9957b8d6bb94ec677c5c2820fd391a4a7f9e0d4c2d15dd5e1c22ce4f2c",
+      "previous_sha256": "275a8e9957b8d6bb94ec677c5c2820fd391a4a7f9e0d4c2d15dd5e1c22ce4f2c",
+      "byte_identical": true
+    },
+    {
+      "fresh": "classification_paired_differences.json",
+      "previous": "classification_paired_differences.json",
+      "fresh_sha256": "1d3caa188a9423867d4510c5be18131bc837b029bdb5bdd075e09b69eed2e167",
+      "previous_sha256": "1d3caa188a9423867d4510c5be18131bc837b029bdb5bdd075e09b69eed2e167",
+      "byte_identical": true
+    },
+    {
+      "fresh": "external_summary.json",
+      "previous": "external_summary.json",
+      "fresh_sha256": "dd2e7bf3a22f73b2c5f985b56722bea8126e91b2d9341547047da4b6a29d60fb",
+      "previous_sha256": "dd2e7bf3a22f73b2c5f985b56722bea8126e91b2d9341547047da4b6a29d60fb",
+      "byte_identical": true
+    },
+    {
+      "fresh": "retrieval_delivery.jsonl",
+      "previous": "retrieval_delivery.jsonl",
+      "fresh_sha256": "73083e23f2aed9c6b66b83c4b7127ebe430deac50e17b3b82d7e9e99468ae982",
+      "previous_sha256": "73083e23f2aed9c6b66b83c4b7127ebe430deac50e17b3b82d7e9e99468ae982",
+      "byte_identical": true
+    },
+    {
+      "fresh": "normal_retrieval.jsonl",
+      "previous": "normal_retrieval.jsonl",
+      "fresh_sha256": "7e321543c87acd569e278e2c66c528af104949d601ba665156fb4af17efb820c",
+      "previous_sha256": "7e321543c87acd569e278e2c66c528af104949d601ba665156fb4af17efb820c",
+      "byte_identical": true
+    },
+    {
+      "fresh": "retrieval_summary.json",
+      "previous": "retrieval_summary.json",
+      "fresh_sha256": "9a068719296c0119d4c5d7df6eadfd13aa41561afce277828201d8fa7bddbdb9",
+      "previous_sha256": "9a068719296c0119d4c5d7df6eadfd13aa41561afce277828201d8fa7bddbdb9",
+      "byte_identical": true
+    },
+    {
+      "fresh": "retrieval_paired_differences.json",
+      "previous": "retrieval_paired_differences.json",
+      "fresh_sha256": "b86f00a662cbe2fac81738ff2253d0b76e48075e2245f147670d7bc18765eb87",
+      "previous_sha256": "b86f00a662cbe2fac81738ff2253d0b76e48075e2245f147670d7bc18765eb87",
+      "byte_identical": true
+    },
+    {
+      "fresh": "retrieval_validation.json",
+      "previous": "retrieval_validation.json",
+      "fresh_sha256": "32cf83605694ea07e4528d9a92139a299c6123c14e768f1834be48fa2b1f4623",
+      "previous_sha256": "32cf83605694ea07e4528d9a92139a299c6123c14e768f1834be48fa2b1f4623",
+      "byte_identical": true
+    }
+  ],
+  "all_compared_bytes_identical": true,
+  "new_case_file_complete_without_recovery": true,
+  "neural_calls": 0,
+  "generator_calls": 0,
+  "scope": "Fresh real sparse classifier and TF-IDF retrieval computation; no new LLM answers or ASR."
+}

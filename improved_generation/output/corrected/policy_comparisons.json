@@ -1,0 +1,490 @@
+{
+  "metadata": {
+    "analysis": "exploratory follow-up; statistics specified before main NQ generation",
+    "raw_sha256": "f513487ffe5edc983287cacd31d512978ea1a4c38699091e8ad98799d81d9baa",
+    "analysis_code_sha256": "61bafadc532624fc038e5c32c41427f82a365875816097c607f376137b142590",
+    "statistics_plan_amendment_sha256": "a539fad136057e48156bdb89b6a45e68176d48b895dc391277b90c705bbd52a9",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 12,
+    "bootstrap_unit": "whole qid, same resampling indices across policy and reference measures; conditional on this benchmark and model",
+    "mcnemar": "exact two-sided binomial conditional on discordant bounded-target-mention pairs",
+    "holm_family": "18 none-versus-policy target-mention tests; adjusted separately from the PRIMARY3 fused-versus-ctx tests across poison/ignore/stealth; no rounding before adjustment",
+    "n_unique_prompt_evaluations": 668,
+    "n_unique_inference_batches": 167,
+    "recorded_total_batch_inference_seconds": 1633.9730663699984,
+    "generated_cap_unique_prompts": 4,
+    "eos_unique_prompts": 664,
+    "latency_accounting": "seconds per unique result is its measured batch time divided by batch size; first-request attribution partitions real global execution cost and is not a policy-specific latency estimate; reused results are not additional executions",
+    "reference_scope": "canonical historical single strings; exact/mention metrics do not establish semantic truth or current2026factuality"
+  },
+  "results": [
+    {
+      "setting": "poison",
+      "policy": "rule",
+      "n_qids": 100,
+      "none_target_policy_not": 0,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 0,
+      "mcnemar_exact_two_sided_p": 1.0,
+      "target_reduction_none_minus_policy": 0.0,
+      "target_reduction_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "reference_exact_change_policy_minus_none": 0.0,
+      "reference_exact_change_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "reference_mention_change_policy_minus_none": 0.0,
+      "reference_mention_change_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "holm_adjusted_p": 1.0,
+      "holm_reject_at_0_05": false
+    },
+    {
+      "setting": "poison",
+      "policy": "guard",
+      "n_qids": 100,
+      "none_target_policy_not": 2,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 2,
+      "mcnemar_exact_two_sided_p": 0.5,
+      "target_reduction_none_minus_policy": 0.02,
+      "target_reduction_bootstrap95": [
+        0.0,
+        0.05
+      ],
+      "reference_exact_change_policy_minus_none": 0.0,
+      "reference_exact_change_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "reference_mention_change_policy_minus_none": 0.01,
+      "reference_mention_change_bootstrap95": [
+        0.0,
+        0.03
+      ],
+      "holm_adjusted_p": 1.0,
+      "holm_reject_at_0_05": false
+    },
+    {
+      "setting": "poison",
+      "policy": "ctx",
+      "n_qids": 100,
+      "none_target_policy_not": 81,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 81,
+      "mcnemar_exact_two_sided_p": 8.271806125530277e-25,
+      "target_reduction_none_minus_policy": 0.81,
+      "target_reduction_bootstrap95": [
+        0.73,
+        0.88
+      ],
+      "reference_exact_change_policy_minus_none": 0.11,
+      "reference_exact_change_bootstrap95": [
+        0.05,
+        0.18
+      ],
+      "reference_mention_change_policy_minus_none": 0.23,
+      "reference_mention_change_bootstrap95": [
+        0.15,
+        0.31
+      ],
+      "holm_adjusted_p": 6.617444900424222e-24,
+      "holm_reject_at_0_05": true
+    },
+    {
+      "setting": "poison",
+      "policy": "fused",
+      "n_qids": 100,
+      "none_target_policy_not": 77,
+      "policy_target_none_not": 1,
+      "discordant_pairs": 78,
+      "mcnemar_exact_two_sided_p": 5.227781471335135e-22,
+      "target_reduction_none_minus_policy": 0.76,
+      "target_reduction_bootstrap95": [
+        0.67,
+        0.84
+      ],
+      "reference_exact_change_policy_minus_none": 0.11,
+      "reference_exact_change_bootstrap95": [
+        0.05,
+        0.18
+      ],
+      "reference_mention_change_policy_minus_none": 0.22,
+      "reference_mention_change_bootstrap95": [
+        0.14,
+        0.3
+      ],
+      "holm_adjusted_p": 3.6594470299345944e-21,
+      "holm_reject_at_0_05": true
+    },
+    {
+      "setting": "poison",
+      "policy": "oracle",
+      "n_qids": 100,
+      "none_target_policy_not": 91,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 91,
+      "mcnemar_exact_two_sided_p": 8.077935669463161e-28,
+      "target_reduction_none_minus_policy": 0.91,
+      "target_reduction_bootstrap95": [
+        0.85,
+        0.96
+      ],
+      "reference_exact_change_policy_minus_none": 0.13,
+      "reference_exact_change_bootstrap95": [
+        0.07,
+        0.2
+      ],
+      "reference_mention_change_policy_minus_none": 0.24,
+      "reference_mention_change_bootstrap95": [
+        0.16,
+        0.33
+      ],
+      "holm_adjusted_p": 1.3732490638087374e-26,
+      "holm_reject_at_0_05": true
+    },
+    {
+      "setting": "poison",
+      "policy": "aug_fused",
+      "n_qids": 100,
+      "none_target_policy_not": 77,
+      "policy_target_none_not": 1,
+      "discordant_pairs": 78,
+      "mcnemar_exact_two_sided_p": 5.227781471335135e-22,
+      "target_reduction_none_minus_policy": 0.76,
+      "target_reduction_bootstrap95": [
+        0.67,
+        0.84
+      ],
+      "reference_exact_change_policy_minus_none": 0.11,
+      "reference_exact_change_bootstrap95": [
+        0.05,
+        0.18
+      ],
+      "reference_mention_change_policy_minus_none": 0.22,
+      "reference_mention_change_bootstrap95": [
+        0.14,
+        0.3
+      ],
+      "holm_adjusted_p": 3.6594470299345944e-21,
+      "holm_reject_at_0_05": true
+    },
+    {
+      "setting": "ignore",
+      "policy": "rule",
+      "n_qids": 100,
+      "none_target_policy_not": 91,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 91,
+      "mcnemar_exact_two_sided_p": 8.077935669463161e-28,
+      "target_reduction_none_minus_policy": 0.91,
+      "target_reduction_bootstrap95": [
+        0.85,
+        0.96
+      ],
+      "reference_exact_change_policy_minus_none": 0.12,
+      "reference_exact_change_bootstrap95": [
+        0.06,
+        0.19
+      ],
+      "reference_mention_change_policy_minus_none": 0.23,
+      "reference_mention_change_bootstrap95": [
+        0.15,
+        0.31
+      ],
+      "holm_adjusted_p": 1.3732490638087374e-26,
+      "holm_reject_at_0_05": true
+    },
+    {
+      "setting": "ignore",
+      "policy": "guard",
+      "n_qids": 100,
+      "none_target_policy_not": 43,
+      "policy_target_none_not": 1,
+      "discordant_pairs": 44,
+      "mcnemar_exact_two_sided_p": 5.115907697472721e-12,
+      "target_reduction_none_minus_policy": 0.42,
+      "target_reduction_bootstrap95": [
+        0.32,
+        0.52
+      ],
+      "reference_exact_change_policy_minus_none": 0.07,
+      "reference_exact_change_bootstrap95": [
+        0.03,
+        0.12
+      ],
+      "reference_mention_change_policy_minus_none": 0.12,
+      "reference_mention_change_bootstrap95": [
+        0.06,
+        0.19
+      ],
+      "holm_adjusted_p": 2.5579538487363607e-11,
+      "holm_reject_at_0_05": true
+    },
+    {
+      "setting": "ignore",
+      "policy": "ctx",
+      "n_qids": 100,
+      "none_target_policy_not": 91,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 91,
+      "mcnemar_exact_two_sided_p": 8.077935669463161e-28,
+      "target_reduction_none_minus_policy": 0.91,
+      "target_reduction_bootstrap95": [
+        0.85,
+        0.96
+      ],
+      "reference_exact_change_policy_minus_none": 0.14,
+      "reference_exact_change_bootstrap95": [
+        0.08,
+        0.21
+      ],
+      "reference_mention_change_policy_minus_none": 0.25,
+      "reference_mention_change_bootstrap95": [
+        0.17,
+        0.34
+      ],
+      "holm_adjusted_p": 1.3732490638087374e-26,
+      "holm_reject_at_0_05": true
+    },
+    {
+      "setting": "ignore",
+      "policy": "fused",
+      "n_qids": 100,
+      "none_target_policy_not": 91,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 91,
+      "mcnemar_exact_two_sided_p": 8.077935669463161e-28,
+      "target_reduction_none_minus_policy": 0.91,
+      "target_reduction_bootstrap95": [
+        0.85,
+        0.96
+      ],
+      "reference_exact_change_policy_minus_none": 0.14,
+      "reference_exact_change_bootstrap95": [
+        0.08,
+        0.21
+      ],
+      "reference_mention_change_policy_minus_none": 0.25,
+      "reference_mention_change_bootstrap95": [
+        0.17,
+        0.34
+      ],
+      "holm_adjusted_p": 1.3732490638087374e-26,
+      "holm_reject_at_0_05": true
+    },
+    {
+      "setting": "ignore",
+      "policy": "oracle",
+      "n_qids": 100,
+      "none_target_policy_not": 91,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 91,
+      "mcnemar_exact_two_sided_p": 8.077935669463161e-28,
+      "target_reduction_none_minus_policy": 0.91,
+      "target_reduction_bootstrap95": [
+        0.85,
+        0.96
+      ],
+      "reference_exact_change_policy_minus_none": 0.13,
+      "reference_exact_change_bootstrap95": [
+        0.07,
+        0.2
+      ],
+      "reference_mention_change_policy_minus_none": 0.24,
+      "reference_mention_change_bootstrap95": [
+        0.16,
+        0.33
+      ],
+      "holm_adjusted_p": 1.3732490638087374e-26,
+      "holm_reject_at_0_05": true
+    },
+    {
+      "setting": "ignore",
+      "policy": "aug_fused",
+      "n_qids": 100,
+      "none_target_policy_not": 91,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 91,
+      "mcnemar_exact_two_sided_p": 8.077935669463161e-28,
+      "target_reduction_none_minus_policy": 0.91,
+      "target_reduction_bootstrap95": [
+        0.85,
+        0.96
+      ],
+      "reference_exact_change_policy_minus_none": 0.14,
+      "reference_exact_change_bootstrap95": [
+        0.08,
+        0.21
+      ],
+      "reference_mention_change_policy_minus_none": 0.25,
+      "reference_mention_change_bootstrap95": [
+        0.17,
+        0.34
+      ],
+      "holm_adjusted_p": 1.3732490638087374e-26,
+      "holm_reject_at_0_05": true
+    },
+    {
+      "setting": "stealth",
+      "policy": "rule",
+      "n_qids": 100,
+      "none_target_policy_not": 0,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 0,
+      "mcnemar_exact_two_sided_p": 1.0,
+      "target_reduction_none_minus_policy": 0.0,
+      "target_reduction_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "reference_exact_change_policy_minus_none": 0.0,
+      "reference_exact_change_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "reference_mention_change_policy_minus_none": 0.0,
+      "reference_mention_change_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "holm_adjusted_p": 1.0,
+      "holm_reject_at_0_05": false
+    },
+    {
+      "setting": "stealth",
+      "policy": "guard",
+      "n_qids": 100,
+      "none_target_policy_not": 3,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 3,
+      "mcnemar_exact_two_sided_p": 0.25,
+      "target_reduction_none_minus_policy": 0.03,
+      "target_reduction_bootstrap95": [
+        0.0,
+        0.07
+      ],
+      "reference_exact_change_policy_minus_none": 0.0,
+      "reference_exact_change_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "reference_mention_change_policy_minus_none": 0.01,
+      "reference_mention_change_bootstrap95": [
+        0.0,
+        0.03
+      ],
+      "holm_adjusted_p": 1.0,
+      "holm_reject_at_0_05": false
+    },
+    {
+      "setting": "stealth",
+      "policy": "ctx",
+      "n_qids": 100,
+      "none_target_policy_not": 86,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 86,
+      "mcnemar_exact_two_sided_p": 2.5849394142282115e-26,
+      "target_reduction_none_minus_policy": 0.86,
+      "target_reduction_bootstrap95": [
+        0.79,
+        0.92
+      ],
+      "reference_exact_change_policy_minus_none": 0.11,
+      "reference_exact_change_bootstrap95": [
+        0.05,
+        0.17
+      ],
+      "reference_mention_change_policy_minus_none": 0.21,
+      "reference_mention_change_bootstrap95": [
+        0.14,
+        0.29
+      ],
+      "holm_adjusted_p": 2.8434333556510326e-25,
+      "holm_reject_at_0_05": true
+    },
+    {
+      "setting": "stealth",
+      "policy": "fused",
+      "n_qids": 100,
+      "none_target_policy_not": 82,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 82,
+      "mcnemar_exact_two_sided_p": 4.1359030627651384e-25,
+      "target_reduction_none_minus_policy": 0.82,
+      "target_reduction_bootstrap95": [
+        0.74,
+        0.89
+      ],
+      "reference_exact_change_policy_minus_none": 0.09,
+      "reference_exact_change_bootstrap95": [
+        0.04,
+        0.15
+      ],
+      "reference_mention_change_policy_minus_none": 0.19,
+      "reference_mention_change_bootstrap95": [
+        0.12,
+        0.27
+      ],
+      "holm_adjusted_p": 4.1359030627651384e-24,
+      "holm_reject_at_0_05": true
+    },
+    {
+      "setting": "stealth",
+      "policy": "oracle",
+      "n_qids": 100,
+      "none_target_policy_not": 93,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 93,
+      "mcnemar_exact_two_sided_p": 2.0194839173657902e-28,
+      "target_reduction_none_minus_policy": 0.93,
+      "target_reduction_bootstrap95": [
+        0.88,
+        0.98
+      ],
+      "reference_exact_change_policy_minus_none": 0.13,
+      "reference_exact_change_bootstrap95": [
+        0.07,
+        0.2
+      ],
+      "reference_mention_change_policy_minus_none": 0.23,
+      "reference_mention_change_bootstrap95": [
+        0.15,
+        0.32
+      ],
+      "holm_adjusted_p": 3.6350710512584224e-27,
+      "holm_reject_at_0_05": true
+    },
+    {
+      "setting": "stealth",
+      "policy": "aug_fused",
+      "n_qids": 100,
+      "none_target_policy_not": 82,
+      "policy_target_none_not": 0,
+      "discordant_pairs": 82,
+      "mcnemar_exact_two_sided_p": 4.1359030627651384e-25,
+      "target_reduction_none_minus_policy": 0.82,
+      "target_reduction_bootstrap95": [
+        0.74,
+        0.89
+      ],
+      "reference_exact_change_policy_minus_none": 0.1,
+      "reference_exact_change_bootstrap95": [
+        0.04,
+        0.16
+      ],
+      "reference_mention_change_policy_minus_none": 0.2,
+      "reference_mention_change_bootstrap95": [
+        0.13,
+        0.28
+      ],
+      "holm_adjusted_p": 4.1359030627651384e-24,
+      "holm_reject_at_0_05": true
+    }
+  ]
+}

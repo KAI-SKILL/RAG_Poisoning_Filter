@@ -1,0 +1,38 @@
+{
+  "comparison_dataset": "deepset/prompt-injections",
+  "comparison_revision_observed": "4f61ecb038e9c3fb77e21034b22511b523772cdd",
+  "caveat": "Rows API serves current dataset, not proven exact historical July 2023 model training snapshot. Original model training recipe and exact records are not released. This is a disclosed-source overlap audit, not proof of no pretraining/finetuning contamination.",
+  "source_card_license_conflict": "Top-level Apache-2.0, nested dataset_info cc-by-4.0. Dataset text is not redistributed by this audit.",
+  "comparison_rows": {
+    "train": 546,
+    "test": 116
+  },
+  "overlaps": {
+    "NotInject": {
+      "n_external": 339,
+      "train": {
+        "exact": 0,
+        "normalized": 0,
+        "matching_external_ids": []
+      },
+      "test": {
+        "exact": 0,
+        "normalized": 0,
+        "matching_external_ids": []
+      }
+    },
+    "BIPIA": {
+      "n_external": 125,
+      "train": {
+        "exact": 0,
+        "normalized": 0,
+        "matching_external_ids": []
+      },
+      "test": {
+        "exact": 0,
+        "normalized": 0,
+        "matching_external_ids": []
+      }
+    }
+  }
+}

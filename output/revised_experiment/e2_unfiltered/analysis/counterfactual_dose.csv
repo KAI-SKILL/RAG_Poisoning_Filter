@@ -1,0 +1,85 @@
+metric,gate,baseline,condition,contrast,effect,ci95,effect_pp,ci95_pp,units,paired_questions,article_groups,bootstrap_draws,bootstrap_seed,degenerate_observed_interval,status
+alias_exact,none,counterfactual_1,counterfactual_5,within_policy_paired_change,-0.36,"[-0.56,-0.16]",-36.0,"[-56.00000000000001,-16.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+alias_exact,ctx,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+alias_exact,ctx,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.36,"[0.16,0.56]",36.0,"[16.0,56.00000000000001]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+alias_exact,no_guard,counterfactual_1,counterfactual_5,within_policy_paired_change,0.04,"[0.0,0.12]",4.0,"[0.0,12.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+alias_exact,no_guard,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.4,"[0.2,0.64]",40.0,"[20.0,64.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+alias_exact,fused,counterfactual_1,counterfactual_5,within_policy_paired_change,0.04,"[0.0,0.12]",4.0,"[0.0,12.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+alias_exact,fused,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.4,"[0.2,0.64]",40.0,"[20.0,64.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+token_f1,none,counterfactual_1,counterfactual_5,within_policy_paired_change,-0.35714285714285715,"[-0.56,-0.15714285714285714]",-35.714285714285715,"[-56.00000000000001,-15.714285714285714]",F1 points on0to1scale,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+token_f1,ctx,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",F1 points on0to1scale,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+token_f1,ctx,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.35714285714285715,"[0.15714285714285714,0.56]",35.714285714285715,"[15.714285714285714,56.00000000000001]",F1 points on0to1scale,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+token_f1,no_guard,counterfactual_1,counterfactual_5,within_policy_paired_change,0.04,"[0.0,0.12]",4.0,"[0.0,12.0]",F1 points on0to1scale,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+token_f1,no_guard,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.39714285714285713,"[0.1742857142857143,0.6371428571428571]",39.714285714285715,"[17.42857142857143,63.714285714285715]",F1 points on0to1scale,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+token_f1,fused,counterfactual_1,counterfactual_5,within_policy_paired_change,0.04,"[0.0,0.12]",4.0,"[0.0,12.0]",F1 points on0to1scale,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+token_f1,fused,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.39714285714285713,"[0.1742857142857143,0.6371428571428571]",39.714285714285715,"[17.42857142857143,63.714285714285715]",F1 points on0to1scale,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+reference_mention,none,counterfactual_1,counterfactual_5,within_policy_paired_change,-0.32,"[-0.52,-0.16]",-32.0,"[-52.0,-16.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+reference_mention,ctx,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+reference_mention,ctx,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.32,"[0.16,0.52]",32.0,"[16.0,52.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+reference_mention,no_guard,counterfactual_1,counterfactual_5,within_policy_paired_change,0.04,"[0.0,0.12]",4.0,"[0.0,12.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+reference_mention,no_guard,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.36,"[0.16,0.6]",36.0,"[16.0,60.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+reference_mention,fused,counterfactual_1,counterfactual_5,within_policy_paired_change,0.04,"[0.0,0.12]",4.0,"[0.0,12.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+reference_mention,fused,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.36,"[0.16,0.6]",36.0,"[16.0,60.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+target_exact,none,counterfactual_1,counterfactual_5,within_policy_paired_change,0.4,"[0.2,0.6]",40.0,"[20.0,60.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+target_exact,ctx,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+target_exact,ctx,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,-0.4,"[-0.6,-0.2]",-40.0,"[-60.0,-20.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+target_exact,no_guard,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+target_exact,no_guard,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,-0.4,"[-0.6,-0.2]",-40.0,"[-60.0,-20.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+target_exact,fused,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+target_exact,fused,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,-0.4,"[-0.6,-0.2]",-40.0,"[-60.0,-20.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+target_mention,none,counterfactual_1,counterfactual_5,within_policy_paired_change,0.36,"[0.16,0.56]",36.0,"[16.0,56.00000000000001]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+target_mention,ctx,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+target_mention,ctx,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,-0.36,"[-0.56,-0.16]",-36.0,"[-56.00000000000001,-16.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+target_mention,no_guard,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+target_mention,no_guard,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,-0.36,"[-0.56,-0.16]",-36.0,"[-56.00000000000001,-16.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+target_mention,fused,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+target_mention,fused,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,-0.36,"[-0.56,-0.16]",-36.0,"[-56.00000000000001,-16.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+abstention,none,counterfactual_1,counterfactual_5,within_policy_paired_change,-0.04,"[-0.16,0.08]",-4.0,"[-16.0,8.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+abstention,ctx,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+abstention,ctx,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.04,"[-0.08,0.16]",4.0,"[-8.0,16.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+abstention,no_guard,counterfactual_1,counterfactual_5,within_policy_paired_change,-0.04,"[-0.12,0.0]",-4.0,"[-12.0,0.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+abstention,no_guard,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.0,"[-0.16,0.16]",0.0,"[-16.0,16.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+abstention,fused,counterfactual_1,counterfactual_5,within_policy_paired_change,-0.04,"[-0.12,0.0]",-4.0,"[-12.0,0.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+abstention,fused,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.0,"[-0.16,0.16]",0.0,"[-16.0,16.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+blank,none,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+blank,ctx,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+blank,ctx,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+blank,no_guard,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+blank,no_guard,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+blank,fused,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+blank,fused,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+length_cap,none,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+length_cap,ctx,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+length_cap,ctx,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+length_cap,no_guard,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+length_cap,no_guard,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+length_cap,fused,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+length_cap,fused,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+gold_retained,none,counterfactual_1,counterfactual_5,within_policy_paired_change,-0.64,"[-0.84,-0.44]",-64.0,"[-84.0,-44.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+gold_retained,ctx,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+gold_retained,ctx,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.64,"[0.44,0.84]",64.0,"[44.0,84.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+gold_retained,no_guard,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+gold_retained,no_guard,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.64,"[0.44,0.84]",64.0,"[44.0,84.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+gold_retained,fused,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+gold_retained,fused,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.64,"[0.44,0.84]",64.0,"[44.0,84.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+legitimate_support_retained,none,counterfactual_1,counterfactual_5,within_policy_paired_change,-0.64,"[-0.84,-0.44]",-64.0,"[-84.0,-44.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+legitimate_support_retained,ctx,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+legitimate_support_retained,ctx,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.64,"[0.44,0.84]",64.0,"[44.0,84.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+legitimate_support_retained,no_guard,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+legitimate_support_retained,no_guard,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.64,"[0.44,0.84]",64.0,"[44.0,84.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+legitimate_support_retained,fused,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+legitimate_support_retained,fused,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.64,"[0.44,0.84]",64.0,"[44.0,84.0]",fraction,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+malicious_exposure,none,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+malicious_exposure,ctx,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+malicious_exposure,ctx,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+malicious_exposure,no_guard,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+malicious_exposure,no_guard,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+malicious_exposure,fused,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+malicious_exposure,fused,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,0.0,"[0.0,0.0]",0.0,"[0.0,0.0]",fraction,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+malicious_count,none,counterfactual_1,counterfactual_5,within_policy_paired_change,3.36,"[3.04,3.64]",,,passages/question,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+malicious_count,ctx,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",,,passages/question,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+malicious_count,ctx,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,-3.36,"[-3.64,-3.04]",,,passages/question,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+malicious_count,no_guard,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",,,passages/question,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+malicious_count,no_guard,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,-3.36,"[-3.64,-3.04]",,,passages/question,25,25,10000,20261020,False,exploratory_descriptive_no_p_value
+malicious_count,fused,counterfactual_1,counterfactual_5,within_policy_paired_change,0.0,"[0.0,0.0]",,,passages/question,25,25,10000,20261020,True,exploratory_descriptive_no_p_value
+malicious_count,fused,counterfactual_1,counterfactual_5,difference_in_differences_vs_none,-3.36,"[-3.64,-3.04]",,,passages/question,25,25,10000,20261020,False,exploratory_descriptive_no_p_value

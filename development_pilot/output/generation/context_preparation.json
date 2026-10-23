@@ -1,0 +1,46 @@
+{
+  "source_files": [
+    {
+      "path": "output/experiment/filtered_groups.jsonl",
+      "sha256": "8fefb200bed69021d67d2499f21144f62b0f45667c3eb22fda99f0a00a9edbae"
+    },
+    {
+      "path": "output/experiment/predictions.jsonl",
+      "sha256": "37feb259d8a67819610586b1180877f5756afcaefe3d78175f2c3b559fa29146"
+    },
+    {
+      "path": "output/experiment/results.json",
+      "sha256": "06a679995dbd6709a78180bbd0347611454f292b66f13222eaa77151995e639f"
+    }
+  ],
+  "split": "test_joint",
+  "n_groups": 96,
+  "n_rows": 1152,
+  "gates": [
+    "acceptall",
+    "keyword",
+    "lexical",
+    "retrieval",
+    "neural",
+    "combined"
+  ],
+  "clean_protocol": "remove sole malicious passage; retain benign quoted directives; independently recompute clean retrieval and fusion scores; retain frozen text-only scores, coefficients and thresholds",
+  "context_protocol": "preserve original candidate order; join accepted passage texts using a blank line; no labels or gold answers are inserted",
+  "thresholds": {
+    "keyword": 0.5,
+    "lexical": 0.8899455547343809,
+    "retrieval": null,
+    "neural": null,
+    "combined": 0.8126341149791314
+  },
+  "fusion": {
+    "formula": "sigmoid(b + w1*neural_softmax_risk + w2*retrieval_inconsistency)",
+    "intercept": 6.401404608825881,
+    "weights": [
+      0.04765338770209533,
+      -11.61685511302812
+    ],
+    "C": 1,
+    "class_weight": "balanced"
+  }
+}

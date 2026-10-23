@@ -1,0 +1,6 @@
+{
+  "done": 1422,
+  "reused_text_count": 1422,
+  "newly_inferred_text_count": 0,
+  "note": "Composed frozen-model features; timings belong to source cache and new_only metadata, not a new inference of every row."
+}

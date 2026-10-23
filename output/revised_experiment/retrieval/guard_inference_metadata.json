@@ -1,0 +1,36 @@
+{
+  "configuration": {
+    "kind": "guard",
+    "model_repository": "protectai/deberta-v3-base-prompt-injection-v2",
+    "model_revision": "90c9989b1a342275dd0d1a95aad283c04e075671",
+    "model_manifest_sha256": "c7b857d7e70f46ae58ed37de74d517bf803f66f0aac4845cfad8b8cbf73c3cf8",
+    "text_list_sha256": "4d51ed065a0477ffeec4fe15a4c0c3ebfa2811f6e9c33a1bf4d4597abe5a9b12",
+    "text_count": 1604,
+    "max_tokens": 512,
+    "batch_size": 12,
+    "threads": 4,
+    "torch": "2.14.1+cpu",
+    "transformers": "5.20.1",
+    "backend": "cpu_float32",
+    "representation": "guard=text only; encoder mean pooling; relevance=title+text dot query; density=text-only cosine"
+  },
+  "execution": {
+    "done": 1604,
+    "batch_seconds": 373.0404728090007,
+    "batches": 134,
+    "at_cap_count": 0,
+    "truncated_text_count": 0,
+    "max_original_tokens": 362,
+    "max_observed_tokens": 362,
+    "load_seconds": 1.0476110229992628,
+    "loading_info": {
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "mismatched_keys": [],
+      "error_msgs": []
+    },
+    "call_wall_seconds": 380.0869242409999,
+    "timing_scope": "One feature-cache call: hashing/model setup/full-length token audit/batched text inference/cache writes; not end-to-end RAG latency or per-query independence.",
+    "process_peak_rss_bytes": 2198904832
+  }
+}

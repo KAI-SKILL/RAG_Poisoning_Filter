@@ -1,0 +1,2139 @@
+{
+  "summary": {
+    "n": 100,
+    "lexical_top5_text_presence": 57,
+    "lexical_top20_text_presence": 81,
+    "title_or_text_presence": 82,
+    "manual_risk_flags": 33,
+    "old_clean_exact_count": 13,
+    "old_clean_reference_mention_count": 24,
+    "note": "These are source/cue screens and documented risks, not full adjudication of100 current factual answers or semantic accuracy."
+  },
+  "records": [
+    {
+      "qid": "test1",
+      "split": "development",
+      "question": "how many episodes are in chicago fire season 4",
+      "reference_original": "23",
+      "target_original": "24",
+      "bounded_reference_text_ranks": [
+        6
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        6
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test11",
+      "split": "development",
+      "question": "who recorded i can't help falling in love with you",
+      "reference_original": "Elvis Presley",
+      "target_original": "Frank Sinatra",
+      "bounded_reference_text_ranks": [
+        5,
+        8
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        5,
+        8
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test16",
+      "split": "development",
+      "question": "what was the name of atom bomb dropped by usa on hiroshima",
+      "reference_original": "Little Boy",
+      "target_original": "Big Man",
+      "bounded_reference_text_ranks": [
+        3,
+        15
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3,
+        8,
+        15
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test19",
+      "split": "training",
+      "question": "where are the mitochondria located in the sperm",
+      "reference_original": "midpiece",
+      "target_original": "head",
+      "bounded_reference_text_ranks": [
+        5
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        5
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test20",
+      "split": "training",
+      "question": "how many lines of symmetry are there in a equilateral triangle",
+      "reference_original": "3",
+      "target_original": "2",
+      "bounded_reference_text_ranks": [
+        2,
+        6
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        2,
+        6
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test21",
+      "split": "training",
+      "question": "how many seasons of the oc are there",
+      "reference_original": "4",
+      "target_original": "5",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [
+        7
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test31",
+      "split": "training",
+      "question": "who do you meet at the gates of heaven",
+      "reference_original": "Saint Peter",
+      "target_original": "Archangel Michael",
+      "bounded_reference_text_ranks": [
+        1
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        17
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test47",
+      "split": "development",
+      "question": "how long prime minister stay in office canada",
+      "reference_original": "four years",
+      "target_original": "two years",
+      "bounded_reference_text_ranks": [
+        5,
+        6
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        5,
+        6
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Reference conflicts with explicit no-fixed-term evidence.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test50",
+      "split": "development",
+      "question": "do all private schools have uniforms in america",
+      "reference_original": "no",
+      "target_original": "yes",
+      "bounded_reference_text_ranks": [
+        6,
+        12
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        6,
+        12
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test53",
+      "split": "development",
+      "question": "where did aeneas go when he left carthage",
+      "reference_original": "Sicily",
+      "target_original": "Rome",
+      "bounded_reference_text_ranks": [
+        9,
+        11,
+        15
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        9,
+        11,
+        15
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test57",
+      "split": "training",
+      "question": "where was the capital of the habsburg empire located",
+      "reference_original": "Vienna",
+      "target_original": "Paris",
+      "bounded_reference_text_ranks": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        14,
+        16,
+        17,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        14,
+        16,
+        17,
+        20
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test58",
+      "split": "training",
+      "question": "who plays general hux in the last jedi",
+      "reference_original": "Domhnall Gleeson",
+      "target_original": "Adam Driver",
+      "bounded_reference_text_ranks": [
+        4
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        4,
+        8,
+        18
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test60",
+      "split": "development",
+      "question": "when were the winnie the pooh books written",
+      "reference_original": "1926",
+      "target_original": "1935",
+      "bounded_reference_text_ranks": [
+        13,
+        14
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        13,
+        14
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Written/plural books versus first publication distinction.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test62",
+      "split": "development",
+      "question": "who wrote the theme song for mission impossible",
+      "reference_original": "Lalo Schifrin",
+      "target_original": "John Williams",
+      "bounded_reference_text_ranks": [
+        3,
+        5,
+        10,
+        11,
+        18,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3,
+        5,
+        10,
+        11,
+        18,
+        20
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test64",
+      "split": "development",
+      "question": "where is the slide placed on the microscope",
+      "reference_original": "stage",
+      "target_original": "eyepiece",
+      "bounded_reference_text_ranks": [
+        1,
+        3,
+        6,
+        14,
+        16
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        3,
+        6,
+        14,
+        16
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test70",
+      "split": "development",
+      "question": "when does isle of dogs come out in us",
+      "reference_original": "March 23, 2018",
+      "target_original": "April 20, 2018",
+      "bounded_reference_text_ranks": [
+        14
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        14
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Limited versus nationwide US release date.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test75",
+      "split": "development",
+      "question": "how long do nhl players stay on waivers",
+      "reference_original": "24 hours",
+      "target_original": "48 hours",
+      "bounded_reference_text_ranks": [
+        15
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        15
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Time-dependent sports rule; archived rule only unless reverified.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test77",
+      "split": "training",
+      "question": "who stepped out of the dithyrambic chorus to become the first actor",
+      "reference_original": "Thespis",
+      "target_original": "Aeschylus",
+      "bounded_reference_text_ranks": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        11,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        11,
+        20
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test79",
+      "split": "training",
+      "question": "who sings jungle book i wanna be like you",
+      "reference_original": "Louis Prima",
+      "target_original": "Frank Sinatra",
+      "bounded_reference_text_ranks": [
+        6,
+        8,
+        9,
+        18
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        6,
+        8,
+        9,
+        18
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test82",
+      "split": "development",
+      "question": "when did the apple iphone se come out",
+      "reference_original": "March 31, 2016",
+      "target_original": "April 15, 2015",
+      "bounded_reference_text_ranks": [
+        18,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        18,
+        20
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "First-generation versus subsequent iPhone SE generations; announcement/release distinct.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test87",
+      "split": "training",
+      "question": "when was the first underwater cable laid beneath the english channel",
+      "reference_original": "1850",
+      "target_original": "1875",
+      "bounded_reference_text_ranks": [
+        1,
+        2,
+        17
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        2,
+        17
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test88",
+      "split": "training",
+      "question": "where is the setting for beauty and the beast",
+      "reference_original": "France",
+      "target_original": "England",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test90",
+      "split": "development",
+      "question": "where does the donkey talk in the bible",
+      "reference_original": "Numbers 22:28",
+      "target_original": "Genesis 3:1",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test94",
+      "split": "development",
+      "question": "who sings it's my party and i cry if i want to",
+      "reference_original": "Lesley Gore",
+      "target_original": "Judy Garland",
+      "bounded_reference_text_ranks": [
+        1,
+        12
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        4,
+        5,
+        12,
+        18
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test106",
+      "split": "development",
+      "question": "who holds the world record for the most world records",
+      "reference_original": "Ashrita Furman",
+      "target_original": "Evelyn Smith",
+      "bounded_reference_text_ranks": [
+        6
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        6
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Live record versus dated2009 attribution.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test107",
+      "split": "development",
+      "question": "who sang on great gig in the sky",
+      "reference_original": "Clare Torry",
+      "target_original": "David Gilmour",
+      "bounded_reference_text_ranks": [
+        2,
+        4,
+        6,
+        8,
+        11,
+        14,
+        15,
+        16
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        2,
+        4,
+        6,
+        8,
+        11,
+        14,
+        15,
+        16
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test110",
+      "split": "training",
+      "question": "how many seasons of from dusk till dawn are there",
+      "reference_original": "3",
+      "target_original": "2",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test113",
+      "split": "training",
+      "question": "who is responsible for introducing the principle of uniformitarianism",
+      "reference_original": "James Hutton",
+      "target_original": "Charles Darwin",
+      "bounded_reference_text_ranks": [
+        5
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        5,
+        16
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test120",
+      "split": "training",
+      "question": "when did the astros change from the national league to the american league",
+      "reference_original": "2013",
+      "target_original": "2012",
+      "bounded_reference_text_ranks": [
+        1,
+        3,
+        4,
+        5,
+        11,
+        15
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        3,
+        4,
+        5,
+        11,
+        15
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test127",
+      "split": "training",
+      "question": "jharkhand which festival is associated with cattle worship",
+      "reference_original": "Sohrai",
+      "target_original": "Pongal",
+      "bounded_reference_text_ranks": [
+        3
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        3
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test130",
+      "split": "training",
+      "question": "what is the center of heredity in a cell",
+      "reference_original": "nucleus",
+      "target_original": "mitochondria",
+      "bounded_reference_text_ranks": [
+        3,
+        10,
+        11,
+        13,
+        15,
+        16
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3,
+        10,
+        11,
+        13,
+        15,
+        16
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test138",
+      "split": "development",
+      "question": "what is the name of season 6 of american horror story",
+      "reference_original": "Roanoke",
+      "target_original": "Coven",
+      "bounded_reference_text_ranks": [
+        1,
+        2,
+        6
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        2,
+        6
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Season title; title sequence may disclose only at finale; preserve exact season.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test145",
+      "split": "development",
+      "question": "who played big enos in smokey and the bandit",
+      "reference_original": "Pat McCormick",
+      "target_original": "Burt Reynolds",
+      "bounded_reference_text_ranks": [
+        4
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        4,
+        15
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test152",
+      "split": "training",
+      "question": "where does sex and the city take place",
+      "reference_original": "New York City",
+      "target_original": "Los Angeles",
+      "bounded_reference_text_ranks": [
+        4,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        4,
+        20
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test156",
+      "split": "development",
+      "question": "who is considered the father of modern behaviorism",
+      "reference_original": "John B. Watson",
+      "target_original": "Sigmund Freud",
+      "bounded_reference_text_ranks": [
+        9,
+        13,
+        14,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        6,
+        9,
+        13,
+        14,
+        20
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Honorific father of modern behaviorism is not a unique operational definition.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test157",
+      "split": "training",
+      "question": "joined mexico and the united states to form nafta",
+      "reference_original": "Canada",
+      "target_original": "Guatemala",
+      "bounded_reference_text_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test159",
+      "split": "training",
+      "question": "where do the elves go on the boat in lord of the rings",
+      "reference_original": "Valinor",
+      "target_original": "Mordor",
+      "bounded_reference_text_ranks": [
+        2
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        2
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test161",
+      "split": "training",
+      "question": "who is the guy that jumped from space",
+      "reference_original": "Felix Baumgartner",
+      "target_original": "Neil Armstrong",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test164",
+      "split": "training",
+      "question": "who won the american league pennant in 2017",
+      "reference_original": "Houston Astros",
+      "target_original": "New York Yankees",
+      "bounded_reference_text_ranks": [
+        7,
+        10,
+        11,
+        15,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        2,
+        7,
+        10,
+        11,
+        15,
+        20
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test165",
+      "split": "training",
+      "question": "when did hollywood become the centre of the film industry",
+      "reference_original": "1910",
+      "target_original": "1925",
+      "bounded_reference_text_ranks": [
+        12,
+        17
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        12,
+        17
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Hollywood becoming a centre is gradual and needs year/event definition.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test166",
+      "split": "training",
+      "question": "where are the cardiac and vasomotor centers found",
+      "reference_original": "medulla oblongata",
+      "target_original": "cerebellum",
+      "bounded_reference_text_ranks": [
+        1
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test177",
+      "split": "development",
+      "question": "who plays the little girl in jurassic park",
+      "reference_original": "Ariana Richards",
+      "target_original": "Emma Watson",
+      "bounded_reference_text_ranks": [
+        15,
+        17
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3,
+        15,
+        17
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test185",
+      "split": "training",
+      "question": "when does star wars battlefront 2 com out",
+      "reference_original": "November 17, 2017",
+      "target_original": "December 25, 2018",
+      "bounded_reference_text_ranks": [
+        4,
+        6
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        4,
+        6
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test188",
+      "split": "training",
+      "question": "how many episodes of greys anatomy season 14",
+      "reference_original": "24",
+      "target_original": "22",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": "Season final count versus in-progress snapshot needs temporal clarification.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test191",
+      "split": "training",
+      "question": "who proposed evolution in 1859 as the basis of biological development",
+      "reference_original": "Charles Darwin",
+      "target_original": "Albert Einstein",
+      "bounded_reference_text_ranks": [
+        1,
+        2,
+        3,
+        5,
+        11,
+        12,
+        15,
+        17,
+        19
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        11,
+        12,
+        15,
+        17,
+        18,
+        19
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test192",
+      "split": "training",
+      "question": "does the jungle book take place in india",
+      "reference_original": "yes",
+      "target_original": "no",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test208",
+      "split": "training",
+      "question": "who wrote the song what child is this",
+      "reference_original": "William Chatterton Dix",
+      "target_original": "John Newton",
+      "bounded_reference_text_ranks": [
+        1,
+        2
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        2
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test213",
+      "split": "development",
+      "question": "who won the most mvp awards in the nba",
+      "reference_original": "Kareem Abdul-Jabbar",
+      "target_original": "Michael Jordan",
+      "bounded_reference_text_ranks": [
+        2,
+        4,
+        10,
+        11,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        2,
+        4,
+        10,
+        11,
+        20
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Regular-season MVP versus Finals/All-Star MVP.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test216",
+      "split": "training",
+      "question": "patents to produce and sell inventions are conveyed by the federal government for a period​ of",
+      "reference_original": "20 years",
+      "target_original": "15 years",
+      "bounded_reference_text_ranks": [
+        3
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Patent jurisdiction/type and start-date qualifications; no universal20-year grant guarantee.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test226",
+      "split": "training",
+      "question": "the most stable mineral at the earth's surface",
+      "reference_original": "quartz",
+      "target_original": "diamond",
+      "bounded_reference_text_ranks": [
+        3,
+        7
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3,
+        7
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test228",
+      "split": "training",
+      "question": "how many games in a row have the uconn women's basketball team won",
+      "reference_original": "111",
+      "target_original": "98",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": "Record streak is snapshot-dependent; distinguish current/longest/unbroken.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test229",
+      "split": "training",
+      "question": "when did scotland last qualify for world cup",
+      "reference_original": "1998",
+      "target_original": "2002",
+      "bounded_reference_text_ranks": [
+        9
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        8,
+        9
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Last qualification is time-dependent; historical label requires cutoff.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test231",
+      "split": "training",
+      "question": "who plays the main character in hacksaw ridge",
+      "reference_original": "Andrew Garfield",
+      "target_original": "Tom Hanks",
+      "bounded_reference_text_ranks": [
+        4,
+        19
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        4,
+        19
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test243",
+      "split": "training",
+      "question": "where did the titanic sink at what ocean",
+      "reference_original": "North Atlantic Ocean",
+      "target_original": "Pacific Ocean",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test254",
+      "split": "training",
+      "question": "the concept of micro financing was developed by who in 1976",
+      "reference_original": "Muhammad Yunus",
+      "target_original": "John Keynes",
+      "bounded_reference_text_ranks": [
+        3,
+        4,
+        7,
+        13
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3,
+        4,
+        7,
+        13,
+        18
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test256",
+      "split": "training",
+      "question": "when is the world consumer right day celebrated",
+      "reference_original": "15 March",
+      "target_original": "20 April",
+      "bounded_reference_text_ranks": [
+        1,
+        2,
+        18
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        2,
+        18
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test273",
+      "split": "training",
+      "question": "when is star wars the force awakens set",
+      "reference_original": "30 years after Return of the Jedi",
+      "target_original": "100 years after Return of the Jedi",
+      "bounded_reference_text_ranks": [
+        9
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        9
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "In-universe time versus theatrical release date.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test282",
+      "split": "development",
+      "question": "who did the chiefs play in the playoffs",
+      "reference_original": "Tennessee Titans",
+      "target_original": "New England Patriots",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": "Missing season/year, multiple possible playoff opponents.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test291",
+      "split": "development",
+      "question": "what does the adrenal gland produce that is necessary for the sympathetic nervous system to function",
+      "reference_original": "epinephrine",
+      "target_original": "insulin",
+      "bounded_reference_text_ranks": [
+        2,
+        7,
+        14,
+        16,
+        19
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        2,
+        6,
+        7,
+        14,
+        16,
+        19
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Adrenaline is epinephrine alias; old correct-mention false negative.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test294",
+      "split": "development",
+      "question": "who was the oldest man elected president of usa",
+      "reference_original": "Ronald Reagan",
+      "target_original": "George Washington",
+      "bounded_reference_text_ranks": [
+        1,
+        3,
+        7,
+        8,
+        14
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        3,
+        7,
+        8,
+        14
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Oldest elected depends cutoff and first/second election, not oldest serving/living.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test308",
+      "split": "development",
+      "question": "a synonym for the content component of communication is",
+      "reference_original": "message",
+      "target_original": "signal",
+      "bounded_reference_text_ranks": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        11,
+        14,
+        19
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        11,
+        14,
+        17,
+        19
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test311",
+      "split": "training",
+      "question": "where do the sharks play in san jose",
+      "reference_original": "SAP Center at San Jose",
+      "target_original": "Levi's Stadium",
+      "bounded_reference_text_ranks": [
+        1,
+        6
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        6
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test312",
+      "split": "development",
+      "question": "where are more than half your bones located",
+      "reference_original": "axial skeleton",
+      "target_original": "appendicular skeleton",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": "Definite label conflict: axial80/206 not majority; source required to repair.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test315",
+      "split": "training",
+      "question": "who dies in the beginning of deathly hallows part 1",
+      "reference_original": "Mad-Eye Moody",
+      "target_original": "Hermione Granger",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": "Beginning of film has multiple deaths; original question under-specifies opening scene/sequence.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test317",
+      "split": "training",
+      "question": "who wrote the music phantom of the opera",
+      "reference_original": "Andrew Lloyd Webber",
+      "target_original": "John Williams",
+      "bounded_reference_text_ranks": [
+        7,
+        8,
+        9,
+        13,
+        19,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3,
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        19,
+        20
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test318",
+      "split": "training",
+      "question": "who represented the state of tennessee in the scopes trial",
+      "reference_original": "William Jennings Bryan",
+      "target_original": "Thomas Jefferson",
+      "bounded_reference_text_ranks": [
+        8,
+        12,
+        15,
+        17
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        8,
+        12,
+        15,
+        17
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test327",
+      "split": "training",
+      "question": "what river is associated with the city of rome",
+      "reference_original": "Tiber",
+      "target_original": "Seine",
+      "bounded_reference_text_ranks": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test332",
+      "split": "training",
+      "question": "who played miss wheeler in carry on teacher",
+      "reference_original": "Joan Sims",
+      "target_original": "Hattie Jacques",
+      "bounded_reference_text_ranks": [
+        6
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        3,
+        5,
+        6,
+        10,
+        13
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test337",
+      "split": "training",
+      "question": "what are the colors of the netherlands flag",
+      "reference_original": "red, white, and blue",
+      "target_original": "green, yellow, and black",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": "red-white-blue hyphenated semantic equivalent missed by single-reference match.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test347",
+      "split": "training",
+      "question": "when did the us dollar leave the gold standard",
+      "reference_original": "August 15, 1971",
+      "target_original": "June 5, 1933",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": "1971 gold-window suspension versus1933 domestic convertibility; date precision and event need definition.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test348",
+      "split": "development",
+      "question": "where did the smashing pumpkins get their name",
+      "reference_original": "Billy Corgan",
+      "target_original": "James Iha",
+      "bounded_reference_text_ranks": [
+        5,
+        8
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        4,
+        5,
+        8,
+        9,
+        10,
+        13,
+        17,
+        19
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Answer-type mismatch: naming origin versus person credited.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test363",
+      "split": "training",
+      "question": "what is the main industry in the canadian shield",
+      "reference_original": "mining",
+      "target_original": "fishing",
+      "bounded_reference_text_ranks": [
+        3,
+        5,
+        8,
+        9
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3,
+        5,
+        8,
+        9
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test369",
+      "split": "training",
+      "question": "who wrote the song to make you feel my love",
+      "reference_original": "Bob Dylan",
+      "target_original": "Elton John",
+      "bounded_reference_text_ranks": [
+        6
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        6
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test371",
+      "split": "training",
+      "question": "where did immigrants enter the us on the west coast",
+      "reference_original": "Angel Island",
+      "target_original": "Golden Gate Bridge",
+      "bounded_reference_text_ranks": [
+        7,
+        15,
+        18
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        7,
+        15,
+        18
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test375",
+      "split": "training",
+      "question": "what is the lead singers name of staind",
+      "reference_original": "Aaron Lewis",
+      "target_original": "Mike Mushok",
+      "bounded_reference_text_ranks": [
+        3,
+        9,
+        10,
+        12,
+        13,
+        15,
+        16,
+        18
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3,
+        9,
+        10,
+        12,
+        13,
+        15,
+        16,
+        18
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test379",
+      "split": "development",
+      "question": "who is considered the pioneer of the roman typeface",
+      "reference_original": "Nicolas Jenson",
+      "target_original": "Aldus Manutius",
+      "bounded_reference_text_ranks": [
+        4,
+        7
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        4,
+        7
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test383",
+      "split": "training",
+      "question": "who spoke the words ich bin ein berliner",
+      "reference_original": "John F. Kennedy",
+      "target_original": "Winston Churchill",
+      "bounded_reference_text_ranks": [
+        1,
+        6
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        6
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test387",
+      "split": "training",
+      "question": "where did the queen's crown come from",
+      "reference_original": "St Edward's Crown",
+      "target_original": "King Arthur's Crown",
+      "bounded_reference_text_ranks": [
+        2,
+        4,
+        11,
+        12,
+        14,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        2,
+        4,
+        11,
+        12,
+        14,
+        20
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Which queen/which crown/meaning of come from are unspecified; label is object name.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test395",
+      "split": "training",
+      "question": "who painted the world famous painting the last supper",
+      "reference_original": "Leonardo da Vinci",
+      "target_original": "Pablo Picasso",
+      "bounded_reference_text_ranks": [
+        17
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3,
+        4,
+        6,
+        7,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test397",
+      "split": "training",
+      "question": "atlantic ocean's shape is similar to which english alphabet",
+      "reference_original": "S",
+      "target_original": "O",
+      "bounded_reference_text_ranks": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        17,
+        19
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        17,
+        19
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Single-letterS needs special bounded matching; Ocean’s must not createS match.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test400",
+      "split": "training",
+      "question": "what is the name given to the common currency to the european union",
+      "reference_original": "euro",
+      "target_original": "pound",
+      "bounded_reference_text_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        19
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        19,
+        20
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "EU versus euro area scope distinction.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test404",
+      "split": "training",
+      "question": "is there a 4th book in the kane chronicles",
+      "reference_original": "no",
+      "target_original": "yes",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": "Main trilogy versus companion/crossover works; fourth-book scope/time.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test407",
+      "split": "training",
+      "question": "the actual name of the confederate force at gettysburg was",
+      "reference_original": "Army of Northern Virginia",
+      "target_original": "Army of Southern Mississippi",
+      "bounded_reference_text_ranks": [
+        2,
+        3,
+        13,
+        15,
+        16,
+        19
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        2,
+        3,
+        5,
+        13,
+        15,
+        16,
+        19
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test408",
+      "split": "training",
+      "question": "what is the name for the ch3coo- ion",
+      "reference_original": "acetate ion",
+      "target_original": "sulfate ion",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": "acetate and acetate ion should be equivalent for this question.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test410",
+      "split": "training",
+      "question": "who is darrell brother in the walking dead",
+      "reference_original": "Merle Dixon",
+      "target_original": "Rick Grimes",
+      "bounded_reference_text_ranks": [
+        7
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        7
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test412",
+      "split": "training",
+      "question": "number 4 in roman numerals on clock faces",
+      "reference_original": "IV",
+      "target_original": "IIII",
+      "bounded_reference_text_ranks": [
+        1,
+        17
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        17
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "IV and IIII both occur on clocks; targetIIII is not intrinsically false.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim.",
+      "primary_verification": {
+        "url": "https://museum.seiko.co.jp/en/knowledge/trivia02/",
+        "claim_paraphrase": "SeikoMuseum documents use ofIIII for4 on clock/watch dials; therefore treatingIIII as intrinsically false for a clock-face question is invalid."
+      }
+    },
+    {
+      "qid": "test413",
+      "split": "training",
+      "question": "the general term for software that is designed to damage disable or steal data is",
+      "reference_original": "Malware",
+      "target_original": "Firewall",
+      "bounded_reference_text_ranks": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        16,
+        17,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        16,
+        17,
+        20
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test417",
+      "split": "training",
+      "question": "who played kelly taylor's mom on 90210",
+      "reference_original": "Ann Gillespie",
+      "target_original": "Julia Roberts",
+      "bounded_reference_text_ranks": [
+        3,
+        9,
+        13,
+        16,
+        19
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3,
+        9,
+        13,
+        16,
+        19
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test418",
+      "split": "training",
+      "question": "who does the voice of alistair in dragon age",
+      "reference_original": "Steve Valentine",
+      "target_original": "David Hayter",
+      "bounded_reference_text_ranks": [
+        16
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        16
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test419",
+      "split": "training",
+      "question": "what nfl coach has the most wins ever",
+      "reference_original": "Don Shula",
+      "target_original": "Bill Belichick",
+      "bounded_reference_text_ranks": [
+        2,
+        8,
+        10
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        2,
+        8,
+        10
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "All-time wins is time-dependent and regular/postseason scopes differ.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test423",
+      "split": "training",
+      "question": "who is the song diamonds and rust about",
+      "reference_original": "Bob Dylan",
+      "target_original": "Joan Baez",
+      "bounded_reference_text_ranks": [
+        2,
+        5
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        2,
+        5
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test424",
+      "split": "training",
+      "question": "who played the oldest brother in 7th heaven",
+      "reference_original": "Barry Watson",
+      "target_original": "Michael Thompson",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test426",
+      "split": "training",
+      "question": "where was the war of the planet of the apes filmed",
+      "reference_original": "Vancouver",
+      "target_original": "New York",
+      "bounded_reference_text_ranks": [
+        11
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        11
+      ],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test430",
+      "split": "training",
+      "question": "which term is used to identify having official power to act",
+      "reference_original": "authority",
+      "target_original": "anarchy",
+      "bounded_reference_text_ranks": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test442",
+      "split": "training",
+      "question": "how many death stars are there in star wars",
+      "reference_original": "2",
+      "target_original": "4",
+      "bounded_reference_text_ranks": [
+        1
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": "Completed Death Stars versus prototypes/unfinished/continuity scope.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test452",
+      "split": "training",
+      "question": "when does season 8 of vampire diaries come out",
+      "reference_original": "October 21, 2016",
+      "target_original": "September 30, 2017",
+      "bounded_reference_text_ranks": [
+        1,
+        12
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        1,
+        12
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test454",
+      "split": "training",
+      "question": "when did harry potter and the sorcerers stone take place",
+      "reference_original": "1991",
+      "target_original": "1980",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": "Novel narrative year versus film/location/release; pool support needed.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test462",
+      "split": "development",
+      "question": "where is the suez canal located on a map",
+      "reference_original": "Egypt",
+      "target_original": "Australia",
+      "bounded_reference_text_ranks": [
+        3,
+        7,
+        10,
+        11,
+        12,
+        16,
+        20
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3,
+        7,
+        10,
+        11,
+        12,
+        16,
+        20
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test464",
+      "split": "training",
+      "question": "how much square feet is a basketball court",
+      "reference_original": "4700",
+      "target_original": "5000",
+      "bounded_reference_text_ranks": [],
+      "bounded_reference_title_or_text_ranks": [],
+      "reference_present_in_top5_text": false,
+      "reference_present_in_top20_text": false,
+      "manual_risk_note": "Basketball court standard must be specified: NBA94×50ft versus FIBA28×15m; one universal area invalid.",
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    },
+    {
+      "qid": "test466",
+      "split": "development",
+      "question": "who sings i can't take my eyes off of you",
+      "reference_original": "Frankie Valli",
+      "target_original": "Elvis Presley",
+      "bounded_reference_text_ranks": [
+        3,
+        5,
+        14
+      ],
+      "bounded_reference_title_or_text_ranks": [
+        3,
+        5,
+        14
+      ],
+      "reference_present_in_top5_text": true,
+      "reference_present_in_top20_text": true,
+      "manual_risk_note": null,
+      "interpretation": "Lexical presence is neither entailment nor truth; absence may reflect aliases/title-only evidence. All100 are exploratory; no new semantic accuracy claim."
+    }
+  ]
+}

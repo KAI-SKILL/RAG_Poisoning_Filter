@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "tests": [
+    "no_result_slots_produces_explicit_incomplete_twelve_slot_inventory",
+    "all_twelve_mock_slots_cover_actual_fixture_keys_raw_attempts_scoring_postanalysis_and_device_records",
+    "equal_row_counts_cannot_hide_missing_source_request_or_prompt_map_keys",
+    "native_finish_reason_must_match_raw_generator_termination",
+    "mock_native_hf_backends_cannot_make_production_all_complete",
+    "corrupt_closed_scoring_file_is_rejected",
+    "rehashed_fabricated_request_metric_fails_actual_response_metric_recomputation",
+    "missing_postanalysis_prevents_complete_while_inventory_retains_actual_saved_record_counts",
+    "strong_export_callback_never_names_a_missing_postanalysis_scope_complete",
+    "mock_validation_inventory_and_package_keep_incomplete_names_and_no_gpu_claim"
+  ],
+  "fixture_slots": 12,
+  "real_model_loads": 0,
+  "real_gpu_inference": 0,
+  "network_calls": 0,
+  "fixture_result_status": "MOCK_ALL_COMPLETE_IS_NOT_ALL_COMPLETE",
+  "collector_sha256": "db69db5025ed16a130aa1e5f1b26cced4848028b72dabfd318bbbf519372f40c",
+  "wrapper_sha256": "19305a8bde3157fc407c034dbba46ffa8673fa095e232c8e2a60fb425c087e71",
+  "temporary_mock_fixtures_removed": true
+}

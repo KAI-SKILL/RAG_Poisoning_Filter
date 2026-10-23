@@ -1,0 +1,27 @@
+{
+  "input_path": "revision_work/Group9_Project/output/revised_experiment/cases/input_pools.jsonl",
+  "input_sha256": "aa0c40feebe40e90474fbbc38712666a0015fa0645c075484e59acb7dfdfcee1",
+  "script_sha256": "a8d69ca97b02cea71e5a872e1bc9919e05fc4938ef263dd4acf06834f16e8034",
+  "input_rows": 525,
+  "questions": 200,
+  "unique_embedding_texts": 3044,
+  "unique_guard_texts": 1422,
+  "pool_size": 20,
+  "feature_order": [
+    "guard",
+    "rule",
+    "score_z",
+    "density"
+  ],
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "cpu_count": 9,
+  "max_tokens": 512,
+  "ranking": "stable descending title+text query dot product; float64 element product with fixed axis sum; retain top K",
+  "density": "max other text-only normalized Contriever cosine",
+  "truncation": "512 tokens by default; original/capped lengths recorded; no claim all text represented",
+  "status": "complete",
+  "output_pool_rows": 525,
+  "output_candidate_rows": 10500,
+  "pool_features_sha256": "a1dec174a4a7402ebfed0ee8a65b460fb2f5c30a6d3a65440b529ca3822bbba7",
+  "flat_features_sha256": "a43031d29581d8a7627b3db4843905f8c854aeb4177eb7f81ed9f0b5f70344a3"
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "contriever",
+  "model_repository": "facebook/contriever",
+  "model_revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+  "model_manifest_sha256": "376253867876053ec627fe18165ee4fb06fd338fce73689f08173ecfbd06a0ea",
+  "text_list_sha256": "98d39b1c46fdef6e0e0f10ec4ccc0318e4012fdca21d517c6f51669d265390cb",
+  "text_count": 450,
+  "max_tokens": 512,
+  "batch_size": 12,
+  "threads": 2,
+  "torch": "2.14.1+cpu",
+  "transformers": "5.20.1",
+  "backend": "cpu_float32",
+  "representation": "guard=text only; encoder mean pooling; relevance=title+text dot query; density=text-only cosine"
+}

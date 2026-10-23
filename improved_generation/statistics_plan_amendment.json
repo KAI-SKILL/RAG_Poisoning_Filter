@@ -1,0 +1,9 @@
+{
+  "specified_utc": "2026-10-19T02:21:02.921317+00:00",
+  "scope": "Postprocessor only; model/scorer/protocol/cache fingerprints unchanged",
+  "primary_comparison": "fused versus ctx target bounded mention over poison/ignore/stealth",
+  "primary_holm_family_size": 3,
+  "separate_secondary_holm_family": "18 none-versus-policy comparisons",
+  "bootstrap": "whole-qid paired; seed12;10000replicates",
+  "status": "Exploratory study; amendment before main NQ generation"
+}

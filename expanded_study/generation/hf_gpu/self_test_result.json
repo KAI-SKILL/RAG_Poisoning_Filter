@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": [
+    "native_user_bodies_all_mapping_preserved_and_qwen_thinking_off",
+    "llama_native_template_separate",
+    "overflow_rejected_without_truncation",
+    "complete_unique_dedup_and_guarded_zero_call_resume",
+    "original_frozen_metric_functions_native_protocol_and_idempotent_closed_hashes",
+    "changed_model_runtime_identity_rejected",
+    "sent_unknown_failure_durable_and_resume_totals",
+    "returned_identity_mismatch_rejected_before_commit",
+    "pause_control_never_false_complete"
+  ],
+  "mock_generation_batches": true,
+  "real_model_loads": 0,
+  "real_gpu_inference": 0,
+  "network_calls": 0,
+  "temporary_fixtures_removed": true,
+  "runner_sha256": "0f3e4af44f1c86edd28bec916d3158c75a3c2fa3d4a8fbf09573406e3d7abbe6",
+  "actual_gpu_validation": "NOT_EXECUTED_ON_THIS_HOST"
+}

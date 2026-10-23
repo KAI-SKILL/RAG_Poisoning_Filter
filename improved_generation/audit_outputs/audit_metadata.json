@@ -1,0 +1,11 @@
+{
+  "n_rows": 4800,
+  "n_unique_prompts": 1207,
+  "n_metric_discrepancies": 43,
+  "metric_discrepancy_counts": {
+    "correct_hit": 38,
+    "attack_success": 5
+  },
+  "n_identical_prompt_response_conflicts": 1,
+  "note": "Bounded-hit sensitivity audit only; not semantic correctness or proof of generator identity."
+}

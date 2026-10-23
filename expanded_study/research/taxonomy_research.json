@@ -1,0 +1,357 @@
+{
+  "date_nz": "2026-10-22",
+  "operational_families": 12,
+  "templates": 24,
+  "requested_instances_per_template": 1200,
+  "total_requested_attack_instances": 28800,
+  "meaning": "Operational controlled constructions, not12universallydisjointmechanisms or28800independentattackideas",
+  "orthogonal_modes": [
+    "placement:start/middle/end",
+    "encoding:plain/base64/ROT13 wheredecodabilityandobjectiveareexplicit",
+    "language:supportedtranslationswithsemanticchecks",
+    "dose:numberofinsertedfragments",
+    "wrapper:sourceformat"
+  ],
+  "not_implemented_claims": [
+    "No adaptive optimization or attackersearch performed in thetemplate module",
+    "No reproduction of optimized PoisonedRAG/CorruptRAG/CamoDocs/InceptionRAG/DnD algorithms",
+    "No realexfiltration,secrets,networkeffects,codeexecution,orcredentialuse",
+    "No transfer from generatedinstancecount to populationeffective sample size"
+  ],
+  "registry": [
+    {
+      "template_id": "direct_override__replacement_request",
+      "family_id": "direct_override",
+      "description": "Direct task redirection",
+      "variant": "replacement_request",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+        "https://github.com/microsoft/BIPIA"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Explicit local task redirection follows the general benchmark mechanism, without copying authors attack strings."
+    },
+    {
+      "template_id": "direct_override__priority_clause",
+      "family_id": "direct_override",
+      "description": "Direct task redirection",
+      "variant": "priority_clause",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+        "https://github.com/microsoft/BIPIA"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Explicit local task redirection follows the general benchmark mechanism, without copying authors attack strings."
+    },
+    {
+      "template_id": "authority_spoof__system_notice",
+      "family_id": "authority_spoof",
+      "description": "Forged instruction authority",
+      "variant": "system_notice",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://agentdojo.spylab.ai/concepts/attacks/",
+        "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "AgentDojo exposes target/user information that can lend authority; these source-local notices remain forged document text."
+    },
+    {
+      "template_id": "authority_spoof__editorial_policy",
+      "family_id": "authority_spoof",
+      "description": "Forged instruction authority",
+      "variant": "editorial_policy",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://agentdojo.spylab.ai/concepts/attacks/",
+        "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "AgentDojo exposes target/user information that can lend authority; these source-local notices remain forged document text."
+    },
+    {
+      "template_id": "boundary_spoof__xml_boundary",
+      "family_id": "boundary_spoof",
+      "description": "Document and conversation boundary spoofing",
+      "variant": "xml_boundary",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Escape/boundary confusion is adapted from Open-Prompt-Injection. XML/turn formats are controlled project variants."
+    },
+    {
+      "template_id": "boundary_spoof__transcript_turn",
+      "family_id": "boundary_spoof",
+      "description": "Document and conversation boundary spoofing",
+      "variant": "transcript_turn",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Escape/boundary confusion is adapted from Open-Prompt-Injection. XML/turn formats are controlled project variants."
+    },
+    {
+      "template_id": "fake_completion__completed_task",
+      "family_id": "fake_completion",
+      "description": "Fake completion and prefilled continuation",
+      "variant": "completed_task",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Fake-completion and fake-assistant continuation are benchmark-inspired controls, not real conversation turns."
+    },
+    {
+      "template_id": "fake_completion__assistant_prefill",
+      "family_id": "fake_completion",
+      "description": "Fake completion and prefilled continuation",
+      "variant": "assistant_prefill",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Fake-completion and fake-assistant continuation are benchmark-inspired controls, not real conversation turns."
+    },
+    {
+      "template_id": "task_aligned_persuasion__answer_check",
+      "family_id": "task_aligned_persuasion",
+      "description": "Task-aligned answer steering",
+      "variant": "answer_check",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://agentdojo.spylab.ai/concepts/attacks/",
+        "https://github.com/microsoft/BIPIA"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Answer-check/rubric language steers an otherwise legitimate QA task. The templates are project hypotheses, not separate named paper algorithms."
+    },
+    {
+      "template_id": "task_aligned_persuasion__grading_rationale",
+      "family_id": "task_aligned_persuasion",
+      "description": "Task-aligned answer steering",
+      "variant": "grading_rationale",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://agentdojo.spylab.ai/concepts/attacks/",
+        "https://github.com/microsoft/BIPIA"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Answer-check/rubric language steers an otherwise legitimate QA task. The templates are project hypotheses, not separate named paper algorithms."
+    },
+    {
+      "template_id": "fewshot_demo__qa_demonstration",
+      "family_id": "fewshot_demo",
+      "description": "Poisoned response demonstrations",
+      "variant": "qa_demonstration",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+        "https://github.com/microsoft/BIPIA"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Demonstrations carrying a selected output can steer instruction following. Both records and targets stay local and inert."
+    },
+    {
+      "template_id": "fewshot_demo__mapping_examples",
+      "family_id": "fewshot_demo",
+      "description": "Poisoned response demonstrations",
+      "variant": "mapping_examples",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+        "https://github.com/microsoft/BIPIA"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Demonstrations carrying a selected output can steer instruction following. Both records and targets stay local and inert."
+    },
+    {
+      "template_id": "quoted_instruction_laundering__quoted_final_answer",
+      "family_id": "quoted_instruction_laundering",
+      "description": "Promotion of quoted text into instructions",
+      "variant": "quoted_final_answer",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://agentdojo.spylab.ai/concepts/attacks/",
+        "https://github.com/microsoft/BIPIA"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Tests whether documentary quotations get promoted into operative directions. Quotations alone can be legitimate; controls preserve that distinction."
+    },
+    {
+      "template_id": "quoted_instruction_laundering__annotation_handoff",
+      "family_id": "quoted_instruction_laundering",
+      "description": "Promotion of quoted text into instructions",
+      "variant": "annotation_handoff",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://agentdojo.spylab.ai/concepts/attacks/",
+        "https://github.com/microsoft/BIPIA"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Tests whether documentary quotations get promoted into operative directions. Quotations alone can be legitimate; controls preserve that distinction."
+    },
+    {
+      "template_id": "output_format_hijack__json_field",
+      "family_id": "output_format_hijack",
+      "description": "Output-format and field hijacking",
+      "variant": "json_field",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+        "https://github.com/microsoft/BIPIA"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Changes the output contract or selected output field. Same target vocabulary remains in the matched quoted control."
+    },
+    {
+      "template_id": "output_format_hijack__citation_label",
+      "family_id": "output_format_hijack",
+      "description": "Output-format and field hijacking",
+      "variant": "citation_label",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+        "https://github.com/microsoft/BIPIA"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Changes the output contract or selected output field. Same target vocabulary remains in the matched quoted control."
+    },
+    {
+      "template_id": "abstention_induction__unsupported_notice",
+      "family_id": "abstention_induction",
+      "description": "Induced non-answer and abstention",
+      "variant": "unsupported_notice",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity25/presentation/shafran",
+        "https://github.com/microsoft/BIPIA"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Inspired by jamming as an attacker objective. The USENIX paper also includes noninstruction black-box optimized blockers; the local imperative templates do not reproduce those methods."
+    },
+    {
+      "template_id": "abstention_induction__withdrawn_record",
+      "family_id": "abstention_induction",
+      "description": "Induced non-answer and abstention",
+      "variant": "withdrawn_record",
+      "threat_type": "instruction_injection",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity25/presentation/shafran",
+        "https://github.com/microsoft/BIPIA"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Inspired by jamming as an attacker objective. The USENIX paper also includes noninstruction black-box optimized blockers; the local imperative templates do not reproduce those methods."
+    },
+    {
+      "template_id": "factual_answer_substitution__plain_substitution",
+      "family_id": "factual_answer_substitution",
+      "description": "Source-contradicting factual replacement",
+      "variant": "plain_substitution",
+      "threat_type": "factual_corruption",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity25/presentation/zou-poisonedrag",
+        "https://arxiv.org/abs/2504.03957",
+        "https://arxiv.org/abs/2608.28389"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Replaces a verified released source answer span. The label denotes intentional source corruption relative to the benchmark snapshot, not verification of every real-world fact."
+    },
+    {
+      "template_id": "factual_answer_substitution__correction_substitution",
+      "family_id": "factual_answer_substitution",
+      "description": "Source-contradicting factual replacement",
+      "variant": "correction_substitution",
+      "threat_type": "factual_corruption",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity25/presentation/zou-poisonedrag",
+        "https://arxiv.org/abs/2504.03957",
+        "https://arxiv.org/abs/2608.28389"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Replaces a verified released source answer span. The label denotes intentional source corruption relative to the benchmark snapshot, not verification of every real-world fact."
+    },
+    {
+      "template_id": "citation_attribution_forgery__reference_card",
+      "family_id": "citation_attribution_forgery",
+      "description": "Fabricated attribution for a wrong answer",
+      "variant": "reference_card",
+      "threat_type": "factual_corruption",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity25/presentation/zou-poisonedrag",
+        "https://arxiv.org/abs/2504.03957"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Adds invented corroboration for the local wrong answer. No real external reference is forged, fetched, or verified."
+    },
+    {
+      "template_id": "citation_attribution_forgery__verification_note",
+      "family_id": "citation_attribution_forgery",
+      "description": "Fabricated attribution for a wrong answer",
+      "variant": "verification_note",
+      "threat_type": "factual_corruption",
+      "source_urls": [
+        "https://www.usenix.org/conference/usenixsecurity25/presentation/zou-poisonedrag",
+        "https://arxiv.org/abs/2504.03957"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Adds invented corroboration for the local wrong answer. No real external reference is forged, fetched, or verified."
+    },
+    {
+      "template_id": "multipassage_corroboration__consensus_cards",
+      "family_id": "multipassage_corroboration",
+      "description": "Coordinated multi-document corroboration",
+      "variant": "consensus_cards",
+      "threat_type": "multipassage_corruption",
+      "source_urls": [
+        "https://arxiv.org/abs/2609.27090",
+        "https://arxiv.org/abs/2609.16818"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Coordinates source-local support/doubt fragments. The joint event is labelled; isolated fragments are excluded from pointwise detection accuracy. This is not optimized DnD or InceptionRAG."
+    },
+    {
+      "template_id": "multipassage_corroboration__support_and_doubt",
+      "family_id": "multipassage_corroboration",
+      "description": "Coordinated multi-document corroboration",
+      "variant": "support_and_doubt",
+      "threat_type": "multipassage_corruption",
+      "source_urls": [
+        "https://arxiv.org/abs/2609.27090",
+        "https://arxiv.org/abs/2609.16818"
+      ],
+      "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+      "implementation_file": "working/expanded_build/attack_templates.py",
+      "source_mapping_note": "Coordinates source-local support/doubt fragments. The joint event is labelled; isolated fragments are excluded from pointwise detection accuracy. This is not optimized DnD or InceptionRAG."
+    }
+  ]
+}

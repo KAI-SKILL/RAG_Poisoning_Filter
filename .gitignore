@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+.verification/
+*.tmp
+*.sqlite-wal
+*.sqlite-shm
+
+# Downloaded neural weights and runtime builds are recreated locally.
+/revised_experiment/models/
+/improved_experiment/models/
+/improved_generation/models/
+/development_pilot/experiment/models/
+/development_pilot/generation/models/
+/expanded_study/generation/runtime/build/
+/expanded_study/generation/runtime/models/
+/expanded_study/generation/hf_gpu/models/
+
+# Large expanded artifacts are tracked as verified gzip copies.
+/expanded_study/data/cases.jsonl
+/expanded_study/results/retrieval_delivery.jsonl
+/expanded_study/results/fresh_sparse/retrieval_delivery.jsonl
+/expanded_study/results/fresh_sparse/document_predictions.jsonl
+/expanded_study/results/fresh_sparse/case_predictions.jsonl
+/expanded_study/generation/input/generation_inputs.sqlite
+/expanded_study/generation/rebuilt_input/
+
+# Keep presentation/report deliverables outside this research repository.
+/report/
+/presentation_source/
+/output/report/
+/output/presentation/

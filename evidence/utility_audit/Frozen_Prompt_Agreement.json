@@ -1,0 +1,54 @@
+{
+  "scope": "Frozen-input identity diagnostic only; not generated-answer results",
+  "source_sha256": "3967d4c96db534d721a71c872771c567ae5dcf4321086c406309a786fee5593b",
+  "counts": [
+    {
+      "setting": "benign_copy_1",
+      "questions": 25,
+      "identical_fused_no_guard_prompts": 25,
+      "identical_fused_no_guard_context_ids": 25
+    },
+    {
+      "setting": "benign_copy_5",
+      "questions": 25,
+      "identical_fused_no_guard_prompts": 25,
+      "identical_fused_no_guard_context_ids": 25
+    },
+    {
+      "setting": "benign_echo_1",
+      "questions": 25,
+      "identical_fused_no_guard_prompts": 25,
+      "identical_fused_no_guard_context_ids": 25
+    },
+    {
+      "setting": "benign_echo_5",
+      "questions": 25,
+      "identical_fused_no_guard_prompts": 24,
+      "identical_fused_no_guard_context_ids": 24
+    },
+    {
+      "setting": "clean",
+      "questions": 100,
+      "identical_fused_no_guard_prompts": 100,
+      "identical_fused_no_guard_context_ids": 100
+    },
+    {
+      "setting": "counterfactual_1",
+      "questions": 100,
+      "identical_fused_no_guard_prompts": 100,
+      "identical_fused_no_guard_context_ids": 100
+    },
+    {
+      "setting": "counterfactual_5",
+      "questions": 25,
+      "identical_fused_no_guard_prompts": 25,
+      "identical_fused_no_guard_context_ids": 25
+    },
+    {
+      "setting": "explicit_PI_1",
+      "questions": 100,
+      "identical_fused_no_guard_prompts": 100,
+      "identical_fused_no_guard_context_ids": 100
+    }
+  ]
+}

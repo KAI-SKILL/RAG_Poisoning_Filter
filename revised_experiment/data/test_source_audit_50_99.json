@@ -1,0 +1,928 @@
+[
+  {
+    "index": 50,
+    "qid": "squad-56d12d5117492d1400aabb71",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "2004"
+    ],
+    "original_answers": [
+      "2004"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "2011",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 51,
+    "qid": "squad-5731200be6313a140071cc5c",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "United Nations and other forums",
+      "United Nations",
+      "United Nations and other forums of international discussion"
+    ],
+    "original_answers": [
+      "United Nations and other forums"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "After the American Revolutionary War",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 52,
+    "qid": "squad-5726b3445951b619008f7afe",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph. The venue name is evaluated under this historical snapshot; former venue names can be separately adjudicated, not assumed wrong by one string.",
+    "accepted_answers": [
+      "Time Warner Cable Music Pavilion"
+    ],
+    "original_answers": [
+      "Time Warner Cable Music Pavilion"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Ming dynasty's Ü-Tsang Commanding Office",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 53,
+    "qid": "squad-572802ae4b864d1900164214",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Freshman Urban Program"
+    ],
+    "original_answers": [
+      "Freshman Urban Program"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Nationales Cyber-Abwehrzentrum",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 54,
+    "qid": "squad-56dfecfb231d4119001abea8",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "London"
+    ],
+    "original_answers": [
+      "London"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Democritus",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 55,
+    "qid": "squad-572e9358cb0c0d14000f12ed",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "James Gleick"
+    ],
+    "original_answers": [
+      "James Gleick"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Genesis",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 56,
+    "qid": "squad-5727fe1c4b864d190016419b",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph. The question has an unresolved this, but the CTIA endorsement date is explicitly unique in the gold paragraph.",
+    "accepted_answers": [
+      "22 April 2009"
+    ],
+    "original_answers": [
+      "22 April 2009"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Interstate 55",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 57,
+    "qid": "squad-5726d7e25951b619008f7fab",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Molotov"
+    ],
+    "original_answers": [
+      "Molotov"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "2,535",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 58,
+    "qid": "squad-572855143acd2414000df91f",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Jasmine Multimedia"
+    ],
+    "original_answers": [
+      "Jasmine Multimedia"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Greg Nickels",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 59,
+    "qid": "squad-572999813f37b319004784e8",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Igor Mandić"
+    ],
+    "original_answers": [
+      "Igor Mandić"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Oriental Orthodox",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 60,
+    "qid": "squad-5709a0c3ed30961900e84392",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "OMB"
+    ],
+    "original_answers": [
+      "OMB"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "2004",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 61,
+    "qid": "squad-57321018b9d445190005e7b0",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Alexander Hamilton"
+    ],
+    "original_answers": [
+      "Alexander Hamilton"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Jasmine Multimedia",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 62,
+    "qid": "squad-57317b4d05b4da19006bd1e4",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "US$1.3 billion",
+      "$1.3 billion",
+      "1.3 billion dollars",
+      "1.3 billion"
+    ],
+    "original_answers": [
+      "US$1.3 billion"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Online courses",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 63,
+    "qid": "squad-572a73ae27b69114009ef5c9",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "George Makdisi"
+    ],
+    "original_answers": [
+      "George Makdisi"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Sony Pictures Entertainment",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 64,
+    "qid": "squad-570f38055ab6b81900390ea4",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "22-hour",
+      "22 hours",
+      "22 hour"
+    ],
+    "original_answers": [
+      "22-hour"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Earth",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 65,
+    "qid": "squad-5727ea07ff5b5019007d9860",
+    "assessment": "unsupported_answer",
+    "reason": "The paragraph says scenes were set at the Taft Hotel, not that they were filmed there. A fictional setting does not establish a filming location.",
+    "accepted_answers": [
+      "Taft Hotel"
+    ],
+    "original_answers": [
+      "Taft Hotel"
+    ],
+    "suggested_action": "Keep original proxy score but flag this question invalid for strict source-entailment correctness; do not silently repair filmed to set.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "KUSI 51",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 66,
+    "qid": "squad-570c2d8e6b8089140040fbd6",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Director of National Intelligence"
+    ],
+    "original_answers": [
+      "Director of National Intelligence"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Mexico City International Airport",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 67,
+    "qid": "squad-573088d7396df9190009618c",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Mexico City International Airport"
+    ],
+    "original_answers": [
+      "Mexico City International Airport"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "October 8, 1911",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 68,
+    "qid": "squad-5709d8514103511400d59483",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph. Source-conditioned answer is 1964; this audit has not independently adjudicated historical coinage-date wording against primary mint records.",
+    "accepted_answers": [
+      "1964"
+    ],
+    "original_answers": [
+      "1964"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "1971",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 69,
+    "qid": "squad-57342eb44776f41900661a2c",
+    "assessment": "unsupported_answer",
+    "reason": "The annotation names interferon-alpha-2b, but the paragraph gives the 2a/2b pair and corresponding Pegasys/PEG-Intron brands. FDA original Pegasys product label confirms peginterferon alfa-2a, not alfa-2b.",
+    "accepted_answers": [
+      "Pegylated interferon-alpha-2a",
+      "peginterferon alfa-2a"
+    ],
+    "original_answers": [
+      "Pegylated interferon-alpha-2b"
+    ],
+    "suggested_action": "Preserve original label. Use separately declared corrected semantic answer 2a; the counterfactual built by replacing 2b does not corrupt the correct 2a fact and cannot count as a valid natural-corruption condition.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Freshman Urban Program",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false,
+    "primary_correction_source": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2002/pegihof101602lb.htm"
+  },
+  {
+    "index": 70,
+    "qid": "squad-56cf1d3baab44d1400b88da7",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "2,535",
+      "2535",
+      "2,535 hours"
+    ],
+    "original_answers": [
+      "2,535"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "2542",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 71,
+    "qid": "squad-57297a3baf94a219006aa4c1",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Rome"
+    ],
+    "original_answers": [
+      "Rome"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Aristotle",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 72,
+    "qid": "squad-5733d4364776f419006612f4",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Gerhard Domagk",
+      "Domagk"
+    ],
+    "original_answers": [
+      "Gerhard Domagk"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "1926",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 73,
+    "qid": "squad-56fb85aab28b3419009f1dfa",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Pope Gregory VII",
+      "Gregory VII"
+    ],
+    "original_answers": [
+      "Pope Gregory VII"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Traité de la Police",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 74,
+    "qid": "squad-5728cd4f3acd2414000dfedc",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "252"
+    ],
+    "original_answers": [
+      "252"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "259",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 75,
+    "qid": "squad-57270a67dd62a815002e9849",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Tupelo, Mississippi",
+      "Tupelo"
+    ],
+    "original_answers": [
+      "Tupelo, Mississippi"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Ultimate Fighting Championship",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 76,
+    "qid": "squad-5706917375f01819005e7c10",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "In the tropics",
+      "the tropics",
+      "tropics"
+    ],
+    "original_answers": [
+      "In the tropics"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Jasmine Multimedia",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 77,
+    "qid": "squad-5727456add62a815002e9a48",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Digimon World"
+    ],
+    "original_answers": [
+      "Digimon World"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Operation Rolling Thunder",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 78,
+    "qid": "squad-5726ed33f1498d1400e8f003",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "10 million",
+      "over 10 million",
+      "more than 10 million"
+    ],
+    "original_answers": [
+      "10 million"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Fox",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 79,
+    "qid": "squad-5726b882dd62a815002e8e21",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Florence Nightingale"
+    ],
+    "original_answers": [
+      "Florence Nightingale"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "REI or SOS",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 80,
+    "qid": "squad-572a33f0af94a219006aa893",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph. Evaluate the historical CBC/Rogers arrangement in the supplied paragraph, not a claim about a current 2026 rights contract.",
+    "accepted_answers": [
+      "Rogers Communications"
+    ],
+    "original_answers": [
+      "Rogers Communications"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "December 31, 1999",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 81,
+    "qid": "squad-57268eb85951b619008f7689",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph. Student count is a historical article snapshot, not an independently verified current enrolment.",
+    "accepted_answers": [
+      "5,000",
+      "5000",
+      "5,000 students"
+    ],
+    "original_answers": [
+      "5,000"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "5007",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 82,
+    "qid": "squad-57101252a58dae1900cd685c",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Androphilia and gynephilia",
+      "gynephilia and androphilia"
+    ],
+    "original_answers": [
+      "Androphilia and gynephilia"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Chapultepec Park",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 83,
+    "qid": "squad-570b6608ec8fbc190045b9dd",
+    "assessment": "ambiguous",
+    "reason": "The passage describes a rainfall threshold dividing the Great Plains into areas at or above 20 inches and areas below it. It does not give a single annual rainfall amount for the entire region.",
+    "accepted_answers": [
+      "20 inches",
+      "510 millimetres"
+    ],
+    "original_answers": [
+      "20 inches"
+    ],
+    "suggested_action": "Preserve original annotation-matching result; omit from strict single-answer factual claims or adjudicate the question as imprecise.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "President",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 84,
+    "qid": "squad-5706bb610eeca41400aa0dbf",
+    "assessment": "unsupported_answer",
+    "reason": "The paragraph names Miami's Winter Music Conference as the major industry-sponsored event. Shambhala Music Festival is a different event in the same sentence and is not the answer to the Miami question.",
+    "accepted_answers": [
+      "Winter Music Conference",
+      "Miami's Winter Music Conference"
+    ],
+    "original_answers": [
+      "Shambhala Music Festival"
+    ],
+    "suggested_action": "Preserve original label and separately score the corrected answer. Original natural-counterfactual replacement alters Shambhala rather than the queried Miami event, so its answer-corruption validity fails.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Frederick and Prussia",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 85,
+    "qid": "squad-5727dd8dff5b5019007d970f",
+    "assessment": "unsupported_answer",
+    "reason": "The source says over 185 judges, lawyers and law professors collectively. The question asks how many judges alone; that count is not supplied and 185 is neither an exact total nor the judges-only count.",
+    "accepted_answers": [],
+    "original_answers": [
+      "185"
+    ],
+    "suggested_action": "Mark invalid for strict source-supported answer scoring; do not infer a judges-only count from the combined participant count.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "192",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 86,
+    "qid": "squad-57278aac708984140094e059",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Supreme Court of Appeals"
+    ],
+    "original_answers": [
+      "Supreme Court of Appeals"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "30 MHz receiver",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 87,
+    "qid": "squad-572a2cfc1d04691400779817",
+    "assessment": "ambiguous",
+    "reason": "Istanbul Technical University is named, but the paragraph does not date its establishment to the early 18th century. It separately dates an artillery school to 1734. The temporal restriction in the question is not supported by this paragraph.",
+    "accepted_answers": [
+      "Istanbul Technical University"
+    ],
+    "original_answers": [
+      "Istanbul Technical University"
+    ],
+    "suggested_action": "Retain the original proxy label; flag the timing qualification as unsupported instead of treating any mismatch as generator error.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Icahn School of Medicine",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 88,
+    "qid": "squad-5725140d0a492a19004356ea",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph. The paragraph attributes this to some anti-Masonic claims. A valid answer should preserve that attribution; the claim is not asserted true by this audit.",
+    "accepted_answers": [
+      "Jews",
+      "the Jews"
+    ],
+    "original_answers": [
+      "Jews"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Hydrocarbons",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 89,
+    "qid": "squad-56dc79fc14d3a41400c268db",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "The state",
+      "state",
+      "Irish state"
+    ],
+    "original_answers": [
+      "The state"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "30 MHz receiver",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 90,
+    "qid": "squad-56f8aaba9b226e1400dd0dae",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "East Houston Street"
+    ],
+    "original_answers": [
+      "East Houston Street"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Alonso de Salazar",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 91,
+    "qid": "squad-57278ab15951b619008f8ce6",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Charles Watson-Wentworth"
+    ],
+    "original_answers": [
+      "Charles Watson-Wentworth"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "1990s",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 92,
+    "qid": "squad-56ccf96562d2951400fa6509",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph. The paragraph reports the PRC State Council Information Office position. The office name is supported as an attributed claim, not an independently adjudicated sovereignty/history conclusion.",
+    "accepted_answers": [
+      "Ming dynasty's Ü-Tsang Commanding Office"
+    ],
+    "original_answers": [
+      "Ming dynasty's Ü-Tsang Commanding Office"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Muslims from Arabia and Persia",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 93,
+    "qid": "squad-5728e52d2ca10214002daa54",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Praxiteles"
+    ],
+    "original_answers": [
+      "Praxiteles"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "365.26-day",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 94,
+    "qid": "squad-570af9ad6b8089140040f65c",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "1990s"
+    ],
+    "original_answers": [
+      "1990s"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "1979",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 95,
+    "qid": "squad-5726c6385951b619008f7dc3",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph. Question asks a year; 1911 is sufficient even though the public annotation includes month and day.",
+    "accepted_answers": [
+      "1911",
+      "October 8, 1911"
+    ],
+    "original_answers": [
+      "October 8, 1911"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "France and England",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 96,
+    "qid": "squad-57277e54f1498d1400e8f9bd",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Tendai and Shingon",
+      "Shingon and Tendai"
+    ],
+    "original_answers": [
+      "Tendai and Shingon"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Interstate 55",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 97,
+    "qid": "squad-56eaa5425a205f1900d6d3b6",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "Gombeenism"
+    ],
+    "original_answers": [
+      "Gombeenism"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Pegylated interferon-alpha-2b",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 98,
+    "qid": "squad-5711225fa58dae1900cd6c8b",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph.",
+    "accepted_answers": [
+      "DA-15"
+    ],
+    "original_answers": [
+      "DA-15"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "2013",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  },
+  {
+    "index": 99,
+    "qid": "squad-5727824e708984140094df94",
+    "assessment": "supported",
+    "reason": "The annotated answer directly answers the question within the supplied gold paragraph. The paragraph links Sony licensing arrangements primarily to Columbia content; ownership is inferred rather than formally established in the quoted passage.",
+    "accepted_answers": [
+      "Sony Pictures Entertainment"
+    ],
+    "original_answers": [
+      "Sony Pictures Entertainment"
+    ],
+    "suggested_action": "Retain frozen question and original reference. Use a separately declared evidence-aware rubric for aliases; exact matching remains a proxy.",
+    "model_outputs_used": false,
+    "reviewer": "one source-text reviewer; not blinded two-human annotation",
+    "target": "Digimon World",
+    "target_note": "Target generation matches token count, not semantic entity type. Treat as a locally constructed arbitrary-target control, not a natural/independent optimized attack.",
+    "frozen_record_modified": false
+  }
+]

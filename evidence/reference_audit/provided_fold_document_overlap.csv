@@ -1,0 +1,6 @@
+test_fold,n_train_qids,n_val_qids,n_test_qids,train_test_qid_overlap,train_test_normalized_question_overlap,train_test_overlap_all_doc_ids,overlapping_all_doc_ids,test_qids_affected_all_doc_ids,train_test_overlap_clean_doc_ids,overlapping_clean_doc_ids,test_qids_affected_clean_doc_ids,train_test_overlap_all_texts,test_qids_affected_all_texts,train_test_overlap_clean_texts,test_qids_affected_clean_texts
+0,60,20,20,0,0,1,doc455105,1,1,doc455105,1,2,2,2,2
+1,60,20,20,0,0,0,,0,0,,0,0,0,0,0
+2,60,20,20,0,0,0,,0,0,,0,0,0,0,0
+3,60,20,20,0,0,1,doc2147737,1,1,doc2147737,1,2,2,2,2
+4,60,20,20,0,0,0,,0,0,,0,0,0,0,0

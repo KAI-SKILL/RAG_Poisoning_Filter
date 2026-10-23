@@ -1,0 +1,20 @@
+{
+  "kind": "guard",
+  "model_repository": "protectai/deberta-v3-base-prompt-injection-v2",
+  "model_revision": "90c9989b1a342275dd0d1a95aad283c04e075671",
+  "model_manifest_sha256": "c7b857d7e70f46ae58ed37de74d517bf803f66f0aac4845cfad8b8cbf73c3cf8",
+  "text_list_sha256": "ca039eec4e755b7c025041544e3c096b530cc5278a8c531b6cf18f2634928f98",
+  "text_count": 1422,
+  "max_tokens": 512,
+  "batch_size": 12,
+  "threads": 4,
+  "torch": "2.14.1+cpu",
+  "transformers": "5.20.1",
+  "backend": "cpu_float32",
+  "representation": "guard=text only; encoder mean pooling; relevance=title+text dot query; density=text-only cosine",
+  "composed_cache": true,
+  "source_cache": "revision_work/fresh_features/retrieval",
+  "source_array_sha256": "b646e73d375f258ddef6b63107f054a003a85e14728f4d492631ebec195ead31",
+  "source_texts_sha256": "2b69f2b4c81013a951054985c4264d3a6ed196003748673ef5a51842e8c4fb69",
+  "new_only_texts": 0
+}

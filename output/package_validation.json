@@ -1,0 +1,88 @@
+{
+  "file_manifest": {
+    "present": false,
+    "note": "Workspace audit; delivered package also includes a file manifest."
+  },
+  "experiment": {
+    "queries": 100,
+    "prediction_rows": 48000,
+    "folds": 5,
+    "gates": 9,
+    "generation_contexts_reconstructed": 2800,
+    "all_thresholds_and_decisions_recomputed": true,
+    "all_confusion_counts_and_rank_metrics_recomputed": true,
+    "feature_scope": "Score z and regex recomputed; neural guard and embedding-derived density remain recorded features; checkpoints require explicit rerun."
+  },
+  "verification_mode": "Public-release numerical consistency; historical metadata references are explicitly mapped",
+  "supporting_records": {
+    "matched_benign_control_baseline_pairs_verified_per_condition": 500,
+    "notinject_unique_inputs_and_all_cohort_counts_verified": 339,
+    "latency_raw_pools_and_descriptive_statistics_verified": 10,
+    "latency_scope": "Archived environment-conditional measurements; numerical statistics are checked even when an intentional rerun explicitly allows a stale source-pool link.",
+    "archived_latency": {
+      "status": "source_matches_current_pools",
+      "newly_measured_by_rerun": false,
+      "source_pool_match": true,
+      "ordered_source_texts_verified": true,
+      "archived_source_pool_sha256": "b853fbd5af2a4cfe4a17417cfc1e318d83f85ee7b8976c135c78b8f8ae40e3ee",
+      "current_source_pool_sha256": "b853fbd5af2a4cfe4a17417cfc1e318d83f85ee7b8976c135c78b8f8ae40e3ee",
+      "stale_source_explicitly_allowed": false
+    }
+  },
+  "generation": {
+    "n_rows": 2800,
+    "n_qids": 100,
+    "n_unique_prompts": 668,
+    "n_fixed_batches": 167,
+    "all_source_rows_preserved": true,
+    "all_scores_recomputed": true,
+    "all_prompt_hashes_verified": true,
+    "all_cache_responses_consistent": true,
+    "fixed_batch_assignment_verified": true,
+    "all_summary_counts_recomputed": true,
+    "no_truncation": true,
+    "raw_generations_sha256": "213c878f920d79245f2d530054649c041dc26edffe488539ced16af70c22e29b",
+    "input_sha256": "829e50fe8eb71e8f281d51d35012e3716539a4b37af05ce0e7d3dc9e8cbf6ffd"
+  },
+  "generation_statistics": {
+    "paired_exact_mcnemar_and_holm_tests_recomputed": 21,
+    "shared_prompt_cost_totals_reconciled": true,
+    "bootstrap_scope": "Bootstrap intervals are retained; optional recompute_statistics.py repeats their seeded resampling with NumPy."
+  },
+  "apostrophe_sensitivity": {
+    "changed_condition_rows": 23,
+    "affected_qids": [
+      "test397"
+    ],
+    "all_sensitivity_fields_and_counts_recomputed": true,
+    "scope": "Separate post-run measurement sensitivity; frozen primary scorer and raw responses retained."
+  },
+  "corrected_measurements": {
+    "changed_condition_rows": 23,
+    "affected_qids": [
+      "test397"
+    ],
+    "all_model_responses_prompts_and_original_fingerprints_unchanged": true,
+    "all_target_exact_abstention_flags_and_costs_unchanged": true,
+    "all_corrected_reference_fields_and_counts_recomputed": true,
+    "corrected_raw_sha256": "f513487ffe5edc983287cacd31d512978ea1a4c38699091e8ad98799d81d9baa",
+    "corrected_statistics": {
+      "paired_exact_mcnemar_and_holm_tests_recomputed": 21,
+      "shared_prompt_cost_totals_reconciled": true,
+      "bootstrap_scope": "Bootstrap intervals are retained; optional recompute_statistics.py repeats their seeded resampling with NumPy."
+    }
+  },
+  "public_release_provenance": {
+    "mode": "public_release_numerical_consistency",
+    "distribution": "privacy-redacted derivative",
+    "original_byte_identity_asserted": false,
+    "historical_hash_values": "archived reference identifiers, not current file digests",
+    "current_file_digests": "published_sha256 fields in PUBLIC_RELEASE_MANIFEST.json",
+    "mapped_files": 46,
+    "mapped_published_files_checked": 0,
+    "published_manifest_sha256": "ffef6b9769a1676afaaec05cb4b96965bf7aafb11e47f7b37a45985799eeff74",
+    "limits": "Release mappings preserve archived references; they do not reconstruct redacted values or prove original execution."
+  },
+  "published_verifier_sha256": "ba66156ec5a9635fcec0e9fdf4ed946cf9eb9d27a8dae45c7f8cc61a93de707f",
+  "historical_verifier_reference_sha256": "714a0fcf4d6204d17bcf763fa45a39c5e6eaad67e0dacbff432cf0b08acba761"
+}

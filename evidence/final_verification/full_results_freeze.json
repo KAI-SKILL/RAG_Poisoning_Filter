@@ -1,0 +1,40 @@
+{
+  "frozen_utc": "2026-10-20T05:13:53.345880+00:00",
+  "status": "complete_generation_and_scoring_frozen_for_reporting",
+  "metadata": {
+    "output/revised_experiment/generation/run_manifest.json": {
+      "bytes": 1543,
+      "sha256": "39586caf2bac069dc246e8fddaa29dab6a54dfa51aae6ec920a8adc936d4a91e"
+    },
+    "output/revised_experiment/generation/raw_generations.jsonl": {
+      "bytes": 20243271,
+      "sha256": "6c53189048e7417fd2089c003556b613ed4606c635fbb892a2891aee64d5e1e9"
+    },
+    "output/revised_experiment/generation/responses_cache.jsonl": {
+      "bytes": 1967471,
+      "sha256": "8fd66064c56cba38fab5cc53c0e1c32234eec7de7054364c174286ea2f4009e6"
+    },
+    "output/revised_experiment/new_scores/summary.json": {
+      "bytes": 429026,
+      "sha256": "d1f5bf9dbcd33aec2c2a0323870121778feefd237f6ddc4c32002d7ee2c21727"
+    },
+    "output/revised_experiment/selection/context_requests.jsonl": {
+      "bytes": 10366387,
+      "sha256": "3967d4c96db534d721a71c872771c567ae5dcf4321086c406309a786fee5593b"
+    },
+    "revised_experiment/evaluate_new.py": {
+      "bytes": 28230,
+      "sha256": "6d6a1f846e5856a005d73283cae5f2d5373f012b3d4831d7624ddb7425e048e2"
+    }
+  },
+  "record_counts": {
+    "rows": 2175,
+    "unique_prompts": 432,
+    "articles": 100,
+    "source_supported": 85,
+    "mechanism_questions": 25,
+    "primary_comparisons": 8,
+    "mechanism_paired_effects": 336
+  },
+  "limits": "Annotation/string proxies; frozen source-supported sensitivity subset is not a full semantic correctness audit."
+}

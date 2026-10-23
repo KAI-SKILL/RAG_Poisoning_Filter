@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "synthetic_fixture_only": true,
+  "checks": {
+    "no_does_not_match_know": true,
+    "possessive_S_not_Oceans": true,
+    "curly_possessive_S_not_Oceans": true,
+    "negated_target_separate": true,
+    "quoted_target_separate": true,
+    "both_answers_not_exact": true,
+    "accent_fold": true,
+    "date_alias_used_not_invented": true,
+    "number_boundaries": true,
+    "decimal_final_punctuation": true,
+    "negative_distinct": true,
+    "mixed_alphanumeric": true,
+    "thousands_commas": true,
+    "no_is_answer_not_abstention": true,
+    "unknown_soldier_not_abstention": true,
+    "abstention_blank_separate": true,
+    "cap_kept": true,
+    "missing_target_null": true,
+    "token_multiset_F1": true,
+    "exact_mcnemar": true,
+    "holm": true,
+    "article_pairing": true
+  },
+  "test_responses_read": false,
+  "rules_version": "Group9-new-evaluation-v1"
+}

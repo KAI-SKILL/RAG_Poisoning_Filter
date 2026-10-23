@@ -1,0 +1,28 @@
+{
+  "status": "complete_before_final_test_generation",
+  "reason": "float32 BLAS matrix dot product can assign ULP-different scores to identical vectors at different row positions, violating the declared identical-score stable-tie premise.",
+  "fix": "One canonical float64 elementwise product and fixed axis reduction is used for normal-corpus search, inserted documents and feature pools. No tolerance or rounding relaxation.",
+  "neural_weights_or_embeddings_changed": false,
+  "new_neural_inference_for_fix": false,
+  "initial_exact_order_comparison_failures": 61,
+  "initial_failed_selected_sets_changed": 0,
+  "normal_queries": 230,
+  "normal_top20_order_changes": [],
+  "normal_max_abs_score_change": 2.602350916980356e-07,
+  "feature_pool_cases": 525,
+  "actual_feature_top20_order_changes": [],
+  "actual_feature_top20_set_changes": [],
+  "selected_candidate_max_abs_score_change": 1.5080509285780863e-07,
+  "selected_candidate_max_abs_feature_change": {
+    "guard": 0.0,
+    "rule": 0.0,
+    "score_z": 1.2169610048573531e-06,
+    "density": 0.0
+  },
+  "frozen_case_input_sha256": "aa0c40feebe40e90474fbbc38712666a0015fa0645c075484e59acb7dfdfcee1",
+  "canonical_pools_sha256": "a1dec174a4a7402ebfed0ee8a65b460fb2f5c30a6d3a65440b529ca3822bbba7",
+  "canonical_flat_features_sha256": "a43031d29581d8a7627b3db4843905f8c854aeb4177eb7f81ed9f0b5f70344a3",
+  "strict_final_rank_proof_sha256": "c1ad1add76b5961d217bc0f828404ebf4290efbc974dcf973124234f1a0eaac3",
+  "canonical_feature_source_sha256": "a8d69ca97b02cea71e5a872e1bc9919e05fc4938ef263dd4acf06834f16e8034",
+  "timing_note": "The failed comparison and correction occurred before classifier fitting or final test generation; no attack-success or answer output drove the change."
+}

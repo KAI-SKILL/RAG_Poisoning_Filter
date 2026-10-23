@@ -1,0 +1,212 @@
+{
+  "scope": "Post-run descriptive measurement audit, fixed candidate predictions only. This pairs source document IDs under none with the modified/copied control records. The ordinary whole-pool FPR and selected-five FPR have different denominators. All five transformations occur together, so paired changes include peer-pool, retrieval-z and rank effects; this is not a randomized text-only causal estimate. No additional inferential test, model fitting, threshold tuning or neural inference.",
+  "source_sha256": {
+    "predictions_main.jsonl": "5cf7bde6e5b98a0e1b2995195ddbf84caec6c40c8cff3c2377248e5b580f1dc6",
+    "predictions_benign_echo.jsonl": "be3ef38c450dee38eb1a125f032c72586b25cb09e448048dee1ced90865beb61",
+    "predictions_benign_mirror.jsonl": "acea31de2d95147533b3cdd808063702581e42c34db2b69b13e9b5c3ba978961"
+  },
+  "results": {
+    "benign_echo": {
+      "rule": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 2,
+        "modified_or_copied_fp": 2,
+        "original_matched_fpr": 0.004,
+        "modified_or_copied_fpr": 0.004,
+        "original_retained_newly_blocked": 0,
+        "original_blocked_newly_retained": 0,
+        "paired_net_fpr_increase": 0.0
+      },
+      "guard": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 33,
+        "modified_or_copied_fp": 17,
+        "original_matched_fpr": 0.066,
+        "modified_or_copied_fpr": 0.034,
+        "original_retained_newly_blocked": 3,
+        "original_blocked_newly_retained": 19,
+        "paired_net_fpr_increase": -0.032
+      },
+      "score": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 96,
+        "modified_or_copied_fp": 118,
+        "original_matched_fpr": 0.192,
+        "modified_or_copied_fpr": 0.236,
+        "original_retained_newly_blocked": 69,
+        "original_blocked_newly_retained": 47,
+        "paired_net_fpr_increase": 0.044
+      },
+      "density": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 37,
+        "modified_or_copied_fp": 77,
+        "original_matched_fpr": 0.074,
+        "modified_or_copied_fpr": 0.154,
+        "original_retained_newly_blocked": 42,
+        "original_blocked_newly_retained": 2,
+        "paired_net_fpr_increase": 0.08
+      },
+      "ctx": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 70,
+        "modified_or_copied_fp": 130,
+        "original_matched_fpr": 0.14,
+        "modified_or_copied_fpr": 0.26,
+        "original_retained_newly_blocked": 68,
+        "original_blocked_newly_retained": 8,
+        "paired_net_fpr_increase": 0.12
+      },
+      "content": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 35,
+        "modified_or_copied_fp": 16,
+        "original_matched_fpr": 0.07,
+        "modified_or_copied_fpr": 0.032,
+        "original_retained_newly_blocked": 3,
+        "original_blocked_newly_retained": 22,
+        "paired_net_fpr_increase": -0.038
+      },
+      "fused": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 82,
+        "modified_or_copied_fp": 157,
+        "original_matched_fpr": 0.164,
+        "modified_or_copied_fpr": 0.314,
+        "original_retained_newly_blocked": 90,
+        "original_blocked_newly_retained": 15,
+        "paired_net_fpr_increase": 0.15
+      },
+      "no_guard": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 82,
+        "modified_or_copied_fp": 157,
+        "original_matched_fpr": 0.164,
+        "modified_or_copied_fpr": 0.314,
+        "original_retained_newly_blocked": 90,
+        "original_blocked_newly_retained": 15,
+        "paired_net_fpr_increase": 0.15
+      },
+      "aug_fused": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 76,
+        "modified_or_copied_fp": 146,
+        "original_matched_fpr": 0.152,
+        "modified_or_copied_fpr": 0.292,
+        "original_retained_newly_blocked": 81,
+        "original_blocked_newly_retained": 11,
+        "paired_net_fpr_increase": 0.14
+      }
+    },
+    "benign_mirror": {
+      "rule": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 2,
+        "modified_or_copied_fp": 2,
+        "original_matched_fpr": 0.004,
+        "modified_or_copied_fpr": 0.004,
+        "original_retained_newly_blocked": 0,
+        "original_blocked_newly_retained": 0,
+        "paired_net_fpr_increase": 0.0
+      },
+      "guard": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 33,
+        "modified_or_copied_fp": 33,
+        "original_matched_fpr": 0.066,
+        "modified_or_copied_fpr": 0.066,
+        "original_retained_newly_blocked": 0,
+        "original_blocked_newly_retained": 0,
+        "paired_net_fpr_increase": 0.0
+      },
+      "score": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 96,
+        "modified_or_copied_fp": 36,
+        "original_matched_fpr": 0.192,
+        "modified_or_copied_fpr": 0.072,
+        "original_retained_newly_blocked": 0,
+        "original_blocked_newly_retained": 60,
+        "paired_net_fpr_increase": -0.12
+      },
+      "density": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 37,
+        "modified_or_copied_fp": 500,
+        "original_matched_fpr": 0.074,
+        "modified_or_copied_fpr": 1.0,
+        "original_retained_newly_blocked": 463,
+        "original_blocked_newly_retained": 0,
+        "paired_net_fpr_increase": 0.926
+      },
+      "ctx": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 70,
+        "modified_or_copied_fp": 500,
+        "original_matched_fpr": 0.14,
+        "modified_or_copied_fpr": 1.0,
+        "original_retained_newly_blocked": 430,
+        "original_blocked_newly_retained": 0,
+        "paired_net_fpr_increase": 0.86
+      },
+      "content": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 35,
+        "modified_or_copied_fp": 35,
+        "original_matched_fpr": 0.07,
+        "modified_or_copied_fpr": 0.07,
+        "original_retained_newly_blocked": 0,
+        "original_blocked_newly_retained": 0,
+        "paired_net_fpr_increase": 0.0
+      },
+      "fused": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 82,
+        "modified_or_copied_fp": 498,
+        "original_matched_fpr": 0.164,
+        "modified_or_copied_fpr": 0.996,
+        "original_retained_newly_blocked": 416,
+        "original_blocked_newly_retained": 0,
+        "paired_net_fpr_increase": 0.832
+      },
+      "no_guard": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 82,
+        "modified_or_copied_fp": 498,
+        "original_matched_fpr": 0.164,
+        "modified_or_copied_fpr": 0.996,
+        "original_retained_newly_blocked": 416,
+        "original_blocked_newly_retained": 0,
+        "paired_net_fpr_increase": 0.832
+      },
+      "aug_fused": {
+        "matched_records": 500,
+        "queries": 100,
+        "original_fp": 76,
+        "modified_or_copied_fp": 500,
+        "original_matched_fpr": 0.152,
+        "modified_or_copied_fpr": 1.0,
+        "original_retained_newly_blocked": 424,
+        "original_blocked_newly_retained": 0,
+        "paired_net_fpr_increase": 0.848
+      }
+    }
+  }
+}

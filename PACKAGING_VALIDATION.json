@@ -1,0 +1,23 @@
+{
+  "status": "PUBLIC_RELEASE_CHECKS_PASSED",
+  "release_date": "2026-10-23",
+  "privacy_scope": [
+    "Personal authorship and account identifiers removed.",
+    "Internal runtime and cluster connection details generalized.",
+    "Review metadata uses neutral single-review wording and retains annotation limitations.",
+    "Report extracts, report-page images and unfinished temporary files omitted."
+  ],
+  "scientific_checks": {
+    "main_squad_transfer": "passed",
+    "e2_controls": "passed",
+    "nq_supporting_records": "passed",
+    "historical_rescoring": "passed",
+    "expanded_sparse_numerical_reconstruction": "passed",
+    "frozen_generation_registry_and_tokens": "passed"
+  },
+  "integrity_mode": "public_release_numerical_consistency",
+  "original_byte_identity_of_redacted_metadata_asserted": false,
+  "raw_prompts_responses_numeric_results_and_compressed_inputs_changed": false,
+  "neural_model_execution_during_privacy_preparation": false,
+  "git_commit_instructions": "repository-local neutral author settings; repository URL entered interactively"
+}

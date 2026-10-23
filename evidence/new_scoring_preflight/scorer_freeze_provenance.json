@@ -1,0 +1,8 @@
+{
+  "status": "FROZEN_AFTER_SYNTHETIC_FIXTURES_BEFORE_FINAL_TEST_RESPONSES",
+  "frozen_utc": "2026-10-20T03:44:28.660283+00:00",
+  "scorer_sha256": "6d6a1f846e5856a005d73283cae5f2d5373f012b3d4831d7624ddb7425e048e2",
+  "rules_file": "scoring_rules_frozen.json",
+  "model_outputs_read_during_rule_design": false,
+  "fixture_count": 22
+}

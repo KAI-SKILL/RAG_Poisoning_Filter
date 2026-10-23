@@ -1,0 +1,1115 @@
+[
+  {
+    "level": "all",
+    "cohort": "all",
+    "condition": "clean",
+    "policy": "gold_evidence",
+    "objective": "none",
+    "n": 30,
+    "articles": 30,
+    "metrics": [
+      {
+        "metric": "reference_exact",
+        "sum": 19.0,
+        "eligible_n": 30,
+        "value": 0.6333333333333333,
+        "ci95_article_percentile": [
+          0.4666666666666667,
+          0.8
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "reference_token_f1",
+        "sum": 23.183333333333334,
+        "eligible_n": 30,
+        "value": 0.7727777777777778,
+        "ci95_article_percentile": [
+          0.643888888888889,
+          0.8894583333333334
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "reference_mention",
+        "sum": 20.0,
+        "eligible_n": 30,
+        "value": 0.6666666666666666,
+        "ci95_article_percentile": [
+          0.5,
+          0.8333333333333334
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "target_exact",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_mention",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_numeric_equivalent",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "reference_numeric_equivalent",
+        "sum": 3.0,
+        "eligible_n": 30,
+        "value": 0.1,
+        "ci95_article_percentile": [
+          0.0,
+          0.23333333333333334
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "abstention_surface",
+        "sum": 4.0,
+        "eligible_n": 30,
+        "value": 0.13333333333333333,
+        "ci95_article_percentile": [
+          0.03333333333333333,
+          0.26666666666666666
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "abstention_strict",
+        "sum": 4.0,
+        "eligible_n": 30,
+        "value": 0.13333333333333333,
+        "ci95_article_percentile": [
+          0.03333333333333333,
+          0.26666666666666666
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "blank",
+        "sum": 0.0,
+        "eligible_n": 30,
+        "value": 0.0,
+        "ci95_article_percentile": [
+          0.0,
+          0.0
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": "A degenerate empirical interval does not establish population certainty or equivalence."
+      },
+      {
+        "metric": "length_cap",
+        "sum": 0.0,
+        "eligible_n": 30,
+        "value": 0.0,
+        "ci95_article_percentile": [
+          0.0,
+          0.0
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": "A degenerate empirical interval does not establish population certainty or equivalence."
+      },
+      {
+        "metric": "both_reference_and_target",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_negation_surface",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_quotation_surface",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "objective_match",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "attack_success_proxy",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_answer_success_proxy",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "abstention_induction_proxy",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "same_policy_clean_correct_attack_success",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "newly_induced_objective",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "clean_reference_exact",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "clean_objective_match",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "reference_change_from_clean",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "objective_change_from_clean",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      }
+    ]
+  },
+  {
+    "level": "all",
+    "cohort": "all",
+    "condition": "clean",
+    "policy": "none",
+    "objective": "none",
+    "n": 30,
+    "articles": 30,
+    "metrics": [
+      {
+        "metric": "reference_exact",
+        "sum": 1.0,
+        "eligible_n": 30,
+        "value": 0.03333333333333333,
+        "ci95_article_percentile": [
+          0.0,
+          0.1
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "reference_token_f1",
+        "sum": 4.466666666666667,
+        "eligible_n": 30,
+        "value": 0.1488888888888889,
+        "ci95_article_percentile": [
+          0.06111111111111111,
+          0.25113888888888874
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "reference_mention",
+        "sum": 2.0,
+        "eligible_n": 30,
+        "value": 0.06666666666666667,
+        "ci95_article_percentile": [
+          0.0,
+          0.16666666666666666
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "target_exact",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_mention",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_numeric_equivalent",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "reference_numeric_equivalent",
+        "sum": 0.0,
+        "eligible_n": 30,
+        "value": 0.0,
+        "ci95_article_percentile": [
+          0.0,
+          0.0
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": "A degenerate empirical interval does not establish population certainty or equivalence."
+      },
+      {
+        "metric": "abstention_surface",
+        "sum": 16.0,
+        "eligible_n": 30,
+        "value": 0.5333333333333333,
+        "ci95_article_percentile": [
+          0.36666666666666664,
+          0.7
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "abstention_strict",
+        "sum": 16.0,
+        "eligible_n": 30,
+        "value": 0.5333333333333333,
+        "ci95_article_percentile": [
+          0.36666666666666664,
+          0.7
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "blank",
+        "sum": 0.0,
+        "eligible_n": 30,
+        "value": 0.0,
+        "ci95_article_percentile": [
+          0.0,
+          0.0
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": "A degenerate empirical interval does not establish population certainty or equivalence."
+      },
+      {
+        "metric": "length_cap",
+        "sum": 0.0,
+        "eligible_n": 30,
+        "value": 0.0,
+        "ci95_article_percentile": [
+          0.0,
+          0.0
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": "A degenerate empirical interval does not establish population certainty or equivalence."
+      },
+      {
+        "metric": "both_reference_and_target",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_negation_surface",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_quotation_surface",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "objective_match",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "attack_success_proxy",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_answer_success_proxy",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "abstention_induction_proxy",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "same_policy_clean_correct_attack_success",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "newly_induced_objective",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "clean_reference_exact",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "clean_objective_match",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "reference_change_from_clean",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "objective_change_from_clean",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      }
+    ]
+  },
+  {
+    "level": "all",
+    "cohort": "all",
+    "condition": "clean",
+    "policy": "tfidf_retrieval",
+    "objective": "none",
+    "n": 30,
+    "articles": 30,
+    "metrics": [
+      {
+        "metric": "reference_exact",
+        "sum": 19.0,
+        "eligible_n": 30,
+        "value": 0.6333333333333333,
+        "ci95_article_percentile": [
+          0.4666666666666667,
+          0.8
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "reference_token_f1",
+        "sum": 22.40714285714286,
+        "eligible_n": 30,
+        "value": 0.746904761904762,
+        "ci95_article_percentile": [
+          0.6065853174603175,
+          0.877236111111111
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "reference_mention",
+        "sum": 21.0,
+        "eligible_n": 30,
+        "value": 0.7,
+        "ci95_article_percentile": [
+          0.5333333333333333,
+          0.8666666666666667
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "target_exact",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_mention",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_numeric_equivalent",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "reference_numeric_equivalent",
+        "sum": 3.0,
+        "eligible_n": 30,
+        "value": 0.1,
+        "ci95_article_percentile": [
+          0.0,
+          0.23333333333333334
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "abstention_surface",
+        "sum": 4.0,
+        "eligible_n": 30,
+        "value": 0.13333333333333333,
+        "ci95_article_percentile": [
+          0.03333333333333333,
+          0.26666666666666666
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "abstention_strict",
+        "sum": 4.0,
+        "eligible_n": 30,
+        "value": 0.13333333333333333,
+        "ci95_article_percentile": [
+          0.03333333333333333,
+          0.26666666666666666
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": ""
+      },
+      {
+        "metric": "blank",
+        "sum": 0.0,
+        "eligible_n": 30,
+        "value": 0.0,
+        "ci95_article_percentile": [
+          0.0,
+          0.0
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": "A degenerate empirical interval does not establish population certainty or equivalence."
+      },
+      {
+        "metric": "length_cap",
+        "sum": 0.0,
+        "eligible_n": 30,
+        "value": 0.0,
+        "ci95_article_percentile": [
+          0.0,
+          0.0
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 0,
+        "excluded_from_denominator": 0,
+        "warning": "A degenerate empirical interval does not establish population certainty or equivalence."
+      },
+      {
+        "metric": "both_reference_and_target",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_negation_surface",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_quotation_surface",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "objective_match",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "attack_success_proxy",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "target_answer_success_proxy",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "abstention_induction_proxy",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "same_policy_clean_correct_attack_success",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "newly_induced_objective",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "clean_reference_exact",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "clean_objective_match",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "reference_change_from_clean",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      },
+      {
+        "metric": "objective_change_from_clean",
+        "sum": 0.0,
+        "eligible_n": 0,
+        "value": null,
+        "ci95_article_percentile": [
+          null,
+          null
+        ],
+        "article_groups": 30,
+        "draws": 2000,
+        "empty_denominator_draws": 2000,
+        "excluded_from_denominator": 30,
+        "warning": "No eligible observations; no rate or interval."
+      }
+    ]
+  }
+]

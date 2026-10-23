@@ -1,0 +1,60 @@
+{
+  "status": "PASS_CPU_HOST_SYNTAX_AND_OFFLINE_HELPER_PLANS",
+  "created_utc": "2026-10-21T23:15:29.276517+00:00",
+  "checks": [
+    {
+      "test": "build_native_server.py --help",
+      "status": "PASS"
+    },
+    {
+      "test": "download_model.py --help",
+      "status": "PASS"
+    },
+    {
+      "test": "cpu offline plan without directory creation",
+      "status": "PASS"
+    },
+    {
+      "test": "cuda_auto offline plan without directory creation",
+      "status": "PASS"
+    },
+    {
+      "test": "cuda_native offline plan without directory creation",
+      "status": "PASS"
+    },
+    {
+      "test": "cuda_explicit offline plan without directory creation",
+      "status": "PASS"
+    },
+    {
+      "test": "CUDA architecture rejected without CUDA backend",
+      "status": "PASS"
+    },
+    {
+      "test": "Invalid CUDA architecture rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "Frozen model download plan includes weights README LICENSE without network or writes",
+      "status": "PASS"
+    }
+  ],
+  "network_calls_during_validation": 0,
+  "subprocess_calls_during_validation": 0,
+  "model_loads": 0,
+  "generation_calls": 0,
+  "GPU_builds": 0,
+  "GPU_experiments": 0,
+  "current_CPU_build_receipt_copied_unchanged": true,
+  "source_and_model_identity_copied_unchanged": true,
+  "files": {
+    "README_zh.md": "0d521285e2124a0348668efd5d26bd10b3046ab6a5d05c620dce0e6f703ff39a",
+    "build_native_server.py": "136599bccc9e7a784a15f0d1e7d3793ee0575f0de1b6225265c9b3a4239d65da",
+    "download_model.py": "d1523ba1bde3fc1b5276ba12fe2390dceadf4e9c5e2ad309a7472ce4b0399ad2",
+    "model_manifest.json": "c08c27737146d1f9e8ff6a09353bf36d42c6c92caff9e858c1ee27bb658bb597",
+    "native_build_manifest.json": "6aab1279aa873d37f2ef41a5c4313faee8d199593f145dea3b7b868bc547fc87",
+    "native_build_manifest_cpu.json": "6aab1279aa873d37f2ef41a5c4313faee8d199593f145dea3b7b868bc547fc87",
+    "source_identity.json": "df3d214c0ea185ad1b054b18cc7dd6320b0fb86666badbcea17ccc930697be89"
+  },
+  "scope": "Delivered CUDA path is source/argument/dry-run checked only. No CUDA compilation, model download, model loading, GPU inference or throughput claim. Existing run and old results were not written by this task."
+}

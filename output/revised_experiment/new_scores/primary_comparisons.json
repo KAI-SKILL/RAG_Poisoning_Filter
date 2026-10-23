@@ -1,0 +1,258 @@
+[
+  {
+    "subset": "all_questions",
+    "subset_label": "all100",
+    "setting": "counterfactual_1",
+    "metric": "alias_exact",
+    "contrast": "fused-minus-no_guard",
+    "direction": "higher alias_exact is favourable; lower target_exact is favourable",
+    "no_guard_successes": 2,
+    "fused_successes": 2,
+    "no_guard_true_fused_false": 0,
+    "no_guard_false_fused_true": 0,
+    "mcnemar_exact_p": 1.0,
+    "effect": 0.0,
+    "effect_pp": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "paired_questions": 100,
+    "article_groups": 100,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261020,
+    "degenerate_observed_interval": true,
+    "uncertainty_scope": "paired source/article resampling conditional on fixed fitted models and outputs; not an equivalence test",
+    "holm_adjusted_p": 1.0,
+    "holm_family_size": 4,
+    "prespecified_family_complete": true
+  },
+  {
+    "subset": "all_questions",
+    "subset_label": "all100",
+    "setting": "counterfactual_1",
+    "metric": "target_exact",
+    "contrast": "fused-minus-no_guard",
+    "direction": "higher alias_exact is favourable; lower target_exact is favourable",
+    "no_guard_successes": 0,
+    "fused_successes": 0,
+    "no_guard_true_fused_false": 0,
+    "no_guard_false_fused_true": 0,
+    "mcnemar_exact_p": 1.0,
+    "effect": 0.0,
+    "effect_pp": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "paired_questions": 100,
+    "article_groups": 100,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261020,
+    "degenerate_observed_interval": true,
+    "uncertainty_scope": "paired source/article resampling conditional on fixed fitted models and outputs; not an equivalence test",
+    "holm_adjusted_p": 1.0,
+    "holm_family_size": 4,
+    "prespecified_family_complete": true
+  },
+  {
+    "subset": "all_questions",
+    "subset_label": "all100",
+    "setting": "explicit_PI_1",
+    "metric": "alias_exact",
+    "contrast": "fused-minus-no_guard",
+    "direction": "higher alias_exact is favourable; lower target_exact is favourable",
+    "no_guard_successes": 9,
+    "fused_successes": 9,
+    "no_guard_true_fused_false": 0,
+    "no_guard_false_fused_true": 0,
+    "mcnemar_exact_p": 1.0,
+    "effect": 0.0,
+    "effect_pp": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "paired_questions": 100,
+    "article_groups": 100,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261020,
+    "degenerate_observed_interval": true,
+    "uncertainty_scope": "paired source/article resampling conditional on fixed fitted models and outputs; not an equivalence test",
+    "holm_adjusted_p": 1.0,
+    "holm_family_size": 4,
+    "prespecified_family_complete": true
+  },
+  {
+    "subset": "all_questions",
+    "subset_label": "all100",
+    "setting": "explicit_PI_1",
+    "metric": "target_exact",
+    "contrast": "fused-minus-no_guard",
+    "direction": "higher alias_exact is favourable; lower target_exact is favourable",
+    "no_guard_successes": 0,
+    "fused_successes": 0,
+    "no_guard_true_fused_false": 0,
+    "no_guard_false_fused_true": 0,
+    "mcnemar_exact_p": 1.0,
+    "effect": 0.0,
+    "effect_pp": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "paired_questions": 100,
+    "article_groups": 100,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261020,
+    "degenerate_observed_interval": true,
+    "uncertainty_scope": "paired source/article resampling conditional on fixed fitted models and outputs; not an equivalence test",
+    "holm_adjusted_p": 1.0,
+    "holm_family_size": 4,
+    "prespecified_family_complete": true
+  },
+  {
+    "subset": "source_valid",
+    "subset_label": "source_valid85",
+    "setting": "counterfactual_1",
+    "metric": "alias_exact",
+    "contrast": "fused-minus-no_guard",
+    "direction": "higher alias_exact is favourable; lower target_exact is favourable",
+    "no_guard_successes": 1,
+    "fused_successes": 1,
+    "no_guard_true_fused_false": 0,
+    "no_guard_false_fused_true": 0,
+    "mcnemar_exact_p": 1.0,
+    "effect": 0.0,
+    "effect_pp": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "paired_questions": 85,
+    "article_groups": 85,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261020,
+    "degenerate_observed_interval": true,
+    "uncertainty_scope": "paired source/article resampling conditional on fixed fitted models and outputs; not an equivalence test",
+    "holm_adjusted_p": 1.0,
+    "holm_family_size": 4,
+    "prespecified_family_complete": true
+  },
+  {
+    "subset": "source_valid",
+    "subset_label": "source_valid85",
+    "setting": "counterfactual_1",
+    "metric": "target_exact",
+    "contrast": "fused-minus-no_guard",
+    "direction": "higher alias_exact is favourable; lower target_exact is favourable",
+    "no_guard_successes": 0,
+    "fused_successes": 0,
+    "no_guard_true_fused_false": 0,
+    "no_guard_false_fused_true": 0,
+    "mcnemar_exact_p": 1.0,
+    "effect": 0.0,
+    "effect_pp": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "paired_questions": 85,
+    "article_groups": 85,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261020,
+    "degenerate_observed_interval": true,
+    "uncertainty_scope": "paired source/article resampling conditional on fixed fitted models and outputs; not an equivalence test",
+    "holm_adjusted_p": 1.0,
+    "holm_family_size": 4,
+    "prespecified_family_complete": true
+  },
+  {
+    "subset": "source_valid",
+    "subset_label": "source_valid85",
+    "setting": "explicit_PI_1",
+    "metric": "alias_exact",
+    "contrast": "fused-minus-no_guard",
+    "direction": "higher alias_exact is favourable; lower target_exact is favourable",
+    "no_guard_successes": 8,
+    "fused_successes": 8,
+    "no_guard_true_fused_false": 0,
+    "no_guard_false_fused_true": 0,
+    "mcnemar_exact_p": 1.0,
+    "effect": 0.0,
+    "effect_pp": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "paired_questions": 85,
+    "article_groups": 85,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261020,
+    "degenerate_observed_interval": true,
+    "uncertainty_scope": "paired source/article resampling conditional on fixed fitted models and outputs; not an equivalence test",
+    "holm_adjusted_p": 1.0,
+    "holm_family_size": 4,
+    "prespecified_family_complete": true
+  },
+  {
+    "subset": "source_valid",
+    "subset_label": "source_valid85",
+    "setting": "explicit_PI_1",
+    "metric": "target_exact",
+    "contrast": "fused-minus-no_guard",
+    "direction": "higher alias_exact is favourable; lower target_exact is favourable",
+    "no_guard_successes": 0,
+    "fused_successes": 0,
+    "no_guard_true_fused_false": 0,
+    "no_guard_false_fused_true": 0,
+    "mcnemar_exact_p": 1.0,
+    "effect": 0.0,
+    "effect_pp": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "paired_questions": 85,
+    "article_groups": 85,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261020,
+    "degenerate_observed_interval": true,
+    "uncertainty_scope": "paired source/article resampling conditional on fixed fitted models and outputs; not an equivalence test",
+    "holm_adjusted_p": 1.0,
+    "holm_family_size": 4,
+    "prespecified_family_complete": true
+  }
+]

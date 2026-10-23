@@ -1,0 +1,50 @@
+{
+  "status": "OFFLINE_MOCK_AND_FAIL_CLOSED_INTEGRATION_PASSED",
+  "created_utc": "2026-10-22T02:24:05.957112+00:00",
+  "tests_passed": 9,
+  "test_command": [
+    "/usr/bin/python3",
+    "generation/all_experiments/test_model_suite_integration.py"
+  ],
+  "source_sha256": {
+    "generation/all_experiments/run_model_suite.py": "22cd2b61d2d79e6a6a14b5fbe1d01ea09e473b2481183564233d7a93f518efe8",
+    "generation/all_experiments/score_native_scope.py": "1ee01b52af240274a3a745c8361dd98cfe77dd0bff92fe941335ba6e9b7f661e",
+    "generation/all_experiments/launch_native_gpu.py": "f25c17fb2d27f3e602dcfbea72c12840ff7dce3651db935dcd793b2352dd62fa",
+    "generation/all_experiments/export_scope_results.py": "19305a8bde3157fc407c034dbba46ffa8673fa095e232c8e2a60fb425c087e71",
+    "generation/all_experiments/collect_all_results.py": "f89213a14baec3eee84e86ee541c953002526a6a2f01e89721e263f892b1e1cb",
+    "generation/all_experiments/postanalyse_scope.py": "61ecf0cd6e7458ee9bee8d42e2b2c26d2b74cb94bd5efd4a230951abdcb281f4",
+    "generation/all_experiments/run_hf_scope.py": "cb342034758826d0e255c5737ccaffe3e40aa6f743939769bd6aef24b9506276",
+    "generation/all_experiments/test_model_suite_integration.py": "9353082adc1036b65604c600a02229edb0ff20a764fcff4efd618d52c0179430",
+    "generation/hf_gpu/export_hf_results.py": "e10124ac8efe1069b7dcc5b957fa3bc44d6f5ee2058c67c22cf4516032e4647b",
+    "generation/hf_gpu/run_hf_grid.py": "0f3e4af44f1c86edd28bec916d3158c75a3c2fa3d4a8fbf09573406e3d7abbe6",
+    "code/generation/run_native_generation.py": "22a3b297bdc758c99d8d70d534f6301403b362de5500ff3ec185ff28a12d0395",
+    "code/generation/score_generations.py": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e"
+  },
+  "source_unchanged_during_checks": true,
+  "actual_subprocess_scope": "One temporary private Python alias executed score_native_scope.py against a PARTIAL manifest; it rejected scoring before reading responses or computing metrics. Real exporter+collector processed a temporary COMPLETE label with zero responses and rejected completion.",
+  "real_model_loads": 0,
+  "real_gpu_queries": 0,
+  "real_gpu_execution": false,
+  "real_generation_calls": 0,
+  "real_network_calls": 0,
+  "mock_scopes": [
+    "native suite child command routing",
+    "HF preparation recovery",
+    "common filesystem rejection",
+    "device protocol binding"
+  ],
+  "actual_file_only_checks": [
+    "new exporter rejects incomplete scope and uses INCOMPLETE archive name",
+    "collector refuses 12-slot completion with zero responses",
+    "unregistered slot paths rejected",
+    "partial native scoring refused"
+  ],
+  "test_fixtures_retained": false,
+  "not_validated": [
+    "SSH/VPN/2FA",
+    "real Slurm submission",
+    "CUDA execution or throughput",
+    "actual model outputs or attack success rates"
+  ],
+  "test_output": "test_actual_export_wrapper_and_collector_refuse_complete_label_without_data (__main__.SuiteIntegrationTests.test_actual_export_wrapper_and_collector_refuse_complete_label_without_data) ... ok\ntest_actual_export_wrapper_rejects_unregistered_slot_path (__main__.SuiteIntegrationTests.test_actual_export_wrapper_rejects_unregistered_slot_path) ... ok\ntest_actual_private_python_scorer_wrapper_refuses_partial_result (__main__.SuiteIntegrationTests.test_actual_private_python_scorer_wrapper_refuses_partial_result) ... ok\ntest_hf_suite_recovers_unfinished_preparation_before_mock_run (__main__.SuiteIntegrationTests.test_hf_suite_recovers_unfinished_preparation_before_mock_run) ... ok\ntest_native_and_hf_share_rejecting_filesystem_guard_before_children (__main__.SuiteIntegrationTests.test_native_and_hf_share_rejecting_filesystem_guard_before_children) ... ok\ntest_native_run_binds_gpu_and_calls_project_explicit_launcher (__main__.SuiteIntegrationTests.test_native_run_binds_gpu_and_calls_project_explicit_launcher) ... ok\ntest_native_suite_private_scorer_new_export_and_postanalysis_interfaces (__main__.SuiteIntegrationTests.test_native_suite_private_scorer_new_export_and_postanalysis_interfaces) ... ok\ntest_recovery_refuses_any_response_database (__main__.SuiteIntegrationTests.test_recovery_refuses_any_response_database) ... ok\ntest_recovery_requires_resume_and_retains_original_bytes (__main__.SuiteIntegrationTests.test_recovery_requires_resume_and_retains_original_bytes) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 2.114s\n\nOK\n"
+}

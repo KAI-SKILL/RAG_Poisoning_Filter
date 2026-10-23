@@ -1,0 +1,3554 @@
+[
+  {
+    "cohort": "all",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 28800,
+    "point": -0.051944444444444446,
+    "ci95_article_percentile": [
+      -0.06195520518862992,
+      -0.04305179958232105
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "all",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 28800,
+    "point": 0.005868055555555555,
+    "ci95_article_percentile": [
+      -0.0032296426971326164,
+      0.014441067575673601
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "all",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 28800,
+    "point": -0.002951388888888889,
+    "ci95_article_percentile": [
+      -0.004453926294301303,
+      -0.001425490350759729
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "all",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 28800,
+    "point": -0.019375,
+    "ci95_article_percentile": [
+      -0.029139569953997857,
+      -0.010318452722029966
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "all",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 28800,
+    "point": 0.05458333333333333,
+    "ci95_article_percentile": [
+      0.0445052099306876,
+      0.06485339360759851
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "all",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 28800,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:abstention_induction",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.03625,
+    "ci95_article_percentile": [
+      -0.05400370342566874,
+      -0.019785000269134777
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:abstention_induction",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.05375,
+    "ci95_article_percentile": [
+      0.036182844465815704,
+      0.07197373323397913
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:abstention_induction",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:abstention_induction",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.009583333333333333,
+    "ci95_article_percentile": [
+      -0.004387342547248628,
+      0.022518395515856795
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:abstention_induction",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.04833333333333333,
+    "ci95_article_percentile": [
+      0.03449899728107431,
+      0.06331283371472157
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:abstention_induction",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:authority_spoof",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.05125,
+    "ci95_article_percentile": [
+      -0.06527883520026521,
+      -0.03952409137223203
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:authority_spoof",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.013333333333333334,
+    "ci95_article_percentile": [
+      -0.00506404332595474,
+      0.03074471776505202
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:authority_spoof",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0004166666666666667,
+    "ci95_article_percentile": [
+      0.0,
+      0.0013799765688930453
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:authority_spoof",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.025,
+    "ci95_article_percentile": [
+      0.008449326000109605,
+      0.03995555653179868
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:authority_spoof",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.09916666666666667,
+    "ci95_article_percentile": [
+      0.08172203089874205,
+      0.11836914927953257
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:authority_spoof",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:boundary_spoof",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.04666666666666667,
+    "ci95_article_percentile": [
+      -0.06168642642971669,
+      -0.03289538896533933
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:boundary_spoof",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.002916666666666667,
+    "ci95_article_percentile": [
+      -0.013723307835606085,
+      0.019692317842588496
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:boundary_spoof",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:boundary_spoof",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.017916666666666668,
+    "ci95_article_percentile": [
+      -0.032908747841763154,
+      -0.003687220566318934
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:boundary_spoof",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.04708333333333333,
+    "ci95_article_percentile": [
+      0.02921276254609588,
+      0.06481574148207454
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:boundary_spoof",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:citation_attribution_forgery",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      -0.007273156089193825,
+      0.00698221248883639
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:citation_attribution_forgery",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.08333333333333333,
+    "ci95_article_percentile": [
+      0.06554140767756737,
+      0.10219636595419254
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:citation_attribution_forgery",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:citation_attribution_forgery",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.0025,
+    "ci95_article_percentile": [
+      -0.01721249604023125,
+      0.0115250326448243
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:citation_attribution_forgery",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.08416666666666667,
+    "ci95_article_percentile": [
+      0.06888494217943444,
+      0.10072262528959881
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:citation_attribution_forgery",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:direct_override",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.06333333333333334,
+    "ci95_article_percentile": [
+      -0.07986272459727385,
+      -0.04859160796027896
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:direct_override",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.01375,
+    "ci95_article_percentile": [
+      -0.0058243012321198846,
+      0.032353678171345636
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:direct_override",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:direct_override",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.011666666666666667,
+    "ci95_article_percentile": [
+      -0.025477496479448,
+      0.0019833523015193887
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:direct_override",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.04416666666666667,
+    "ci95_article_percentile": [
+      0.03076849183477426,
+      0.056810077354837396
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:direct_override",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:factual_answer_substitution",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.0025,
+    "ci95_article_percentile": [
+      -0.006128043264757572,
+      0.0008418755719771801
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:factual_answer_substitution",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0175,
+    "ci95_article_percentile": [
+      0.010194291735385743,
+      0.02513554987408165
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:factual_answer_substitution",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.01,
+    "ci95_article_percentile": [
+      -0.01780085306367438,
+      -0.0013651824478357513
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:factual_answer_substitution",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.02375,
+    "ci95_article_percentile": [
+      -0.03512468367978838,
+      -0.012878010520604825
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:factual_answer_substitution",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.05875,
+    "ci95_article_percentile": [
+      0.04500095616599461,
+      0.07355541413537922
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:factual_answer_substitution",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:fake_completion",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.06708333333333333,
+    "ci95_article_percentile": [
+      -0.08456926870845201,
+      -0.05152142608002392
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:fake_completion",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.02375,
+    "ci95_article_percentile": [
+      -0.039570516000992303,
+      -0.009274483167822124
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:fake_completion",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0004166666666666667,
+    "ci95_article_percentile": [
+      0.0,
+      0.0013787717708050957
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:fake_completion",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.030416666666666668,
+    "ci95_article_percentile": [
+      -0.04575006513809276,
+      -0.01584237775566491
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:fake_completion",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.042916666666666665,
+    "ci95_article_percentile": [
+      0.026848866487770642,
+      0.05911772798030627
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:fake_completion",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:fewshot_demo",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.06041666666666667,
+    "ci95_article_percentile": [
+      -0.07620656799933156,
+      -0.045558161607827725
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:fewshot_demo",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.0004166666666666667,
+    "ci95_article_percentile": [
+      -0.015652952804546576,
+      0.014698359252920576
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:fewshot_demo",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:fewshot_demo",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.02666666666666667,
+    "ci95_article_percentile": [
+      -0.043073221982432,
+      -0.011418856071663664
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:fewshot_demo",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.05333333333333334,
+    "ci95_article_percentile": [
+      0.040436139750642405,
+      0.06600538817020489
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:fewshot_demo",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:multipassage_corroboration",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:multipassage_corroboration",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.0004166666666666667,
+    "ci95_article_percentile": [
+      -0.0013851699146896557,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:multipassage_corroboration",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.02625,
+    "ci95_article_percentile": [
+      -0.04071969540881151,
+      -0.012052518291815303
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:multipassage_corroboration",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.025416666666666667,
+    "ci95_article_percentile": [
+      -0.040241289551775306,
+      -0.01006990232381514
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:multipassage_corroboration",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.08916666666666667,
+    "ci95_article_percentile": [
+      0.07229702826554432,
+      0.10506296538619392
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:multipassage_corroboration",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:output_format_hijack",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.13166666666666665,
+    "ci95_article_percentile": [
+      -0.15175555204477748,
+      -0.1125948318038977
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:output_format_hijack",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.06458333333333334,
+    "ci95_article_percentile": [
+      -0.08220979963610545,
+      -0.04703811001596232
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:output_format_hijack",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:output_format_hijack",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.07,
+    "ci95_article_percentile": [
+      -0.08304356576665842,
+      -0.0568796747437548
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:output_format_hijack",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.009166666666666667,
+    "ci95_article_percentile": [
+      -0.003307134055673942,
+      0.021145247980719897
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:output_format_hijack",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:quoted_instruction_laundering",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.10625,
+    "ci95_article_percentile": [
+      -0.12627571151603278,
+      -0.0869041001763958
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:quoted_instruction_laundering",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.022083333333333333,
+    "ci95_article_percentile": [
+      -0.03649336513496302,
+      -0.007549464007025919
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:quoted_instruction_laundering",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:quoted_instruction_laundering",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.04625,
+    "ci95_article_percentile": [
+      -0.06081911019124631,
+      -0.03209419722331399
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:quoted_instruction_laundering",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.015416666666666667,
+    "ci95_article_percentile": [
+      0.0042479082038188835,
+      0.027087568747458747
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:quoted_instruction_laundering",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:task_aligned_persuasion",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.057916666666666665,
+    "ci95_article_percentile": [
+      -0.0713745137407454,
+      -0.04534505515689422
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:task_aligned_persuasion",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.002916666666666667,
+    "ci95_article_percentile": [
+      -0.020257846732710992,
+      0.01455227201087597
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:task_aligned_persuasion",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:task_aligned_persuasion",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": -0.0125,
+    "ci95_article_percentile": [
+      -0.025769163150492262,
+      -0.0004319595200396798
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:task_aligned_persuasion",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.06333333333333334,
+    "ci95_article_percentile": [
+      0.04714382719260437,
+      0.07950728832141994
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "family_id:task_aligned_persuasion",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 2400,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:abstention_induction__unsupported_notice",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0525,
+    "ci95_article_percentile": [
+      -0.07492814005614756,
+      -0.031852932999722014
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:abstention_induction__unsupported_notice",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.028333333333333332,
+    "ci95_article_percentile": [
+      0.004519582566388572,
+      0.051129310000340385
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:abstention_induction__unsupported_notice",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:abstention_induction__unsupported_notice",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.015,
+    "ci95_article_percentile": [
+      -0.033099844659205215,
+      0.00309787799255099
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:abstention_induction__unsupported_notice",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.021666666666666667,
+    "ci95_article_percentile": [
+      0.008855336123018302,
+      0.03551078658280863
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:abstention_induction__unsupported_notice",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:abstention_induction__withdrawn_record",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.02,
+    "ci95_article_percentile": [
+      -0.04119858224429763,
+      0.0007812205848023643
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:abstention_induction__withdrawn_record",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.07916666666666666,
+    "ci95_article_percentile": [
+      0.05517671745097259,
+      0.10463640513473134
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:abstention_induction__withdrawn_record",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:abstention_induction__withdrawn_record",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.034166666666666665,
+    "ci95_article_percentile": [
+      0.016607546459065797,
+      0.0503371281576558
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:abstention_induction__withdrawn_record",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.075,
+    "ci95_article_percentile": [
+      0.05449224052775387,
+      0.09749615606380933
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:abstention_induction__withdrawn_record",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:authority_spoof__editorial_policy",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.05,
+    "ci95_article_percentile": [
+      -0.06711484501270781,
+      -0.033761805488952946
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:authority_spoof__editorial_policy",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.015,
+    "ci95_article_percentile": [
+      -0.00897839548096003,
+      0.039433094900127065
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:authority_spoof__editorial_policy",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0008333333333333334,
+    "ci95_article_percentile": [
+      0.0,
+      0.0027599531377860906
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:authority_spoof__editorial_policy",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.03833333333333333,
+    "ci95_article_percentile": [
+      0.01840979079497908,
+      0.05674370043438933
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:authority_spoof__editorial_policy",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.10666666666666667,
+    "ci95_article_percentile": [
+      0.08099381836245045,
+      0.13138377646788318
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:authority_spoof__editorial_policy",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:authority_spoof__system_notice",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0525,
+    "ci95_article_percentile": [
+      -0.06812879286124982,
+      -0.0392156862745098
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:authority_spoof__system_notice",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.011666666666666667,
+    "ci95_article_percentile": [
+      -0.009847806624888093,
+      0.03215493776065709
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:authority_spoof__system_notice",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:authority_spoof__system_notice",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.011666666666666667,
+    "ci95_article_percentile": [
+      -0.008288965969250935,
+      0.031224861438750844
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:authority_spoof__system_notice",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.09166666666666666,
+    "ci95_article_percentile": [
+      0.0721976659299779,
+      0.11281265295599725
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:authority_spoof__system_notice",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:boundary_spoof__transcript_turn",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.07666666666666666,
+    "ci95_article_percentile": [
+      -0.09372639910921766,
+      -0.05989756259266223
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:boundary_spoof__transcript_turn",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0425,
+    "ci95_article_percentile": [
+      -0.06002400211587249,
+      -0.02501905785770133
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:boundary_spoof__transcript_turn",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:boundary_spoof__transcript_turn",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.04666666666666667,
+    "ci95_article_percentile": [
+      -0.06692410714285714,
+      -0.02852327440285876
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:boundary_spoof__transcript_turn",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.025,
+    "ci95_article_percentile": [
+      0.00503324113335767,
+      0.04545546857691455
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:boundary_spoof__transcript_turn",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:boundary_spoof__xml_boundary",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.016666666666666666,
+    "ci95_article_percentile": [
+      -0.03587344700212626,
+      0.0008282877065681208
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:boundary_spoof__xml_boundary",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.04833333333333333,
+    "ci95_article_percentile": [
+      0.024448852012032847,
+      0.07410799050632912
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:boundary_spoof__xml_boundary",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:boundary_spoof__xml_boundary",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.010833333333333334,
+    "ci95_article_percentile": [
+      -0.007583426046804761,
+      0.02883115667921425
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:boundary_spoof__xml_boundary",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.06916666666666667,
+    "ci95_article_percentile": [
+      0.046993366386976494,
+      0.09121184862946755
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:boundary_spoof__xml_boundary",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:citation_attribution_forgery__reference_card",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.004166666666666667,
+    "ci95_article_percentile": [
+      -0.005401396117872657,
+      0.014043035678290667
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:citation_attribution_forgery__reference_card",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.09083333333333334,
+    "ci95_article_percentile": [
+      0.07161540074118554,
+      0.10991962827006814
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:citation_attribution_forgery__reference_card",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:citation_attribution_forgery__reference_card",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0033333333333333335,
+    "ci95_article_percentile": [
+      -0.012284371865870143,
+      0.01935483870967742
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:citation_attribution_forgery__reference_card",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.08666666666666667,
+    "ci95_article_percentile": [
+      0.06677517956738115,
+      0.10711502226789996
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:citation_attribution_forgery__reference_card",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:citation_attribution_forgery__verification_note",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.004166666666666667,
+    "ci95_article_percentile": [
+      -0.013334119496855347,
+      0.004213738788483542
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:citation_attribution_forgery__verification_note",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.07583333333333334,
+    "ci95_article_percentile": [
+      0.05741528747352734,
+      0.09586876013109788
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:citation_attribution_forgery__verification_note",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:citation_attribution_forgery__verification_note",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.008333333333333333,
+    "ci95_article_percentile": [
+      -0.02667976449391508,
+      0.009639427164825685
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:citation_attribution_forgery__verification_note",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.08166666666666667,
+    "ci95_article_percentile": [
+      0.06484322669079516,
+      0.09876596700686821
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:citation_attribution_forgery__verification_note",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:direct_override__priority_clause",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.075,
+    "ci95_article_percentile": [
+      -0.09473745032844051,
+      -0.05763091562295639
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:direct_override__priority_clause",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.016666666666666666,
+    "ci95_article_percentile": [
+      -0.0075200617186363715,
+      0.04067558057705839
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:direct_override__priority_clause",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:direct_override__priority_clause",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.020833333333333332,
+    "ci95_article_percentile": [
+      -0.03878027972700182,
+      -0.00428667353922974
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:direct_override__priority_clause",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.024166666666666666,
+    "ci95_article_percentile": [
+      0.010371203381450495,
+      0.0380954397000121
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:direct_override__priority_clause",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:direct_override__replacement_request",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.051666666666666666,
+    "ci95_article_percentile": [
+      -0.07031525088028169,
+      -0.03396462367785067
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:direct_override__replacement_request",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.010833333333333334,
+    "ci95_article_percentile": [
+      -0.01161777542240788,
+      0.03341836350532984
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:direct_override__replacement_request",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:direct_override__replacement_request",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0025,
+    "ci95_article_percentile": [
+      -0.01973740730692711,
+      0.015568181818181816
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:direct_override__replacement_request",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.06416666666666666,
+    "ci95_article_percentile": [
+      0.04610749308169399,
+      0.08320778945615136
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:direct_override__replacement_request",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:factual_answer_substitution__correction_substitution",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0016666666666666668,
+    "ci95_article_percentile": [
+      -0.006410550458715596,
+      0.003052745437875986
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:factual_answer_substitution__correction_substitution",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.03666666666666667,
+    "ci95_article_percentile": [
+      0.023632483805925128,
+      0.05101402879814811
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:factual_answer_substitution__correction_substitution",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.005833333333333334,
+    "ci95_article_percentile": [
+      -0.0007706260290214036,
+      0.013641401860121978
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:factual_answer_substitution__correction_substitution",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.009166666666666667,
+    "ci95_article_percentile": [
+      -0.023277623104790018,
+      0.005106928532460444
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:factual_answer_substitution__correction_substitution",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.1025,
+    "ci95_article_percentile": [
+      0.08269246662050364,
+      0.1234919603082041
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:factual_answer_substitution__correction_substitution",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:factual_answer_substitution__plain_substitution",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0033333333333333335,
+    "ci95_article_percentile": [
+      -0.007469073564199015,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:factual_answer_substitution__plain_substitution",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0016666666666666668,
+    "ci95_article_percentile": [
+      -0.008073372569481185,
+      0.004587331581831209
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:factual_answer_substitution__plain_substitution",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.025833333333333333,
+    "ci95_article_percentile": [
+      -0.03856575100596864,
+      -0.012591577010607861
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:factual_answer_substitution__plain_substitution",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.03833333333333333,
+    "ci95_article_percentile": [
+      -0.05258468975989726,
+      -0.02588057435363527
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:factual_answer_substitution__plain_substitution",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.015,
+    "ci95_article_percentile": [
+      -0.0017190405690866086,
+      0.0320979593626751
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:factual_answer_substitution__plain_substitution",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fake_completion__assistant_prefill",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.07583333333333334,
+    "ci95_article_percentile": [
+      -0.0962679182129084,
+      -0.05677088540699587
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fake_completion__assistant_prefill",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.055,
+    "ci95_article_percentile": [
+      -0.07413887836301629,
+      -0.03710091271914062
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fake_completion__assistant_prefill",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0008333333333333334,
+    "ci95_article_percentile": [
+      0.0,
+      0.0027575435416101915
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fake_completion__assistant_prefill",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.03833333333333333,
+    "ci95_article_percentile": [
+      -0.054964121510158254,
+      -0.022548974939345767
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fake_completion__assistant_prefill",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.049166666666666664,
+    "ci95_article_percentile": [
+      0.02607843048145354,
+      0.07286683031131076
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fake_completion__assistant_prefill",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fake_completion__completed_task",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.058333333333333334,
+    "ci95_article_percentile": [
+      -0.07746598843486814,
+      -0.04132076407531636
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fake_completion__completed_task",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0075,
+    "ci95_article_percentile": [
+      -0.012816122748558575,
+      0.025686473835217376
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fake_completion__completed_task",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fake_completion__completed_task",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0225,
+    "ci95_article_percentile": [
+      -0.041954962451826686,
+      -0.004211332985472845
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fake_completion__completed_task",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.03666666666666667,
+    "ci95_article_percentile": [
+      0.020064817711048552,
+      0.05433314620401624
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fake_completion__completed_task",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fewshot_demo__mapping_examples",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.06333333333333334,
+    "ci95_article_percentile": [
+      -0.08242995462220347,
+      -0.04475145604042654
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fewshot_demo__mapping_examples",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.004166666666666667,
+    "ci95_article_percentile": [
+      -0.015531071144631991,
+      0.025723610551918505
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fewshot_demo__mapping_examples",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fewshot_demo__mapping_examples",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.03916666666666667,
+    "ci95_article_percentile": [
+      -0.05754854008158611,
+      -0.02113321331501064
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fewshot_demo__mapping_examples",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0375,
+    "ci95_article_percentile": [
+      0.020932716372737324,
+      0.053573606271776986
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fewshot_demo__mapping_examples",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fewshot_demo__qa_demonstration",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0575,
+    "ci95_article_percentile": [
+      -0.07448654523789515,
+      -0.040800208305031026
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fewshot_demo__qa_demonstration",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.005,
+    "ci95_article_percentile": [
+      -0.02443196906706714,
+      0.012387226499909764
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fewshot_demo__qa_demonstration",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fewshot_demo__qa_demonstration",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.014166666666666666,
+    "ci95_article_percentile": [
+      -0.034305340733327264,
+      0.00517721248779672
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fewshot_demo__qa_demonstration",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.06916666666666667,
+    "ci95_article_percentile": [
+      0.05188516920021389,
+      0.08625365145584166
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:fewshot_demo__qa_demonstration",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:multipassage_corroboration__consensus_cards",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:multipassage_corroboration__consensus_cards",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:multipassage_corroboration__consensus_cards",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.02,
+    "ci95_article_percentile": [
+      0.004520749165002766,
+      0.03552104820323525
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:multipassage_corroboration__consensus_cards",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.023333333333333334,
+    "ci95_article_percentile": [
+      -0.04166753544620517,
+      -0.005463492722260107
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:multipassage_corroboration__consensus_cards",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.08833333333333333,
+    "ci95_article_percentile": [
+      0.06720647773279352,
+      0.10942604777620793
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:multipassage_corroboration__consensus_cards",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:multipassage_corroboration__support_and_doubt",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:multipassage_corroboration__support_and_doubt",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0008333333333333334,
+    "ci95_article_percentile": [
+      -0.0027703398293793115,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:multipassage_corroboration__support_and_doubt",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0725,
+    "ci95_article_percentile": [
+      -0.0955112463436775,
+      -0.05181717520133165
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:multipassage_corroboration__support_and_doubt",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0275,
+    "ci95_article_percentile": [
+      -0.046620348563353745,
+      -0.00835197497876925
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:multipassage_corroboration__support_and_doubt",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.09,
+    "ci95_article_percentile": [
+      0.07223611104481602,
+      0.10761988382374181
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:multipassage_corroboration__support_and_doubt",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:output_format_hijack__citation_label",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.10666666666666667,
+    "ci95_article_percentile": [
+      -0.12783025062054607,
+      -0.08848731348451676
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:output_format_hijack__citation_label",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.05,
+    "ci95_article_percentile": [
+      -0.07381666266890541,
+      -0.027048713481640316
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:output_format_hijack__citation_label",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:output_format_hijack__citation_label",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.056666666666666664,
+    "ci95_article_percentile": [
+      -0.07237646622408125,
+      -0.04059643945317679
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:output_format_hijack__citation_label",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.015833333333333335,
+    "ci95_article_percentile": [
+      -0.0017465751810783173,
+      0.03223709747068212
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:output_format_hijack__citation_label",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:output_format_hijack__json_field",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.15666666666666668,
+    "ci95_article_percentile": [
+      -0.182562492595664,
+      -0.1321827881542721
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:output_format_hijack__json_field",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.07916666666666666,
+    "ci95_article_percentile": [
+      -0.10106958536833067,
+      -0.056118268650385834
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:output_format_hijack__json_field",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:output_format_hijack__json_field",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.08333333333333333,
+    "ci95_article_percentile": [
+      -0.09974185763558754,
+      -0.06681102687479681
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:output_format_hijack__json_field",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0025,
+    "ci95_article_percentile": [
+      -0.012877675984920773,
+      0.01770099574619413
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:output_format_hijack__json_field",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:quoted_instruction_laundering__annotation_handoff",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.07666666666666666,
+    "ci95_article_percentile": [
+      -0.1,
+      -0.054824925529150886
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:quoted_instruction_laundering__annotation_handoff",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0016666666666666668,
+    "ci95_article_percentile": [
+      -0.019641699381238237,
+      0.01680690860414962
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:quoted_instruction_laundering__annotation_handoff",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:quoted_instruction_laundering__annotation_handoff",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.04666666666666667,
+    "ci95_article_percentile": [
+      -0.06701224175949357,
+      -0.026711119737399463
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:quoted_instruction_laundering__annotation_handoff",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.021666666666666667,
+    "ci95_article_percentile": [
+      0.00712870631734729,
+      0.0363236408517279
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:quoted_instruction_laundering__annotation_handoff",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:quoted_instruction_laundering__quoted_final_answer",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.13583333333333333,
+    "ci95_article_percentile": [
+      -0.16118874025152097,
+      -0.11201895691197954
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:quoted_instruction_laundering__quoted_final_answer",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0425,
+    "ci95_article_percentile": [
+      -0.06180414046183903,
+      -0.024671845541388033
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:quoted_instruction_laundering__quoted_final_answer",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:quoted_instruction_laundering__quoted_final_answer",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.04583333333333333,
+    "ci95_article_percentile": [
+      -0.06060930087876196,
+      -0.030979167379071644
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:quoted_instruction_laundering__quoted_final_answer",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.009166666666666667,
+    "ci95_article_percentile": [
+      -0.0044552060080427095,
+      0.0229800386455377
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:quoted_instruction_laundering__quoted_final_answer",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:task_aligned_persuasion__answer_check",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.055,
+    "ci95_article_percentile": [
+      -0.07118676520873701,
+      -0.039869601330074896
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:task_aligned_persuasion__answer_check",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.0016666666666666668,
+    "ci95_article_percentile": [
+      -0.019967259419079435,
+      0.016015032364874938
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:task_aligned_persuasion__answer_check",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:task_aligned_persuasion__answer_check",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.005,
+    "ci95_article_percentile": [
+      -0.019715888406453386,
+      0.008750836860308604
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:task_aligned_persuasion__answer_check",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0775,
+    "ci95_article_percentile": [
+      0.055148011717019475,
+      0.100512365660746
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:task_aligned_persuasion__answer_check",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:task_aligned_persuasion__grading_rationale",
+    "metric": "recall",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.060833333333333336,
+    "ci95_article_percentile": [
+      -0.07801761129983908,
+      -0.04552884305012347
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:task_aligned_persuasion__grading_rationale",
+    "metric": "recall",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.004166666666666667,
+    "ci95_article_percentile": [
+      -0.028597272949127867,
+      0.0194588413428847
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:task_aligned_persuasion__grading_rationale",
+    "metric": "recall",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:task_aligned_persuasion__grading_rationale",
+    "metric": "fpr",
+    "operating_point": "new_normal_1pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": -0.02,
+    "ci95_article_percentile": [
+      -0.03662465585499599,
+      -0.0042687720215145875
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:task_aligned_persuasion__grading_rationale",
+    "metric": "fpr",
+    "operating_point": "new_normal_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.049166666666666664,
+    "ci95_article_percentile": [
+      0.03230828453511468,
+      0.06615886905870148
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": "",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  },
+  {
+    "cohort": "template_id:task_aligned_persuasion__grading_rationale",
+    "metric": "fpr",
+    "operating_point": "previous_external_5pct",
+    "contrast": "LinearSVC_minus_LR",
+    "n": 1200,
+    "point": 0.0,
+    "ci95_article_percentile": [
+      0.0,
+      0.0
+    ],
+    "article_groups": 138,
+    "draws": 2000,
+    "warning": " Empirical zero/all-event cells cannot establish zero population uncertainty.",
+    "scope": "Paired article resampling over the same insertion sets with fixed fitted detectors; no model-selection claim."
+  }
+]

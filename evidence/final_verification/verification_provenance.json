@@ -1,0 +1,16 @@
+{
+  "status": "PASSED_STDLIB_AND_DEEP_OFFLINE",
+  "recorded_utc": "2026-10-20T05:16:34.957379+00:00",
+  "immutable_validation_copies": {
+    "revised_stdlib_validation.json": "3bfd556cd467100981cd9dabd4347154e3b90c7fc42618d350ae78a456f40ad4",
+    "revised_deep_validation.json": "b4dfe3176e229eecf57b4c754e4d253011f7e52112cbc48099911e88821ca9f2"
+  },
+  "verifier_sha256": "18e72a56849bff889d57a6f3e8c215d3bf1436e60c29cf294664527353909a40",
+  "scorer_sha256": "6d6a1f846e5856a005d73283cae5f2d5373f012b3d4831d7624ddb7425e048e2",
+  "formal_generation_sha256": "6c53189048e7417fd2089c003556b613ed4606c635fbb892a2891aee64d5e1e9",
+  "formal_summary_sha256": "d1f5bf9dbcd33aec2c2a0323870121778feefd237f6ddc4c32002d7ee2c21727",
+  "data_manifest_sha256": "a386a027e842262cf87dd72d08f5cb6884a1710883005ef29c63b40033824f76",
+  "verifier_amendment": "Optional source-audit title now follows exactly the frozen scorer fallback to input source_title/article_id/source_id; no model, input, reference alias, raw generation or scoring output changed.",
+  "scope": "No neural rerun. Standard mode uses only stdlib and recomputes counts/risks/thresholds/contexts/string scores; deep additionally recomputes declared-corpus insertion ranking, per-pool density and10000-resample paired intervals.",
+  "mutable_report": "output/revised_validation.json is excluded from immutable package manifest; immutable copies are in this directory."
+}

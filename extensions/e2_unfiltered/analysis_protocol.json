@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "status": "EXPLORATORY_EXTENSION_ANALYSIS_FROZEN_BEFORE_ADDITIONAL_UNFILTERED_OUTPUTS",
+  "frozen_utc": "2026-10-20T06:18:38.087266+00:00",
+  "scope": "Post-hoc extension motivated by already observed original E2 results. Existing original2175responses remain known; this is not a retroactive confirmatory preregistration. Analysis definitions are fixed before the additional125unfiltered responses.",
+  "sample_unit": "Same25source-supported questions, one per distinct article; retain every selected question and all outcomes.",
+  "fixed_qids": [
+    "squad-56dc79fc14d3a41400c268db",
+    "squad-56df79fe5ca0a614008f9b0a",
+    "squad-56dfecfb231d4119001abea8",
+    "squad-56f8aaba9b226e1400dd0dae",
+    "squad-56f8d39d9b226e1400dd10a6",
+    "squad-56f904a39e9bad19000a07df",
+    "squad-56f97e1c9e9bad19000a09bc",
+    "squad-5709a0c3ed30961900e84392",
+    "squad-570a64106d058f1900182dfd",
+    "squad-570b6593ec8fbc190045b9d5",
+    "squad-570cee7ffed7b91900d45aff",
+    "squad-570f38055ab6b81900390ea4",
+    "squad-57268eb85951b619008f7689",
+    "squad-5726b882dd62a815002e8e21",
+    "squad-5727d5992ca10214002d979b",
+    "squad-572801a52ca10214002d9b40",
+    "squad-57283ef9ff5b5019007d9fe9",
+    "squad-572855143acd2414000df91f",
+    "squad-5728ab303acd2414000dfc7f",
+    "squad-5728e52d2ca10214002daa54",
+    "squad-572a33f0af94a219006aa893",
+    "squad-572e9358cb0c0d14000f12ed",
+    "squad-573088d7396df9190009618c",
+    "squad-57317b4d05b4da19006bd1e4",
+    "squad-57344ca4acc1501500babdcc"
+  ],
+  "policies": [
+    "none",
+    "ctx",
+    "no_guard",
+    "fused"
+  ],
+  "settings": [
+    "clean",
+    "counterfactual_1",
+    "benign_echo_1",
+    "benign_echo_5",
+    "benign_copy_1",
+    "benign_copy_5",
+    "counterfactual_5"
+  ],
+  "role_counts": {
+    "original_e1_clean_and_cf1_reused": 200,
+    "original_e2_filtered_reused": 375,
+    "additional_unfiltered_requests": 125,
+    "combined_condition_rows": 700,
+    "independent_questions_and_articles": 25
+  },
+  "benign_primary_exploratory_contrasts": {
+    "metric": "alias_exact",
+    "conditions": [
+      "benign_echo_1",
+      "benign_echo_5",
+      "benign_copy_1",
+      "benign_copy_5"
+    ],
+    "filtered_policies": [
+      "ctx",
+      "no_guard",
+      "fused"
+    ],
+    "estimand": "mean_q[(Y_filtered,condition - Y_filtered,clean) - (Y_none,condition - Y_none,clean)]",
+    "expected_contrasts": 12,
+    "interpretation": "Baseline-adjusted relative change in frozen answer-string utility under the controlled transformation. Conditional exploratory pipeline comparison; not semantic correctness, general causal identification or population-wide defense efficacy."
+  },
+  "counterfactual_dose": {
+    "baseline": "counterfactual_1",
+    "condition": "counterfactual_5",
+    "within_policy": "mean_q[Y_policy,CF5 - Y_policy,CF1] for all4policies",
+    "difference_in_differences": "Each of3filtered changes minus the corresponding unfiltered change",
+    "status": "Exploratory, no additional confirmatory hypothesis tests"
+  },
+  "additional_descriptive_metrics": [
+    "token_f1",
+    "reference_mention",
+    "target_exact",
+    "target_mention",
+    "abstention",
+    "blank",
+    "length_cap",
+    "gold_retained",
+    "legitimate_support_retained",
+    "malicious_exposure",
+    "malicious_count"
+  ],
+  "support_definitions": "Use gold_retained and legitimate_support_retained directly from frozen selected requests. These declared document identities do not exhaust all useful evidence. Do not infer support from answer text.",
+  "uncertainty": {
+    "method": "Paired article bootstrap, preserving all policies/conditions for each sampled article",
+    "draws": 10000,
+    "seed": 20261020,
+    "interval": "2.5th and97.5th percentiles of paired mean differences",
+    "p_values": "None: no new confirmatory p-values or multiple-testing success claims",
+    "degenerate_intervals": "Report observed degeneracy; not equivalence proof"
+  },
+  "joint_outcomes": {
+    "reuse_only": "Original E1clean/CF1/explicitPI1 across original six policies, all100primary and source85sensitivity separately",
+    "U": "Frozen alias_exact boolean",
+    "T": "Frozen target_mention boolean, including quoted/negated occurrences",
+    "states": [
+      "U1_T0",
+      "U1_T1",
+      "U0_T0",
+      "U0_T1"
+    ],
+    "interpretation": "Joint string-proxy states; U1_T0 is not a certified secure answer. Do not relabel target mention as semantic adoption.",
+    "no_new_generation": true
+  },
+  "scorer": "Import the unchanged revised_experiment/evaluate_new.py score_row and aliases functions; canonical incorrect only, no post-result alias addition.",
+  "required_checks": [
+    "Verify all frozen original source hashes",
+    "Verify new request_manifest links requests and canonical pools; verify generation input/config hashes",
+    "Exactly125unique none request keys match all25qids\u00d75newconditions",
+    "Every selected pool matches original condition; source qid/article/answers/incorrect frozen",
+    "Conflicting duplicates fail; exact duplicate source condition rows may collapse and are reported",
+    "All700expected condition/policy/qid keys present; missing newnone outputs fail",
+    "All original and new request fields match their saved generation records",
+    "Complete prompts/config fingerprints and same-prompt responses checked within the extension reuse scope",
+    "No originalformaloutputs overwritten"
+  ],
+  "inputs": {
+    "revised_experiment/evaluate_new.py": {
+      "sha256": "6d6a1f846e5856a005d73283cae5f2d5373f012b3d4831d7624ddb7425e048e2",
+      "bytes": 28230
+    },
+    "output/revised_experiment/selection/context_requests.jsonl": {
+      "sha256": "3967d4c96db534d721a71c872771c567ae5dcf4321086c406309a786fee5593b",
+      "bytes": 10366387
+    },
+    "output/revised_experiment/generation/raw_generations.jsonl": {
+      "sha256": "6c53189048e7417fd2089c003556b613ed4606c635fbb892a2891aee64d5e1e9",
+      "bytes": 20243271
+    },
+    "output/revised_experiment/generation/run_manifest.json": {
+      "sha256": "39586caf2bac069dc246e8fddaa29dab6a54dfa51aae6ec920a8adc936d4a91e",
+      "bytes": 1543
+    },
+    "output/revised_experiment/fresh_features/pools_with_features.jsonl": {
+      "sha256": "a1dec174a4a7402ebfed0ee8a65b460fb2f5c30a6d3a65440b529ca3822bbba7",
+      "bytes": 12805821
+    },
+    "revised_experiment/data/test_source_quality_audit.json": {
+      "sha256": "f6e4819ae64da845b87628556dd0ae55bd3ab835bfcac863f2e15fa49ef63953",
+      "bytes": 101605
+    }
+  },
+  "expected_request_path": "extensions/e2_unfiltered/requests.jsonl",
+  "expected_request_manifest_path": "extensions/e2_unfiltered/request_manifest.json",
+  "default_generation_path": "output/revised_experiment/e2_unfiltered/generation",
+  "default_analysis_path": "output/revised_experiment/e2_unfiltered/analysis",
+  "check_inputs_mode": "Validate frozen original/request roles only; never create placeholder scores or a passed execution verdict when additional outputs are absent.",
+  "analysis_code_sha256": "34ce4d7e0a9b921194b96ad7e9638e4b7528df589be132be46d074cb5c913c6d"
+}

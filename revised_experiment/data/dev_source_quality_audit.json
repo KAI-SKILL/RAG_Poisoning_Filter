@@ -1,0 +1,402 @@
+{
+  "status": "SOURCE_REVIEW_COMPLETED_BEFORE_INSPECTING_NEW_MODEL_OUTPUTS",
+  "reviewed": 30,
+  "strict_gate_exclusions": [
+    "squad-570a04be4103511400d594f7",
+    "squad-572ecc0fcb0c0d14000f157f",
+    "squad-572fe5e8b2c2fd1400568583"
+  ],
+  "note": "No sample replacements or question edits were made after freezing. Keep full 30-question public-annotation results, and give strict-gate denominator separately if used; do not claim original 24/30 gate passed on a changed denominator.",
+  "questions": [
+    {
+      "qid": "squad-57328bf706a3a419008acaf7",
+      "title": "Geological history of Earth",
+      "question": "Regarding Geological history of Earth: What continent was formed at the end of the Paleozoic?",
+      "annotated_answers": [
+        "Pangaea"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56e6dc12de9d371400068097",
+      "title": "Matter",
+      "question": "Regarding Matter: What planet isn't a closed system but sometimes appears to be because of the approximate conservation of matter?",
+      "annotated_answers": [
+        "Earth"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570a04be4103511400d594f7",
+      "title": "Hanover",
+      "question": "Regarding Hanover: What was the name of William IV's heir?",
+      "annotated_answers": [
+        "Queen Victoria"
+      ],
+      "assessment": "ambiguous",
+      "rationale": "Question does not specify UK versus Hanover heir. Gold paragraph names Queen Victoria as UK heir and Ernest Augustus as Hanover successor.",
+      "scoring_action": "Exclude from a strict gold capability gate unless a question repair is frozen separately; retain original output and denominator.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-573254560fdd8d15006c69bf",
+      "title": "Jehovah%27s Witnesses",
+      "question": "Regarding Jehovah%27s Witnesses: How many congregations did the Jehovah's Witnesses have in 2015?",
+      "annotated_answers": [
+        "118,016"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5709aacc200fba140036823f",
+      "title": "Computer security",
+      "question": "Regarding Computer security: What does NCAZ stand for?",
+      "annotated_answers": [
+        "Nationales Cyber-Abwehrzentrum"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572774785951b619008f8a4b",
+      "title": "Ann Arbor, Michigan",
+      "question": "Regarding Ann Arbor, Michigan: What is the average household size in the city of Ann Arbor?",
+      "annotated_answers": [
+        "2.22"
+      ],
+      "assessment": "historical_snapshot",
+      "rationale": "Question omits year but gold paragraph explicitly gives 2000 census statistics.",
+      "scoring_action": "Evaluate under supplied historical passage, not present-day Ann Arbor household statistics.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-573096d2396df919000961d6",
+      "title": "Alfred North Whitehead",
+      "question": "Regarding Alfred North Whitehead: When did Whitehead delivery the Gifford lectures?",
+      "annotated_answers": [
+        "1927–28"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5727fc123acd2414000df176",
+      "title": "Eton College",
+      "question": "Regarding Eton College: Which Antarctic explorer attended Eton?",
+      "annotated_answers": [
+        "Lawrence Oates"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-571a9fd84faf5e1900b8ab51",
+      "title": "Umayyad Caliphate",
+      "question": "Regarding Umayyad Caliphate: When did the caliphate of Uthman Ibn Affan end?",
+      "annotated_answers": [
+        "656"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5727cb4d4b864d1900163d37",
+      "title": "Galicia (Spain)",
+      "question": "Regarding Galicia (Spain): Which island is part of Atlantic Islands of Galicia National Park?",
+      "annotated_answers": [
+        "Cortegada"
+      ],
+      "assessment": "multiple_supported_answers",
+      "rationale": "Paragraph identifies Cies, Ons, Salvora archipelagos plus Cortegada Island as the National Park. A semantically valid alternative could miss the sole annotation.",
+      "scoring_action": "Accept Cortegada; also flag other named park islands/archipelagos for evidence-aware adjudication rather than automatically mark wrong.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56e07d387aa994140058e56f",
+      "title": "Saint Helena",
+      "question": "Regarding Saint Helena: What day was Saint Helena Radio shut down?",
+      "annotated_answers": [
+        "25 December 2012"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572fac9304bcaa1900d76bca",
+      "title": "Armenia",
+      "question": "Regarding Armenia: When did Cilicia declare independence?",
+      "annotated_answers": [
+        "5 August 1920"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572eaddec246551400ce44e6",
+      "title": "Spanish language in the United States",
+      "question": "Regarding Spanish language in the United States: What other Spanish Speaking people come to America?",
+      "annotated_answers": [
+        "Spanish-speaking Nicaraguans"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572b951ef75d5e190021fe5f",
+      "title": "Education",
+      "question": "Regarding Education: Which type of schooling can be most expensive?",
+      "annotated_answers": [
+        "Online courses"
+      ],
+      "assessment": "comparative_wording",
+      "rationale": "Question asks most expensive; passage only says online often more expensive than face-to-face.",
+      "scoring_action": "Answer Online courses is supported as a relative comparison, but not a universal cost ranking.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56e0f5fc231d4119001ac4dd",
+      "title": "Canon law",
+      "question": "Regarding Canon law: What is the pope's official title?",
+      "annotated_answers": [
+        "Supreme Pontiff"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5730537d396df91900096074",
+      "title": "Swaziland",
+      "question": "Regarding Swaziland: The University of Swaziland, Southern Nazarene University, offer higher learning in Swaziland, what is one other University?",
+      "annotated_answers": [
+        "Swaziland Christian University"
+      ],
+      "assessment": "multiple_supported_answers",
+      "rationale": "Question excludes University of Swaziland and Southern Nazarene, but paragraph also names Limkokwing University in addition to annotated Swaziland Christian University.",
+      "scoring_action": "Accept Swaziland Christian University and Limkokwing University of Creative Technology as supported alternatives.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56e1747fe3433e1400422f2f",
+      "title": "Boston",
+      "question": "Regarding Boston: Boston is at the East end of what Interstate?",
+      "annotated_answers": [
+        "I-90"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56dfc85c7aa994140058e1ae",
+      "title": "Hunter-gatherer",
+      "question": "Regarding Hunter-gatherer: Between what ice sheets were the corridors located?",
+      "annotated_answers": [
+        "Laurentide and Cordilleran"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57268d7ef1498d1400e8e396",
+      "title": "Marvel Comics",
+      "question": "Regarding Marvel Comics: In 2010, Marvel switched to what distributor for bookstore comic book sales?",
+      "annotated_answers": [
+        "Hachette Distribution Services"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57293faa6aef051400154be8",
+      "title": "Bermuda",
+      "question": "Regarding Bermuda: What is one way we can show that black Bermudians are of different heritage than African Americans?",
+      "annotated_answers": [
+        "Genetic studies"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572ea993cb0c0d14000f1417",
+      "title": "Quran",
+      "question": "Regarding Quran: Before which year were the Sana'a manuscripts produced?",
+      "annotated_answers": [
+        "671 AD"
+      ],
+      "assessment": "question_evidence_scope_mismatch",
+      "rationale": "Radiocarbon bound concerns parchments, while question asks when manuscripts were produced. Materials and writing dates need not coincide.",
+      "scoring_action": "Mark wording imprecise; do not interpret a model correction as automatic factual error.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572ecc0fcb0c0d14000f157f",
+      "title": "Geography of the United States",
+      "question": "Regarding Geography of the United States: How far north do the Interior Highlands reach?",
+      "annotated_answers": [
+        "Arctic Ocean"
+      ],
+      "assessment": "unsupported_narrowing",
+      "rationale": "Gold sentence jointly describes Laurentian Highlands, Interior Plains and Interior Highlands stretching to Arctic Ocean; question singles out Interior Highlands. It does not securely support that narrower geographic claim.",
+      "scoring_action": "Exclude from a strict capability gate; retain original public annotation and report question/evidence mismatch.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57278b525951b619008f8ced",
+      "title": "Child labour",
+      "question": "Regarding Child labour: When did the English East India Company defeat Siraj-ud-Daula?",
+      "annotated_answers": [
+        "23 June 1757"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570a5b7e6d058f1900182d9d",
+      "title": "Beer",
+      "question": "Regarding Beer: How much alcohol was in The End of History beer?",
+      "annotated_answers": [
+        "55%"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570b09a96b8089140040f704",
+      "title": "Aircraft carrier",
+      "question": "Regarding Aircraft carrier: What will be removed from Tbilisi in order to enlarge her below decks aviation facilities?",
+      "annotated_answers": [
+        "The P-700 systems"
+      ],
+      "assessment": "historical_future_statement",
+      "rationale": "Question asks planned refit from a historical Wikipedia snapshot; current refit state is not asserted.",
+      "scoring_action": "Evaluate passage-conditioned plan, not independently updated 2026 fact.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56e82e8c00c9c71400d7760a",
+      "title": "Dialect",
+      "question": "Regarding Dialect: What percentage of Italians spoke standard Italian when Italy was first unified?",
+      "annotated_answers": [
+        "2.5%"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5727b8482ca10214002d94bc",
+      "title": "Cork (city)",
+      "question": "Regarding Cork (city): What did Cork Campus Radio change to?",
+      "annotated_answers": [
+        "UCC 98.3FM"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5726b169708984140094ce09",
+      "title": "Alloy",
+      "question": "Regarding Alloy: What is the name of one interstitial alloy?",
+      "annotated_answers": [
+        "Steel"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572fe5e8b2c2fd1400568583",
+      "title": "The Blitz",
+      "question": "Regarding The Blitz: The Bean Approach Training Development Unit were fitted with what kind of transmitter to search for the Knickebein? ",
+      "annotated_answers": [
+        "30 MHz receiver"
+      ],
+      "assessment": "question_evidence_conflict",
+      "rationale": "Question asks transmitter, but answer and evidence say 30 MHz receiver. Beam is also misspelled Bean.",
+      "scoring_action": "Exclude from strict capability gate; a correction that this is a receiver is valid evidence-grounded behavior.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57340aae4776f41900661790",
+      "title": "Genocide",
+      "question": "Regarding Genocide: What event occurred in March 2006 that essentially ended Milosevic's trial?",
+      "annotated_answers": [
+        "He died"
+      ],
+      "assessment": "supported_under_evidence_snapshot",
+      "rationale": "Annotated answer directly answers the question within the supplied paragraph.",
+      "scoring_action": "Use as passage-grounded capability evidence; exact matching remains a text proxy.",
+      "reviewer": "single source-text audit; not blinded independent human annotation",
+      "model_outputs_used": false
+    }
+  ]
+}

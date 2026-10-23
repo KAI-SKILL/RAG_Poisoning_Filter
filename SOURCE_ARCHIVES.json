@@ -1,0 +1,30 @@
+{
+  "packaged_date": "2026-10-23",
+  "main_study_checked_against": "Group9_Final_Report_v6.pdf",
+  "source_archives": [
+    {
+      "filename": "Group9_Complete_Package(1).zip",
+      "sha256": "74d91be82c669fa8282a35eab0f2e8f54dded2bc84bf19f8f7dfc0a9cf7945d4",
+      "size_bytes": 72383318
+    },
+    {
+      "filename": "Group9_UoA_All_Experiments_2026-10-22.zip",
+      "sha256": "877206925e54a08d032b31c6887a412f79cca16845d3bfc4958354f944215476",
+      "size_bytes": 131843471
+    },
+    {
+      "filename": "Group9_Actual_Data_2026-10-22.zip",
+      "sha256": "05b8dcfdedfe8103b52154891c58e90006687752ff9f472fd32fd5f908276e4d",
+      "size_bytes": 30964394
+    }
+  ],
+  "packaging_changes": [
+    "Removed report/presentation files and document/visual production assets.",
+    "Changed run_project.py default to scientific verification only.",
+    "Added repository README, upload instructions and lossless large-artifact restoration.",
+    "Expanded-study data compression and verification scope are documented in expanded_study/README.md.",
+    "Generalized personal, review and local-system metadata for public distribution.",
+    "Retained historical hash identifiers separately from actual published hashes; numerical verification uses explicit release mappings."
+  ],
+  "model_inference_executed_during_packaging": false
+}

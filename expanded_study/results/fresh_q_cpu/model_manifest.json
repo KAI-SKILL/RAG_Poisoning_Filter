@@ -1,0 +1,26 @@
+{
+  "repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+  "revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+  "quantization": "Q4_K_M",
+  "files": [
+    {
+      "file": "qwen2.5-3b-instruct-q4_k_m.gguf",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/7dabda4d13d513e3e842b20f0d435c732f172cbe/qwen2.5-3b-instruct-q4_k_m.gguf",
+      "bytes": 2104932768,
+      "sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d"
+    },
+    {
+      "file": "README.md",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/7dabda4d13d513e3e842b20f0d435c732f172cbe/README.md",
+      "bytes": 4867,
+      "sha256": "934bca6ff3ca27481c49b52a2d3138f6f58b8a64f016fd461bc11fad8963eee5"
+    },
+    {
+      "file": "LICENSE",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/7dabda4d13d513e3e842b20f0d435c732f172cbe/LICENSE",
+      "bytes": 7388,
+      "sha256": "ef52482bb785733093dc9a2e8edd8e764c77d12d8e9d8f10a80c9b547d32d0f9"
+    }
+  ],
+  "inference_executed": false
+}

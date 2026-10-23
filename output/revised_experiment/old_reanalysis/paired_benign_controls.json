@@ -1,0 +1,166 @@
+{
+  "1pct": {
+    "ctx": {
+      "benign_echo": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 19,
+        "transformed_fp": 44,
+        "original_fpr": 0.038,
+        "transformed_fpr": 0.088,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      },
+      "benign_mirror": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 19,
+        "transformed_fp": 356,
+        "original_fpr": 0.038,
+        "transformed_fpr": 0.712,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      }
+    },
+    "no_guard": {
+      "benign_echo": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 23,
+        "transformed_fp": 42,
+        "original_fpr": 0.046,
+        "transformed_fpr": 0.084,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      },
+      "benign_mirror": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 23,
+        "transformed_fp": 223,
+        "original_fpr": 0.046,
+        "transformed_fpr": 0.446,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      }
+    },
+    "fused": {
+      "benign_echo": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 23,
+        "transformed_fp": 42,
+        "original_fpr": 0.046,
+        "transformed_fpr": 0.084,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      },
+      "benign_mirror": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 23,
+        "transformed_fp": 228,
+        "original_fpr": 0.046,
+        "transformed_fpr": 0.456,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      }
+    },
+    "tfidf_lr": {
+      "benign_echo": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 7,
+        "transformed_fp": 38,
+        "original_fpr": 0.014,
+        "transformed_fpr": 0.076,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      },
+      "benign_mirror": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 7,
+        "transformed_fp": 7,
+        "original_fpr": 0.014,
+        "transformed_fpr": 0.014,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      }
+    }
+  },
+  "5pct": {
+    "ctx": {
+      "benign_echo": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 82,
+        "transformed_fp": 148,
+        "original_fpr": 0.164,
+        "transformed_fpr": 0.296,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      },
+      "benign_mirror": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 82,
+        "transformed_fp": 500,
+        "original_fpr": 0.164,
+        "transformed_fpr": 1.0,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      }
+    },
+    "no_guard": {
+      "benign_echo": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 86,
+        "transformed_fp": 153,
+        "original_fpr": 0.172,
+        "transformed_fpr": 0.306,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      },
+      "benign_mirror": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 86,
+        "transformed_fp": 498,
+        "original_fpr": 0.172,
+        "transformed_fpr": 0.996,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      }
+    },
+    "fused": {
+      "benign_echo": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 85,
+        "transformed_fp": 153,
+        "original_fpr": 0.17,
+        "transformed_fpr": 0.306,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      },
+      "benign_mirror": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 85,
+        "transformed_fp": 498,
+        "original_fpr": 0.17,
+        "transformed_fpr": 0.996,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      }
+    },
+    "tfidf_lr": {
+      "benign_echo": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 31,
+        "transformed_fp": 75,
+        "original_fpr": 0.062,
+        "transformed_fpr": 0.15,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      },
+      "benign_mirror": {
+        "matched_passages": 500,
+        "questions": 100,
+        "original_fp": 31,
+        "transformed_fp": 31,
+        "original_fpr": 0.062,
+        "transformed_fpr": 0.062,
+        "transformation_scope": "All five change simultaneously; includes changed peer statistics/ranking, not pure text-only causal effect."
+      }
+    }
+  }
+}

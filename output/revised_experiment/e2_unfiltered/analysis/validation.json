@@ -1,0 +1,17 @@
+{
+  "analysis_id": "Group9-E2-unfiltered-extension-v1",
+  "status": "passed",
+  "combined_rows": 700,
+  "articles": 25,
+  "matrix_cells": 28,
+  "primary_exploratory_alias_did_contrasts": 12,
+  "joint_original_e1_cells": 36,
+  "frozen_scorer_unchanged": true,
+  "all_requested_qid_policy_condition_keys_present": true,
+  "protocol_sha256": "0d28390a134c2e32dac7f2a803169662638640f69131c2057f0331cd3c21c1d1",
+  "analysis_code_sha256": "34ce4d7e0a9b921194b96ad7e9638e4b7528df589be132be46d074cb5c913c6d",
+  "summary_sha256": "3ccd1c0e3338adef8fd192b2fea4c1b2fb61be24f177bc1384dbc3ebe41ad3bc",
+  "combined_scores_sha256": "7634e82d8abf3c8819648fb04494ab16d2edcc155329886ec4507addf6ae22b3",
+  "inference_performed_by_this_analysis": false,
+  "scope": "Conditional exploratory paired article analysis; no new confirmatory tests or semantic safety claims"
+}

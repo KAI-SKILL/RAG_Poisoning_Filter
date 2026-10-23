@@ -1,0 +1,13 @@
+{
+  "downloaded_primary_files_checked": 106,
+  "hash_mismatches": [],
+  "injecagent_contexts": 1054,
+  "injecagent_payload_parents": 62,
+  "injecagent_user_tasks": 17,
+  "injecagent_cross_product": 1054,
+  "agentdojo_all_tool_outputs": 348,
+  "agentdojo_unique_tool_outputs": 141,
+  "duplicate_occurrences_removed": 207,
+  "dedup_retains_all_source_groups": true,
+  "scope": "Passive raw-source retrieval and structural/hash checks only; no actual victim agents/tools/model inference run."
+}

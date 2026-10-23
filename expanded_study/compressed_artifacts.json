@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "base_directory": ".",
+  "description": "Lossless gzip storage of original frozen artifacts. Paths are relative to this manifest directory. SHA256 and byte count refer to restored original bytes.",
+  "artifacts": [
+    {
+      "original_path": "data/cases.jsonl",
+      "compressed_path": "data/cases.jsonl.gz",
+      "sha256": "8034d0745f3ac689e41abc992d0257797471f3c1126a46f5efc47ee503f3e60c",
+      "uncompressed_bytes": 123741128,
+      "compressed_bytes": 17920492,
+      "compressed_sha256": "8cc5a2973e28657864007369232591f45bb6a8c646788fdb774b468d220c5d7e"
+    },
+    {
+      "original_path": "results/fresh_sparse/case_predictions.jsonl",
+      "compressed_path": "results/fresh_sparse/case_predictions.jsonl.gz",
+      "sha256": "11cdf51f0be90cd367e0f28cf2055b994a9c7cd00ca6da577751bb4f40752c8e",
+      "uncompressed_bytes": 38115279,
+      "compressed_bytes": 2082782,
+      "compressed_sha256": "59decd9eae2d50343022fea24ce04638d29ab920cf32662987477342283fe43c"
+    },
+    {
+      "original_path": "results/fresh_sparse/document_predictions.jsonl",
+      "compressed_path": "results/fresh_sparse/document_predictions.jsonl.gz",
+      "sha256": "0b7b6db5c633b03460172d7831ef37ebdd2a14732659ddae5eb29ec0d557b8a2",
+      "uncompressed_bytes": 50492832,
+      "compressed_bytes": 5532867,
+      "compressed_sha256": "af55150b95d40b0ab5ad1dda372b34dda167f54022d912ed91636c69a62a2865"
+    },
+    {
+      "original_path": "results/fresh_sparse/retrieval_delivery.jsonl",
+      "compressed_path": "results/fresh_sparse/retrieval_delivery.jsonl.gz",
+      "sha256": "73083e23f2aed9c6b66b83c4b7127ebe430deac50e17b3b82d7e9e99468ae982",
+      "uncompressed_bytes": 281971295,
+      "compressed_bytes": 6910656,
+      "compressed_sha256": "5c69999c8eb237822d4058191c8f20044fbece674cbedfd4a03a0c7db662a172"
+    },
+    {
+      "original_path": "results/retrieval_delivery.jsonl",
+      "compressed_path": "results/fresh_sparse/retrieval_delivery.jsonl.gz",
+      "sha256": "73083e23f2aed9c6b66b83c4b7127ebe430deac50e17b3b82d7e9e99468ae982",
+      "uncompressed_bytes": 281971295,
+      "compressed_bytes": 6910656,
+      "reason": "compatibility path for unchanged frozen prepare_inputs.py",
+      "compressed_sha256": "5c69999c8eb237822d4058191c8f20044fbece674cbedfd4a03a0c7db662a172"
+    },
+    {
+      "original_path": "generation/input/generation_inputs.sqlite",
+      "sha256": "7d1ae61cf8b2163eec3654a2429f76f64088bba58df51ddb5a6cb96c7f1aa27b",
+      "uncompressed_bytes": 1365520384,
+      "compressed_bytes": 97198993,
+      "chunks": [
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0000.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0001.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0002.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0003.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0004.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0005.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0006.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0007.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0008.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0009.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0010.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0011.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0012.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0013.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0014.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0015.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0016.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0017.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0018.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0019.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0020.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0021.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0022.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0023.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0024.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0025.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0026.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0027.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0028.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0029.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0030.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0031.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0032.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0033.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0034.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0035.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0036.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0037.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0038.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0039.gz",
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "compressed_path": "generation/input/generation_inputs.sqlite.parts/part-0040.gz",
+          "uncompressed_bytes": 23343104
+        }
+      ]
+    }
+  ]
+}

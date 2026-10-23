@@ -1,0 +1,14 @@
+{
+  "source_url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v1.1.json",
+  "raw_file": "raw/squad_train-v1.1.json",
+  "bytes": 30288272,
+  "sha256": "3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955",
+  "unchanged_original_source": true,
+  "previous_source_counts": {
+    "prior_normalized_titles": 1174,
+    "prior_normalized_questions": 560,
+    "prior_normalized_passages": 3370
+  },
+  "source_source": "Official Stanford-hosted SQuAD v1.1 train snapshot",
+  "license_notice": "CC BY-SA4.0; per-document Wikipedia attribution retained; see SOURCE_ATTRIBUTION.md"
+}

@@ -1,0 +1,5751 @@
+{
+  "unit": "100 queries per setting; query attack admission=at least1 malicious selected context. Mean adversarial contexts denominator100; slot fraction denominator500capacity even if fewer than5 accepted. All paired intervals reuse seed12/10000 whole-QID draws. This measures exposure, not generator ASR.",
+  "suites": {
+    "main": {
+      "combine": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 94,
+          "query_attack_admission_rate": 0.94,
+          "query_attack_admission_ci95": [
+            0.89,
+            0.98
+          ],
+          "mean_adversarial_contexts": 4.22,
+          "mean_adversarial_contexts_ci95": [
+            3.93,
+            4.49
+          ],
+          "malicious_slot_fraction_denom_500": 0.844,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 63,
+          "query_attack_admission_rate": 0.63,
+          "query_attack_admission_ci95": [
+            0.53,
+            0.72
+          ],
+          "mean_adversarial_contexts": 1.12,
+          "mean_adversarial_contexts_ci95": [
+            0.9,
+            1.36
+          ],
+          "malicious_slot_fraction_denom_500": 0.224,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 94,
+          "query_attack_admission_rate": 0.94,
+          "query_attack_admission_ci95": [
+            0.89,
+            0.98
+          ],
+          "mean_adversarial_contexts": 3.67,
+          "mean_adversarial_contexts_ci95": [
+            3.41,
+            3.92
+          ],
+          "malicious_slot_fraction_denom_500": 0.734,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "escape": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 98,
+          "query_attack_admission_rate": 0.98,
+          "query_attack_admission_ci95": [
+            0.95,
+            1.0
+          ],
+          "mean_adversarial_contexts": 4.57,
+          "mean_adversarial_contexts_ci95": [
+            4.36,
+            4.76
+          ],
+          "malicious_slot_fraction_denom_500": 0.914,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 98,
+          "query_attack_admission_rate": 0.98,
+          "query_attack_admission_ci95": [
+            0.95,
+            1.0
+          ],
+          "mean_adversarial_contexts": 4.47,
+          "mean_adversarial_contexts_ci95": [
+            4.24,
+            4.68
+          ],
+          "malicious_slot_fraction_denom_500": 0.894,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 100,
+          "query_attack_admission_rate": 1.0,
+          "query_attack_admission_ci95": [
+            1.0,
+            1.0
+          ],
+          "mean_adversarial_contexts": 3.87,
+          "mean_adversarial_contexts_ci95": [
+            3.65,
+            4.09
+          ],
+          "malicious_slot_fraction_denom_500": 0.774,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 1,
+          "query_attack_admission_rate": 0.01,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.03
+          ],
+          "mean_adversarial_contexts": 0.01,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.03
+          ],
+          "malicious_slot_fraction_denom_500": 0.002,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 1,
+          "query_attack_admission_rate": 0.01,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.03
+          ],
+          "mean_adversarial_contexts": 0.01,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.03
+          ],
+          "malicious_slot_fraction_denom_500": 0.002,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 1,
+          "query_attack_admission_rate": 0.01,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.03
+          ],
+          "mean_adversarial_contexts": 0.01,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.03
+          ],
+          "malicious_slot_fraction_denom_500": 0.002,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 1,
+          "query_attack_admission_rate": 0.01,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.03
+          ],
+          "mean_adversarial_contexts": 0.01,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.03
+          ],
+          "malicious_slot_fraction_denom_500": 0.002,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 1,
+          "query_attack_admission_rate": 0.01,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.03
+          ],
+          "mean_adversarial_contexts": 0.01,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.03
+          ],
+          "malicious_slot_fraction_denom_500": 0.002,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.01,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.03
+            ],
+            "mean_adv_contexts_delta": 0.01,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.03
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "fake_comp": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 94,
+          "query_attack_admission_rate": 0.94,
+          "query_attack_admission_ci95": [
+            0.89,
+            0.98
+          ],
+          "mean_adversarial_contexts": 4.26,
+          "mean_adversarial_contexts_ci95": [
+            3.98,
+            4.52
+          ],
+          "malicious_slot_fraction_denom_500": 0.852,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 93,
+          "query_attack_admission_rate": 0.93,
+          "query_attack_admission_ci95": [
+            0.88,
+            0.98
+          ],
+          "mean_adversarial_contexts": 3.3,
+          "mean_adversarial_contexts_ci95": [
+            3.02,
+            3.57
+          ],
+          "malicious_slot_fraction_denom_500": 0.66,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 97,
+          "query_attack_admission_rate": 0.97,
+          "query_attack_admission_ci95": [
+            0.93,
+            1.0
+          ],
+          "mean_adversarial_contexts": 3.76,
+          "mean_adversarial_contexts_ci95": [
+            3.52,
+            4.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.752,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 1,
+          "query_attack_admission_rate": 0.01,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.03
+          ],
+          "mean_adversarial_contexts": 0.01,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.03
+          ],
+          "malicious_slot_fraction_denom_500": 0.002,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "ignore": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 94,
+          "query_attack_admission_rate": 0.94,
+          "query_attack_admission_ci95": [
+            0.89,
+            0.98
+          ],
+          "mean_adversarial_contexts": 4.35,
+          "mean_adversarial_contexts_ci95": [
+            4.08,
+            4.6
+          ],
+          "malicious_slot_fraction_denom_500": 0.87,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 54,
+          "query_attack_admission_rate": 0.54,
+          "query_attack_admission_ci95": [
+            0.44,
+            0.64
+          ],
+          "mean_adversarial_contexts": 0.86,
+          "mean_adversarial_contexts_ci95": [
+            0.67,
+            1.05
+          ],
+          "malicious_slot_fraction_denom_500": 0.172,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 95,
+          "query_attack_admission_rate": 0.95,
+          "query_attack_admission_ci95": [
+            0.9,
+            0.99
+          ],
+          "mean_adversarial_contexts": 4.03,
+          "mean_adversarial_contexts_ci95": [
+            3.77,
+            4.27
+          ],
+          "malicious_slot_fraction_denom_500": 0.806,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "naive": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 98,
+          "query_attack_admission_rate": 0.98,
+          "query_attack_admission_ci95": [
+            0.95,
+            1.0
+          ],
+          "mean_adversarial_contexts": 4.54,
+          "mean_adversarial_contexts_ci95": [
+            4.33,
+            4.74
+          ],
+          "malicious_slot_fraction_denom_500": 0.908,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 98,
+          "query_attack_admission_rate": 0.98,
+          "query_attack_admission_ci95": [
+            0.95,
+            1.0
+          ],
+          "mean_adversarial_contexts": 4.39,
+          "mean_adversarial_contexts_ci95": [
+            4.14,
+            4.62
+          ],
+          "malicious_slot_fraction_denom_500": 0.878,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 100,
+          "query_attack_admission_rate": 1.0,
+          "query_attack_admission_ci95": [
+            1.0,
+            1.0
+          ],
+          "mean_adversarial_contexts": 4.0,
+          "mean_adversarial_contexts_ci95": [
+            3.8,
+            4.2
+          ],
+          "malicious_slot_fraction_denom_500": 0.8,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 1,
+          "query_attack_admission_rate": 0.01,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.03
+          ],
+          "mean_adversarial_contexts": 0.01,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.03
+          ],
+          "malicious_slot_fraction_denom_500": 0.002,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.01,
+            "query_admission_delta_ci95": [
+              -0.03,
+              0.0
+            ],
+            "mean_adv_contexts_delta": -0.01,
+            "mean_adv_contexts_delta_ci95": [
+              -0.03,
+              0.0
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "none": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "poison": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 100,
+          "query_attack_admission_rate": 1.0,
+          "query_attack_admission_ci95": [
+            1.0,
+            1.0
+          ],
+          "mean_adversarial_contexts": 4.79,
+          "mean_adversarial_contexts_ci95": [
+            4.67,
+            4.9
+          ],
+          "malicious_slot_fraction_denom_500": 0.958,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 100,
+          "query_attack_admission_rate": 1.0,
+          "query_attack_admission_ci95": [
+            1.0,
+            1.0
+          ],
+          "mean_adversarial_contexts": 4.79,
+          "mean_adversarial_contexts_ci95": [
+            4.67,
+            4.9
+          ],
+          "malicious_slot_fraction_denom_500": 0.958,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 99,
+          "query_attack_admission_rate": 0.99,
+          "query_attack_admission_ci95": [
+            0.97,
+            1.0
+          ],
+          "mean_adversarial_contexts": 4.53,
+          "mean_adversarial_contexts_ci95": [
+            4.32,
+            4.72
+          ],
+          "malicious_slot_fraction_denom_500": 0.906,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 100,
+          "query_attack_admission_rate": 1.0,
+          "query_attack_admission_ci95": [
+            1.0,
+            1.0
+          ],
+          "mean_adversarial_contexts": 4.32,
+          "mean_adversarial_contexts_ci95": [
+            4.17,
+            4.46
+          ],
+          "malicious_slot_fraction_denom_500": 0.864,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 22,
+          "query_attack_admission_rate": 0.22,
+          "query_attack_admission_ci95": [
+            0.14,
+            0.3
+          ],
+          "mean_adversarial_contexts": 0.37,
+          "mean_adversarial_contexts_ci95": [
+            0.22,
+            0.53
+          ],
+          "malicious_slot_fraction_denom_500": 0.074,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 17,
+          "query_attack_admission_rate": 0.17,
+          "query_attack_admission_ci95": [
+            0.1,
+            0.25
+          ],
+          "mean_adversarial_contexts": 0.23,
+          "mean_adversarial_contexts_ci95": [
+            0.13,
+            0.35
+          ],
+          "malicious_slot_fraction_denom_500": 0.046,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 99,
+          "query_attack_admission_rate": 0.99,
+          "query_attack_admission_ci95": [
+            0.97,
+            1.0
+          ],
+          "mean_adversarial_contexts": 4.53,
+          "mean_adversarial_contexts_ci95": [
+            4.32,
+            4.72
+          ],
+          "malicious_slot_fraction_denom_500": 0.906,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 21,
+          "query_attack_admission_rate": 0.21,
+          "query_attack_admission_ci95": [
+            0.13,
+            0.29
+          ],
+          "mean_adversarial_contexts": 0.28,
+          "mean_adversarial_contexts_ci95": [
+            0.17,
+            0.4
+          ],
+          "malicious_slot_fraction_denom_500": 0.056,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 21,
+          "query_attack_admission_rate": 0.21,
+          "query_attack_admission_ci95": [
+            0.13,
+            0.29
+          ],
+          "mean_adversarial_contexts": 0.28,
+          "mean_adversarial_contexts_ci95": [
+            0.17,
+            0.4
+          ],
+          "malicious_slot_fraction_denom_500": 0.056,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 19,
+          "query_attack_admission_rate": 0.19,
+          "query_attack_admission_ci95": [
+            0.12,
+            0.27
+          ],
+          "mean_adversarial_contexts": 0.28,
+          "mean_adversarial_contexts_ci95": [
+            0.16,
+            0.41
+          ],
+          "malicious_slot_fraction_denom_500": 0.056,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": 0.03999999999999998,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.09
+            ],
+            "mean_adv_contexts_delta": 0.05000000000000002,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.1
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": -0.01999999999999999,
+            "query_admission_delta_ci95": [
+              -0.05000000000000002,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              -0.040000000000000036,
+              0.050000000000000044
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": -0.78,
+            "query_admission_delta_ci95": [
+              -0.86,
+              -0.7
+            ],
+            "mean_adv_contexts_delta": -4.25,
+            "mean_adv_contexts_delta_ci95": [
+              -4.5,
+              -3.98
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "stealth": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 96,
+          "query_attack_admission_rate": 0.96,
+          "query_attack_admission_ci95": [
+            0.92,
+            0.99
+          ],
+          "mean_adversarial_contexts": 4.48,
+          "mean_adversarial_contexts_ci95": [
+            4.23,
+            4.71
+          ],
+          "malicious_slot_fraction_denom_500": 0.896,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 96,
+          "query_attack_admission_rate": 0.96,
+          "query_attack_admission_ci95": [
+            0.92,
+            0.99
+          ],
+          "mean_adversarial_contexts": 4.48,
+          "mean_adversarial_contexts_ci95": [
+            4.23,
+            4.71
+          ],
+          "malicious_slot_fraction_denom_500": 0.896,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 96,
+          "query_attack_admission_rate": 0.96,
+          "query_attack_admission_ci95": [
+            0.92,
+            0.99
+          ],
+          "mean_adversarial_contexts": 3.58,
+          "mean_adversarial_contexts_ci95": [
+            3.33,
+            3.81
+          ],
+          "malicious_slot_fraction_denom_500": 0.716,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 96,
+          "query_attack_admission_rate": 0.96,
+          "query_attack_admission_ci95": [
+            0.92,
+            0.99
+          ],
+          "mean_adversarial_contexts": 4.12,
+          "mean_adversarial_contexts_ci95": [
+            3.87,
+            4.35
+          ],
+          "malicious_slot_fraction_denom_500": 0.824,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 47,
+          "query_attack_admission_rate": 0.47,
+          "query_attack_admission_ci95": [
+            0.37,
+            0.57
+          ],
+          "mean_adversarial_contexts": 0.65,
+          "mean_adversarial_contexts_ci95": [
+            0.48,
+            0.84
+          ],
+          "malicious_slot_fraction_denom_500": 0.13,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 8,
+          "query_attack_admission_rate": 0.08,
+          "query_attack_admission_ci95": [
+            0.03,
+            0.14
+          ],
+          "mean_adversarial_contexts": 0.1,
+          "mean_adversarial_contexts_ci95": [
+            0.04,
+            0.18
+          ],
+          "malicious_slot_fraction_denom_500": 0.02,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 96,
+          "query_attack_admission_rate": 0.96,
+          "query_attack_admission_ci95": [
+            0.92,
+            0.99
+          ],
+          "mean_adversarial_contexts": 3.6,
+          "mean_adversarial_contexts_ci95": [
+            3.35,
+            3.83
+          ],
+          "malicious_slot_fraction_denom_500": 0.72,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 12,
+          "query_attack_admission_rate": 0.12,
+          "query_attack_admission_ci95": [
+            0.06,
+            0.19
+          ],
+          "mean_adversarial_contexts": 0.16,
+          "mean_adversarial_contexts_ci95": [
+            0.08,
+            0.26
+          ],
+          "malicious_slot_fraction_denom_500": 0.032,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 12,
+          "query_attack_admission_rate": 0.12,
+          "query_attack_admission_ci95": [
+            0.06,
+            0.19
+          ],
+          "mean_adversarial_contexts": 0.16,
+          "mean_adversarial_contexts_ci95": [
+            0.08,
+            0.26
+          ],
+          "malicious_slot_fraction_denom_500": 0.032,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 12,
+          "query_attack_admission_rate": 0.12,
+          "query_attack_admission_ci95": [
+            0.06,
+            0.19
+          ],
+          "mean_adversarial_contexts": 0.14,
+          "mean_adversarial_contexts_ci95": [
+            0.07,
+            0.22
+          ],
+          "malicious_slot_fraction_denom_500": 0.028,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": 0.039999999999999994,
+            "query_admission_delta_ci95": [
+              0.009999999999999995,
+              0.08000000000000002
+            ],
+            "mean_adv_contexts_delta": 0.06,
+            "mean_adv_contexts_delta_ci95": [
+              0.01999999999999999,
+              0.11
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              -0.04999999999999999,
+              0.04999999999999999
+            ],
+            "mean_adv_contexts_delta": -0.01999999999999999,
+            "mean_adv_contexts_delta_ci95": [
+              -0.07999999999999999,
+              0.030000000000000013
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": -0.84,
+            "query_admission_delta_ci95": [
+              -0.9099999999999999,
+              -0.76
+            ],
+            "mean_adv_contexts_delta": -3.44,
+            "mean_adv_contexts_delta_ci95": [
+              -3.69,
+              -3.1799999999999997
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "single_matched": {
+      "combine": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 94,
+          "query_attack_admission_rate": 0.94,
+          "query_attack_admission_ci95": [
+            0.89,
+            0.98
+          ],
+          "mean_adversarial_contexts": 0.94,
+          "mean_adversarial_contexts_ci95": [
+            0.89,
+            0.98
+          ],
+          "malicious_slot_fraction_denom_500": 0.188,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 34,
+          "query_attack_admission_rate": 0.34,
+          "query_attack_admission_ci95": [
+            0.25,
+            0.44
+          ],
+          "mean_adversarial_contexts": 0.34,
+          "mean_adversarial_contexts_ci95": [
+            0.25,
+            0.44
+          ],
+          "malicious_slot_fraction_denom_500": 0.068,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 9,
+          "query_attack_admission_rate": 0.09,
+          "query_attack_admission_ci95": [
+            0.04,
+            0.15
+          ],
+          "mean_adversarial_contexts": 0.09,
+          "mean_adversarial_contexts_ci95": [
+            0.04,
+            0.15
+          ],
+          "malicious_slot_fraction_denom_500": 0.018,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 94,
+          "query_attack_admission_rate": 0.94,
+          "query_attack_admission_ci95": [
+            0.89,
+            0.98
+          ],
+          "mean_adversarial_contexts": 0.94,
+          "mean_adversarial_contexts_ci95": [
+            0.89,
+            0.98
+          ],
+          "malicious_slot_fraction_denom_500": 0.188,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 65,
+          "query_attack_admission_rate": 0.65,
+          "query_attack_admission_ci95": [
+            0.56,
+            0.74
+          ],
+          "mean_adversarial_contexts": 0.65,
+          "mean_adversarial_contexts_ci95": [
+            0.56,
+            0.74
+          ],
+          "malicious_slot_fraction_denom_500": 0.13,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.65,
+            "query_admission_delta_ci95": [
+              -0.74,
+              -0.56
+            ],
+            "mean_adv_contexts_delta": -0.65,
+            "mean_adv_contexts_delta_ci95": [
+              -0.74,
+              -0.56
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "escape": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 98,
+          "query_attack_admission_rate": 0.98,
+          "query_attack_admission_ci95": [
+            0.95,
+            1.0
+          ],
+          "mean_adversarial_contexts": 0.98,
+          "mean_adversarial_contexts_ci95": [
+            0.95,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.196,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 98,
+          "query_attack_admission_rate": 0.98,
+          "query_attack_admission_ci95": [
+            0.95,
+            1.0
+          ],
+          "mean_adversarial_contexts": 0.98,
+          "mean_adversarial_contexts_ci95": [
+            0.95,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.196,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 5,
+          "query_attack_admission_rate": 0.05,
+          "query_attack_admission_ci95": [
+            0.01,
+            0.09
+          ],
+          "mean_adversarial_contexts": 0.05,
+          "mean_adversarial_contexts_ci95": [
+            0.01,
+            0.09
+          ],
+          "malicious_slot_fraction_denom_500": 0.01,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 99,
+          "query_attack_admission_rate": 0.99,
+          "query_attack_admission_ci95": [
+            0.97,
+            1.0
+          ],
+          "mean_adversarial_contexts": 0.99,
+          "mean_adversarial_contexts_ci95": [
+            0.97,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.198,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 48,
+          "query_attack_admission_rate": 0.48,
+          "query_attack_admission_ci95": [
+            0.38,
+            0.58
+          ],
+          "mean_adversarial_contexts": 0.48,
+          "mean_adversarial_contexts_ci95": [
+            0.38,
+            0.58
+          ],
+          "malicious_slot_fraction_denom_500": 0.096,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 4,
+          "query_attack_admission_rate": 0.04,
+          "query_attack_admission_ci95": [
+            0.01,
+            0.08
+          ],
+          "mean_adversarial_contexts": 0.04,
+          "mean_adversarial_contexts_ci95": [
+            0.01,
+            0.08
+          ],
+          "malicious_slot_fraction_denom_500": 0.008,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 4,
+          "query_attack_admission_rate": 0.04,
+          "query_attack_admission_ci95": [
+            0.01,
+            0.08
+          ],
+          "mean_adversarial_contexts": 0.04,
+          "mean_adversarial_contexts_ci95": [
+            0.01,
+            0.08
+          ],
+          "malicious_slot_fraction_denom_500": 0.008,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 4,
+          "query_attack_admission_rate": 0.04,
+          "query_attack_admission_ci95": [
+            0.01,
+            0.08
+          ],
+          "mean_adversarial_contexts": 0.04,
+          "mean_adversarial_contexts_ci95": [
+            0.01,
+            0.08
+          ],
+          "malicious_slot_fraction_denom_500": 0.008,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.44,
+            "query_admission_delta_ci95": [
+              -0.5399999999999999,
+              -0.34
+            ],
+            "mean_adv_contexts_delta": -0.44,
+            "mean_adv_contexts_delta_ci95": [
+              -0.5399999999999999,
+              -0.34
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.04,
+            "query_admission_delta_ci95": [
+              0.01,
+              0.08
+            ],
+            "mean_adv_contexts_delta": 0.04,
+            "mean_adv_contexts_delta_ci95": [
+              0.01,
+              0.08
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "fake_comp": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 94,
+          "query_attack_admission_rate": 0.94,
+          "query_attack_admission_ci95": [
+            0.89,
+            0.98
+          ],
+          "mean_adversarial_contexts": 0.94,
+          "mean_adversarial_contexts_ci95": [
+            0.89,
+            0.98
+          ],
+          "malicious_slot_fraction_denom_500": 0.188,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 80,
+          "query_attack_admission_rate": 0.8,
+          "query_attack_admission_ci95": [
+            0.72,
+            0.88
+          ],
+          "mean_adversarial_contexts": 0.8,
+          "mean_adversarial_contexts_ci95": [
+            0.72,
+            0.88
+          ],
+          "malicious_slot_fraction_denom_500": 0.16,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 8,
+          "query_attack_admission_rate": 0.08,
+          "query_attack_admission_ci95": [
+            0.03,
+            0.14
+          ],
+          "mean_adversarial_contexts": 0.08,
+          "mean_adversarial_contexts_ci95": [
+            0.03,
+            0.14
+          ],
+          "malicious_slot_fraction_denom_500": 0.016,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 94,
+          "query_attack_admission_rate": 0.94,
+          "query_attack_admission_ci95": [
+            0.89,
+            0.98
+          ],
+          "mean_adversarial_contexts": 0.94,
+          "mean_adversarial_contexts_ci95": [
+            0.89,
+            0.98
+          ],
+          "malicious_slot_fraction_denom_500": 0.188,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 64,
+          "query_attack_admission_rate": 0.64,
+          "query_attack_admission_ci95": [
+            0.55,
+            0.74
+          ],
+          "mean_adversarial_contexts": 0.64,
+          "mean_adversarial_contexts_ci95": [
+            0.55,
+            0.74
+          ],
+          "malicious_slot_fraction_denom_500": 0.128,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 3,
+          "query_attack_admission_rate": 0.03,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.07
+          ],
+          "mean_adversarial_contexts": 0.03,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.07
+          ],
+          "malicious_slot_fraction_denom_500": 0.006,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 3,
+          "query_attack_admission_rate": 0.03,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.07
+          ],
+          "mean_adversarial_contexts": 0.03,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.07
+          ],
+          "malicious_slot_fraction_denom_500": 0.006,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 3,
+          "query_attack_admission_rate": 0.03,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.07
+          ],
+          "mean_adversarial_contexts": 0.03,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.07
+          ],
+          "malicious_slot_fraction_denom_500": 0.006,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.61,
+            "query_admission_delta_ci95": [
+              -0.71,
+              -0.51
+            ],
+            "mean_adv_contexts_delta": -0.61,
+            "mean_adv_contexts_delta_ci95": [
+              -0.71,
+              -0.51
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.03,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.07
+            ],
+            "mean_adv_contexts_delta": 0.03,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.07
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "ignore": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 94,
+          "query_attack_admission_rate": 0.94,
+          "query_attack_admission_ci95": [
+            0.89,
+            0.98
+          ],
+          "mean_adversarial_contexts": 0.94,
+          "mean_adversarial_contexts_ci95": [
+            0.89,
+            0.98
+          ],
+          "malicious_slot_fraction_denom_500": 0.188,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 24,
+          "query_attack_admission_rate": 0.24,
+          "query_attack_admission_ci95": [
+            0.16,
+            0.33
+          ],
+          "mean_adversarial_contexts": 0.24,
+          "mean_adversarial_contexts_ci95": [
+            0.16,
+            0.33
+          ],
+          "malicious_slot_fraction_denom_500": 0.048,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 8,
+          "query_attack_admission_rate": 0.08,
+          "query_attack_admission_ci95": [
+            0.03,
+            0.14
+          ],
+          "mean_adversarial_contexts": 0.08,
+          "mean_adversarial_contexts_ci95": [
+            0.03,
+            0.14
+          ],
+          "malicious_slot_fraction_denom_500": 0.016,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 94,
+          "query_attack_admission_rate": 0.94,
+          "query_attack_admission_ci95": [
+            0.89,
+            0.98
+          ],
+          "mean_adversarial_contexts": 0.94,
+          "mean_adversarial_contexts_ci95": [
+            0.89,
+            0.98
+          ],
+          "malicious_slot_fraction_denom_500": 0.188,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 64,
+          "query_attack_admission_rate": 0.64,
+          "query_attack_admission_ci95": [
+            0.55,
+            0.73
+          ],
+          "mean_adversarial_contexts": 0.64,
+          "mean_adversarial_contexts_ci95": [
+            0.55,
+            0.73
+          ],
+          "malicious_slot_fraction_denom_500": 0.128,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.64,
+            "query_admission_delta_ci95": [
+              -0.73,
+              -0.55
+            ],
+            "mean_adv_contexts_delta": -0.64,
+            "mean_adv_contexts_delta_ci95": [
+              -0.73,
+              -0.55
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "naive": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 98,
+          "query_attack_admission_rate": 0.98,
+          "query_attack_admission_ci95": [
+            0.95,
+            1.0
+          ],
+          "mean_adversarial_contexts": 0.98,
+          "mean_adversarial_contexts_ci95": [
+            0.95,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.196,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 98,
+          "query_attack_admission_rate": 0.98,
+          "query_attack_admission_ci95": [
+            0.95,
+            1.0
+          ],
+          "mean_adversarial_contexts": 0.98,
+          "mean_adversarial_contexts_ci95": [
+            0.95,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.196,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 5,
+          "query_attack_admission_rate": 0.05,
+          "query_attack_admission_ci95": [
+            0.01,
+            0.09
+          ],
+          "mean_adversarial_contexts": 0.05,
+          "mean_adversarial_contexts_ci95": [
+            0.01,
+            0.09
+          ],
+          "malicious_slot_fraction_denom_500": 0.01,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 99,
+          "query_attack_admission_rate": 0.99,
+          "query_attack_admission_ci95": [
+            0.97,
+            1.0
+          ],
+          "mean_adversarial_contexts": 0.99,
+          "mean_adversarial_contexts_ci95": [
+            0.97,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.198,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 48,
+          "query_attack_admission_rate": 0.48,
+          "query_attack_admission_ci95": [
+            0.38,
+            0.58
+          ],
+          "mean_adversarial_contexts": 0.48,
+          "mean_adversarial_contexts_ci95": [
+            0.38,
+            0.58
+          ],
+          "malicious_slot_fraction_denom_500": 0.096,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 4,
+          "query_attack_admission_rate": 0.04,
+          "query_attack_admission_ci95": [
+            0.01,
+            0.08
+          ],
+          "mean_adversarial_contexts": 0.04,
+          "mean_adversarial_contexts_ci95": [
+            0.01,
+            0.08
+          ],
+          "malicious_slot_fraction_denom_500": 0.008,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 4,
+          "query_attack_admission_rate": 0.04,
+          "query_attack_admission_ci95": [
+            0.01,
+            0.08
+          ],
+          "mean_adversarial_contexts": 0.04,
+          "mean_adversarial_contexts_ci95": [
+            0.01,
+            0.08
+          ],
+          "malicious_slot_fraction_denom_500": 0.008,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 4,
+          "query_attack_admission_rate": 0.04,
+          "query_attack_admission_ci95": [
+            0.01,
+            0.08
+          ],
+          "mean_adversarial_contexts": 0.04,
+          "mean_adversarial_contexts_ci95": [
+            0.01,
+            0.08
+          ],
+          "malicious_slot_fraction_denom_500": 0.008,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.44,
+            "query_admission_delta_ci95": [
+              -0.5399999999999999,
+              -0.34
+            ],
+            "mean_adv_contexts_delta": -0.44,
+            "mean_adv_contexts_delta_ci95": [
+              -0.5399999999999999,
+              -0.34
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.04,
+            "query_admission_delta_ci95": [
+              0.01,
+              0.08
+            ],
+            "mean_adv_contexts_delta": 0.04,
+            "mean_adv_contexts_delta_ci95": [
+              0.01,
+              0.08
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "poison": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 100,
+          "query_attack_admission_rate": 1.0,
+          "query_attack_admission_ci95": [
+            1.0,
+            1.0
+          ],
+          "mean_adversarial_contexts": 1.0,
+          "mean_adversarial_contexts_ci95": [
+            1.0,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.2,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 100,
+          "query_attack_admission_rate": 1.0,
+          "query_attack_admission_ci95": [
+            1.0,
+            1.0
+          ],
+          "mean_adversarial_contexts": 1.0,
+          "mean_adversarial_contexts_ci95": [
+            1.0,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.2,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 97,
+          "query_attack_admission_rate": 0.97,
+          "query_attack_admission_ci95": [
+            0.93,
+            1.0
+          ],
+          "mean_adversarial_contexts": 0.97,
+          "mean_adversarial_contexts_ci95": [
+            0.93,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.194,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 2,
+          "query_attack_admission_rate": 0.02,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.05
+          ],
+          "mean_adversarial_contexts": 0.02,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.05
+          ],
+          "malicious_slot_fraction_denom_500": 0.004,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 99,
+          "query_attack_admission_rate": 0.99,
+          "query_attack_admission_ci95": [
+            0.97,
+            1.0
+          ],
+          "mean_adversarial_contexts": 0.99,
+          "mean_adversarial_contexts_ci95": [
+            0.97,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.198,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 33,
+          "query_attack_admission_rate": 0.33,
+          "query_attack_admission_ci95": [
+            0.24,
+            0.42
+          ],
+          "mean_adversarial_contexts": 0.33,
+          "mean_adversarial_contexts_ci95": [
+            0.24,
+            0.42
+          ],
+          "malicious_slot_fraction_denom_500": 0.066,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 97,
+          "query_attack_admission_rate": 0.97,
+          "query_attack_admission_ci95": [
+            0.93,
+            1.0
+          ],
+          "mean_adversarial_contexts": 0.97,
+          "mean_adversarial_contexts_ci95": [
+            0.93,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.194,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 10,
+          "query_attack_admission_rate": 0.1,
+          "query_attack_admission_ci95": [
+            0.05,
+            0.16
+          ],
+          "mean_adversarial_contexts": 0.1,
+          "mean_adversarial_contexts_ci95": [
+            0.05,
+            0.16
+          ],
+          "malicious_slot_fraction_denom_500": 0.02,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 10,
+          "query_attack_admission_rate": 0.1,
+          "query_attack_admission_ci95": [
+            0.05,
+            0.16
+          ],
+          "mean_adversarial_contexts": 0.1,
+          "mean_adversarial_contexts_ci95": [
+            0.05,
+            0.16
+          ],
+          "malicious_slot_fraction_denom_500": 0.02,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 19,
+          "query_attack_admission_rate": 0.19,
+          "query_attack_admission_ci95": [
+            0.12,
+            0.27
+          ],
+          "mean_adversarial_contexts": 0.19,
+          "mean_adversarial_contexts_ci95": [
+            0.12,
+            0.27
+          ],
+          "malicious_slot_fraction_denom_500": 0.038,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.23,
+            "query_admission_delta_ci95": [
+              -0.31000000000000005,
+              -0.15000000000000002
+            ],
+            "mean_adv_contexts_delta": -0.23,
+            "mean_adv_contexts_delta_ci95": [
+              -0.31000000000000005,
+              -0.15000000000000002
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.09,
+            "query_admission_delta_ci95": [
+              0.039999999999999994,
+              0.15
+            ],
+            "mean_adv_contexts_delta": 0.09,
+            "mean_adv_contexts_delta_ci95": [
+              0.039999999999999994,
+              0.15
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": -0.87,
+            "query_admission_delta_ci95": [
+              -0.9299999999999999,
+              -0.7999999999999999
+            ],
+            "mean_adv_contexts_delta": -0.87,
+            "mean_adv_contexts_delta_ci95": [
+              -0.9299999999999999,
+              -0.7999999999999999
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "stealth": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 96,
+          "query_attack_admission_rate": 0.96,
+          "query_attack_admission_ci95": [
+            0.92,
+            0.99
+          ],
+          "mean_adversarial_contexts": 0.96,
+          "mean_adversarial_contexts_ci95": [
+            0.92,
+            0.99
+          ],
+          "malicious_slot_fraction_denom_500": 0.192,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 96,
+          "query_attack_admission_rate": 0.96,
+          "query_attack_admission_ci95": [
+            0.92,
+            0.99
+          ],
+          "mean_adversarial_contexts": 0.96,
+          "mean_adversarial_contexts_ci95": [
+            0.92,
+            0.99
+          ],
+          "malicious_slot_fraction_denom_500": 0.192,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 73,
+          "query_attack_admission_rate": 0.73,
+          "query_attack_admission_ci95": [
+            0.64,
+            0.81
+          ],
+          "mean_adversarial_contexts": 0.73,
+          "mean_adversarial_contexts_ci95": [
+            0.64,
+            0.81
+          ],
+          "malicious_slot_fraction_denom_500": 0.146,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 5,
+          "query_attack_admission_rate": 0.05,
+          "query_attack_admission_ci95": [
+            0.01,
+            0.09
+          ],
+          "mean_adversarial_contexts": 0.05,
+          "mean_adversarial_contexts_ci95": [
+            0.01,
+            0.09
+          ],
+          "malicious_slot_fraction_denom_500": 0.01,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 96,
+          "query_attack_admission_rate": 0.96,
+          "query_attack_admission_ci95": [
+            0.92,
+            0.99
+          ],
+          "mean_adversarial_contexts": 0.96,
+          "mean_adversarial_contexts_ci95": [
+            0.92,
+            0.99
+          ],
+          "malicious_slot_fraction_denom_500": 0.192,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 66,
+          "query_attack_admission_rate": 0.66,
+          "query_attack_admission_ci95": [
+            0.57,
+            0.75
+          ],
+          "mean_adversarial_contexts": 0.66,
+          "mean_adversarial_contexts_ci95": [
+            0.57,
+            0.75
+          ],
+          "malicious_slot_fraction_denom_500": 0.132,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 73,
+          "query_attack_admission_rate": 0.73,
+          "query_attack_admission_ci95": [
+            0.64,
+            0.81
+          ],
+          "mean_adversarial_contexts": 0.73,
+          "mean_adversarial_contexts_ci95": [
+            0.64,
+            0.81
+          ],
+          "malicious_slot_fraction_denom_500": 0.146,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 23,
+          "query_attack_admission_rate": 0.23,
+          "query_attack_admission_ci95": [
+            0.15,
+            0.31
+          ],
+          "mean_adversarial_contexts": 0.23,
+          "mean_adversarial_contexts_ci95": [
+            0.15,
+            0.31
+          ],
+          "malicious_slot_fraction_denom_500": 0.046,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 23,
+          "query_attack_admission_rate": 0.23,
+          "query_attack_admission_ci95": [
+            0.15,
+            0.31
+          ],
+          "mean_adversarial_contexts": 0.23,
+          "mean_adversarial_contexts_ci95": [
+            0.15,
+            0.31
+          ],
+          "malicious_slot_fraction_denom_500": 0.046,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 37,
+          "query_attack_admission_rate": 0.37,
+          "query_attack_admission_ci95": [
+            0.28,
+            0.47
+          ],
+          "mean_adversarial_contexts": 0.37,
+          "mean_adversarial_contexts_ci95": [
+            0.28,
+            0.47
+          ],
+          "malicious_slot_fraction_denom_500": 0.074,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.43000000000000005,
+            "query_admission_delta_ci95": [
+              -0.53,
+              -0.33000000000000007
+            ],
+            "mean_adv_contexts_delta": -0.43000000000000005,
+            "mean_adv_contexts_delta_ci95": [
+              -0.53,
+              -0.33000000000000007
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.13999999999999999,
+            "query_admission_delta_ci95": [
+              0.07999999999999996,
+              0.21000000000000002
+            ],
+            "mean_adv_contexts_delta": 0.13999999999999999,
+            "mean_adv_contexts_delta_ci95": [
+              0.07999999999999996,
+              0.21000000000000002
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": -0.5,
+            "query_admission_delta_ci95": [
+              -0.61,
+              -0.38999999999999996
+            ],
+            "mean_adv_contexts_delta": -0.5,
+            "mean_adv_contexts_delta_ci95": [
+              -0.61,
+              -0.38999999999999996
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "single_supplied": {
+      "combine": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 91,
+          "query_attack_admission_rate": 0.91,
+          "query_attack_admission_ci95": [
+            0.85,
+            0.96
+          ],
+          "mean_adversarial_contexts": 0.91,
+          "mean_adversarial_contexts_ci95": [
+            0.85,
+            0.96
+          ],
+          "malicious_slot_fraction_denom_500": 0.182,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 26,
+          "query_attack_admission_rate": 0.26,
+          "query_attack_admission_ci95": [
+            0.18,
+            0.35
+          ],
+          "mean_adversarial_contexts": 0.26,
+          "mean_adversarial_contexts_ci95": [
+            0.18,
+            0.35
+          ],
+          "malicious_slot_fraction_denom_500": 0.052,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 14,
+          "query_attack_admission_rate": 0.14,
+          "query_attack_admission_ci95": [
+            0.07,
+            0.21
+          ],
+          "mean_adversarial_contexts": 0.14,
+          "mean_adversarial_contexts_ci95": [
+            0.07,
+            0.21
+          ],
+          "malicious_slot_fraction_denom_500": 0.028,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 91,
+          "query_attack_admission_rate": 0.91,
+          "query_attack_admission_ci95": [
+            0.85,
+            0.96
+          ],
+          "mean_adversarial_contexts": 0.91,
+          "mean_adversarial_contexts_ci95": [
+            0.85,
+            0.96
+          ],
+          "malicious_slot_fraction_denom_500": 0.182,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 75,
+          "query_attack_admission_rate": 0.75,
+          "query_attack_admission_ci95": [
+            0.66,
+            0.83
+          ],
+          "mean_adversarial_contexts": 0.75,
+          "mean_adversarial_contexts_ci95": [
+            0.66,
+            0.83
+          ],
+          "malicious_slot_fraction_denom_500": 0.15,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.75,
+            "query_admission_delta_ci95": [
+              -0.83,
+              -0.66
+            ],
+            "mean_adv_contexts_delta": -0.75,
+            "mean_adv_contexts_delta_ci95": [
+              -0.83,
+              -0.66
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "escape": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 96,
+          "query_attack_admission_rate": 0.96,
+          "query_attack_admission_ci95": [
+            0.92,
+            0.99
+          ],
+          "mean_adversarial_contexts": 0.96,
+          "mean_adversarial_contexts_ci95": [
+            0.92,
+            0.99
+          ],
+          "malicious_slot_fraction_denom_500": 0.192,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 93,
+          "query_attack_admission_rate": 0.93,
+          "query_attack_admission_ci95": [
+            0.88,
+            0.98
+          ],
+          "mean_adversarial_contexts": 0.93,
+          "mean_adversarial_contexts_ci95": [
+            0.88,
+            0.98
+          ],
+          "malicious_slot_fraction_denom_500": 0.186,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 6,
+          "query_attack_admission_rate": 0.06,
+          "query_attack_admission_ci95": [
+            0.02,
+            0.11
+          ],
+          "mean_adversarial_contexts": 0.06,
+          "mean_adversarial_contexts_ci95": [
+            0.02,
+            0.11
+          ],
+          "malicious_slot_fraction_denom_500": 0.012,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 96,
+          "query_attack_admission_rate": 0.96,
+          "query_attack_admission_ci95": [
+            0.92,
+            0.99
+          ],
+          "mean_adversarial_contexts": 0.96,
+          "mean_adversarial_contexts_ci95": [
+            0.92,
+            0.99
+          ],
+          "malicious_slot_fraction_denom_500": 0.192,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 58,
+          "query_attack_admission_rate": 0.58,
+          "query_attack_admission_ci95": [
+            0.48,
+            0.68
+          ],
+          "mean_adversarial_contexts": 0.58,
+          "mean_adversarial_contexts_ci95": [
+            0.48,
+            0.68
+          ],
+          "malicious_slot_fraction_denom_500": 0.116,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 2,
+          "query_attack_admission_rate": 0.02,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.05
+          ],
+          "mean_adversarial_contexts": 0.02,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.05
+          ],
+          "malicious_slot_fraction_denom_500": 0.004,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 2,
+          "query_attack_admission_rate": 0.02,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.05
+          ],
+          "mean_adversarial_contexts": 0.02,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.05
+          ],
+          "malicious_slot_fraction_denom_500": 0.004,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 2,
+          "query_attack_admission_rate": 0.02,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.05
+          ],
+          "mean_adversarial_contexts": 0.02,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.05
+          ],
+          "malicious_slot_fraction_denom_500": 0.004,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.5599999999999999,
+            "query_admission_delta_ci95": [
+              -0.66,
+              -0.46
+            ],
+            "mean_adv_contexts_delta": -0.5599999999999999,
+            "mean_adv_contexts_delta_ci95": [
+              -0.66,
+              -0.46
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.02,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.05
+            ],
+            "mean_adv_contexts_delta": 0.02,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.05
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "fake_comp": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 91,
+          "query_attack_admission_rate": 0.91,
+          "query_attack_admission_ci95": [
+            0.85,
+            0.96
+          ],
+          "mean_adversarial_contexts": 0.91,
+          "mean_adversarial_contexts_ci95": [
+            0.85,
+            0.96
+          ],
+          "malicious_slot_fraction_denom_500": 0.182,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 69,
+          "query_attack_admission_rate": 0.69,
+          "query_attack_admission_ci95": [
+            0.6,
+            0.78
+          ],
+          "mean_adversarial_contexts": 0.69,
+          "mean_adversarial_contexts_ci95": [
+            0.6,
+            0.78
+          ],
+          "malicious_slot_fraction_denom_500": 0.138,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 6,
+          "query_attack_admission_rate": 0.06,
+          "query_attack_admission_ci95": [
+            0.02,
+            0.11
+          ],
+          "mean_adversarial_contexts": 0.06,
+          "mean_adversarial_contexts_ci95": [
+            0.02,
+            0.11
+          ],
+          "malicious_slot_fraction_denom_500": 0.012,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 91,
+          "query_attack_admission_rate": 0.91,
+          "query_attack_admission_ci95": [
+            0.85,
+            0.96
+          ],
+          "mean_adversarial_contexts": 0.91,
+          "mean_adversarial_contexts_ci95": [
+            0.85,
+            0.96
+          ],
+          "malicious_slot_fraction_denom_500": 0.182,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 76,
+          "query_attack_admission_rate": 0.76,
+          "query_attack_admission_ci95": [
+            0.6797500000000003,
+            0.84
+          ],
+          "mean_adversarial_contexts": 0.76,
+          "mean_adversarial_contexts_ci95": [
+            0.6797500000000003,
+            0.84
+          ],
+          "malicious_slot_fraction_denom_500": 0.152,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 1,
+          "query_attack_admission_rate": 0.01,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.03
+          ],
+          "mean_adversarial_contexts": 0.01,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.03
+          ],
+          "malicious_slot_fraction_denom_500": 0.002,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 2,
+          "query_attack_admission_rate": 0.02,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.05
+          ],
+          "mean_adversarial_contexts": 0.02,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.05
+          ],
+          "malicious_slot_fraction_denom_500": 0.004,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.76,
+            "query_admission_delta_ci95": [
+              -0.84,
+              -0.6797500000000037
+            ],
+            "mean_adv_contexts_delta": -0.76,
+            "mean_adv_contexts_delta_ci95": [
+              -0.84,
+              -0.6797500000000037
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.02,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.05
+            ],
+            "mean_adv_contexts_delta": 0.02,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.05
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": -0.01,
+            "query_admission_delta_ci95": [
+              -0.03,
+              0.0
+            ],
+            "mean_adv_contexts_delta": -0.01,
+            "mean_adv_contexts_delta_ci95": [
+              -0.03,
+              0.0
+            ]
+          }
+        }
+      },
+      "ignore": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 93,
+          "query_attack_admission_rate": 0.93,
+          "query_attack_admission_ci95": [
+            0.88,
+            0.98
+          ],
+          "mean_adversarial_contexts": 0.93,
+          "mean_adversarial_contexts_ci95": [
+            0.88,
+            0.98
+          ],
+          "malicious_slot_fraction_denom_500": 0.186,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 18,
+          "query_attack_admission_rate": 0.18,
+          "query_attack_admission_ci95": [
+            0.11,
+            0.26
+          ],
+          "mean_adversarial_contexts": 0.18,
+          "mean_adversarial_contexts_ci95": [
+            0.11,
+            0.26
+          ],
+          "malicious_slot_fraction_denom_500": 0.036,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 10,
+          "query_attack_admission_rate": 0.1,
+          "query_attack_admission_ci95": [
+            0.04,
+            0.16
+          ],
+          "mean_adversarial_contexts": 0.1,
+          "mean_adversarial_contexts_ci95": [
+            0.04,
+            0.16
+          ],
+          "malicious_slot_fraction_denom_500": 0.02,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 93,
+          "query_attack_admission_rate": 0.93,
+          "query_attack_admission_ci95": [
+            0.88,
+            0.98
+          ],
+          "mean_adversarial_contexts": 0.93,
+          "mean_adversarial_contexts_ci95": [
+            0.88,
+            0.98
+          ],
+          "malicious_slot_fraction_denom_500": 0.186,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 72,
+          "query_attack_admission_rate": 0.72,
+          "query_attack_admission_ci95": [
+            0.63,
+            0.81
+          ],
+          "mean_adversarial_contexts": 0.72,
+          "mean_adversarial_contexts_ci95": [
+            0.63,
+            0.81
+          ],
+          "malicious_slot_fraction_denom_500": 0.144,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.72,
+            "query_admission_delta_ci95": [
+              -0.81,
+              -0.63
+            ],
+            "mean_adv_contexts_delta": -0.72,
+            "mean_adv_contexts_delta_ci95": [
+              -0.81,
+              -0.63
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "naive": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 95,
+          "query_attack_admission_rate": 0.95,
+          "query_attack_admission_ci95": [
+            0.9,
+            0.99
+          ],
+          "mean_adversarial_contexts": 0.95,
+          "mean_adversarial_contexts_ci95": [
+            0.9,
+            0.99
+          ],
+          "malicious_slot_fraction_denom_500": 0.19,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 92,
+          "query_attack_admission_rate": 0.92,
+          "query_attack_admission_ci95": [
+            0.86,
+            0.97
+          ],
+          "mean_adversarial_contexts": 0.92,
+          "mean_adversarial_contexts_ci95": [
+            0.86,
+            0.97
+          ],
+          "malicious_slot_fraction_denom_500": 0.184,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 7,
+          "query_attack_admission_rate": 0.07,
+          "query_attack_admission_ci95": [
+            0.03,
+            0.12
+          ],
+          "mean_adversarial_contexts": 0.07,
+          "mean_adversarial_contexts_ci95": [
+            0.03,
+            0.12
+          ],
+          "malicious_slot_fraction_denom_500": 0.014,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 95,
+          "query_attack_admission_rate": 0.95,
+          "query_attack_admission_ci95": [
+            0.9,
+            0.99
+          ],
+          "mean_adversarial_contexts": 0.95,
+          "mean_adversarial_contexts_ci95": [
+            0.9,
+            0.99
+          ],
+          "malicious_slot_fraction_denom_500": 0.19,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 58,
+          "query_attack_admission_rate": 0.58,
+          "query_attack_admission_ci95": [
+            0.48,
+            0.68
+          ],
+          "mean_adversarial_contexts": 0.58,
+          "mean_adversarial_contexts_ci95": [
+            0.48,
+            0.68
+          ],
+          "malicious_slot_fraction_denom_500": 0.116,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 3,
+          "query_attack_admission_rate": 0.03,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.07
+          ],
+          "mean_adversarial_contexts": 0.03,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.07
+          ],
+          "malicious_slot_fraction_denom_500": 0.006,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 2,
+          "query_attack_admission_rate": 0.02,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.05
+          ],
+          "mean_adversarial_contexts": 0.02,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.05
+          ],
+          "malicious_slot_fraction_denom_500": 0.004,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 2,
+          "query_attack_admission_rate": 0.02,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.05
+          ],
+          "mean_adversarial_contexts": 0.02,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.05
+          ],
+          "malicious_slot_fraction_denom_500": 0.004,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.5499999999999999,
+            "query_admission_delta_ci95": [
+              -0.65,
+              -0.45
+            ],
+            "mean_adv_contexts_delta": -0.5499999999999999,
+            "mean_adv_contexts_delta_ci95": [
+              -0.65,
+              -0.45
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": -0.009999999999999998,
+            "query_admission_delta_ci95": [
+              -0.030000000000000002,
+              0.0
+            ],
+            "mean_adv_contexts_delta": -0.009999999999999998,
+            "mean_adv_contexts_delta_ci95": [
+              -0.030000000000000002,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.03,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.07
+            ],
+            "mean_adv_contexts_delta": 0.03,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.07
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.009999999999999998,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.030000000000000002
+            ],
+            "mean_adv_contexts_delta": 0.009999999999999998,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.030000000000000002
+            ]
+          }
+        }
+      },
+      "poison": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 99,
+          "query_attack_admission_rate": 0.99,
+          "query_attack_admission_ci95": [
+            0.97,
+            1.0
+          ],
+          "mean_adversarial_contexts": 0.99,
+          "mean_adversarial_contexts_ci95": [
+            0.97,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.198,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 99,
+          "query_attack_admission_rate": 0.99,
+          "query_attack_admission_ci95": [
+            0.97,
+            1.0
+          ],
+          "mean_adversarial_contexts": 0.99,
+          "mean_adversarial_contexts_ci95": [
+            0.97,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.198,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 95,
+          "query_attack_admission_rate": 0.95,
+          "query_attack_admission_ci95": [
+            0.9,
+            0.99
+          ],
+          "mean_adversarial_contexts": 0.95,
+          "mean_adversarial_contexts_ci95": [
+            0.9,
+            0.99
+          ],
+          "malicious_slot_fraction_denom_500": 0.19,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 5,
+          "query_attack_admission_rate": 0.05,
+          "query_attack_admission_ci95": [
+            0.01,
+            0.1
+          ],
+          "mean_adversarial_contexts": 0.05,
+          "mean_adversarial_contexts_ci95": [
+            0.01,
+            0.1
+          ],
+          "malicious_slot_fraction_denom_500": 0.01,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 99,
+          "query_attack_admission_rate": 0.99,
+          "query_attack_admission_ci95": [
+            0.97,
+            1.0
+          ],
+          "mean_adversarial_contexts": 0.99,
+          "mean_adversarial_contexts_ci95": [
+            0.97,
+            1.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.198,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 41,
+          "query_attack_admission_rate": 0.41,
+          "query_attack_admission_ci95": [
+            0.32,
+            0.51
+          ],
+          "mean_adversarial_contexts": 0.41,
+          "mean_adversarial_contexts_ci95": [
+            0.32,
+            0.51
+          ],
+          "malicious_slot_fraction_denom_500": 0.082,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 95,
+          "query_attack_admission_rate": 0.95,
+          "query_attack_admission_ci95": [
+            0.9,
+            0.99
+          ],
+          "mean_adversarial_contexts": 0.95,
+          "mean_adversarial_contexts_ci95": [
+            0.9,
+            0.99
+          ],
+          "malicious_slot_fraction_denom_500": 0.19,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 18,
+          "query_attack_admission_rate": 0.18,
+          "query_attack_admission_ci95": [
+            0.11,
+            0.26
+          ],
+          "mean_adversarial_contexts": 0.18,
+          "mean_adversarial_contexts_ci95": [
+            0.11,
+            0.26
+          ],
+          "malicious_slot_fraction_denom_500": 0.036,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 18,
+          "query_attack_admission_rate": 0.18,
+          "query_attack_admission_ci95": [
+            0.11,
+            0.26
+          ],
+          "mean_adversarial_contexts": 0.18,
+          "mean_adversarial_contexts_ci95": [
+            0.11,
+            0.26
+          ],
+          "malicious_slot_fraction_denom_500": 0.036,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 23,
+          "query_attack_admission_rate": 0.23,
+          "query_attack_admission_ci95": [
+            0.15,
+            0.32
+          ],
+          "mean_adversarial_contexts": 0.23,
+          "mean_adversarial_contexts_ci95": [
+            0.15,
+            0.32
+          ],
+          "malicious_slot_fraction_denom_500": 0.046,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.22999999999999998,
+            "query_admission_delta_ci95": [
+              -0.31000000000000005,
+              -0.15
+            ],
+            "mean_adv_contexts_delta": -0.22999999999999998,
+            "mean_adv_contexts_delta_ci95": [
+              -0.31000000000000005,
+              -0.15
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.05000000000000002,
+            "query_admission_delta_ci95": [
+              0.010000000000000009,
+              0.09999999999999998
+            ],
+            "mean_adv_contexts_delta": 0.05000000000000002,
+            "mean_adv_contexts_delta_ci95": [
+              0.010000000000000009,
+              0.09999999999999998
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": -0.77,
+            "query_admission_delta_ci95": [
+              -0.85,
+              -0.68
+            ],
+            "mean_adv_contexts_delta": -0.77,
+            "mean_adv_contexts_delta_ci95": [
+              -0.85,
+              -0.68
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "stealth": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 94,
+          "query_attack_admission_rate": 0.94,
+          "query_attack_admission_ci95": [
+            0.89,
+            0.98
+          ],
+          "mean_adversarial_contexts": 0.94,
+          "mean_adversarial_contexts_ci95": [
+            0.89,
+            0.98
+          ],
+          "malicious_slot_fraction_denom_500": 0.188,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 94,
+          "query_attack_admission_rate": 0.94,
+          "query_attack_admission_ci95": [
+            0.89,
+            0.98
+          ],
+          "mean_adversarial_contexts": 0.94,
+          "mean_adversarial_contexts_ci95": [
+            0.89,
+            0.98
+          ],
+          "malicious_slot_fraction_denom_500": 0.188,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 75,
+          "query_attack_admission_rate": 0.75,
+          "query_attack_admission_ci95": [
+            0.66,
+            0.83
+          ],
+          "mean_adversarial_contexts": 0.75,
+          "mean_adversarial_contexts_ci95": [
+            0.66,
+            0.83
+          ],
+          "malicious_slot_fraction_denom_500": 0.15,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 10,
+          "query_attack_admission_rate": 0.1,
+          "query_attack_admission_ci95": [
+            0.05,
+            0.16
+          ],
+          "mean_adversarial_contexts": 0.1,
+          "mean_adversarial_contexts_ci95": [
+            0.05,
+            0.16
+          ],
+          "malicious_slot_fraction_denom_500": 0.02,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 95,
+          "query_attack_admission_rate": 0.95,
+          "query_attack_admission_ci95": [
+            0.9,
+            0.99
+          ],
+          "mean_adversarial_contexts": 0.95,
+          "mean_adversarial_contexts_ci95": [
+            0.9,
+            0.99
+          ],
+          "malicious_slot_fraction_denom_500": 0.19,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 68,
+          "query_attack_admission_rate": 0.68,
+          "query_attack_admission_ci95": [
+            0.59,
+            0.77
+          ],
+          "mean_adversarial_contexts": 0.68,
+          "mean_adversarial_contexts_ci95": [
+            0.59,
+            0.77
+          ],
+          "malicious_slot_fraction_denom_500": 0.136,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 77,
+          "query_attack_admission_rate": 0.77,
+          "query_attack_admission_ci95": [
+            0.69,
+            0.85
+          ],
+          "mean_adversarial_contexts": 0.77,
+          "mean_adversarial_contexts_ci95": [
+            0.69,
+            0.85
+          ],
+          "malicious_slot_fraction_denom_500": 0.154,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 30,
+          "query_attack_admission_rate": 0.3,
+          "query_attack_admission_ci95": [
+            0.21,
+            0.39
+          ],
+          "mean_adversarial_contexts": 0.3,
+          "mean_adversarial_contexts_ci95": [
+            0.21,
+            0.39
+          ],
+          "malicious_slot_fraction_denom_500": 0.06,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 30,
+          "query_attack_admission_rate": 0.3,
+          "query_attack_admission_ci95": [
+            0.21,
+            0.39
+          ],
+          "mean_adversarial_contexts": 0.3,
+          "mean_adversarial_contexts_ci95": [
+            0.21,
+            0.39
+          ],
+          "malicious_slot_fraction_denom_500": 0.06,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 43,
+          "query_attack_admission_rate": 0.43,
+          "query_attack_admission_ci95": [
+            0.34,
+            0.53
+          ],
+          "mean_adversarial_contexts": 0.43,
+          "mean_adversarial_contexts_ci95": [
+            0.34,
+            0.53
+          ],
+          "malicious_slot_fraction_denom_500": 0.086,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": -0.38000000000000006,
+            "query_admission_delta_ci95": [
+              -0.48,
+              -0.29
+            ],
+            "mean_adv_contexts_delta": -0.38000000000000006,
+            "mean_adv_contexts_delta_ci95": [
+              -0.48,
+              -0.29
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.13,
+            "query_admission_delta_ci95": [
+              0.07,
+              0.2
+            ],
+            "mean_adv_contexts_delta": 0.13,
+            "mean_adv_contexts_delta_ci95": [
+              0.07,
+              0.2
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": -0.47000000000000003,
+            "query_admission_delta_ci95": [
+              -0.5800000000000001,
+              -0.35999999999999993
+            ],
+            "mean_adv_contexts_delta": -0.47000000000000003,
+            "mean_adv_contexts_delta_ci95": [
+              -0.5800000000000001,
+              -0.35999999999999993
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "benign_echo": {
+      "benign_echo": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "benign_mirror": {
+      "benign_mirror": {
+        "none": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "rule": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "score": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "density": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 4.99,
+          "empty_query_contexts": 0
+        },
+        "ctx": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "content": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "no_guard": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "aug_fused": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "oracle": {
+          "queries": 100,
+          "attack_admitted_queries": 0,
+          "query_attack_admission_rate": 0.0,
+          "query_attack_admission_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_adversarial_contexts": 0.0,
+          "mean_adversarial_contexts_ci95": [
+            0.0,
+            0.0
+          ],
+          "malicious_slot_fraction_denom_500": 0.0,
+          "mean_filled_contexts": 5.0,
+          "empty_query_contexts": 0
+        },
+        "paired_differences": {
+          "fused_minus_ctx": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "aug_fused_minus_fused": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_content": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fused_minus_no_guard": {
+            "query_admission_delta": 0.0,
+            "query_admission_delta_ci95": [
+              0.0,
+              0.0
+            ],
+            "mean_adv_contexts_delta": 0.0,
+            "mean_adv_contexts_delta_ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

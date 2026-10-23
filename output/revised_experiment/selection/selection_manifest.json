@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE_FROZEN_SELECTION_NOT_GENERATION",
+  "requested_rows": 2175,
+  "E1_rows": 1800,
+  "E2_additional_rows": 375,
+  "unique_prompts": 432,
+  "queries": 100,
+  "working_point": "1pct",
+  "fit_selection_seconds": 26.536822141999437,
+  "pool_features_sha256": "a1dec174a4a7402ebfed0ee8a65b460fb2f5c30a6d3a65440b529ca3822bbba7",
+  "features_sha256": "a43031d29581d8a7627b3db4843905f8c854aeb4177eb7f81ed9f0b5f70344a3",
+  "fit_metadata_sha256": "5d44397359675ba1efe640548194414a05d70f5727e4a3770748c356b88e877d",
+  "tfidf_parameters_sha256": "034298cd6ff35f76f36534675fc0a4c24880161fa49035acc8457986d386d7c4",
+  "requests_sha256": "3967d4c96db534d721a71c872771c567ae5dcf4321086c406309a786fee5593b",
+  "predictions_sha256": "8ae27bf73c14d2d4e0d6a038e372f1c598b385c5f616dff2dd652c7d715e5243",
+  "baseline_note": "guard_only is the same public component, not a reproduction of a full external defense.",
+  "new_model_inference": "No neural inference in this script; only preceding cache/feature manifests establish neural execution."
+}

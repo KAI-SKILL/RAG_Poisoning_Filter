@@ -1,0 +1,25 @@
+{
+  "n_records": 464,
+  "labels": {
+    "0": 339,
+    "1": 125
+  },
+  "dataset_counts": {
+    "NotInject": 339,
+    "BIPIA": 125
+  },
+  "notinject_categories": {
+    "Technique Queries": 87,
+    "Multilingual": 84,
+    "Common Queries": 126,
+    "Virtual Creation": 42
+  },
+  "notinject_language_cohorts": {
+    "other-category": 255,
+    "Multilingual-category": 84
+  },
+  "bipia_family_count": 25,
+  "normalized_duplicate_rows": 0,
+  "bipia_train_test_normalized_overlap_count": 0,
+  "training_and_tuning_use": "none; test-only release"
+}

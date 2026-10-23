@@ -1,0 +1,8 @@
+{
+  "file": "squad_train-v1.1.json",
+  "url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v1.1.json",
+  "bytes": 30288272,
+  "sha256": "3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955",
+  "article_count": 442,
+  "version": "1.1"
+}

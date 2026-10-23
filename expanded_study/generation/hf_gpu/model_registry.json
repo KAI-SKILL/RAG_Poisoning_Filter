@@ -1,0 +1,16 @@
+{
+  "qwen3_8b": {
+    "model_id": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "thinking": false,
+    "family": "qwen3",
+    "gated": false
+  },
+  "llama31_8b": {
+    "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "thinking": null,
+    "family": "llama31",
+    "gated": "manual"
+  }
+}

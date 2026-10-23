@@ -1,0 +1,808 @@
+{
+  "status": "FROZEN_BEFORE_NEW_MODEL_OUTPUTS",
+  "frozen_utc": "2026-10-20T03:24:48.219961+00:00",
+  "seed_label": "Group9-Q-development-v1",
+  "purpose": "Old100 exploration/training/development only; neither split is a new unseen test.",
+  "selection": "Union groups by same docID, normalized exact text or Wikipedia title; deterministic hashed group order and subset-sum nearest30; no model outcome or answerability selection.",
+  "source_inputs": {
+    "current/package/Group9_Project/improved_experiment/inputs/clean_target_candidates.json": "bab0ef336775cc3d3510f53fa761a73c79df17dc518c90cc3e51f580951a0616",
+    "current/package/Group9_Project/improved_generation/inputs/targets.json": "8bf0545b08debf98d9d2c61fc235e9fb594243df4d5000a5ae40eddba45a441d"
+  },
+  "grouping_criteria": [
+    "same docID",
+    "normalized exact passage text",
+    "normalized Wikipedia title (conservative source article grouping)"
+  ],
+  "group_count": 83,
+  "group_sizes": [
+    5,
+    4,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "train_qids": [
+    "test410",
+    "test21",
+    "test110",
+    "test371",
+    "test88",
+    "test31",
+    "test332",
+    "test423",
+    "test337",
+    "test397",
+    "test19",
+    "test327",
+    "test159",
+    "test157",
+    "test363",
+    "test430",
+    "test226",
+    "test424",
+    "test383",
+    "test417",
+    "test152",
+    "test208",
+    "test413",
+    "test426",
+    "test375",
+    "test419",
+    "test311",
+    "test229",
+    "test231",
+    "test161",
+    "test395",
+    "test127",
+    "test256",
+    "test57",
+    "test369",
+    "test166",
+    "test228",
+    "test407",
+    "test188",
+    "test58",
+    "test185",
+    "test273",
+    "test418",
+    "test442",
+    "test408",
+    "test254",
+    "test243",
+    "test120",
+    "test164",
+    "test387",
+    "test79",
+    "test192",
+    "test318",
+    "test404",
+    "test20",
+    "test464",
+    "test452",
+    "test87",
+    "test315",
+    "test454",
+    "test347",
+    "test77",
+    "test412",
+    "test216",
+    "test130",
+    "test165",
+    "test191",
+    "test400",
+    "test113",
+    "test317"
+  ],
+  "development_qids": [
+    "test379",
+    "test64",
+    "test156",
+    "test462",
+    "test107",
+    "test75",
+    "test145",
+    "test1",
+    "test90",
+    "test312",
+    "test213",
+    "test282",
+    "test50",
+    "test82",
+    "test106",
+    "test60",
+    "test94",
+    "test47",
+    "test291",
+    "test53",
+    "test348",
+    "test138",
+    "test308",
+    "test11",
+    "test62",
+    "test177",
+    "test466",
+    "test16",
+    "test294",
+    "test70"
+  ],
+  "groups": [
+    {
+      "group_id": "source-000",
+      "qids": [
+        "test379"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-001",
+      "qids": [
+        "test64"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-002",
+      "qids": [
+        "test156"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-003",
+      "qids": [
+        "test462"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-004",
+      "qids": [
+        "test107"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-005",
+      "qids": [
+        "test75"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-006",
+      "qids": [
+        "test145"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-007",
+      "qids": [
+        "test1"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-008",
+      "qids": [
+        "test90"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-009",
+      "qids": [
+        "test312"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-010",
+      "qids": [
+        "test213"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-011",
+      "qids": [
+        "test282"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-012",
+      "qids": [
+        "test50"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-013",
+      "qids": [
+        "test82"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-014",
+      "qids": [
+        "test106"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-015",
+      "qids": [
+        "test60"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-016",
+      "qids": [
+        "test94"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-017",
+      "qids": [
+        "test47"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-018",
+      "qids": [
+        "test291"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-019",
+      "qids": [
+        "test53"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-020",
+      "qids": [
+        "test348"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-021",
+      "qids": [
+        "test138"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-022",
+      "qids": [
+        "test308"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-023",
+      "qids": [
+        "test11",
+        "test62"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-024",
+      "qids": [
+        "test177"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-025",
+      "qids": [
+        "test466"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-026",
+      "qids": [
+        "test16"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-027",
+      "qids": [
+        "test294"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-028",
+      "qids": [
+        "test70"
+      ],
+      "split": "development"
+    },
+    {
+      "group_id": "source-029",
+      "qids": [
+        "test410"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-030",
+      "qids": [
+        "test21",
+        "test110"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-031",
+      "qids": [
+        "test371"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-032",
+      "qids": [
+        "test88"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-033",
+      "qids": [
+        "test31"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-034",
+      "qids": [
+        "test332"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-035",
+      "qids": [
+        "test423"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-036",
+      "qids": [
+        "test337"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-037",
+      "qids": [
+        "test397"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-038",
+      "qids": [
+        "test19"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-039",
+      "qids": [
+        "test327"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-040",
+      "qids": [
+        "test159"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-041",
+      "qids": [
+        "test157",
+        "test363"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-042",
+      "qids": [
+        "test430"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-043",
+      "qids": [
+        "test226"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-044",
+      "qids": [
+        "test424"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-045",
+      "qids": [
+        "test383"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-046",
+      "qids": [
+        "test417"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-047",
+      "qids": [
+        "test152"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-048",
+      "qids": [
+        "test208"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-049",
+      "qids": [
+        "test413"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-050",
+      "qids": [
+        "test426"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-051",
+      "qids": [
+        "test375"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-052",
+      "qids": [
+        "test419"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-053",
+      "qids": [
+        "test311"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-054",
+      "qids": [
+        "test229"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-055",
+      "qids": [
+        "test231"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-056",
+      "qids": [
+        "test161",
+        "test395"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-057",
+      "qids": [
+        "test127",
+        "test256"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-058",
+      "qids": [
+        "test57"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-059",
+      "qids": [
+        "test369"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-060",
+      "qids": [
+        "test166"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-061",
+      "qids": [
+        "test228"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-062",
+      "qids": [
+        "test407"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-063",
+      "qids": [
+        "test188"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-064",
+      "qids": [
+        "test58",
+        "test185",
+        "test273",
+        "test418",
+        "test442"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-065",
+      "qids": [
+        "test408"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-066",
+      "qids": [
+        "test254"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-067",
+      "qids": [
+        "test243"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-068",
+      "qids": [
+        "test120",
+        "test164"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-069",
+      "qids": [
+        "test387"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-070",
+      "qids": [
+        "test79",
+        "test192"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-071",
+      "qids": [
+        "test318"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-072",
+      "qids": [
+        "test404"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-073",
+      "qids": [
+        "test20",
+        "test464"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-074",
+      "qids": [
+        "test452"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-075",
+      "qids": [
+        "test87"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-076",
+      "qids": [
+        "test315",
+        "test454"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-077",
+      "qids": [
+        "test347"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-078",
+      "qids": [
+        "test77"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-079",
+      "qids": [
+        "test412"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-080",
+      "qids": [
+        "test216"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-081",
+      "qids": [
+        "test130",
+        "test165",
+        "test191",
+        "test400"
+      ],
+      "split": "training"
+    },
+    {
+      "group_id": "source-082",
+      "qids": [
+        "test113",
+        "test317"
+      ],
+      "split": "training"
+    }
+  ],
+  "new_normal_calibration": "Not available in old100; must separately lock new source groups.",
+  "new_test": "Not available in old100; do not relabel these as unseen test."
+}

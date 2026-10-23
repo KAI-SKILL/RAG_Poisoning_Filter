@@ -1,0 +1,15 @@
+{
+  "kind": "guard",
+  "model_repository": "protectai/deberta-v3-base-prompt-injection-v2",
+  "model_revision": "90c9989b1a342275dd0d1a95aad283c04e075671",
+  "model_manifest_sha256": "c7b857d7e70f46ae58ed37de74d517bf803f66f0aac4845cfad8b8cbf73c3cf8",
+  "text_list_sha256": "4d51ed065a0477ffeec4fe15a4c0c3ebfa2811f6e9c33a1bf4d4597abe5a9b12",
+  "text_count": 1604,
+  "max_tokens": 512,
+  "batch_size": 12,
+  "threads": 4,
+  "torch": "2.14.1+cpu",
+  "transformers": "5.20.1",
+  "backend": "cpu_float32",
+  "representation": "guard=text only; encoder mean pooling; relevance=title+text dot query; density=text-only cosine"
+}

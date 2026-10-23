@@ -1,0 +1,10 @@
+{
+  "repository": "WeifeiJin/CleanBase",
+  "full_sha": "72561aa902dab57f7428cfd337fb25ad3d11a955",
+  "path": "attacks/gen_prompt_injection.py",
+  "url": "https://raw.githubusercontent.com/WeifeiJin/CleanBase/72561aa902dab57f7428cfd337fb25ad3d11a955/attacks/gen_prompt_injection.py",
+  "remote_sha256": "c3257aa6664770c711f4447035a1c06e2bd280d533bbac9093bb8af616361bc4",
+  "local_sha256": "c3257aa6664770c711f4447035a1c06e2bd280d533bbac9093bb8af616361bc4",
+  "identical_bytes": true,
+  "identical_lf": true
+}

@@ -1,0 +1,338 @@
+{
+  "status": "COMPLETE",
+  "started_or_resumed_utc": "2026-10-22T02:22:44.136049+00:00",
+  "config_sha256": "5bca52763387a2e760fcd58bedc913af5c28a54f1908042be2f9709f940f4126",
+  "config": {
+    "input_sqlite_sha256": "84331d83eb52efc4ef533158716a42f8a0ea3735d78b7cbb437b8d7ec34df28d",
+    "token_preflight_sha256": "7c82869d48a8ed922307e0d978deb1a0057c89270c535ba88584396fe7d26b14",
+    "model_manifest": {
+      "repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+      "revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+      "quantization": "Q4_K_M",
+      "files": [
+        {
+          "file": "qwen2.5-3b-instruct-q4_k_m.gguf",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/7dabda4d13d513e3e842b20f0d435c732f172cbe/qwen2.5-3b-instruct-q4_k_m.gguf",
+          "bytes": 2104932768,
+          "sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d"
+        },
+        {
+          "file": "README.md",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/7dabda4d13d513e3e842b20f0d435c732f172cbe/README.md",
+          "bytes": 4867,
+          "sha256": "934bca6ff3ca27481c49b52a2d3138f6f58b8a64f016fd461bc11fad8963eee5"
+        },
+        {
+          "file": "LICENSE",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/7dabda4d13d513e3e842b20f0d435c732f172cbe/LICENSE",
+          "bytes": 7388,
+          "sha256": "ef52482bb785733093dc9a2e8edd8e764c77d12d8e9d8f10a80c9b547d32d0f9"
+        }
+      ],
+      "inference_executed": false
+    },
+    "server_build_identity": {
+      "vendor_llama_cpp_commit": "0c1e57098bba43ac29e6e3b677cdceebdd22334f",
+      "archive_sha256": "6a85ec945b57789c875e1af90e66109fbf136a3c79802d5ca0333b043e10407f",
+      "backend": "CPU",
+      "cuda_architectures": null,
+      "artifacts": [
+        {
+          "path": "build/bin/llama-server",
+          "bytes": 17880,
+          "sha256": "1090fc9c03d8d38bca84c36e447007f4a6aaf66ddb6dfd6d1c9fd9c34e794fca"
+        },
+        {
+          "path": "build/bin/libggml-base.so",
+          "bytes": 950344,
+          "sha256": "4e31f624ebb6918b8c02cd822beeef7591920044cf766284dcfb349227580c72"
+        },
+        {
+          "path": "build/bin/libggml-cpu.so",
+          "bytes": 1673752,
+          "sha256": "7622f3dfd44f36341ee4b2eefac15eede9cd2e65a32a976b34871a80a6a507e9"
+        },
+        {
+          "path": "build/bin/libggml.so",
+          "bytes": 60720,
+          "sha256": "8b2942ff744d90960748085485b468fdada2d0fb3bbe74793a9b3ec7a19f24b2"
+        },
+        {
+          "path": "build/bin/libllama-common.so",
+          "bytes": 6085056,
+          "sha256": "f8ade17bc7ae45014cfd3421bfc0e73a15598cb8cbac44b5d5563299aeef12c1"
+        },
+        {
+          "path": "build/bin/libllama-server-impl.so",
+          "bytes": 3796152,
+          "sha256": "23cad4a4687c579ddfabd792c1df47137635908a3b532bcf0c8097fb2871fa23"
+        },
+        {
+          "path": "build/bin/libllama.so",
+          "bytes": 4842424,
+          "sha256": "24ef119b8b977fdc719826c0b7e71e4572a3c8a6310c76dcd433bb9c3a948a25"
+        },
+        {
+          "path": "build/bin/libmtmd.so",
+          "bytes": 1971384,
+          "sha256": "768aa80456c69fd62ce22175bf128dd317623e33c9ffbebf69851c3c37c2dc30"
+        }
+      ]
+    },
+    "server_launch_identity": {
+      "server_argv": [
+        "llama-server",
+        "-m",
+        "qwen2.5-3b-instruct-q4_k_m.gguf",
+        "--alias",
+        "group9-qwen3b",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "18090",
+        "-t",
+        "4",
+        "-tb",
+        "4",
+        "-np",
+        "8",
+        "-c",
+        "32768",
+        "--no-kv-unified",
+        "-fa",
+        "on",
+        "-b",
+        "1024",
+        "-ub",
+        "128",
+        "-ngl",
+        "0",
+        "--cache-ram",
+        "0",
+        "--no-context-shift",
+        "--fit",
+        "off",
+        "--no-webui"
+      ],
+      "launcher_sha256": "9d0bbf4b199f0c757ebbdfbc5c7e2e8bbd2f4e1c507f5ea9a2f772c467c76039",
+      "native_server_sha256": "1090fc9c03d8d38bca84c36e447007f4a6aaf66ddb6dfd6d1c9fd9c34e794fca",
+      "transport": "Loopback HTTP; server and client children of one parent process"
+    },
+    "scoring_protocol_sha256": "c38be30642ba515f7a0725081c2392cc8c1028faf23f23e520646b066a4a7714",
+    "runner_sha256": "22a3b297bdc758c99d8d70d534f6301403b362de5500ff3ec185ff28a12d0395",
+    "generation_parameters": {
+      "n_predict": 48,
+      "temperature": 0.0,
+      "top_k": 0,
+      "top_p": 1.0,
+      "min_p": 0.0,
+      "repeat_penalty": 1.0,
+      "seed": 12,
+      "stop": [
+        "<|im_end|>",
+        "<|endoftext|>"
+      ],
+      "stream": false,
+      "cache_prompt": false,
+      "return_tokens": true
+    },
+    "batch_size": 8,
+    "scheduling": "Question-sharded fixed order: lexical question_id, then minimum request_order; incomplete full prompts only on guarded resume. Native batch-dependent floating point behavior remains possible.",
+    "server_props": {
+      "default_generation_settings": {
+        "params": {
+          "seed": 4294967295,
+          "temperature": 0.800000011920929,
+          "dynatemp_range": 0.0,
+          "dynatemp_exponent": 1.0,
+          "top_k": 40,
+          "top_p": 0.949999988079071,
+          "min_p": 0.05000000074505806,
+          "top_n_sigma": -1.0,
+          "xtc_probability": 0.0,
+          "xtc_threshold": 0.10000000149011612,
+          "typical_p": 1.0,
+          "repeat_last_n": 64,
+          "repeat_penalty": 1.0,
+          "presence_penalty": 0.0,
+          "frequency_penalty": 0.0,
+          "dry_multiplier": 0.0,
+          "dry_base": 1.75,
+          "dry_allowed_length": 2,
+          "dry_penalty_last_n": 64,
+          "mirostat": 0,
+          "mirostat_tau": 5.0,
+          "mirostat_eta": 0.10000000149011612,
+          "adaptive_target": -1.0,
+          "adaptive_decay": 0.8999999761581421,
+          "max_tokens": -1,
+          "n_predict": -1,
+          "n_keep": 0,
+          "n_discard": 0,
+          "ignore_eos": false,
+          "stream": false,
+          "n_probs": 0,
+          "min_keep": 0,
+          "chat_format": "Content-only",
+          "reasoning_format": "none",
+          "reasoning_in_content": false,
+          "generation_prompt": "",
+          "samplers": [
+            "penalties",
+            "dry",
+            "top_n_sigma",
+            "top_k",
+            "typ_p",
+            "top_p",
+            "min_p",
+            "xtc",
+            "temperature"
+          ],
+          "speculative.types": "none",
+          "timings_per_token": false,
+          "post_sampling_probs": false,
+          "backend_sampling": false,
+          "lora": []
+        },
+        "n_ctx": 4096
+      },
+      "total_slots": 8,
+      "model_alias": "group9-qwen3b",
+      "model_ftype": "Q4_K - Medium",
+      "modalities": {
+        "vision": false,
+        "video": false,
+        "audio": false
+      },
+      "endpoint_slots": true,
+      "endpoint_props": false,
+      "endpoint_metrics": false,
+      "ui": false,
+      "ui_settings": {},
+      "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- messages[0]['content'] }}\n    {%- else %}\n        {{- 'You are Qwen, created by Alibaba Cloud. You are a helpful assistant.' }}\n    {%- endif %}\n    {{- \"\\n\\n# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0]['content'] + '<|im_end|>\\n' }}\n    {%- else %}\n        {{- '<|im_start|>system\\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- for message in messages %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) or (message.role == \"assistant\" and not message.tool_calls) %}\n        {{- '<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {{- '<|im_start|>' + message.role }}\n        {%- if message.content %}\n            {{- '\\n' + message.content }}\n        {%- endif %}\n        {%- for tool_call in message.tool_calls %}\n            {%- if tool_call.function is defined %}\n                {%- set tool_call = tool_call.function %}\n            {%- endif %}\n            {{- '\\n<tool_call>\\n{\"name\": \"' }}\n            {{- tool_call.name }}\n            {{- '\", \"arguments\": ' }}\n            {{- tool_call.arguments | tojson }}\n            {{- '}\\n</tool_call>' }}\n        {%- endfor %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if (loop.index0 == 0) or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- message.content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n{%- endif %}",
+      "chat_template_caps": {
+        "supports_object_arguments": true,
+        "supports_parallel_tool_calls": true,
+        "supports_preserve_reasoning": false,
+        "supports_reasoning_effort": false,
+        "supports_string_content": true,
+        "supports_system_role": true,
+        "supports_tool_calls": true,
+        "supports_tools": true,
+        "supports_typed_content": false
+      },
+      "bos_token": "<|endoftext|>",
+      "eos_token": "<|im_end|>",
+      "build_info": "b0-unknown",
+      "cors_proxy_enabled": false
+    },
+    "python_version": "3.12.14",
+    "platform_system": "Linux",
+    "machine": "x86_64",
+    "expected_unique_prompts": 90,
+    "requested_rows": 90
+  },
+  "preexisting_exact_responses": 0,
+  "completed_unique_prompts": 90,
+  "expected_unique_prompts": 90,
+  "requested_rows": 90,
+  "new_successful_responses": 90,
+  "batch_http_attempts_this_session": 12,
+  "errors_this_session": 0,
+  "elapsed_this_session_seconds": 448.9696250190027,
+  "generator_inference_executed_this_session": true,
+  "target_tool_calls": 0,
+  "runtime_observations_this_session": {
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "server_build_receipt": {
+      "status": "CPU_NATIVE_SERVER_BUILT_AND_HELP_VERIFIED",
+      "created_utc": "2026-10-21T22:58:15.796980+00:00",
+      "python_tag": "v0.3.36",
+      "python_tag_commit": "1652066e0af45f2313b339670ef9555e8a54e545",
+      "vendor_llama_cpp_commit": "0c1e57098bba43ac29e6e3b677cdceebdd22334f",
+      "source_url": "https://codeload.github.com/ggml-org/llama.cpp/tar.gz/0c1e57098bba43ac29e6e3b677cdceebdd22334f",
+      "archive_sha256": "6a85ec945b57789c875e1af90e66109fbf136a3c79802d5ca0333b043e10407f",
+      "version_text": "version: 0.5.0-dev (build 0, commit unknown)\nbuilt with GNU 13.3.0 for Linux x86_64\n",
+      "required_flags_present": [
+        "--parallel",
+        "--threads-batch",
+        "--batch-size",
+        "--ubatch-size",
+        "--kv-unified-per-slot",
+        "--cache-ram",
+        "--cache-prompt",
+        "--no-cache-prompt",
+        "--no-context-shift",
+        "--fit",
+        "--no-webui"
+      ],
+      "build_type": "Release",
+      "cpu_target": "GGML_NATIVE=ON; -march=native, OpenMP; no CUDA/Vulkan/BLAS",
+      "build_tools": {
+        "cmake": "4.4.4",
+        "ninja": "1.13.2"
+      },
+      "artifacts": [
+        {
+          "path": "build/bin/llama-server",
+          "bytes": 17880,
+          "sha256": "1090fc9c03d8d38bca84c36e447007f4a6aaf66ddb6dfd6d1c9fd9c34e794fca"
+        },
+        {
+          "path": "build/bin/libggml-base.so",
+          "bytes": 950344,
+          "sha256": "4e31f624ebb6918b8c02cd822beeef7591920044cf766284dcfb349227580c72"
+        },
+        {
+          "path": "build/bin/libggml-cpu.so",
+          "bytes": 1673752,
+          "sha256": "7622f3dfd44f36341ee4b2eefac15eede9cd2e65a32a976b34871a80a6a507e9"
+        },
+        {
+          "path": "build/bin/libggml.so",
+          "bytes": 60720,
+          "sha256": "8b2942ff744d90960748085485b468fdada2d0fb3bbe74793a9b3ec7a19f24b2"
+        },
+        {
+          "path": "build/bin/libllama-common.so",
+          "bytes": 6085056,
+          "sha256": "f8ade17bc7ae45014cfd3421bfc0e73a15598cb8cbac44b5d5563299aeef12c1"
+        },
+        {
+          "path": "build/bin/libllama-server-impl.so",
+          "bytes": 3796152,
+          "sha256": "23cad4a4687c579ddfabd792c1df47137635908a3b532bcf0c8097fb2871fa23"
+        },
+        {
+          "path": "build/bin/libllama.so",
+          "bytes": 4842424,
+          "sha256": "24ef119b8b977fdc719826c0b7e71e4572a3c8a6310c76dcd433bb9c3a948a25"
+        },
+        {
+          "path": "build/bin/libmtmd.so",
+          "bytes": 1971384,
+          "sha256": "768aa80456c69fd62ce22175bf128dd317623e33c9ffbebf69851c3c37c2dc30"
+        }
+      ],
+      "model_loads": 0,
+      "model_downloads": 0,
+      "generation_calls": 0,
+      "notes": [
+        "Version may print unknown because upstream source archive lacks .git; exact official vendor commit and source archive hash are separately bound.",
+        "Server supports multiple explicit full prompts in one /completion request with an array result.",
+        "Default RAM cache must be disabled or explicitly capped under the 8GiB cgroup."
+      ]
+    }
+  },
+  "cumulative_batch_attempts": 12,
+  "cumulative_known_returned_responses": 90,
+  "cumulative_unknown_outcome_requested_prompts": 0,
+  "cumulative_http_errors": 0,
+  "generator_inference_executed": true,
+  "attempt_ledger_scope": "Every HTTP attempt is durable before dispatch; unknown outcomes are disclosed separately from unique committed prompts, never counted as zero inference.",
+  "last_batch": 11,
+  "last_batch_seconds": 15.255511736999324,
+  "last_checkpoint_utc": "2026-10-22T02:30:13.098780+00:00",
+  "completed_utc": "2026-10-22T02:30:13.104594+00:00",
+  "response_database_sha256": "7e3d98eb440089128a3ad78a4877811318838b18406d8e246ffb68191293daab"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "scope": "Historical summary and arithmetic verification only; no raw-answer or model-identity verification",
+  "raw_4800_answers_present": false,
+  "model_inference_executed": false,
+  "historical_dataset": "100 previously inspected NQ questions; 6 policies x 8 settings = 4800 declared rows",
+  "current_new_study_rows_untouched": 2175,
+  "rt_cells_checked": 48,
+  "rt_cells_match_incoming_semantic_digest": 48,
+  "mcnemar_rows_checked": 40,
+  "discordance_rows_match_incoming_semantic_digest": 40,
+  "mcnemar_exact_arithmetic_checked": 40,
+  "primary_holm_hypotheses": 3,
+  "primary_holm_by_setting": {
+    "poison": 0.375,
+    "ignore": 1.0,
+    "stealth": 0.375
+  },
+  "original_source_zip_checked_this_run": true,
+  "canonical_inputs_sha256": {
+    "evidence/reference_audit/provided_corrected_metrics.csv": "3dda16204ee5b2ee87b32ac733ed54b4382d7f181d3154183d14b652afa6a012",
+    "evidence/reference_audit/provided_paired_statistics.csv": "90fc3696aab489be3b73085d3398aba0a77dc4541f9cb4ec8547fdb6e473d976"
+  },
+  "verifier_sha256": "c9e591125f47f317bebfa16a1501f0aaeef314f36e2dce07871ff62f7c2cbbe3",
+  "provenance_sha256": "9b6f36e548c365bc78e2b2110f09be8bca8db051a797dfba4bf2505f1bed3ffd"
+}

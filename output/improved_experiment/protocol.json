@@ -1,0 +1,212 @@
+{
+  "seed": 12,
+  "queries": 100,
+  "fold_assignment": {
+    "test152": 0,
+    "test311": 1,
+    "test464": 2,
+    "test430": 3,
+    "test369": 4,
+    "test58": 0,
+    "test120": 1,
+    "test177": 2,
+    "test60": 3,
+    "test337": 4,
+    "test327": 0,
+    "test400": 1,
+    "test75": 2,
+    "test226": 3,
+    "test387": 4,
+    "test127": 0,
+    "test254": 1,
+    "test11": 2,
+    "test413": 3,
+    "test294": 4,
+    "test107": 0,
+    "test20": 1,
+    "test70": 2,
+    "test110": 3,
+    "test31": 4,
+    "test243": 0,
+    "test113": 1,
+    "test347": 2,
+    "test79": 3,
+    "test417": 4,
+    "test282": 0,
+    "test375": 1,
+    "test407": 2,
+    "test315": 3,
+    "test452": 4,
+    "test82": 0,
+    "test87": 1,
+    "test188": 2,
+    "test410": 3,
+    "test412": 4,
+    "test395": 0,
+    "test185": 1,
+    "test426": 2,
+    "test156": 3,
+    "test332": 4,
+    "test466": 0,
+    "test106": 1,
+    "test423": 2,
+    "test454": 3,
+    "test90": 4,
+    "test191": 0,
+    "test383": 1,
+    "test317": 2,
+    "test164": 3,
+    "test64": 4,
+    "test47": 0,
+    "test50": 1,
+    "test53": 2,
+    "test1": 3,
+    "test397": 4,
+    "test231": 0,
+    "test19": 1,
+    "test138": 2,
+    "test229": 3,
+    "test418": 4,
+    "test308": 0,
+    "test57": 1,
+    "test213": 2,
+    "test348": 3,
+    "test408": 4,
+    "test256": 0,
+    "test312": 1,
+    "test192": 2,
+    "test363": 3,
+    "test159": 4,
+    "test157": 0,
+    "test462": 1,
+    "test62": 2,
+    "test228": 3,
+    "test130": 4,
+    "test442": 0,
+    "test88": 1,
+    "test16": 2,
+    "test77": 3,
+    "test379": 4,
+    "test318": 0,
+    "test165": 1,
+    "test419": 2,
+    "test161": 3,
+    "test273": 4,
+    "test145": 0,
+    "test208": 1,
+    "test424": 2,
+    "test404": 3,
+    "test94": 4,
+    "test166": 0,
+    "test216": 1,
+    "test291": 2,
+    "test21": 3,
+    "test371": 4
+  },
+  "train_queries_per_fold": 60,
+  "validation_queries_per_fold": 20,
+  "test_queries_per_fold": 20,
+  "training_settings": [
+    "none",
+    "poison",
+    "naive",
+    "escape",
+    "ignore",
+    "fake_comp",
+    "combine"
+  ],
+  "never_fit_settings": [
+    "stealth",
+    "single_supplied",
+    "single_matched",
+    "benign_mirror"
+  ],
+  "augmentation": "Exploratory aug_fused only: append exactly five modified benign_echo rows per TRAIN QID (300 additional negatives per fold); exclude all 15 unchanged rows; no validation/test control QID enters fit; same clean-only validation threshold. Main fused never fits controls.",
+  "pool_size": 20,
+  "generator_top_k": 5,
+  "features": [
+    "guard",
+    "rule",
+    "score_z",
+    "density"
+  ],
+  "variants": {
+    "rule": [
+      "rule"
+    ],
+    "guard": [
+      "guard"
+    ],
+    "score": [
+      "score_z"
+    ],
+    "density": [
+      "density"
+    ],
+    "ctx": [
+      "score_z",
+      "density"
+    ],
+    "content": [
+      "guard",
+      "rule"
+    ],
+    "fused": [
+      "guard",
+      "rule",
+      "score_z",
+      "density"
+    ],
+    "no_guard": [
+      "rule",
+      "score_z",
+      "density"
+    ],
+    "aug_fused": [
+      "guard",
+      "rule",
+      "score_z",
+      "density"
+    ]
+  },
+  "threshold": "95th percentile of clean no-attack validation risk, method=higher; block strictly > threshold; empirical validation FPR<=5%",
+  "generator_gates": [
+    "none",
+    "rule",
+    "guard",
+    "ctx",
+    "fused",
+    "aug_fused",
+    "oracle"
+  ],
+  "pre_result_amendment": {
+    "timestamp_utc": "2026-10-19T02:26:08.091662+00:00",
+    "status": "Before fresh held-out metrics and before any new NQ generator call",
+    "amendment": "Add passage-only no_guard=rule+score_z+density to isolate neural guard incremental contribution. No extra neural inference, no change to seven generator gates, training/calibration policy unchanged.",
+    "authorisation": "Root approved this ablation before results were observed.",
+    "run_py_sha256_at_amendment": "4f18658eca51fd824c5c8ba8b840519f79ec54227e7ecc18bf178a4015d7699b"
+  },
+  "model_selection": "Fixed before fresh test results. No model search or generator-metric tuning.",
+  "source_sha256": {
+    "input_origin": "Exact 100-query subset of user-supplied NQ candidate files; attack records unmodified; NotInject from verified official release copies",
+    "original_source_sha256": {
+      "new_reference/data/nq/attacks.json": "db54d73096f29dc7d679a1e0be4652ee94f68e0c18d6c6bd8cae6c3c0e86eb71",
+      "new_reference/data/nq/clean_retrieval.json": "ea4b82c0e90e772df9c0020a7adc702797c7173f2c5b50154657308dc4da8d7a",
+      "new_reference/data_single/nq/attacks.json": "d40a74d6afeb681d00fb2aa742e4f37d741c3f592edca51712a7074b5d246e9a"
+    },
+    "bundled_subset_sha256": {
+      "attacks_supplied_single.json": "319461320a5905d45838bff9f503b1df1a7ee6390f797bc060cb935898e4fc3d",
+      "attacks_main.json": "360fdb22da2fe861c71fd5841677c8d1d652645f3f237155eb4f76ff218f6ed0",
+      "notinject.json": "4b1bf6233de6786332866c539fd24e646796cea285923b88e9a689b330bbce4c",
+      "clean_target_candidates.json": "bab0ef336775cc3d3510f53fa761a73c79df17dc518c90cc3e51f580951a0616"
+    }
+  },
+  "embedding_texts": 8126,
+  "guard_texts": 6029,
+  "retrieval_representation": "clean title+space+text, attacks rawtext, fixed attention-mask mean pooling, dot product, max512; all selected clean and attack scores freshly recomputed with same encoder",
+  "density_representation": "text visible to generator only, L2-normalized mean-pooled Contriever vectors; max cosine against every other untrusted candidate; no oracle trust labels",
+  "benign_echo": "Replace top5 genuine document texts with literal question + period + space + original text; preserve facts, titles and remaining15docs; score and sort20 candidates afresh",
+  "benign_mirror": "Add exact copies of top5 genuine passages with new recordIDs to20clean docs; score and truncate20; every record benign",
+  "single_matched": "Exactly highest freshly recomputed query-to-passage retrieval-score attack from the same five main attacks per family, selected before detector fitting or generation; all other generation inputs held fixed",
+  "single_supplied": "Use uploaded independently sampled one-attack texts; combines cardinality and template-sampling shift; never refit models"
+}

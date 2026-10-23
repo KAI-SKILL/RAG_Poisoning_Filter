@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "method": "exact declared-corpus dot-product search with float64 fixed-axis product/sum",
+  "scope": "declared shared small corpus, not full NQ/Wikipedia",
+  "corpus_sha256": "39fa694d8a4a8ffef39ac0efe8a8b574d57cf84cc919c7bdd6219d247f0b6658",
+  "query_sha256": "d87d54ee94fed965bd48169fe6c7040ff49872e4b80b18cc7e1bd302cd43a0fe",
+  "script_sha256": "4e6afe5cffa51eef9958c053c84a27fc4eb421a5644bcae0075b448357399740",
+  "feature_module_sha256": "a8d69ca97b02cea71e5a872e1bc9919e05fc4938ef263dd4acf06834f16e8034",
+  "reused_embedding_cache": "revision_work/fresh_features/retrieval",
+  "corpus_passages": 1379,
+  "corpus_passages_by_split": {
+    "calibration": 600,
+    "dev": 179,
+    "test": 600
+  },
+  "separate_corpus_by_split": true,
+  "queries": 230,
+  "top_k": 20,
+  "total_seconds": 0.9707154879997688,
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "query_split_counts": {
+    "calibration": 100,
+    "dev": 30,
+    "test": 100
+  }
+}

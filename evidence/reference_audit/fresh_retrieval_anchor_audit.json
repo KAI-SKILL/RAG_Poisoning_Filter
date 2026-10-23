@@ -1,0 +1,38 @@
+{
+  "scope": "Fresh pinned Contriever cache independently checked against supplied stored clean and attack scores; does not authenticate supplied generation model.",
+  "cache_shape": [
+    8126,
+    768
+  ],
+  "cache_config": {
+    "kind": "contriever",
+    "model_manifest_sha": "376253867876053ec627fe18165ee4fb06fd338fce73689f08173ecfbd06a0ea",
+    "texts_sha": "4dc825278f6f513cf418b75e8d030d74c4cdc44de301b1f3e0322eacf2fddcae",
+    "max_tokens": 512,
+    "batch": 12,
+    "threads": 4,
+    "backend": "torch_cpu_float32"
+  },
+  "model_manifest_sha256": "376253867876053ec627fe18165ee4fb06fd338fce73689f08173ecfbd06a0ea",
+  "anchor_rows_sha256": "7d4e742189874951aa997229f1b4486bc395598e75d2f91e44580c0fcb3c0154",
+  "results": {
+    "clean_title_plus_text": {
+      "n": 2000,
+      "mean_abs_difference": 2.2214651107788085e-07,
+      "max_abs_difference": 1.0728836059570312e-06,
+      "within_predeclared_1e_3_anchor_tolerance": true
+    },
+    "data_supplied_adversarial_scores": {
+      "n": 3429,
+      "mean_abs_difference": 1.5147123784565584e-07,
+      "max_abs_difference": 7.152557373046875e-07,
+      "within_predeclared_1e_3_anchor_tolerance": true
+    },
+    "data_single_supplied_adversarial_scores": {
+      "n": 687,
+      "mean_abs_difference": 1.303146673255265e-07,
+      "max_abs_difference": 7.152557373046875e-07,
+      "within_predeclared_1e_3_anchor_tolerance": true
+    }
+  }
+}

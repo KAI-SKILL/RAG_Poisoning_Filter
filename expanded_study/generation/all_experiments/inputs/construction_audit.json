@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-22T02:06:58.151038+00:00",
+  "version": "Group9-all-experiments-inputs-v1",
+  "mode": "build",
+  "scopes": {
+    "q": {
+      "requested_rows": 90,
+      "unique_prompts": 90,
+      "questions": 30,
+      "articles": 30,
+      "policies": [
+        "none",
+        "gold_evidence",
+        "tfidf_retrieval"
+      ],
+      "conditions": {
+        "clean": 90
+      },
+      "objectives": {
+        "none": 90
+      },
+      "input_sqlite_sha256": "84331d83eb52efc4ef533158716a42f8a0ea3735d78b7cbb437b8d7ec34df28d",
+      "scoring_protocol_sha256": "fec0fa3140644c1ca0cdc31e4a0c32be86e67df887f7106827a512663a49f065"
+    },
+    "e1": {
+      "requested_rows": 1800,
+      "unique_prompts": 432,
+      "questions": 100,
+      "articles": 100,
+      "policies": [
+        "none",
+        "ctx",
+        "no_guard",
+        "fused",
+        "tfidf_lr",
+        "guard_only"
+      ],
+      "conditions": {
+        "clean": 600,
+        "attack": 1200
+      },
+      "objectives": {
+        "none": 600,
+        "target_answer": 1200
+      },
+      "input_sqlite_sha256": "8247fdfd5bccb57c7b6779d8db494fef9befc77c7f7e37584bb3afa450150496",
+      "scoring_protocol_sha256": "5c6c24ce6b3ec3216dc586c46a2749724e2e57733a5c6d5f67378d1905a8d66f"
+    },
+    "e2": {
+      "requested_rows": 700,
+      "unique_prompts": 204,
+      "questions": 25,
+      "articles": 25,
+      "policies": [
+        "none",
+        "ctx",
+        "no_guard",
+        "fused"
+      ],
+      "conditions": {
+        "clean": 100,
+        "attack": 200,
+        "matched_benign": 400
+      },
+      "objectives": {
+        "none": 100,
+        "target_answer": 600
+      },
+      "input_sqlite_sha256": "98bf0d9612e41957b49c2d1146602a38477a2c98a1b8a19cdb42ecf2b1573051",
+      "scoring_protocol_sha256": "336611731522546895ef37e15528b6b5a3b4eb1b795bc3d19bfff33eab665a72"
+    }
+  },
+  "e12_analysis_rows": 2500,
+  "e12_distinct_source_requests": 2300,
+  "e12_cross_scope_unique_prompt_union": 557,
+  "e12_independent_scope_unique_execution_budget_per_model": 636,
+  "q_independent_scope_unique_execution_budget_per_model": 90,
+  "q_e1_e2_mapping_rows_per_model": 2590,
+  "q_e1_e2_independent_scope_unique_execution_budget_per_model": 726,
+  "source_checks": {
+    "e12": {
+      "validated_source_requests": 2300,
+      "exact_user_prompt_matches": 2300,
+      "exact_chatml_sha_matches": 2300,
+      "selection_and_reference_field_discrepancies": 0,
+      "e2_reused_e1_baseline_rows": 200,
+      "source_union_unique_prompts": 557
+    },
+    "q": {
+      "validated_source_requests": 90,
+      "exact_user_prompt_matches": 90,
+      "exact_chatml_sha_matches": 90,
+      "original_user_prompts_unchanged": 81,
+      "source_repaired_prompt_rows": 9,
+      "source_repaired_questions": 3,
+      "additional_alias_questions": 6,
+      "legacy_incorrect_question_version_used": false
+    }
+  },
+  "source_files": {
+    "prior_study/original_project/output/revised_experiment/fresh_features/pools_with_features.jsonl": {
+      "sha256": "a1dec174a4a7402ebfed0ee8a65b460fb2f5c30a6d3a65440b529ca3822bbba7",
+      "size_bytes": 12805821
+    },
+    "prior_study/original_project/output/revised_experiment/selection/context_requests.jsonl": {
+      "sha256": "3967d4c96db534d721a71c872771c567ae5dcf4321086c406309a786fee5593b",
+      "size_bytes": 10366387
+    },
+    "prior_study/original_project/output/revised_experiment/selection/predictions.jsonl": {
+      "sha256": "8ae27bf73c14d2d4e0d6a038e372f1c598b385c5f616dff2dd652c7d715e5243",
+      "size_bytes": 6360576
+    },
+    "prior_study/original_project/extensions/e2_unfiltered/requests.jsonl": {
+      "sha256": "a08328a2a7fe0af333e3d500ca6b75c22822e813f2a6d123e0683933c323e444",
+      "size_bytes": 550026
+    },
+    "prior_study/original_project/extensions/e2_unfiltered/baseline_keys.json": {
+      "sha256": "cc67e4a85d1e5ec18185bc2331af32b55055c0a1c2336bf4bb54e354183ad020",
+      "size_bytes": 15503
+    },
+    "prior_study/original_project/revised_experiment/data/test_source_quality_audit.json": {
+      "sha256": "f6e4819ae64da845b87628556dd0ae55bd3ab835bfcac863f2e15fa49ef63953",
+      "size_bytes": 101605
+    },
+    "prior_study/original_project/revised_experiment/prompts.py": {
+      "sha256": "37bdf27a3df0fb04f13c372ca2973d7d03ba843b0e2136593fcc13e8d5c23575",
+      "size_bytes": 612
+    },
+    "prior_study/original_project/revised_experiment/gguf_generate.py": {
+      "sha256": "892499a5e4d5fb1c31ae29d22fbd3d2a177bc81fc61f61098aef0ffaca72b0f6",
+      "size_bytes": 5337
+    },
+    "prior_study/original_project/revised_experiment/dev_q_requests.jsonl": {
+      "sha256": "c31e31b24900069e5e2433460a6e8034778c8b76d839da277e4e37fdab27301f",
+      "size_bytes": 194255
+    },
+    "prior_study/original_project/revised_experiment/dev_q_v2_requests.jsonl": {
+      "sha256": "98f85fb66dc514dea1529a29d91ccd601ccbe80031b081b89eea4ec6ff8398d8",
+      "size_bytes": 213109
+    },
+    "prior_study/original_project/revised_experiment/dev_q_v2_frozen.json": {
+      "sha256": "596e0bda098ab512fa483bdcf3afd9e6be24287631d047a4b45c488f1cdd3513",
+      "size_bytes": 458
+    },
+    "prior_study/original_project/revised_experiment/data/dev_q_inputs.jsonl": {
+      "sha256": "b213423df7509d0ac16fc668221d317a1abd7aeb3f1bb4daac89b63cd8fa8907",
+      "size_bytes": 904618
+    },
+    "prior_study/original_project/revised_experiment/data/dev_q_repairs.json": {
+      "sha256": "1753012d398bfa4829fe79db7616bbe2af20e0cfc59a992709f498b0286c1f9c",
+      "size_bytes": 3452
+    },
+    "prior_study/original_project/revised_experiment/data/corpus.jsonl": {
+      "sha256": "39fa694d8a4a8ffef39ac0efe8a8b574d57cf84cc919c7bdd6219d247f0b6658",
+      "size_bytes": 1381537
+    },
+    "generation/scoring_protocol_frozen.json": {
+      "sha256": "c3a6b274c1aa8f3c13f6665d4dd32f8aea9410eccf312780a949ba9461f4074e",
+      "size_bytes": 4542
+    },
+    "generation/scoring_protocol_frozen.sha256": {
+      "sha256": "bfa80ff43cddad4c7f4f4c7347b826028e180c327b0b6b80394e1a1b8fa54814",
+      "size_bytes": 95
+    },
+    "code/generation/score_generations.py": {
+      "sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+      "size_bytes": 28918
+    },
+    "generation/all_experiments/build_e12_inputs.py": {
+      "sha256": "59c0a71105fdb17cf7b58c6a8209d19bee5d9f6de2a834bb50f9f2e057b76aea",
+      "size_bytes": 29124
+    }
+  },
+  "source_and_frozen_metric_files_unchanged": true,
+  "model_calls": 0,
+  "old_response_records_read_by_builder": 0,
+  "interpretation": "These are ready inputs and scoring definitions, not new model outputs. Cross-scope union is a cache budget only; actual calls depend on separately run scope caches."
+}

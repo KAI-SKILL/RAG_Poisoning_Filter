@@ -1,0 +1,20 @@
+{
+  "status": "MOCK_ONLY_CONTRACT_VALIDATION_PASSED",
+  "created_utc": "2026-10-22T02:20:55.979820+00:00",
+  "tests_passed": 17,
+  "command": [
+    "/usr/bin/python3",
+    "generation/all_experiments/test_native_gpu_launcher.py"
+  ],
+  "real_gpu_queries": 0,
+  "real_gpu_execution": false,
+  "real_model_loads": 0,
+  "real_generation_calls": 0,
+  "real_network_calls": 0,
+  "launcher_sha256": "f25c17fb2d27f3e602dcfbea72c12840ff7dce3651db935dcd793b2352dd62fa",
+  "test_sha256": "364b09b4490fc61a8ecb5722279ab17967e197d63812a0d9e1d6cdf921608a95",
+  "original_generator_sha256": "22a3b297bdc758c99d8d70d534f6301403b362de5500ff3ec185ff28a12d0395",
+  "original_launcher_sha256": "9d0bbf4b199f0c757ebbdfbc5c7e2e8bbd2f4e1c507f5ea9a2f772c467c76039",
+  "test_output": "test_changed_identity_on_resume_rejected (__main__.LauncherTests.test_changed_identity_on_resume_rejected) ... ok\ntest_cpu_build_rejected (__main__.LauncherTests.test_cpu_build_rejected) ... ok\ntest_cpu_metal_and_partial_logs_rejected (__main__.LauncherTests.test_cpu_metal_and_partial_logs_rejected) ... ok\ntest_dead_server_never_starts_generation (__main__.LauncherTests.test_dead_server_never_starts_generation) ... ok\ntest_device_selector_not_shell_text (__main__.LauncherTests.test_device_selector_not_shell_text) ... ok\ntest_gpu_layer_zero_rejected_without_query_or_model (__main__.LauncherTests.test_gpu_layer_zero_rejected_without_query_or_model) ... ok\ntest_model_and_server_artifacts_are_hash_checked (__main__.LauncherTests.test_model_and_server_artifacts_are_hash_checked) ... ok\ntest_old_gpu_log_cannot_prove_new_cpu_session (__main__.LauncherTests.test_old_gpu_log_cannot_prove_new_cpu_session) ... ok\ntest_protocol_device_mismatch_rejected_before_server (__main__.LauncherTests.test_protocol_device_mismatch_rejected_before_server) ... ok\ntest_public_identity_api_rejects_invalid_visibility_without_query (__main__.LauncherTests.test_public_identity_api_rejects_invalid_visibility_without_query) ... ok\ntest_query_identity_excludes_observations_and_selects_first_device (__main__.LauncherTests.test_query_identity_excludes_observations_and_selects_first_device) ... ok\ntest_query_rejects_ambiguous_or_unavailable_fields (__main__.LauncherTests.test_query_rejects_ambiguous_or_unavailable_fields) ... ok\ntest_requires_allocated_device (__main__.LauncherTests.test_requires_allocated_device) ... ok\ntest_requires_slurm (__main__.LauncherTests.test_requires_slurm) ... ok\ntest_same_session_evidence_precedes_original_runner (__main__.LauncherTests.test_same_session_evidence_precedes_original_runner) ... ok\ntest_two_sessions_append_offsets_and_job_ids_do_not_change_launch (__main__.LauncherTests.test_two_sessions_append_offsets_and_job_ids_do_not_change_launch) ... ok\ntest_valid_cuda_full_offload (__main__.LauncherTests.test_valid_cuda_full_offload) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.067s\n\nOK\n",
+  "note": "Temporary fixtures and mocked nvidia-smi/server/health/generation only. This does not attest that a cluster GPU job has run."
+}

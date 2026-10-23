@@ -1,0 +1,32 @@
+{
+  "seed": 764,
+  "fictional_facts": true,
+  "attack_prevalence": 0.16666666666666666,
+  "groups": {
+    "train": 144,
+    "dev": 48,
+    "test_topic": 96,
+    "test_joint": 96,
+    "test_poison": 48
+  },
+  "passages": {
+    "train": 864,
+    "dev": 288,
+    "test_topic": 576,
+    "test_joint": 576,
+    "test_poison": 288
+  },
+  "held_out_attack_families": [
+    "translation_task",
+    "completion_trap",
+    "workflow_hijack",
+    "indirect_suggestion"
+  ],
+  "known_attack_families": [
+    "override",
+    "role_spoof",
+    "answer_redirect",
+    "evaluation_pretext"
+  ],
+  "split_assertions": "passed: train/dev/held-out topic sets disjoint; questions and exact passages disjoint between train, dev and the union of tests; train/joint attack families disjoint. Test suites share held-out topics and some questions/passages and are never pooled as independent samples."
+}

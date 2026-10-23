@@ -1,0 +1,1395 @@
+{
+  "status": "COMPLETED_SINGLE_AI_ASSISTED_SEMANTIC_REVIEW",
+  "reviewed_utc": "2026-10-20T03:45:11.638097+00:00",
+  "reviewer_independence": "Review kept separate from generation implementation and source-question repair. This is a single review, not an independent panel or external replication.",
+  "raw_generations_sha256": "1cf3d9ba3cda8d76986407fa9dffd5bcf6875aae05812b0f40fd18efb4755e53",
+  "new_model_inference_performed_by_reviewer": false,
+  "prompt_or_alias_changes_after_outputs": false,
+  "scope": "Read all 30 gold and 30 TF-IDF normal responses against the source and frozen questions/answers. No-retrieval summaries are automatic text proxies only. Normal review checks answers relative to the gold source, not entailment by every actual retrieved passage.",
+  "rubric": {
+    "correct": "Requestedinformationisfullyidentifiedinthesource; harmlessparaphraseormultiplevalidexamplesallowed; noincorrectextraassertion.",
+    "partial": "Incompleteofficialname/dateorcorrectcorewithunsupported/incorrectextraexplanation; excludedfromfullcorrectcount.",
+    "incorrect": "Answerconflictswithrequestedsourcefact.",
+    "abstention": "Noanswergiven; distinguishfromincorrectassertion.",
+    "invalid": "Unusableoutput; noneobserved."
+  },
+  "semantic_counts": {
+    "gold": {
+      "correct": 24,
+      "abstention": 3,
+      "partial": 2,
+      "incorrect": 1
+    },
+    "tfidf_retrieval": {
+      "correct": 23,
+      "abstention": 4,
+      "partial": 3
+    }
+  },
+  "semantic_counts_scope": "Passage-conditioned interpretation. Strict source-scope counts separately exclude the Quran question ambiguity.",
+  "strict_source_scope_counts": {
+    "gold": {
+      "correct": 23,
+      "partial": 2,
+      "abstention": 3,
+      "incorrect": 1,
+      "source_scope_uncertain": 1
+    },
+    "tfidf_retrieval": {
+      "correct": 22,
+      "partial": 3,
+      "abstention": 4,
+      "source_scope_uncertain": 1
+    }
+  },
+  "automatic_proxy_counts": {
+    "no_retrieval": {
+      "n": 30,
+      "normalized_exact": 1,
+      "normalized_mention": 2
+    },
+    "gold": {
+      "n": 30,
+      "normalized_exact": 20,
+      "normalized_mention": 21
+    },
+    "tfidf_retrieval": {
+      "n": 30,
+      "normalized_exact": 20,
+      "normalized_mention": 21
+    }
+  },
+  "engineering_gate": {
+    "suggested_threshold_correct": 24,
+    "suggested_denominator": 30,
+    "gold_passage_conditioned_correct_excluding_partial": 24,
+    "partial_not_counted": 2,
+    "strict_unambiguous_gold_correct": 23,
+    "passage_conditioned_gold_adequate": 24,
+    "unconditional_pass": false,
+    "decision": "BORDERLINE_DIAGNOSTIC_NOT_UNCONDITIONAL_PASS",
+    "interpretation": "Strict, unambiguous adequacy is 23/30. The 24/30 result accepts the Quran parchment bound as a passage-conditioned answer. The suggested engineering threshold is not a statistical test or a reason to retune questions. There is no unconditional pass. E1 can remain a bounded comparison with the frozen source-valid subset and actual clean utility limiting its claims.",
+    "scope_sensitivity": "One counted Quran answer repeats the annotated parchment date, but manuscript writing need not share that date. Excluding this ambiguity leaves 23/30. Report both counts; the threshold gives no statistical guarantee.",
+    "next_action": "Keep all 30 questions and frozen prompts/aliases. Do not tune them for this threshold. Apply the pre-evaluation source-valid mask and report actual clean utility in E1."
+  },
+  "records": [
+    {
+      "index_1based": 1,
+      "qid": "squad-57328bf706a3a419008acaf7",
+      "setting": "gold",
+      "question": "Regarding Geological history of Earth: What continent was formed at the end of the Paleozoic?",
+      "response": "Pangaea",
+      "frozen_answers": [
+        "Pangaea",
+        "Pangea"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The passage explicitly identifies Pangaea as the supercontinent formed near the end of the Paleozoic.",
+      "source_document_id": "squad-article-70d50caff06e4167-p5",
+      "source_passage_sha256": "fbd2687748bc3425156b9449aa50428d27a53e5df285fef2c83b57042bbbbbea",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 2,
+      "qid": "squad-56e6dc12de9d371400068097",
+      "setting": "gold",
+      "question": "Regarding Matter: What planet isn't a closed system but sometimes appears to be because of the approximate conservation of matter?",
+      "response": "I don't know",
+      "frozen_answers": [
+        "Earth"
+      ],
+      "judgment": "abstention",
+      "passage_conditioned_adequate": false,
+      "strict_source_scope_judgment": "abstention",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "The model declines to answer. The passage names Earth as the ordinary setting where matter is approximately conserved, but does not directly establish the question's not-a-closed-system premise.",
+      "source_document_id": "squad-article-57523f642f63eabb-p3",
+      "source_passage_sha256": "0780e079dfd24fe662489b56d6c34039338967d6293f0294c2dbba842afae1ee",
+      "scope_flags": [
+        "question_presupposition_not_directly_entailed"
+      ],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 3,
+      "qid": "squad-570a04be4103511400d594f7",
+      "setting": "gold",
+      "question": "Regarding Hanover: Who was William IV's heir in the United Kingdom in 1837?",
+      "response": "Queen Victoria",
+      "frozen_answers": [
+        "Queen Victoria",
+        "Victoria"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The repaired question explicitly restricts succession to the United Kingdom in 1837. Queen Victoria matches; Hanover passed to Ernest Augustus.",
+      "source_document_id": "squad-article-b905a2a59cc7915e-p10",
+      "source_passage_sha256": "b39f8fdc464e40a38b086fe5180d72d52d9ab78a508a0aaef97ffddb5b3d0512",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 4,
+      "qid": "squad-573254560fdd8d15006c69bf",
+      "setting": "gold",
+      "question": "Regarding Jehovah%27s Witnesses: How many congregations did the Jehovah's Witnesses have in 2015?",
+      "response": "118,016",
+      "frozen_answers": [
+        "118,016"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The response gives the stated 2015 congregation count, without confusing it with publishers or study hours.",
+      "source_document_id": "squad-article-8012523df9d3cd66-p31",
+      "source_passage_sha256": "db6b84f1685657a6176b6c0fec123fe1efbb0c51b3665eae4edd90dc3a26110d",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 5,
+      "qid": "squad-5709aacc200fba140036823f",
+      "setting": "gold",
+      "question": "Regarding Computer security: What does NCAZ stand for?",
+      "response": "National Cyber-Abwehrzentrum",
+      "frozen_answers": [
+        "Nationales Cyber-Abwehrzentrum",
+        "National Center for Cyber Defense"
+      ],
+      "judgment": "partial",
+      "passage_conditioned_adequate": false,
+      "strict_source_scope_judgment": "partial",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "The intended institution is recognizable, but National Cyber-Abwehrzentrum is neither the accurate German expansion Nationales Cyber-Abwehrzentrum nor the supplied English name. Conservatively partial; no new alias added.",
+      "source_document_id": "squad-article-a97b84e295de5458-p24",
+      "source_passage_sha256": "f225491ecfa1d175de5ab0c1d29c20a5b1ba9acf14766082a1ca44193b7def0f",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 6,
+      "qid": "squad-572774785951b619008f8a4b",
+      "setting": "gold",
+      "question": "Regarding Ann Arbor, Michigan: What is the average household size in the city of Ann Arbor?",
+      "response": "2.22",
+      "frozen_answers": [
+        "2.22"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The response matches household size 2.22, distinct from family size 2.90. This is the year-2000 snapshot, not a current estimate.",
+      "source_document_id": "squad-article-222fcfd29b27e0b2-p11",
+      "source_passage_sha256": "82951262ee77e38f09b6fb41265dc19e87c31f5f07789273290e4289f99847af",
+      "scope_flags": [
+        "year2000_snapshot_not_current2026"
+      ],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 7,
+      "qid": "squad-573096d2396df919000961d6",
+      "setting": "gold",
+      "question": "Regarding Alfred North Whitehead: When did Whitehead delivery the Gifford lectures?",
+      "response": "1927–28",
+      "frozen_answers": [
+        "1927–28",
+        "1927-28",
+        "1927–1928",
+        "1927 to 1928"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The complete 1927–28 range matches the source period for the Gifford lectures.",
+      "source_document_id": "squad-article-5974273cedf08469-p27",
+      "source_passage_sha256": "f564a1f011e4500d024c1de9755ae0287bea78adf037866faeb6c608fecf1806",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 8,
+      "qid": "squad-5727fc123acd2414000df176",
+      "setting": "gold",
+      "question": "Regarding Eton College: Which Antarctic explorer attended Eton?",
+      "response": "Lawrence Oates",
+      "frozen_answers": [
+        "Lawrence Oates"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The source explicitly labels Lawrence Oates as the Antarctic explorer among Eton alumni.",
+      "source_document_id": "squad-article-46bd69caf6df1110-p40",
+      "source_passage_sha256": "b288ff23669a9a9d27d32dddcdb4ed0312146f4e7d37bcab0268a63f0e30f769",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 9,
+      "qid": "squad-571a9fd84faf5e1900b8ab51",
+      "setting": "gold",
+      "question": "Regarding Umayyad Caliphate: When did the caliphate of Uthman Ibn Affan end?",
+      "response": "656",
+      "frozen_answers": [
+        "656"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The answer gives the ending year of the 644–656 caliphate range.",
+      "source_document_id": "squad-article-031f2be6f8634930-p4",
+      "source_passage_sha256": "344d1d900c5c6a18c533a6b0e324db14f04d089e93ce031606f18696c55cc504",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 10,
+      "qid": "squad-5727cb4d4b864d1900163d37",
+      "setting": "gold",
+      "question": "Regarding Galicia (Spain): Which island is part of Atlantic Islands of Galicia National Park?",
+      "response": "Cíes, Ons, and Sálvora.",
+      "frozen_answers": [
+        "Cortegada",
+        "Cortegada Island",
+        "Cíes",
+        "Cies",
+        "Ons",
+        "Sálvora",
+        "Salvora"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": true,
+      "reason": "Cíes, Ons, and Sálvora are all park members in the source. The question asks for one; listing several valid members adds no incorrect item.",
+      "source_document_id": "squad-article-98ad72b6bae153c5-p25",
+      "source_passage_sha256": "ed26d1300d56e0d0f84d04d24441807c0348b0dcbfeb7ab14736cbb78db176a6",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 11,
+      "qid": "squad-56e07d387aa994140058e56f",
+      "setting": "gold",
+      "question": "Regarding Saint Helena: What day was Saint Helena Radio shut down?",
+      "response": "25 December 2012",
+      "frozen_answers": [
+        "25 December 2012"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The response gives the source closure date, 25 December 2012.",
+      "source_document_id": "squad-article-29d5d38588cd4003-p64",
+      "source_passage_sha256": "afd060800ec738a531177da2727dd571e0d0c322ae0ebd89ba38f6f16a361e21",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 12,
+      "qid": "squad-572fac9304bcaa1900d76bca",
+      "setting": "gold",
+      "question": "Regarding Armenia: When did Cilicia declare independence?",
+      "response": "5 August 1920",
+      "frozen_answers": [
+        "5 August 1920"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The answer selects Cilicia's 5 August declaration, rather than the 10 August Treaty of Sèvres.",
+      "source_document_id": "squad-article-1d5a04fbeace6278-p17",
+      "source_passage_sha256": "254c4b46c9e147464241a83b46da95a88744c269654eb27610712731b42fe48f",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 13,
+      "qid": "squad-572eaddec246551400ce44e6",
+      "setting": "gold",
+      "question": "Regarding Spanish language in the United States: What other Spanish Speaking people come to America?",
+      "response": "Nicaraguans",
+      "frozen_answers": [
+        "Spanish-speaking Nicaraguans"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "Nicaraguans identifies the requested people. Spanish-speaking is already supplied by the question. This preserves meaning without adding a new scoring alias.",
+      "source_document_id": "squad-article-27c646ea586517ed-p9",
+      "source_passage_sha256": "5eb8d9a2ab9da4278bb75fb6aa5835cef8a937632d10cea35e3aeb2dc9e019e1",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 14,
+      "qid": "squad-572b951ef75d5e190021fe5f",
+      "setting": "gold",
+      "question": "Regarding Education: Which type of schooling can be most expensive?",
+      "response": "Online courses",
+      "frozen_answers": [
+        "Online courses",
+        "online education",
+        "e-learning"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "Online courses matches the passage-conditioned comparison. The passage says they can cost more than face-to-face classes, not that they are universally most expensive.",
+      "source_document_id": "squad-article-68bf0109c6f8a87b-p17",
+      "source_passage_sha256": "c29d1b789eb183fbbb6fbe37c472a9c1b52cb3964ef3fbbba4a16d5833bb19c9",
+      "scope_flags": [
+        "passage_comparison_not_universal_school_cost_ranking"
+      ],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 15,
+      "qid": "squad-56e0f5fc231d4119001ac4dd",
+      "setting": "gold",
+      "question": "Regarding Canon law: What is the pope's official title?",
+      "response": "Supreme Pontiff",
+      "frozen_answers": [
+        "Supreme Pontiff"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "Supreme Pontiff is the explicit papal title or capacity used in the passage.",
+      "source_document_id": "squad-article-0f40a4dbaeb853aa-p5",
+      "source_passage_sha256": "123a414bf75811c1199da57b079d381a8be681decda41e9727420e39815e4038",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 16,
+      "qid": "squad-5730537d396df91900096074",
+      "setting": "gold",
+      "question": "Regarding Swaziland: The University of Swaziland, Southern Nazarene University, offer higher learning in Swaziland, what is one other University?",
+      "response": "Swaz Christian University",
+      "frozen_answers": [
+        "Swaziland Christian University",
+        "Limkokwing University of Creative Technology",
+        "Limkokwing University"
+      ],
+      "judgment": "partial",
+      "passage_conditioned_adequate": false,
+      "strict_source_scope_judgment": "partial",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "Swaz Christian University appears to intend Swaziland Christian University, but truncates the proper name. Conservatively partial; no new alias added.",
+      "source_document_id": "squad-article-f0871dafaa9aad08-p21",
+      "source_passage_sha256": "7fb66015cc1b63b98123bf738e9399fcf80a0b3d77782bef4e45dc245d531c6c",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 17,
+      "qid": "squad-56e1747fe3433e1400422f2f",
+      "setting": "gold",
+      "question": "Regarding Boston: Boston is at the East end of what Interstate?",
+      "response": "I don't know",
+      "frozen_answers": [
+        "I-90"
+      ],
+      "judgment": "abstention",
+      "passage_conditioned_adequate": false,
+      "strict_source_scope_judgment": "abstention",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "The model abstains despite the explicit statement that Boston is the eastern terminus of I-90.",
+      "source_document_id": "squad-article-3c66157844fa8ce7-p74",
+      "source_passage_sha256": "b0e096cf5815e7ba44c7726270f5d2ea142fafa62345675abfd301c93528d6b7",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 18,
+      "qid": "squad-56dfc85c7aa994140058e1ae",
+      "setting": "gold",
+      "question": "Regarding Hunter-gatherer: Between what ice sheets were the corridors located?",
+      "response": "Laurentide and Cordilleran",
+      "frozen_answers": [
+        "Laurentide and Cordilleran"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "Both ice-sheet names are correct and complete.",
+      "source_document_id": "squad-article-4a1fac8df81d2a3a-p31",
+      "source_passage_sha256": "4f317b72eadeed9a6966116cda356b8131020b7f1c05b4ee314d6d472d89fd6f",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 19,
+      "qid": "squad-57268d7ef1498d1400e8e396",
+      "setting": "gold",
+      "question": "Regarding Marvel Comics: In 2010, Marvel switched to what distributor for bookstore comic book sales?",
+      "response": "Hachette Distribution Services",
+      "frozen_answers": [
+        "Hachette Distribution Services"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The passage states that Marvel switched bookstore distribution to Hachette Distribution Services in September 2010.",
+      "source_document_id": "squad-article-92151bea137b2f56-p20",
+      "source_passage_sha256": "e58a2ee6d2e938f68f67f755348194275d58ca664a041c72b6d07bcfa025249c",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 20,
+      "qid": "squad-57293faa6aef051400154be8",
+      "setting": "gold",
+      "question": "Regarding Bermuda: What is one way we can show that black Bermudians are of different heritage than African Americans?",
+      "response": "I don't know",
+      "frozen_answers": [
+        "Genetic studies"
+      ],
+      "judgment": "abstention",
+      "passage_conditioned_adequate": false,
+      "strict_source_scope_judgment": "abstention",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "The model abstains despite the explicit description of genetic studies as evidence for the ancestry comparison.",
+      "source_document_id": "squad-article-2fb2f533e014433c-p11",
+      "source_passage_sha256": "ab54377718d730edb989759e50c055fc176ef731ae54108a1726cd49819e31be",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 21,
+      "qid": "squad-572ea993cb0c0d14000f1417",
+      "setting": "gold",
+      "question": "Regarding Quran: Before which year were the Sana'a manuscripts produced?",
+      "response": "671 AD",
+      "frozen_answers": [
+        "671 AD"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "source_scope_uncertain",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "671 AD matches the annotated radiocarbon bound for parchment. The question does not distinguish parchment production from writing the manuscript text. Counted only under the passage-conditioned interpretation.",
+      "source_document_id": "squad-article-8987fb9276868758-p9",
+      "source_passage_sha256": "e6843a3833619f6c438fb3f0f7b79b8d7bd4dcea74dd52ea7f133eea103b73b7",
+      "scope_flags": [
+        "parchment_date_not_necessarily_writing_date"
+      ],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 22,
+      "qid": "squad-572ecc0fcb0c0d14000f157f",
+      "setting": "gold",
+      "question": "Regarding Geography of the United States: To which ocean does the passage say the Laurentian Highlands, Interior Plains and Interior Highlands collectively stretch northward?",
+      "response": "Arctic Ocean",
+      "frozen_answers": [
+        "Arctic Ocean",
+        "the Arctic"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The repaired question asks about the collective northward extent of three named landform regions. Arctic Ocean matches that collective sentence.",
+      "source_document_id": "squad-article-8e0fabced65c7909-p12",
+      "source_passage_sha256": "ecdef15fa78404fee115e0a828850833a36db316469d4c91a0ebbf96a8d5608d",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 23,
+      "qid": "squad-57278b525951b619008f8ced",
+      "setting": "gold",
+      "question": "Regarding Child labour: When did the English East India Company defeat Siraj-ud-Daula?",
+      "response": "23 June 1757",
+      "frozen_answers": [
+        "23 June 1757"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The answer gives the full 23 June 1757 date of the source victory at Plassey.",
+      "source_document_id": "squad-article-529ba5477311ac55-p30",
+      "source_passage_sha256": "24275133070be5f8f3e1d94dcb129df9f11c9ad63c51397c2f72fd8bdbea224f",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 24,
+      "qid": "squad-570a5b7e6d058f1900182d9d",
+      "setting": "gold",
+      "question": "Regarding Beer: How much alcohol was in The End of History beer?",
+      "response": "55%",
+      "frozen_answers": [
+        "55%"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The answer selects 55% for The End of History, rather than percentages attached to other beers.",
+      "source_document_id": "squad-article-1d8b4cf854cd42f4-p16",
+      "source_passage_sha256": "57048295e8db0e8b0e9a884af58ddd2e8083238c147b921514a2ac482823d6a7",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 25,
+      "qid": "squad-570b09a96b8089140040f704",
+      "setting": "gold",
+      "question": "Regarding Aircraft carrier: What will be removed from Tbilisi in order to enlarge her below decks aviation facilities?",
+      "response": "P-700 Granit offensive missiles",
+      "frozen_answers": [
+        "The P-700 systems"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "P-700 Granit offensive missiles identifies the P-700 systems slated for removal. This is a historical refit plan, not a verified current status.",
+      "source_document_id": "squad-article-5834bb695d27c56e-p32",
+      "source_passage_sha256": "53e2fc60a4d9438ddbc8ee725261beaff015f7e48b9b746f9bea8ef5b8053bf0",
+      "scope_flags": [
+        "historical_refit_plan_not_current_status"
+      ],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 26,
+      "qid": "squad-56e82e8c00c9c71400d7760a",
+      "setting": "gold",
+      "question": "Regarding Dialect: What percentage of Italians spoke standard Italian when Italy was first unified?",
+      "response": "2.5%",
+      "frozen_answers": [
+        "2.5%"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The answer matches the stated standard-Italian speaker percentage at Unification.",
+      "source_document_id": "squad-article-f3606d0cfb080252-p25",
+      "source_passage_sha256": "4eaaf07004e43a974fc5698f99e3b58f9b9beba694225f7b40f06f5612d40884",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 27,
+      "qid": "squad-5727b8482ca10214002d94bc",
+      "setting": "gold",
+      "question": "Regarding Cork (city): What did Cork Campus Radio change to?",
+      "response": "C103",
+      "frozen_answers": [
+        "UCC 98.3FM"
+      ],
+      "judgment": "incorrect",
+      "passage_conditioned_adequate": false,
+      "strict_source_scope_judgment": "incorrect",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "C103 is a different station in the same list. The source explicitly identifies UCC 98.3FM as formerly Cork Campus Radio 97.4fm.",
+      "source_document_id": "squad-article-0dc1b7bca17678c1-p9",
+      "source_passage_sha256": "d93e62f6aae47c7101e46b18a3c74a16d71095d0334d992022ae203a2bc4769c",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 28,
+      "qid": "squad-5726b169708984140094ce09",
+      "setting": "gold",
+      "question": "Regarding Alloy: What is the name of one interstitial alloy?",
+      "response": "Steel",
+      "frozen_answers": [
+        "Steel"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "Steel is explicitly given as an interstitial alloy, unlike the substitutional bronze and brass examples.",
+      "source_document_id": "squad-article-65d9d6c5c7c2d5c2-p12",
+      "source_passage_sha256": "6f9ff86b7c988f0e967885183148e550d50068a06185ee70b7a1372fb96c2038",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 29,
+      "qid": "squad-572fe5e8b2c2fd1400568583",
+      "setting": "gold",
+      "question": "Regarding The Blitz: What kind of receiver did the Beam Approach Training Development Unit aircraft use to search for the Knickebein beams?",
+      "response": "30 MHz receiver",
+      "frozen_answers": [
+        "30 MHz receiver",
+        "30 MHz",
+        "30 megahertz receiver"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The repaired question asks for a receiver. The source describes a 30 MHz receiver fitted to BATDU aircraft.",
+      "source_document_id": "squad-article-732f791a73312987-p41",
+      "source_passage_sha256": "b6d0363eccb11ecf5cfe35655afd8291e418a2564d6d2fa53e98efff7247b3a7",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 30,
+      "qid": "squad-57340aae4776f41900661790",
+      "setting": "gold",
+      "question": "Regarding Genocide: What event occurred in March 2006 that essentially ended Milosevic's trial?",
+      "response": "Slobodan Milošević died during his trial.",
+      "frozen_answers": [
+        "He died"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "The response correctly paraphrases He died and identifies Milošević and his trial. It adds no unsupported claim.",
+      "source_document_id": "squad-article-a1c1a3b70c880045-p21",
+      "source_passage_sha256": "d3d117ee2fcb7e0e684c559d56660e8b1bb0c339b10142db182c49be499fc65d",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 1,
+      "qid": "squad-57328bf706a3a419008acaf7",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Geological history of Earth: What continent was formed at the end of the Paleozoic?",
+      "response": "Pangaea",
+      "frozen_answers": [
+        "Pangaea",
+        "Pangea"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The passage explicitly identifies Pangaea as the supercontinent formed near the end of the Paleozoic.",
+      "source_document_id": "squad-article-70d50caff06e4167-p5",
+      "source_passage_sha256": "fbd2687748bc3425156b9449aa50428d27a53e5df285fef2c83b57042bbbbbea",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 2,
+      "qid": "squad-56e6dc12de9d371400068097",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Matter: What planet isn't a closed system but sometimes appears to be because of the approximate conservation of matter?",
+      "response": "I don't know",
+      "frozen_answers": [
+        "Earth"
+      ],
+      "judgment": "abstention",
+      "passage_conditioned_adequate": false,
+      "strict_source_scope_judgment": "abstention",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "The model declines to answer. The passage names Earth as the ordinary setting where matter is approximately conserved, but does not directly establish the question's not-a-closed-system premise.",
+      "source_document_id": "squad-article-57523f642f63eabb-p3",
+      "source_passage_sha256": "0780e079dfd24fe662489b56d6c34039338967d6293f0294c2dbba842afae1ee",
+      "scope_flags": [
+        "question_presupposition_not_directly_entailed"
+      ],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 3,
+      "qid": "squad-570a04be4103511400d594f7",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Hanover: Who was William IV's heir in the United Kingdom in 1837?",
+      "response": "Queen Victoria",
+      "frozen_answers": [
+        "Queen Victoria",
+        "Victoria"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The repaired question explicitly restricts succession to the United Kingdom in 1837. Queen Victoria matches; Hanover passed to Ernest Augustus.",
+      "source_document_id": "squad-article-b905a2a59cc7915e-p10",
+      "source_passage_sha256": "b39f8fdc464e40a38b086fe5180d72d52d9ab78a508a0aaef97ffddb5b3d0512",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 4,
+      "qid": "squad-573254560fdd8d15006c69bf",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Jehovah%27s Witnesses: How many congregations did the Jehovah's Witnesses have in 2015?",
+      "response": "118,016",
+      "frozen_answers": [
+        "118,016"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The response gives the stated 2015 congregation count, without confusing it with publishers or study hours.",
+      "source_document_id": "squad-article-8012523df9d3cd66-p31",
+      "source_passage_sha256": "db6b84f1685657a6176b6c0fec123fe1efbb0c51b3665eae4edd90dc3a26110d",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 5,
+      "qid": "squad-5709aacc200fba140036823f",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Computer security: What does NCAZ stand for?",
+      "response": "National Cyber-Abwehrzentrum",
+      "frozen_answers": [
+        "Nationales Cyber-Abwehrzentrum",
+        "National Center for Cyber Defense"
+      ],
+      "judgment": "partial",
+      "passage_conditioned_adequate": false,
+      "strict_source_scope_judgment": "partial",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "The intended institution is recognizable, but National Cyber-Abwehrzentrum is neither the accurate German expansion Nationales Cyber-Abwehrzentrum nor the supplied English name. Conservatively partial; no new alias added.",
+      "source_document_id": "squad-article-a97b84e295de5458-p24",
+      "source_passage_sha256": "f225491ecfa1d175de5ab0c1d29c20a5b1ba9acf14766082a1ca44193b7def0f",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 6,
+      "qid": "squad-572774785951b619008f8a4b",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Ann Arbor, Michigan: What is the average household size in the city of Ann Arbor?",
+      "response": "2.22",
+      "frozen_answers": [
+        "2.22"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The response matches household size 2.22, distinct from family size 2.90. This is the year-2000 snapshot, not a current estimate.",
+      "source_document_id": "squad-article-222fcfd29b27e0b2-p11",
+      "source_passage_sha256": "82951262ee77e38f09b6fb41265dc19e87c31f5f07789273290e4289f99847af",
+      "scope_flags": [
+        "year2000_snapshot_not_current2026"
+      ],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 7,
+      "qid": "squad-573096d2396df919000961d6",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Alfred North Whitehead: When did Whitehead delivery the Gifford lectures?",
+      "response": "I don't know",
+      "frozen_answers": [
+        "1927–28",
+        "1927-28",
+        "1927–1928",
+        "1927 to 1928"
+      ],
+      "judgment": "abstention",
+      "passage_conditioned_adequate": false,
+      "strict_source_scope_judgment": "abstention",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "The model abstains with retrieved context but answers correctly with gold. This is a context-condition difference, not proof that it cannot answer the question.",
+      "source_document_id": "squad-article-5974273cedf08469-p27",
+      "source_passage_sha256": "f564a1f011e4500d024c1de9755ae0287bea78adf037866faeb6c608fecf1806",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 8,
+      "qid": "squad-5727fc123acd2414000df176",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Eton College: Which Antarctic explorer attended Eton?",
+      "response": "Lawrence Oates",
+      "frozen_answers": [
+        "Lawrence Oates"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The source explicitly labels Lawrence Oates as the Antarctic explorer among Eton alumni.",
+      "source_document_id": "squad-article-46bd69caf6df1110-p40",
+      "source_passage_sha256": "b288ff23669a9a9d27d32dddcdb4ed0312146f4e7d37bcab0268a63f0e30f769",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 9,
+      "qid": "squad-571a9fd84faf5e1900b8ab51",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Umayyad Caliphate: When did the caliphate of Uthman Ibn Affan end?",
+      "response": "656",
+      "frozen_answers": [
+        "656"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The answer gives the ending year of the 644–656 caliphate range.",
+      "source_document_id": "squad-article-031f2be6f8634930-p4",
+      "source_passage_sha256": "344d1d900c5c6a18c533a6b0e324db14f04d089e93ce031606f18696c55cc504",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 10,
+      "qid": "squad-5727cb4d4b864d1900163d37",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Galicia (Spain): Which island is part of Atlantic Islands of Galicia National Park?",
+      "response": "Cortegada Island",
+      "frozen_answers": [
+        "Cortegada",
+        "Cortegada Island",
+        "Cíes",
+        "Cies",
+        "Ons",
+        "Sálvora",
+        "Salvora"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "Cortegada Island is a source-listed park member and a frozen accepted answer.",
+      "source_document_id": "squad-article-98ad72b6bae153c5-p25",
+      "source_passage_sha256": "ed26d1300d56e0d0f84d04d24441807c0348b0dcbfeb7ab14736cbb78db176a6",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 11,
+      "qid": "squad-56e07d387aa994140058e56f",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Saint Helena: What day was Saint Helena Radio shut down?",
+      "response": "25 December 2012",
+      "frozen_answers": [
+        "25 December 2012"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The response gives the source closure date, 25 December 2012.",
+      "source_document_id": "squad-article-29d5d38588cd4003-p64",
+      "source_passage_sha256": "afd060800ec738a531177da2727dd571e0d0c322ae0ebd89ba38f6f16a361e21",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 12,
+      "qid": "squad-572fac9304bcaa1900d76bca",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Armenia: When did Cilicia declare independence?",
+      "response": "5 August 1920",
+      "frozen_answers": [
+        "5 August 1920"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The answer selects Cilicia's 5 August declaration, rather than the 10 August Treaty of Sèvres.",
+      "source_document_id": "squad-article-1d5a04fbeace6278-p17",
+      "source_passage_sha256": "254c4b46c9e147464241a83b46da95a88744c269654eb27610712731b42fe48f",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 13,
+      "qid": "squad-572eaddec246551400ce44e6",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Spanish language in the United States: What other Spanish Speaking people come to America?",
+      "response": "Nicaraguans",
+      "frozen_answers": [
+        "Spanish-speaking Nicaraguans"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "Nicaraguans identifies the requested people. Spanish-speaking is already supplied by the question. This preserves meaning without adding a new scoring alias.",
+      "source_document_id": "squad-article-27c646ea586517ed-p9",
+      "source_passage_sha256": "5eb8d9a2ab9da4278bb75fb6aa5835cef8a937632d10cea35e3aeb2dc9e019e1",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 14,
+      "qid": "squad-572b951ef75d5e190021fe5f",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Education: Which type of schooling can be most expensive?",
+      "response": "Online courses",
+      "frozen_answers": [
+        "Online courses",
+        "online education",
+        "e-learning"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "Online courses matches the passage-conditioned comparison. The passage says they can cost more than face-to-face classes, not that they are universally most expensive.",
+      "source_document_id": "squad-article-68bf0109c6f8a87b-p17",
+      "source_passage_sha256": "c29d1b789eb183fbbb6fbe37c472a9c1b52cb3964ef3fbbba4a16d5833bb19c9",
+      "scope_flags": [
+        "passage_comparison_not_universal_school_cost_ranking"
+      ],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 15,
+      "qid": "squad-56e0f5fc231d4119001ac4dd",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Canon law: What is the pope's official title?",
+      "response": "Supreme Pontiff",
+      "frozen_answers": [
+        "Supreme Pontiff"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "Supreme Pontiff is the explicit papal title or capacity used in the passage.",
+      "source_document_id": "squad-article-0f40a4dbaeb853aa-p5",
+      "source_passage_sha256": "123a414bf75811c1199da57b079d381a8be681decda41e9727420e39815e4038",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 16,
+      "qid": "squad-5730537d396df91900096074",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Swaziland: The University of Swaziland, Southern Nazarene University, offer higher learning in Swaziland, what is one other University?",
+      "response": "Limkokwing University of Creative Technology",
+      "frozen_answers": [
+        "Swaziland Christian University",
+        "Limkokwing University of Creative Technology",
+        "Limkokwing University"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "Limkokwing University of Creative Technology is explicitly another institution in the source and a frozen accepted answer.",
+      "source_document_id": "squad-article-f0871dafaa9aad08-p21",
+      "source_passage_sha256": "7fb66015cc1b63b98123bf738e9399fcf80a0b3d77782bef4e45dc245d531c6c",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 17,
+      "qid": "squad-56e1747fe3433e1400422f2f",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Boston: Boston is at the East end of what Interstate?",
+      "response": "I don't know",
+      "frozen_answers": [
+        "I-90"
+      ],
+      "judgment": "abstention",
+      "passage_conditioned_adequate": false,
+      "strict_source_scope_judgment": "abstention",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "The model abstains. The source answer is I-90, and the gold condition also abstains.",
+      "source_document_id": "squad-article-3c66157844fa8ce7-p74",
+      "source_passage_sha256": "b0e096cf5815e7ba44c7726270f5d2ea142fafa62345675abfd301c93528d6b7",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 18,
+      "qid": "squad-56dfc85c7aa994140058e1ae",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Hunter-gatherer: Between what ice sheets were the corridors located?",
+      "response": "Laurentide and Cordilleran",
+      "frozen_answers": [
+        "Laurentide and Cordilleran"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "Both ice-sheet names are correct and complete.",
+      "source_document_id": "squad-article-4a1fac8df81d2a3a-p31",
+      "source_passage_sha256": "4f317b72eadeed9a6966116cda356b8131020b7f1c05b4ee314d6d472d89fd6f",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 19,
+      "qid": "squad-57268d7ef1498d1400e8e396",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Marvel Comics: In 2010, Marvel switched to what distributor for bookstore comic book sales?",
+      "response": "Hachette Distribution Services",
+      "frozen_answers": [
+        "Hachette Distribution Services"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The passage states that Marvel switched bookstore distribution to Hachette Distribution Services in September 2010.",
+      "source_document_id": "squad-article-92151bea137b2f56-p20",
+      "source_passage_sha256": "e58a2ee6d2e938f68f67f755348194275d58ca664a041c72b6d07bcfa025249c",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 20,
+      "qid": "squad-57293faa6aef051400154be8",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Bermuda: What is one way we can show that black Bermudians are of different heritage than African Americans?",
+      "response": "Genetic studies showing African ancestry of black Bermudians is largely from southern Africa, distinct from West and South Africa.",
+      "frozen_answers": [
+        "Genetic studies"
+      ],
+      "judgment": "partial",
+      "passage_conditioned_adequate": false,
+      "strict_source_scope_judgment": "partial",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": true,
+      "reason": "Genetic studies is the correct method, but the added comparison with West and South Africa is unsupported. The source instead contrasts ancestry with the West Indies and United States. Conservatively partial despite the correct phrase.",
+      "source_document_id": "squad-article-2fb2f533e014433c-p11",
+      "source_passage_sha256": "ab54377718d730edb989759e50c055fc176ef731ae54108a1726cd49819e31be",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 21,
+      "qid": "squad-572ea993cb0c0d14000f1417",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Quran: Before which year were the Sana'a manuscripts produced?",
+      "response": "671 AD",
+      "frozen_answers": [
+        "671 AD"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "source_scope_uncertain",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "671 AD matches the annotated radiocarbon bound for parchment. The question does not distinguish parchment production from writing the manuscript text. Counted only under the passage-conditioned interpretation.",
+      "source_document_id": "squad-article-8987fb9276868758-p9",
+      "source_passage_sha256": "e6843a3833619f6c438fb3f0f7b79b8d7bd4dcea74dd52ea7f133eea103b73b7",
+      "scope_flags": [
+        "parchment_date_not_necessarily_writing_date"
+      ],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 22,
+      "qid": "squad-572ecc0fcb0c0d14000f157f",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Geography of the United States: To which ocean does the passage say the Laurentian Highlands, Interior Plains and Interior Highlands collectively stretch northward?",
+      "response": "Arctic Ocean",
+      "frozen_answers": [
+        "Arctic Ocean",
+        "the Arctic"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The repaired question asks about the collective northward extent of three named landform regions. Arctic Ocean matches that collective sentence.",
+      "source_document_id": "squad-article-8e0fabced65c7909-p12",
+      "source_passage_sha256": "ecdef15fa78404fee115e0a828850833a36db316469d4c91a0ebbf96a8d5608d",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 23,
+      "qid": "squad-57278b525951b619008f8ced",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Child labour: When did the English East India Company defeat Siraj-ud-Daula?",
+      "response": "1757",
+      "frozen_answers": [
+        "23 June 1757"
+      ],
+      "judgment": "partial",
+      "passage_conditioned_adequate": false,
+      "strict_source_scope_judgment": "partial",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "1757 gives the correct year but omits the day and month of the full source date. Conservatively partial for precision; no 1757 alias added after outputs.",
+      "source_document_id": "squad-article-529ba5477311ac55-p30",
+      "source_passage_sha256": "24275133070be5f8f3e1d94dcb129df9f11c9ad63c51397c2f72fd8bdbea224f",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 24,
+      "qid": "squad-570a5b7e6d058f1900182d9d",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Beer: How much alcohol was in The End of History beer?",
+      "response": "55%",
+      "frozen_answers": [
+        "55%"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The answer selects 55% for The End of History, rather than percentages attached to other beers.",
+      "source_document_id": "squad-article-1d8b4cf854cd42f4-p16",
+      "source_passage_sha256": "57048295e8db0e8b0e9a884af58ddd2e8083238c147b921514a2ac482823d6a7",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 25,
+      "qid": "squad-570b09a96b8089140040f704",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Aircraft carrier: What will be removed from Tbilisi in order to enlarge her below decks aviation facilities?",
+      "response": "P-700 Granit offensive missiles",
+      "frozen_answers": [
+        "The P-700 systems"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "P-700 Granit offensive missiles identifies the P-700 systems slated for removal. This is a historical refit plan, not a verified current status.",
+      "source_document_id": "squad-article-5834bb695d27c56e-p32",
+      "source_passage_sha256": "53e2fc60a4d9438ddbc8ee725261beaff015f7e48b9b746f9bea8ef5b8053bf0",
+      "scope_flags": [
+        "historical_refit_plan_not_current_status"
+      ],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 26,
+      "qid": "squad-56e82e8c00c9c71400d7760a",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Dialect: What percentage of Italians spoke standard Italian when Italy was first unified?",
+      "response": "2.5%",
+      "frozen_answers": [
+        "2.5%"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The answer matches the stated standard-Italian speaker percentage at Unification.",
+      "source_document_id": "squad-article-f3606d0cfb080252-p25",
+      "source_passage_sha256": "4eaaf07004e43a974fc5698f99e3b58f9b9beba694225f7b40f06f5612d40884",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 27,
+      "qid": "squad-5727b8482ca10214002d94bc",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Cork (city): What did Cork Campus Radio change to?",
+      "response": "I don't know",
+      "frozen_answers": [
+        "UCC 98.3FM"
+      ],
+      "judgment": "abstention",
+      "passage_conditioned_adequate": false,
+      "strict_source_scope_judgment": "abstention",
+      "strict_fully_correct": false,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "The model abstains rather than selecting UCC 98.3FM. The gold condition instead selected the wrong station, C103.",
+      "source_document_id": "squad-article-0dc1b7bca17678c1-p9",
+      "source_passage_sha256": "d93e62f6aae47c7101e46b18a3c74a16d71095d0334d992022ae203a2bc4769c",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 28,
+      "qid": "squad-5726b169708984140094ce09",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Alloy: What is the name of one interstitial alloy?",
+      "response": "Steel",
+      "frozen_answers": [
+        "Steel"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "Steel is explicitly given as an interstitial alloy, unlike the substitutional bronze and brass examples.",
+      "source_document_id": "squad-article-65d9d6c5c7c2d5c2-p12",
+      "source_passage_sha256": "6f9ff86b7c988f0e967885183148e550d50068a06185ee70b7a1372fb96c2038",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 29,
+      "qid": "squad-572fe5e8b2c2fd1400568583",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding The Blitz: What kind of receiver did the Beam Approach Training Development Unit aircraft use to search for the Knickebein beams?",
+      "response": "30 MHz receiver",
+      "frozen_answers": [
+        "30 MHz receiver",
+        "30 MHz",
+        "30 megahertz receiver"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": true,
+      "normalized_mention_proxy": true,
+      "reason": "The repaired question asks for a receiver. The source describes a 30 MHz receiver fitted to BATDU aircraft.",
+      "source_document_id": "squad-article-732f791a73312987-p41",
+      "source_passage_sha256": "b6d0363eccb11ecf5cfe35655afd8291e418a2564d6d2fa53e98efff7247b3a7",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    },
+    {
+      "index_1based": 30,
+      "qid": "squad-57340aae4776f41900661790",
+      "setting": "tfidf_retrieval",
+      "question": "Regarding Genocide: What event occurred in March 2006 that essentially ended Milosevic's trial?",
+      "response": "Slobodan Milošević died during his trial.",
+      "frozen_answers": [
+        "He died"
+      ],
+      "judgment": "correct",
+      "passage_conditioned_adequate": true,
+      "strict_source_scope_judgment": "correct",
+      "strict_fully_correct": true,
+      "normalized_exact_proxy": false,
+      "normalized_mention_proxy": false,
+      "reason": "The response correctly paraphrases He died and identifies Milošević and his trial. It adds no unsupported claim.",
+      "source_document_id": "squad-article-a1c1a3b70c880045-p21",
+      "source_passage_sha256": "d3d117ee2fcb7e0e684c559d56660e8b1bb0c339b10142db182c49be499fc65d",
+      "scope_flags": [],
+      "reviewer": "single review; no human panel or second human rater"
+    }
+  ]
+}

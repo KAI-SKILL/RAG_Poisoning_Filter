@@ -1,0 +1,287 @@
+{
+  "status": "COMPLETE_STANDALONE_CPU_Q_UTILITY",
+  "created_utc": "2026-10-22T02:30:17.255630+00:00",
+  "scope": "Q",
+  "source": "Final source-repaired v2 custom development Q30, three contexts each; all frozen aliases retained.",
+  "model_repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+  "model_revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+  "quantization": "Q4_K_M",
+  "execution_device": "cloud CPU",
+  "threads": 4,
+  "batch_size": 8,
+  "generation_parameters": {
+    "n_predict": 48,
+    "temperature": 0.0,
+    "top_k": 0,
+    "top_p": 1.0,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0,
+    "seed": 12,
+    "stop": [
+      "<|im_end|>",
+      "<|endoftext|>"
+    ],
+    "stream": false,
+    "cache_prompt": false,
+    "return_tokens": true
+  },
+  "requested_rows": 90,
+  "actual_unique_responses": 90,
+  "preexisting_exact_responses": 0,
+  "committed_http_batches": 12,
+  "unknown_outcomes": 0,
+  "http_errors": 0,
+  "actual_prompt_tokens": 36881,
+  "actual_completion_tokens": 537,
+  "generation_session_wall_seconds": 448.9696250190027,
+  "combined_prompt_and_completion_tokens_per_generation_wall_second": 83.34194100194702,
+  "config_sha256": "5bca52763387a2e760fcd58bedc913af5c28a54f1908042be2f9709f940f4126",
+  "native_inputs_sha256": "84331d83eb52efc4ef533158716a42f8a0ea3735d78b7cbb437b8d7ec34df28d",
+  "scoring_protocol_sha256": "c38be30642ba515f7a0725081c2392cc8c1028faf23f23e520646b066a4a7714",
+  "metric_source_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+  "main_12_gpu_slots_membership": false,
+  "attack_conditions": 0,
+  "attack_success_rate_measured": false,
+  "groups": [
+    {
+      "policy": "gold_evidence",
+      "condition": "clean",
+      "article_groups": 30,
+      "n": 30,
+      "reference_exact": {
+        "sum": 19.0,
+        "eligible_n": 30,
+        "value": 0.6333333333333333,
+        "ci95_article_percentile": [
+          0.4666666666666667,
+          0.8
+        ]
+      },
+      "reference_token_f1": {
+        "sum": 23.183333333333334,
+        "eligible_n": 30,
+        "value": 0.7727777777777778,
+        "ci95_article_percentile": [
+          0.643888888888889,
+          0.8894583333333334
+        ]
+      },
+      "abstention_strict": {
+        "sum": 4.0,
+        "eligible_n": 30,
+        "value": 0.13333333333333333,
+        "ci95_article_percentile": [
+          0.03333333333333333,
+          0.26666666666666666
+        ]
+      },
+      "blank": {
+        "sum": 0.0,
+        "eligible_n": 30,
+        "value": 0.0,
+        "ci95_article_percentile": [
+          0.0,
+          0.0
+        ]
+      },
+      "length_cap": {
+        "sum": 0.0,
+        "eligible_n": 30,
+        "value": 0.0,
+        "ci95_article_percentile": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "policy": "none",
+      "condition": "clean",
+      "article_groups": 30,
+      "n": 30,
+      "reference_exact": {
+        "sum": 1.0,
+        "eligible_n": 30,
+        "value": 0.03333333333333333,
+        "ci95_article_percentile": [
+          0.0,
+          0.1
+        ]
+      },
+      "reference_token_f1": {
+        "sum": 4.466666666666667,
+        "eligible_n": 30,
+        "value": 0.1488888888888889,
+        "ci95_article_percentile": [
+          0.06111111111111111,
+          0.25113888888888874
+        ]
+      },
+      "abstention_strict": {
+        "sum": 16.0,
+        "eligible_n": 30,
+        "value": 0.5333333333333333,
+        "ci95_article_percentile": [
+          0.36666666666666664,
+          0.7
+        ]
+      },
+      "blank": {
+        "sum": 0.0,
+        "eligible_n": 30,
+        "value": 0.0,
+        "ci95_article_percentile": [
+          0.0,
+          0.0
+        ]
+      },
+      "length_cap": {
+        "sum": 0.0,
+        "eligible_n": 30,
+        "value": 0.0,
+        "ci95_article_percentile": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "policy": "tfidf_retrieval",
+      "condition": "clean",
+      "article_groups": 30,
+      "n": 30,
+      "reference_exact": {
+        "sum": 19.0,
+        "eligible_n": 30,
+        "value": 0.6333333333333333,
+        "ci95_article_percentile": [
+          0.4666666666666667,
+          0.8
+        ]
+      },
+      "reference_token_f1": {
+        "sum": 22.40714285714286,
+        "eligible_n": 30,
+        "value": 0.746904761904762,
+        "ci95_article_percentile": [
+          0.6065853174603175,
+          0.877236111111111
+        ]
+      },
+      "abstention_strict": {
+        "sum": 4.0,
+        "eligible_n": 30,
+        "value": 0.13333333333333333,
+        "ci95_article_percentile": [
+          0.03333333333333333,
+          0.26666666666666666
+        ]
+      },
+      "blank": {
+        "sum": 0.0,
+        "eligible_n": 30,
+        "value": 0.0,
+        "ci95_article_percentile": [
+          0.0,
+          0.0
+        ]
+      },
+      "length_cap": {
+        "sum": 0.0,
+        "eligible_n": 30,
+        "value": 0.0,
+        "ci95_article_percentile": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "actual_batches": [
+    {
+      "batch_id": 0,
+      "prompts": 8,
+      "wall_seconds": 26.356735049001145,
+      "prompt_tokens": 2144,
+      "completion_tokens": 55
+    },
+    {
+      "batch_id": 1,
+      "prompts": 8,
+      "wall_seconds": 37.198522799000784,
+      "prompt_tokens": 3052,
+      "completion_tokens": 40
+    },
+    {
+      "batch_id": 2,
+      "prompts": 8,
+      "wall_seconds": 41.32931801800078,
+      "prompt_tokens": 3474,
+      "completion_tokens": 44
+    },
+    {
+      "batch_id": 3,
+      "prompts": 8,
+      "wall_seconds": 40.06388972500281,
+      "prompt_tokens": 3308,
+      "completion_tokens": 47
+    },
+    {
+      "batch_id": 4,
+      "prompts": 8,
+      "wall_seconds": 44.460063785001694,
+      "prompt_tokens": 3766,
+      "completion_tokens": 33
+    },
+    {
+      "batch_id": 5,
+      "prompts": 8,
+      "wall_seconds": 47.123883625001326,
+      "prompt_tokens": 3849,
+      "completion_tokens": 45
+    },
+    {
+      "batch_id": 6,
+      "prompts": 8,
+      "wall_seconds": 33.33271148399945,
+      "prompt_tokens": 2719,
+      "completion_tokens": 60
+    },
+    {
+      "batch_id": 7,
+      "prompts": 8,
+      "wall_seconds": 46.7685152869999,
+      "prompt_tokens": 3768,
+      "completion_tokens": 52
+    },
+    {
+      "batch_id": 8,
+      "prompts": 8,
+      "wall_seconds": 41.31496049699854,
+      "prompt_tokens": 3473,
+      "completion_tokens": 42
+    },
+    {
+      "batch_id": 9,
+      "prompts": 8,
+      "wall_seconds": 36.42965870400076,
+      "prompt_tokens": 2923,
+      "completion_tokens": 46
+    },
+    {
+      "batch_id": 10,
+      "prompts": 8,
+      "wall_seconds": 39.24006867999924,
+      "prompt_tokens": 3188,
+      "completion_tokens": 45
+    },
+    {
+      "batch_id": 11,
+      "prompts": 2,
+      "wall_seconds": 15.255511736999324,
+      "prompt_tokens": 1217,
+      "completion_tokens": 28
+    }
+  ],
+  "claim_boundary": "Q is a complete answerability/utility check with string-based reference-alias scoring. It does not measure attack success or establish that any native BF16 GPU suite executed. Article intervals are conditional on observed outputs; the original source evidence limitations remain."
+}

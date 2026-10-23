@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": [
+    "exact_binomial_discordance_zero_case_and_Holm_four_test_family",
+    "E1_all_and_original_supported_masks_exact_four_test_families_clean_excluded_missing_pair_rejected",
+    "E2_paired_clean_and_five_vs_one_DID_no_clipping_no_binary_test_on_DID",
+    "degenerate_interval_explicitly_not_equivalence",
+    "all_four_complete_mock_scope_artifacts_closed_hashes_and_idempotence",
+    "partial_scores_never_formal_postanalysis",
+    "same_keys_counts_config_changed_response_rejects_stale_score",
+    "changed_score_artifact_and_cross_scope_mislabel_rejected"
+  ],
+  "real_model_calls": 0,
+  "gpu_calls": 0,
+  "network_calls": 0,
+  "temporary_fixtures_removed": true,
+  "postanalysis_sha256": "61ecf0cd6e7458ee9bee8d42e2b2c26d2b74cb94bd5efd4a230951abdcb281f4",
+  "test_sha256": "353b0de325fda55068f02160681c9945de9caf65b36dda38e28f65ac50ce4bcb",
+  "scope": "Synthetic metric vectors and temporary mock response databases only; no production results or model weights inspected."
+}

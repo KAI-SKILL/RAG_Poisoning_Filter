@@ -1,0 +1,3 @@
+# Derived dataset license and attribution
+
+The SQuAD-derived passages and controlled context modifications in this release are distributed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/ . Preserve the original source attribution in SOURCE_ATTRIBUTION.md and the per-record Wikipedia article references. Numeric substitutions and added instruction/analysis framing are modifications made for this research suite; they are not authentic source claims. This notice applies to the derived dataset and does not relicense third-party model artifacts, upstream repositories, or code.

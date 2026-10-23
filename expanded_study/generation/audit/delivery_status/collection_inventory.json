@@ -1,0 +1,185 @@
+{
+  "status": "INCOMPLETE",
+  "created_utc": "2026-10-22T02:30:30.813328+00:00",
+  "collector_sha256": "db69db5025ed16a130aa1e5f1b26cced4848028b72dabfd318bbbf519372f40c",
+  "registry_sha256": "d741e70180e325ff4f9c1fadea9869cea63d4ee54685970bbd8c4ee33d1e1e76",
+  "required_slots": 12,
+  "complete_slots": 0,
+  "missing_or_unverified_slots": 12,
+  "registry_issues": [],
+  "model_keys": [
+    "qwen25_3b_gguf",
+    "qwen3_8b",
+    "llama31_8b"
+  ],
+  "scopes": [
+    "Q",
+    "E1",
+    "E2",
+    "E3"
+  ],
+  "slots": [
+    {
+      "model_key": "qwen25_3b_gguf",
+      "scope": "Q",
+      "directory": "/project/outputs/Group9_Expanded_Attacks/generation/all_results/qwen25_3b_gguf/Q",
+      "status": "MISSING",
+      "actual_unique_responses": 0,
+      "mapped_request_rows": 90,
+      "expected_source_unique_prompts": 90,
+      "issues": [
+        "No closed result directory; plan or scheduler status is not generated data."
+      ],
+      "export_inventory_verified": false
+    },
+    {
+      "model_key": "qwen25_3b_gguf",
+      "scope": "E1",
+      "directory": "/project/outputs/Group9_Expanded_Attacks/generation/all_results/qwen25_3b_gguf/E1",
+      "status": "MISSING",
+      "actual_unique_responses": 0,
+      "mapped_request_rows": 1800,
+      "expected_source_unique_prompts": 432,
+      "issues": [
+        "No closed result directory; plan or scheduler status is not generated data."
+      ],
+      "export_inventory_verified": false
+    },
+    {
+      "model_key": "qwen25_3b_gguf",
+      "scope": "E2",
+      "directory": "/project/outputs/Group9_Expanded_Attacks/generation/all_results/qwen25_3b_gguf/E2",
+      "status": "MISSING",
+      "actual_unique_responses": 0,
+      "mapped_request_rows": 700,
+      "expected_source_unique_prompts": 204,
+      "issues": [
+        "No closed result directory; plan or scheduler status is not generated data."
+      ],
+      "export_inventory_verified": false
+    },
+    {
+      "model_key": "qwen25_3b_gguf",
+      "scope": "E3",
+      "directory": "/project/outputs/Group9_Expanded_Attacks/generation/all_results/qwen25_3b_gguf/E3",
+      "status": "MISSING",
+      "actual_unique_responses": 0,
+      "mapped_request_rows": 176400,
+      "expected_source_unique_prompts": 56373,
+      "issues": [
+        "No closed result directory; plan or scheduler status is not generated data."
+      ],
+      "export_inventory_verified": false
+    },
+    {
+      "model_key": "qwen3_8b",
+      "scope": "Q",
+      "directory": "/project/outputs/Group9_Expanded_Attacks/generation/all_results/qwen3_8b/Q",
+      "status": "MISSING",
+      "actual_unique_responses": 0,
+      "mapped_request_rows": 90,
+      "expected_source_unique_prompts": 90,
+      "issues": [
+        "No closed result directory; plan or scheduler status is not generated data."
+      ],
+      "export_inventory_verified": false
+    },
+    {
+      "model_key": "qwen3_8b",
+      "scope": "E1",
+      "directory": "/project/outputs/Group9_Expanded_Attacks/generation/all_results/qwen3_8b/E1",
+      "status": "MISSING",
+      "actual_unique_responses": 0,
+      "mapped_request_rows": 1800,
+      "expected_source_unique_prompts": 432,
+      "issues": [
+        "No closed result directory; plan or scheduler status is not generated data."
+      ],
+      "export_inventory_verified": false
+    },
+    {
+      "model_key": "qwen3_8b",
+      "scope": "E2",
+      "directory": "/project/outputs/Group9_Expanded_Attacks/generation/all_results/qwen3_8b/E2",
+      "status": "MISSING",
+      "actual_unique_responses": 0,
+      "mapped_request_rows": 700,
+      "expected_source_unique_prompts": 204,
+      "issues": [
+        "No closed result directory; plan or scheduler status is not generated data."
+      ],
+      "export_inventory_verified": false
+    },
+    {
+      "model_key": "qwen3_8b",
+      "scope": "E3",
+      "directory": "/project/outputs/Group9_Expanded_Attacks/generation/all_results/qwen3_8b/E3",
+      "status": "MISSING",
+      "actual_unique_responses": 0,
+      "mapped_request_rows": 176400,
+      "expected_source_unique_prompts": 56373,
+      "issues": [
+        "No closed result directory; plan or scheduler status is not generated data."
+      ],
+      "export_inventory_verified": false
+    },
+    {
+      "model_key": "llama31_8b",
+      "scope": "Q",
+      "directory": "/project/outputs/Group9_Expanded_Attacks/generation/all_results/llama31_8b/Q",
+      "status": "MISSING",
+      "actual_unique_responses": 0,
+      "mapped_request_rows": 90,
+      "expected_source_unique_prompts": 90,
+      "issues": [
+        "No closed result directory; plan or scheduler status is not generated data."
+      ],
+      "export_inventory_verified": false
+    },
+    {
+      "model_key": "llama31_8b",
+      "scope": "E1",
+      "directory": "/project/outputs/Group9_Expanded_Attacks/generation/all_results/llama31_8b/E1",
+      "status": "MISSING",
+      "actual_unique_responses": 0,
+      "mapped_request_rows": 1800,
+      "expected_source_unique_prompts": 432,
+      "issues": [
+        "No closed result directory; plan or scheduler status is not generated data."
+      ],
+      "export_inventory_verified": false
+    },
+    {
+      "model_key": "llama31_8b",
+      "scope": "E2",
+      "directory": "/project/outputs/Group9_Expanded_Attacks/generation/all_results/llama31_8b/E2",
+      "status": "MISSING",
+      "actual_unique_responses": 0,
+      "mapped_request_rows": 700,
+      "expected_source_unique_prompts": 204,
+      "issues": [
+        "No closed result directory; plan or scheduler status is not generated data."
+      ],
+      "export_inventory_verified": false
+    },
+    {
+      "model_key": "llama31_8b",
+      "scope": "E3",
+      "directory": "/project/outputs/Group9_Expanded_Attacks/generation/all_results/llama31_8b/E3",
+      "status": "MISSING",
+      "actual_unique_responses": 0,
+      "mapped_request_rows": 176400,
+      "expected_source_unique_prompts": 56373,
+      "issues": [
+        "No closed result directory; plan or scheduler status is not generated data."
+      ],
+      "export_inventory_verified": false
+    }
+  ],
+  "full_project_generation_and_analysis_ready": false,
+  "existing_cpu_results_inherited": false,
+  "model_calls": 0,
+  "network_calls": 0,
+  "validation_mode": "ACTUAL_SAVED_ARTIFACT_CONSISTENCY",
+  "execution_attestation_note": "Checks saved device/configuration evidence and raw outputs; does not independently attest another computer or claim that a job exit status is an experiment result."
+}

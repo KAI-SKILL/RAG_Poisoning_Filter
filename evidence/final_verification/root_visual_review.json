@@ -1,0 +1,57 @@
+{
+  "status": "ROOT_INDEPENDENT_VISUAL_REVIEW_PASSED",
+  "reviewed_utc": "2026-10-20T05:54:34.826708+00:00",
+  "report_pdf_sha256": "8c5cb80e91f4fd16a1992ed7dc1b0c126476b658f0864a89622c8c6d63be4f32",
+  "report_pages_individually_viewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "pptx_sha256": "2a3761b4364b86e922f251acf4ba2e4ac217303c3e4cb2242f7a9a66db87633c",
+  "presentation_pages_individually_viewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "unchanged_final_pages_proven_pixel_identical_to_reviewed_previews": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    11
+  ],
+  "changed_final_pages_individually_rechecked": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "office_result_pages_also_viewed": [
+    7,
+    8,
+    9
+  ],
+  "findings": "No unresolved clipping, overlap, broken glyph or illegible numeric table/chart found. Four final phrasing/spacing issues were corrected and visually rechecked.",
+  "scope": "Current report rendered and reviewed after merge. Presentation bytes unchanged; prior slide render reviews inherited, and current OOXML/script consistency rechecked. Not new inference or semantic answer grading.",
+  "merge_report_review": "../merge/report_review.json"
+}

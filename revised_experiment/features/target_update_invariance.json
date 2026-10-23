@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "record_count": 230,
+  "compared_fields": [
+    "question",
+    "split",
+    "source_group",
+    "title",
+    "correct",
+    "answers",
+    "gold_document_id",
+    "gold_passage"
+  ],
+  "changed_retrieval_or_reference_fields": [],
+  "scope": "Formal v2 changes attack-target metadata while frozen question/reference/corpus evidence used for retrieval remain unchanged. No model outputs inspected.",
+  "v1_sha256": "d87d54ee94fed965bd48169fe6c7040ff49872e4b80b18cc7e1bd302cd43a0fe",
+  "v2_sha256": "5509785f6c3bb8c791b8fc67ba98893288af09623ff7b72d7e578f1252c62fdf"
+}

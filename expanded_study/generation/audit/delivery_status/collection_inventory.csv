@@ -1,0 +1,13 @@
+﻿model_key,scope,status,actual_unique_responses,expected_source_unique_prompts,expected_native_unique_prompts,mapped_request_rows,observed_unique_response_records,observed_expected_native_unique_prompts,observed_missing_native_unique_prompts,observed_request_rows_with_response,response_identity_and_metrics_complete,export_inventory_verified,issues
+qwen25_3b_gguf,Q,MISSING,0,90,,90,,,,,,False,"[""No closed result directory; plan or scheduler status is not generated data.""]"
+qwen25_3b_gguf,E1,MISSING,0,432,,1800,,,,,,False,"[""No closed result directory; plan or scheduler status is not generated data.""]"
+qwen25_3b_gguf,E2,MISSING,0,204,,700,,,,,,False,"[""No closed result directory; plan or scheduler status is not generated data.""]"
+qwen25_3b_gguf,E3,MISSING,0,56373,,176400,,,,,,False,"[""No closed result directory; plan or scheduler status is not generated data.""]"
+qwen3_8b,Q,MISSING,0,90,,90,,,,,,False,"[""No closed result directory; plan or scheduler status is not generated data.""]"
+qwen3_8b,E1,MISSING,0,432,,1800,,,,,,False,"[""No closed result directory; plan or scheduler status is not generated data.""]"
+qwen3_8b,E2,MISSING,0,204,,700,,,,,,False,"[""No closed result directory; plan or scheduler status is not generated data.""]"
+qwen3_8b,E3,MISSING,0,56373,,176400,,,,,,False,"[""No closed result directory; plan or scheduler status is not generated data.""]"
+llama31_8b,Q,MISSING,0,90,,90,,,,,,False,"[""No closed result directory; plan or scheduler status is not generated data.""]"
+llama31_8b,E1,MISSING,0,432,,1800,,,,,,False,"[""No closed result directory; plan or scheduler status is not generated data.""]"
+llama31_8b,E2,MISSING,0,204,,700,,,,,,False,"[""No closed result directory; plan or scheduler status is not generated data.""]"
+llama31_8b,E3,MISSING,0,56373,,176400,,,,,,False,"[""No closed result directory; plan or scheduler status is not generated data.""]"

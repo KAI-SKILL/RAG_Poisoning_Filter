@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "scope": "Synthetic fixture only; no formal test data",
+  "condition_rows": 66,
+  "duplicate_collapsed": 1,
+  "unique_questions": 4,
+  "source_valid_questions": 3,
+  "primary_comparisons": 8,
+  "E2_join_verified": true,
+  "article_resampling_verified": true
+}

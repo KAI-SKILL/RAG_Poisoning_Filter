@@ -1,0 +1,14 @@
+{
+  "input_origin": "Exact 100-query subset of user-supplied NQ candidate files; attack records unmodified; NotInject from verified official release copies",
+  "original_source_sha256": {
+    "new_reference/data/nq/attacks.json": "db54d73096f29dc7d679a1e0be4652ee94f68e0c18d6c6bd8cae6c3c0e86eb71",
+    "new_reference/data/nq/clean_retrieval.json": "ea4b82c0e90e772df9c0020a7adc702797c7173f2c5b50154657308dc4da8d7a",
+    "new_reference/data_single/nq/attacks.json": "d40a74d6afeb681d00fb2aa742e4f37d741c3f592edca51712a7074b5d246e9a"
+  },
+  "bundled_subset_sha256": {
+    "attacks_supplied_single.json": "319461320a5905d45838bff9f503b1df1a7ee6390f797bc060cb935898e4fc3d",
+    "attacks_main.json": "360fdb22da2fe861c71fd5841677c8d1d652645f3f237155eb4f76ff218f6ed0",
+    "notinject.json": "4b1bf6233de6786332866c539fd24e646796cea285923b88e9a689b330bbce4c",
+    "clean_target_candidates.json": "bab0ef336775cc3d3510f53fa761a73c79df17dc518c90cc3e51f580951a0616"
+  }
+}

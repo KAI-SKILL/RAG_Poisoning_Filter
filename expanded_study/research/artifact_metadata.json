@@ -1,0 +1,52 @@
+[
+  {
+    "repository": "microsoft/BIPIA",
+    "primary_url": "https://github.com/microsoft/BIPIA",
+    "default_branch": "main",
+    "commit": "a004b69ec0dd446e0afd461d98cb5e96e120a5d0",
+    "commit_date": "2024-04-15T02:08:17Z",
+    "archived": true,
+    "license_spdx": "NOASSERTION",
+    "scope": "Metadata read; no model/paper performance reproduced"
+  },
+  {
+    "repository": "liu00222/Open-Prompt-Injection",
+    "primary_url": "https://github.com/liu00222/Open-Prompt-Injection",
+    "default_branch": "main",
+    "commit": "fbed5cca347488f88363790ae3ae97c56116da6a",
+    "commit_date": "2026-09-27T14:35:14Z",
+    "archived": false,
+    "license_spdx": "MIT",
+    "scope": "Metadata read; no model/paper performance reproduced"
+  },
+  {
+    "repository": "ethz-spylab/agentdojo",
+    "primary_url": "https://github.com/ethz-spylab/agentdojo",
+    "default_branch": "main",
+    "commit": "089ed468cf3ed0322acc66b0211f26d9d90dbf60",
+    "commit_date": "2026-06-02T09:59:58Z",
+    "archived": false,
+    "license_spdx": "MIT",
+    "scope": "Metadata read; no model/paper performance reproduced"
+  },
+  {
+    "repository": "jaewonalive/CamoDocs",
+    "primary_url": "https://github.com/jaewonalive/CamoDocs",
+    "default_branch": "main",
+    "commit": "ccb1e8af17e561a7b8c3dd40c8aa41b8dacf2ce5",
+    "commit_date": "2026-09-01T01:46:19Z",
+    "archived": false,
+    "license_spdx": "MIT",
+    "scope": "Metadata read; no model/paper performance reproduced"
+  },
+  {
+    "repository": "ZJU-TrustAID/InceptionRAG",
+    "primary_url": "https://github.com/ZJU-TrustAID/InceptionRAG",
+    "default_branch": "main",
+    "commit": "f2ab9b25b5a0b75387a3ef77388ee64cd0606ba7",
+    "commit_date": "2026-09-14T07:36:02Z",
+    "archived": false,
+    "license_spdx": null,
+    "scope": "Metadata read; no model/paper performance reproduced"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    "exact archived feature equivalence",
+    "only missing texts inferred when reusing frozen cache",
+    "exact reused vector preservation",
+    "correct reused/new counts",
+    "mismatched cache rejection",
+    "set-valued loading metadata serializes deterministically",
+    "canonical float64 scores are exactly independent of matrix shape and duplicate row position"
+  ],
+  "feature_max_absolute_difference": 0.0,
+  "neural_inference_executed": false,
+  "archived_source_sha256": "4f18658eca51fd824c5c8ba8b840519f79ec54227e7ecc18bf178a4015d7699b",
+  "fresh_source_sha256": "a8d69ca97b02cea71e5a872e1bc9919e05fc4938ef263dd4acf06834f16e8034",
+  "verification_sha256": "454d10edc3fd3931690a335f7bcdc148885517fc3d704d834bddc86b233666cd"
+}

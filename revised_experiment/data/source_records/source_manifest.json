@@ -1,0 +1,37 @@
+[
+  {
+    "file": "squad_train-v1.1.json",
+    "url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v1.1.json",
+    "bytes": 30288272,
+    "sha256": "3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955",
+    "status": "downloaded_complete_JSON_validated"
+  },
+  {
+    "file": "poisonedrag_prepare.py",
+    "url": "https://raw.githubusercontent.com/sleeepeer/PoisonedRAG/main/prepare_dataset.py",
+    "bytes": 481,
+    "sha256": "997224655c8527b6ce39f22da9d977d1c1b1124f019ffd416faeacd63b9f7efc",
+    "status": "downloaded"
+  },
+  {
+    "file": "poisonedrag_gen_adv.py",
+    "url": "https://raw.githubusercontent.com/sleeepeer/PoisonedRAG/main/gen_adv.py",
+    "bytes": 6568,
+    "sha256": "ab1e28645c4f90b7a35ea6fa0adc056abda00a5ec9ec53490ab9b9d29ec4de76",
+    "status": "downloaded"
+  },
+  {
+    "file": "poisonedrag_readme.md",
+    "url": "https://raw.githubusercontent.com/sleeepeer/PoisonedRAG/main/README.md",
+    "bytes": 3852,
+    "sha256": "53f1a90bf1946db166767e99e52246a7e51e7cf5385df1036a1b95ffc8138845",
+    "status": "downloaded"
+  },
+  {
+    "file": "squad_README.md",
+    "url": "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/master/README.md",
+    "bytes": 1370,
+    "sha256": "b03f46bef006f50547b9dd2abe2e8095f9751fc45678ab0fcb750fa524f557cf",
+    "status": "downloaded"
+  }
+]

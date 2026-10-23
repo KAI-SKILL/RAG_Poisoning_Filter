@@ -1,0 +1,15 @@
+{
+  "n_rows": 2800,
+  "n_qids": 100,
+  "n_unique_prompts": 668,
+  "n_fixed_batches": 167,
+  "all_source_rows_preserved": true,
+  "all_scores_recomputed": true,
+  "all_prompt_hashes_verified": true,
+  "all_cache_responses_consistent": true,
+  "fixed_batch_assignment_verified": true,
+  "all_summary_counts_recomputed": true,
+  "no_truncation": true,
+  "raw_generations_sha256": "213c878f920d79245f2d530054649c041dc26edffe488539ced16af70c22e29b",
+  "input_sha256": "829e50fe8eb71e8f281d51d35012e3716539a4b37af05ce0e7d3dc9e8cbf6ffd"
+}

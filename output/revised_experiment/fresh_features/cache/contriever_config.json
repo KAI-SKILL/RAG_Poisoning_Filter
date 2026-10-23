@@ -1,0 +1,20 @@
+{
+  "kind": "contriever",
+  "model_repository": "facebook/contriever",
+  "model_revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+  "model_manifest_sha256": "376253867876053ec627fe18165ee4fb06fd338fce73689f08173ecfbd06a0ea",
+  "text_list_sha256": "9a6f4f305088488589abe214427ee7be927cfbc31a99aebf789640999bbb250d",
+  "text_count": 3044,
+  "max_tokens": 512,
+  "batch_size": 12,
+  "threads": 2,
+  "torch": "2.14.1+cpu",
+  "transformers": "5.20.1",
+  "backend": "cpu_float32",
+  "representation": "guard=text only; encoder mean pooling; relevance=title+text dot query; density=text-only cosine",
+  "composed_cache": true,
+  "source_cache": "revision_work/fresh_features/retrieval",
+  "source_array_sha256": "4a1b3fa69f5a2e8e07adc1ebfc3edc7d04b3d3c6dd8fa3d293b396e682ae77c7",
+  "source_texts_sha256": "a773e2efbeb8ea776eea4b5c778360c918535f1cb39bf0ef3fed12aa2cabd22f",
+  "new_only_texts": 450
+}

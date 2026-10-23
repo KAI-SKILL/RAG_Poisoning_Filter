@@ -1,0 +1,541 @@
+{
+  "status": "complete",
+  "protocol": {
+    "purpose": "Latency measurement only; no fitting, tuning, generator calls, or performance-based selection.",
+    "selection": "First five lexicographic QIDs, each none then ignore, exactly 20 candidate passages.",
+    "qid_selection": [
+      "test1",
+      "test106",
+      "test107",
+      "test11",
+      "test110"
+    ],
+    "n_pools": 10,
+    "n_passages_counting_repeated_texts": 200,
+    "repeats_in_reported_pass": 1,
+    "measurement_attempts_executed": 2,
+    "reported_attempt": 2,
+    "technical_rerun_reason": "The first fixed 10-pool pass completed, but final output serialization failed on a set in Transformers loading_info before full-precision raw times were saved. The same fixed selection and timing/model settings were rerun once solely to preserve the artifact. The second pass is reported regardless of speed; no faster-pass selection.",
+    "batch_size": 12,
+    "max_tokens": 512,
+    "torch_threads": 4,
+    "torch_interop_threads": 1,
+    "backend": "Local PyTorch CPU float32",
+    "torch_version": "2.14.1+cpu",
+    "cache_policy": "Every passage is tokenized and encoded anew for every pool by both models; no text, tokenization, embedding or guard cache is reused.",
+    "cold_definition": "Fresh per-pool features with resident warmed model weights; excludes loading and one fixed tiny-text warm-up per model. This is not process-cold model startup.",
+    "guard_definition": "Tokenizer + forward + class-1 softmax + CPU output conversion.",
+    "density_definition": "Tokenizer + Contriever forward + attention-mask mean pooling + L2 normalization + within-pool pairwise cosine and max cosine to another candidate.",
+    "total_definition": "Guard and density stages plus regex, per-pool score-z and feature assembly.",
+    "excluded": [
+      "Model loading",
+      "Fixed tiny-text warmup",
+      "Original retrieval/query encoding and ranking",
+      "Head prediction",
+      "Generation",
+      "File reading",
+      "Summary computation"
+    ],
+    "original_retrieval_scores": "Taken from pools_main.jsonl; z scores recomputed per pool.",
+    "p95_estimator": "NumPy linear interpolation; 10 pools or 5 paired-query totals, descriptive small-sample estimates.",
+    "concurrency_note": "Measured concurrently with primary improved_experiment/run.py guard inference, each using 4 PyTorch threads under an 8-CPU cgroup quota. Shared CPU and memory contention make these environment-conditional observations; no idle-host, isolated, or process-startup latency claim."
+  },
+  "source_pools_sha256": "b853fbd5af2a4cfe4a17417cfc1e318d83f85ee7b8976c135c78b8f8ae40e3ee",
+  "model_manifests": {
+    "contriever": {
+      "repo": "facebook/contriever",
+      "revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+      "backend_note": "PyTorch original weights. No safetensors in official pinned repository. Load using torch.load(weights_only=True) with a current local PyTorch; no model has been loaded by this downloader.",
+      "gated": false,
+      "private": false,
+      "downloaded_files": {
+        "tokenizer.json": {
+          "url": "https://huggingface.co/facebook/contriever/resolve/2bd46a25019aeea091fd42d1f0fd4801675cf699/tokenizer.json?download=true",
+          "bytes": 466081,
+          "sha256": "5fd1c882abbd30517dced455a2c9768945ec726b96727927e4959348d9de550b",
+          "upstream_lfs_sha256": null,
+          "upstream_size": 466081
+        },
+        "vocab.txt": {
+          "url": "https://huggingface.co/facebook/contriever/resolve/2bd46a25019aeea091fd42d1f0fd4801675cf699/vocab.txt?download=true",
+          "bytes": 231508,
+          "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+          "upstream_lfs_sha256": null,
+          "upstream_size": 231508
+        },
+        "README.md": {
+          "url": "https://huggingface.co/facebook/contriever/resolve/2bd46a25019aeea091fd42d1f0fd4801675cf699/README.md?download=true",
+          "bytes": 1402,
+          "sha256": "80ae9ba82e4f491f523996794fa0a452db132274294193a23245f0d416dd843b",
+          "upstream_lfs_sha256": null,
+          "upstream_size": 1402
+        },
+        "tokenizer_config.json": {
+          "url": "https://huggingface.co/facebook/contriever/resolve/2bd46a25019aeea091fd42d1f0fd4801675cf699/tokenizer_config.json?download=true",
+          "bytes": 321,
+          "sha256": "9a8ed9b01c8a56b555dcdc31cd526ba9e488cfc16ee5a101b3ce64af81d34f3d",
+          "upstream_lfs_sha256": null,
+          "upstream_size": 321
+        },
+        "config.json": {
+          "url": "https://huggingface.co/facebook/contriever/resolve/2bd46a25019aeea091fd42d1f0fd4801675cf699/config.json?download=true",
+          "bytes": 619,
+          "sha256": "56dc991b1bc2b4c52208e2c4c88e46b9e4a31a4bbaa335f2319e3dcdb8ed33be",
+          "upstream_lfs_sha256": null,
+          "upstream_size": 619
+        },
+        "pytorch_model.bin": {
+          "url": "https://huggingface.co/facebook/contriever/resolve/2bd46a25019aeea091fd42d1f0fd4801675cf699/pytorch_model.bin?download=true",
+          "bytes": 438007537,
+          "sha256": "d0b6e2516913f812360475154323f50e2b1e1da0ce6a435175e08f218784c6fb",
+          "upstream_lfs_sha256": "d0b6e2516913f812360475154323f50e2b1e1da0ce6a435175e08f218784c6fb",
+          "upstream_size": 438007537
+        },
+        "special_tokens_map.json": {
+          "url": "https://huggingface.co/facebook/contriever/resolve/2bd46a25019aeea091fd42d1f0fd4801675cf699/special_tokens_map.json?download=true",
+          "bytes": 112,
+          "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+          "upstream_lfs_sha256": null,
+          "upstream_size": 112
+        }
+      },
+      "weights_loaded_by_downloader": false,
+      "verification": "Every downloaded byte count checked; all LFS files SHA-256 matched upstream object IDs.",
+      "license": "CC-BY-NC-4.0",
+      "license_evidence": {
+        "url": "https://raw.githubusercontent.com/facebookresearch/contriever/main/LICENSE",
+        "bytes": 19336,
+        "sha256": "c1ff5b40378d5dc3126d708bc9291a4c0c4101002f7bab9e344ec01e18b6e957"
+      }
+    },
+    "guard": {
+      "repo": "protectai/deberta-v3-base-prompt-injection-v2",
+      "revision": "90c9989b1a342275dd0d1a95aad283c04e075671",
+      "backend_note": "PyTorch original safetensors. ONNX files, training_args.bin and training log are deliberately not downloaded.",
+      "gated": false,
+      "private": false,
+      "downloaded_files": {
+        "README.md": {
+          "url": "https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2/resolve/90c9989b1a342275dd0d1a95aad283c04e075671/README.md?download=true",
+          "bytes": 6327,
+          "sha256": "37221a38df1e60ad56364c39a233c75b77fa08740ecdee248d1b4e07ccc8ef5a",
+          "upstream_lfs_sha256": null,
+          "upstream_size": 6327
+        },
+        "LICENSE": {
+          "url": "https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2/resolve/90c9989b1a342275dd0d1a95aad283c04e075671/LICENSE?download=true",
+          "bytes": 10172,
+          "sha256": "59899c6091b540582ed617e8eeaac4919dc985ccfc35459ee9752b699be5205b",
+          "upstream_lfs_sha256": null,
+          "upstream_size": 10172
+        },
+        "tokenizer.json": {
+          "url": "https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2/resolve/90c9989b1a342275dd0d1a95aad283c04e075671/tokenizer.json?download=true",
+          "bytes": 8656744,
+          "sha256": "f0a66ad0d735d8dca9ecac4ff50fcdef4bb6adbadd2941a926844844d2c2059b",
+          "upstream_lfs_sha256": null,
+          "upstream_size": 8656744
+        },
+        "spm.model": {
+          "url": "https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2/resolve/90c9989b1a342275dd0d1a95aad283c04e075671/spm.model?download=true",
+          "bytes": 2464616,
+          "sha256": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd",
+          "upstream_lfs_sha256": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd",
+          "upstream_size": 2464616
+        },
+        "tokenizer_config.json": {
+          "url": "https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2/resolve/90c9989b1a342275dd0d1a95aad283c04e075671/tokenizer_config.json?download=true",
+          "bytes": 1284,
+          "sha256": "557b3d33d3f41b81ad769244e506549e98a1857d41dd58160aacd4d98d710b5a",
+          "upstream_lfs_sha256": null,
+          "upstream_size": 1284
+        },
+        "special_tokens_map.json": {
+          "url": "https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2/resolve/90c9989b1a342275dd0d1a95aad283c04e075671/special_tokens_map.json?download=true",
+          "bytes": 286,
+          "sha256": "9463f61e1b109a8eb4688b829260d7c6b1e6dff04c98ff7269bb89e2b92369b9",
+          "upstream_lfs_sha256": null,
+          "upstream_size": 286
+        },
+        "config.json": {
+          "url": "https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2/resolve/90c9989b1a342275dd0d1a95aad283c04e075671/config.json?download=true",
+          "bytes": 994,
+          "sha256": "05079f4735092040b780d459027afab413faa6eeb66a548571a58832304b60bb",
+          "upstream_lfs_sha256": null,
+          "upstream_size": 994
+        },
+        "added_tokens.json": {
+          "url": "https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2/resolve/90c9989b1a342275dd0d1a95aad283c04e075671/added_tokens.json?download=true",
+          "bytes": 23,
+          "sha256": "dc046d04c9b0ada7ae6f1dc89c465801799acdf0c9a6aab8c15a1b2d5ca4e91f",
+          "upstream_lfs_sha256": null,
+          "upstream_size": 23
+        },
+        "model.safetensors": {
+          "url": "https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2/resolve/90c9989b1a342275dd0d1a95aad283c04e075671/model.safetensors?download=true",
+          "bytes": 737719272,
+          "sha256": "6521cb8d0ac08148c81464899c424e6148fcc62befa371089fa4061d8b6e0424",
+          "upstream_lfs_sha256": "6521cb8d0ac08148c81464899c424e6148fcc62befa371089fa4061d8b6e0424",
+          "upstream_size": 737719272
+        }
+      },
+      "weights_loaded_by_downloader": false,
+      "verification": "Every downloaded byte count checked; all LFS files SHA-256 matched upstream object IDs.",
+      "license": "Apache-2.0",
+      "license_evidence": {
+        "filename": "LICENSE",
+        "source": "pinned Hugging Face model repository"
+      }
+    }
+  },
+  "excluded_loading_and_warmup": {
+    "excluded_load_seconds": 1.0510757029996967,
+    "excluded_warmup_seconds": 0.2403315379997366,
+    "warmup_text": "The library opens at nine.",
+    "warmup_examples_per_model": 1,
+    "contriever_loading_info": {
+      "missing_keys": [],
+      "unexpected_keys": [
+        "pooler.dense.bias",
+        "pooler.dense.weight"
+      ],
+      "mismatched_keys": [],
+      "error_msgs": []
+    },
+    "guard_loading_info": {
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "mismatched_keys": [],
+      "error_msgs": []
+    }
+  },
+  "host_before_model_loading": {
+    "wall_clock_unix": 1792376344.9562752,
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "os_cpu_count": 9,
+    "affinity_cpu_count": 9,
+    "load_average": [
+      4.8935546875,
+      4.50732421875,
+      2.94677734375
+    ],
+    "cgroup": {
+      "cpu.max": "800000 100000",
+      "memory.max": "8589934592",
+      "memory.current": "6972211200"
+    },
+    "processes": [],
+    "this_process_max_rss_kib": 478000
+  },
+  "host_before_timing": {
+    "wall_clock_unix": 1792376346.2521846,
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "os_cpu_count": 9,
+    "affinity_cpu_count": 9,
+    "load_average": [
+      4.8935546875,
+      4.50732421875,
+      2.94677734375
+    ],
+    "cgroup": {
+      "cpu.max": "800000 100000",
+      "memory.max": "8589934592",
+      "memory.current": "7156965376"
+    },
+    "processes": [],
+    "this_process_max_rss_kib": 1343900
+  },
+  "host_after_timing": {
+    "wall_clock_unix": 1792376446.8271842,
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "os_cpu_count": 9,
+    "affinity_cpu_count": 9,
+    "load_average": [
+      6.52099609375,
+      5.21923828125,
+      3.37451171875
+    ],
+    "cgroup": {
+      "cpu.max": "800000 100000",
+      "memory.max": "8589934592",
+      "memory.current": "7280295936"
+    },
+    "processes": [],
+    "this_process_max_rss_kib": 2162348
+  },
+  "per_query_pool_seconds": {
+    "guard_tokenization_forward_seconds": {
+      "n": 10,
+      "median": 6.0706009635000555,
+      "p95": 7.91812937065024,
+      "mean": 5.888604295599999,
+      "min": 3.216064644000653,
+      "max": 8.030721486999937
+    },
+    "density_tokenization_forward_cosine_seconds": {
+      "n": 10,
+      "median": 4.330807773500055,
+      "p95": 5.626816872850168,
+      "mean": 4.166925803100094,
+      "min": 2.2268196300001364,
+      "max": 5.7147822550005
+    },
+    "regex_scorez_feature_assembly_seconds": {
+      "n": 10,
+      "median": 0.0011077459998887207,
+      "p95": 0.001542297949799831,
+      "mean": 0.001153296699976636,
+      "min": 0.0006739890004610061,
+      "max": 0.0016514270000698161
+    },
+    "total_feature_construction_seconds": {
+      "n": 10,
+      "median": 10.793883080000342,
+      "p95": 13.17980588295013,
+      "mean": 10.056687257500107,
+      "min": 5.551021729999775,
+      "max": 13.551419802000055
+    }
+  },
+  "per_query_two_setting_totals_seconds": {
+    "guard_tokenization_forward_seconds": {
+      "n": 5,
+      "median": 13.100575498999206,
+      "p95": 14.814170852199823,
+      "mean": 11.777208591199997,
+      "min": 6.539289796000048,
+      "max": 15.070404344999588
+    },
+    "density_tokenization_forward_cosine_seconds": {
+      "n": 5,
+      "median": 9.863505785999223,
+      "p95": 10.063145769600487,
+      "mean": 8.333851606200188,
+      "min": 4.723022654000488,
+      "max": 10.070883301000322
+    },
+    "regex_scorez_feature_assembly_seconds": {
+      "n": 5,
+      "median": 0.0023118859990063356,
+      "p95": 0.0024930952000431716,
+      "mean": 0.002306593399953272,
+      "min": 0.0020969659999536816,
+      "max": 0.002535014999921259
+    },
+    "total_feature_construction_seconds": {
+      "n": 5,
+      "median": 23.134874850000415,
+      "p95": 24.721652931600147,
+      "mean": 20.113374515000213,
+      "min": 11.264584968000236,
+      "max": 24.936453100000108
+    }
+  },
+  "raw_pool_times": [
+    {
+      "qid": "test1",
+      "setting": "none",
+      "passages": 20,
+      "guard_tokenization_forward_seconds": 3.216064644000653,
+      "density_tokenization_forward_cosine_seconds": 2.4962030240003514,
+      "regex_scorez_feature_assembly_seconds": 0.0012907119998999406,
+      "total_feature_construction_seconds": 5.713563238000461,
+      "process_cpu_seconds": 20.611948632,
+      "guard_max_observed_tokens": 153,
+      "guard_at_cap_passages": 0,
+      "density_max_observed_tokens": 156,
+      "density_at_cap_passages": 0,
+      "ordered_texts_sha256": "903a87dfea1ea30ebb3a54a0e9166d967cf1812367bffa19216218d37955da92",
+      "features_sha256": "60677d7af7fe76a55e3718e8d5e9ac8969d2e30e3efc45a3eec464171a65ba5b"
+    },
+    {
+      "qid": "test1",
+      "setting": "ignore",
+      "passages": 20,
+      "guard_tokenization_forward_seconds": 3.323225151999395,
+      "density_tokenization_forward_cosine_seconds": 2.2268196300001364,
+      "regex_scorez_feature_assembly_seconds": 0.0009729720004543196,
+      "total_feature_construction_seconds": 5.551021729999775,
+      "process_cpu_seconds": 19.792083206999997,
+      "guard_max_observed_tokens": 123,
+      "guard_at_cap_passages": 0,
+      "density_max_observed_tokens": 133,
+      "density_at_cap_passages": 0,
+      "ordered_texts_sha256": "8e4c5938721218cfca9f7610c206d83d54f8921fe54e6903f005e9f083077cf9",
+      "features_sha256": "02562892a0685edd424bd68e90a9e7176b0563552d992d6c8da7c4969aa95c19"
+    },
+    {
+      "qid": "test106",
+      "setting": "none",
+      "passages": 20,
+      "guard_tokenization_forward_seconds": 5.543466647000059,
+      "density_tokenization_forward_cosine_seconds": 3.656645914999899,
+      "regex_scorez_feature_assembly_seconds": 0.0014089179994698497,
+      "total_feature_construction_seconds": 9.201525415000106,
+      "process_cpu_seconds": 31.989241002,
+      "guard_max_observed_tokens": 284,
+      "guard_at_cap_passages": 0,
+      "density_max_observed_tokens": 269,
+      "density_at_cap_passages": 0,
+      "ordered_texts_sha256": "3c3eb672af5cacda9573ec5f1d8c16eacedf6806dac24d60cb75fffd951ffdda",
+      "features_sha256": "20656ee7c979e6be062789331a3f9ea3fcb648aec8165e2c9baaa5ae73c8f271"
+    },
+    {
+      "qid": "test106",
+      "setting": "ignore",
+      "passages": 20,
+      "guard_tokenization_forward_seconds": 4.843069788000321,
+      "density_tokenization_forward_cosine_seconds": 3.3230047309998554,
+      "regex_scorez_feature_assembly_seconds": 0.0009029679995364859,
+      "total_feature_construction_seconds": 8.166981983999904,
+      "process_cpu_seconds": 28.859654644000003,
+      "guard_max_observed_tokens": 284,
+      "guard_at_cap_passages": 0,
+      "density_max_observed_tokens": 269,
+      "density_at_cap_passages": 0,
+      "ordered_texts_sha256": "77dd4fc6f45157cc2db6428f6470b7528a8804765adc5d7c3e654fe56c95717d",
+      "features_sha256": "d16615b6dd46d506a2dc8977fff0000286418f8b11f2545bf0a28bf8d8049ea8"
+    },
+    {
+      "qid": "test107",
+      "setting": "none",
+      "passages": 20,
+      "guard_tokenization_forward_seconds": 6.00872009700015,
+      "density_tokenization_forward_cosine_seconds": 5.1264660249999,
+      "regex_scorez_feature_assembly_seconds": 0.0016514270000698161,
+      "total_feature_construction_seconds": 11.136841165000078,
+      "process_cpu_seconds": 37.47745137,
+      "guard_max_observed_tokens": 301,
+      "guard_at_cap_passages": 0,
+      "density_max_observed_tokens": 312,
+      "density_at_cap_passages": 0,
+      "ordered_texts_sha256": "d1a0f90e4d1d5e5d85e808a0a9d72641abe2c8124a6a309e2ba80d8a9a014a5e",
+      "features_sha256": "6086f7b9fac79b79114c5c8452ed33f6a611afb3d1d9db091ded0f4303a60ffb"
+    },
+    {
+      "qid": "test107",
+      "setting": "ignore",
+      "passages": 20,
+      "guard_tokenization_forward_seconds": 7.780516784000611,
+      "density_tokenization_forward_cosine_seconds": 4.944417276000422,
+      "regex_scorez_feature_assembly_seconds": 0.0006739890004610061,
+      "total_feature_construction_seconds": 12.725611093000225,
+      "process_cpu_seconds": 43.74579671799998,
+      "guard_max_observed_tokens": 301,
+      "guard_at_cap_passages": 0,
+      "density_max_observed_tokens": 312,
+      "density_at_cap_passages": 0,
+      "ordered_texts_sha256": "d633c099ba8947f1aacde83142557b5caf9a48bf7190e272a0eb2adf4bc3ab7c",
+      "features_sha256": "401e3d8091591268b97c290937b42ed8cc8e6a7ff7493dd90f318d7b9e106f80"
+    },
+    {
+      "qid": "test11",
+      "setting": "none",
+      "passages": 20,
+      "guard_tokenization_forward_seconds": 6.968093668999245,
+      "density_tokenization_forward_cosine_seconds": 5.7147822550005,
+      "regex_scorez_feature_assembly_seconds": 0.0010707259998525842,
+      "total_feature_construction_seconds": 12.68394985499981,
+      "process_cpu_seconds": 42.82645568000001,
+      "guard_max_observed_tokens": 352,
+      "guard_at_cap_passages": 0,
+      "density_max_observed_tokens": 362,
+      "density_at_cap_passages": 0,
+      "ordered_texts_sha256": "71f4e2a3922da7dbb48ec7c5a10a81d2a1f1699fbcfc5af1cfcc855fb66626d3",
+      "features_sha256": "a09b46fe2a17718b4d917cb8845edc28b8598a321622c15e11990296948505e2"
+    },
+    {
+      "qid": "test11",
+      "setting": "ignore",
+      "passages": 20,
+      "guard_tokenization_forward_seconds": 6.132481829999961,
+      "density_tokenization_forward_cosine_seconds": 4.317413389000649,
+      "regex_scorez_feature_assembly_seconds": 0.0010262400001010974,
+      "total_feature_construction_seconds": 10.450924995000605,
+      "process_cpu_seconds": 35.980551047000006,
+      "guard_max_observed_tokens": 352,
+      "guard_at_cap_passages": 0,
+      "density_max_observed_tokens": 362,
+      "density_at_cap_passages": 0,
+      "ordered_texts_sha256": "1546c17516ef3f85a33b4524e07b9aa324b7c43a710c7b7fef88fa3bfce25944",
+      "features_sha256": "13586e000f738fc414e6b8658dbbb4da81f62fc944503c03b2b32817123bc871"
+    },
+    {
+      "qid": "test110",
+      "setting": "none",
+      "passages": 20,
+      "guard_tokenization_forward_seconds": 8.030721486999937,
+      "density_tokenization_forward_cosine_seconds": 5.519303627999761,
+      "regex_scorez_feature_assembly_seconds": 0.0013902489999964018,
+      "total_feature_construction_seconds": 13.551419802000055,
+      "process_cpu_seconds": 45.938725799,
+      "guard_max_observed_tokens": 323,
+      "guard_at_cap_passages": 0,
+      "density_max_observed_tokens": 335,
+      "density_at_cap_passages": 0,
+      "ordered_texts_sha256": "729a9f29090b824c29d0f1c95cefa04ca9a5988ec3dde470f3b5303a973d1b70",
+      "features_sha256": "2f78c7fd2d36e5ae8a5e4c092fe5f312e00bf25b9c38b1445a2064f9d1887a59"
+    },
+    {
+      "qid": "test110",
+      "setting": "ignore",
+      "passages": 20,
+      "guard_tokenization_forward_seconds": 7.039682857999651,
+      "density_tokenization_forward_cosine_seconds": 4.344202157999462,
+      "regex_scorez_feature_assembly_seconds": 0.0011447659999248572,
+      "total_feature_construction_seconds": 11.385033298000053,
+      "process_cpu_seconds": 38.242382249,
+      "guard_max_observed_tokens": 323,
+      "guard_at_cap_passages": 0,
+      "density_max_observed_tokens": 335,
+      "density_at_cap_passages": 0,
+      "ordered_texts_sha256": "5ed54bdb649a3db087ec4656eee06b68aa48d32e66b35f9a716e5bd4ef743db7",
+      "features_sha256": "74e562c8780fa954e2074b935bcebe0b8cfc5e9450cbd38f584ad785bd92cdb8"
+    }
+  ],
+  "raw_query_two_setting_totals": [
+    {
+      "qid": "test1",
+      "pools": 2,
+      "guard_tokenization_forward_seconds": 6.539289796000048,
+      "density_tokenization_forward_cosine_seconds": 4.723022654000488,
+      "regex_scorez_feature_assembly_seconds": 0.00226368400035426,
+      "total_feature_construction_seconds": 11.264584968000236
+    },
+    {
+      "qid": "test106",
+      "pools": 2,
+      "guard_tokenization_forward_seconds": 10.38653643500038,
+      "density_tokenization_forward_cosine_seconds": 6.9796506459997545,
+      "regex_scorez_feature_assembly_seconds": 0.0023118859990063356,
+      "total_feature_construction_seconds": 17.36850739900001
+    },
+    {
+      "qid": "test107",
+      "pools": 2,
+      "guard_tokenization_forward_seconds": 13.789236881000761,
+      "density_tokenization_forward_cosine_seconds": 10.070883301000322,
+      "regex_scorez_feature_assembly_seconds": 0.002325416000530822,
+      "total_feature_construction_seconds": 23.862452258000303
+    },
+    {
+      "qid": "test11",
+      "pools": 2,
+      "guard_tokenization_forward_seconds": 13.100575498999206,
+      "density_tokenization_forward_cosine_seconds": 10.032195644001149,
+      "regex_scorez_feature_assembly_seconds": 0.0020969659999536816,
+      "total_feature_construction_seconds": 23.134874850000415
+    },
+    {
+      "qid": "test110",
+      "pools": 2,
+      "guard_tokenization_forward_seconds": 15.070404344999588,
+      "density_tokenization_forward_cosine_seconds": 9.863505785999223,
+      "regex_scorez_feature_assembly_seconds": 0.002535014999921259,
+      "total_feature_construction_seconds": 24.936453100000108
+    }
+  ]
+}

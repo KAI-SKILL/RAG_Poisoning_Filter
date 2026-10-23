@@ -1,0 +1,48 @@
+{
+  "scope": "External standalone benign prompt stress test, no queries/peers; no fusion or generator claims; frozen per-fold thresholds, no retuning. Cohorts use supplied category rather than detected language.",
+  "thresholds": [
+    0.0021141658071428537,
+    0.0010460633784532547,
+    0.003733094548806548,
+    0.004241575486958027,
+    0.0017093647038564086
+  ],
+  "cohorts": {
+    "all": {
+      "unique_prompts": 339,
+      "fpr_by_fold": [
+        0.5073746312684366,
+        0.5191740412979351,
+        0.5014749262536873,
+        0.49262536873156343,
+        0.5073746312684366
+      ],
+      "mean_fold_fpr": 0.5056047197640118,
+      "fixed_0_5_reference_fpr": 0.4336283185840708
+    },
+    "multilingual_category": {
+      "unique_prompts": 84,
+      "fpr_by_fold": [
+        0.7976190476190477,
+        0.8095238095238095,
+        0.7857142857142857,
+        0.7738095238095238,
+        0.7976190476190477
+      ],
+      "mean_fold_fpr": 0.7928571428571428,
+      "fixed_0_5_reference_fpr": 0.6071428571428571
+    },
+    "other_category": {
+      "unique_prompts": 255,
+      "fpr_by_fold": [
+        0.4117647058823529,
+        0.4235294117647059,
+        0.40784313725490196,
+        0.4,
+        0.4117647058823529
+      ],
+      "mean_fold_fpr": 0.4109803921568628,
+      "fixed_0_5_reference_fpr": 0.3764705882352941
+    }
+  }
+}

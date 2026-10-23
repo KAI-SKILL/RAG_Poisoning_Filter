@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "source_title_id_text_overlap_keys_kept_in_one_fold": 1066,
+  "source_groups": 83,
+  "question_folds": 5,
+  "question_count": 100,
+  "reanalysed_candidate_rows": 48000,
+  "new_fit_count": 20,
+  "calibration_scores_rechecked": 8000,
+  "context_rows_not_generations": 2000,
+  "prediction_vs_source_features": "exact match; cached neural features reused",
+  "scope": "old100 exploratory grouped reanalysis; no new blind test; no neural inference; no new generation",
+  "negative_controls_preserved": true
+}

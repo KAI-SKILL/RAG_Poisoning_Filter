@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "verified_policy_probabilities": 432000,
+  "max_probability_error": 0.0,
+  "verified_generation_contexts": 2800,
+  "scope": "Offline raw-feature/head/protocol/context verification; no pretrained model load, inference, network call or weight download."
+}

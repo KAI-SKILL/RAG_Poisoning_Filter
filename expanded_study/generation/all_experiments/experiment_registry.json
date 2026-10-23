@@ -1,0 +1,358 @@
+{
+  "schema": "Group9-all-experiments-v1",
+  "created_utc": "2026-10-22T02:19:31.273963+00:00",
+  "status": "READY_INPUTS_NOT_NEW_GENERATION_RESULTS",
+  "required_models": [
+    "qwen25_3b_gguf",
+    "qwen3_8b",
+    "llama31_8b"
+  ],
+  "scopes": {
+    "Q": {
+      "inputs_file": "generation/all_experiments/inputs/q/generation_inputs.sqlite",
+      "inputs_sha256": "84331d83eb52efc4ef533158716a42f8a0ea3735d78b7cbb437b8d7ec34df28d",
+      "protocol_file": "generation/all_experiments/inputs/q/scoring_protocol.json",
+      "protocol_sha256": "fec0fa3140644c1ca0cdc31e4a0c32be86e67df887f7106827a512663a49f065",
+      "tokens_file": "generation/all_experiments/inputs/q/token_counts.sqlite",
+      "tokens_sha256": "c9aa4ce567697a0dba78097217f1ade748c8378c2230b7955493b7914301efe4",
+      "token_receipt_file": "generation/all_experiments/inputs/q/token_counts.json",
+      "token_receipt_sha256": "7c82869d48a8ed922307e0d978deb1a0057c89270c535ba88584396fe7d26b14",
+      "requested_rows": 90,
+      "source_unique_prompts": 90,
+      "policies": [
+        "none",
+        "gold_evidence",
+        "tfidf_retrieval"
+      ],
+      "condition_policy_counts": [
+        {
+          "condition": "clean",
+          "policy": "gold_evidence",
+          "rows": 30
+        },
+        {
+          "condition": "clean",
+          "policy": "none",
+          "rows": 30
+        },
+        {
+          "condition": "clean",
+          "policy": "tfidf_retrieval",
+          "rows": 30
+        }
+      ],
+      "required_models": [
+        "qwen25_3b_gguf",
+        "qwen3_8b",
+        "llama31_8b"
+      ],
+      "scoring_version": "Group9-expanded-generation-scoring-v1",
+      "scorer_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+      "gguf_token_preflight": {
+        "status": "PASS_ALL_FULL_PROMPTS_FIT",
+        "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+        "tokenizer_runtime": "llama-cpp-python 0.3.36",
+        "input_tokens_min": 56,
+        "input_tokens_max": 1317,
+        "context_tokens": 4096,
+        "maximum_new_tokens": 48,
+        "generation_calls": 0,
+        "truncation_permitted": false
+      }
+    },
+    "E1": {
+      "inputs_file": "generation/all_experiments/inputs/e1/generation_inputs.sqlite",
+      "inputs_sha256": "8247fdfd5bccb57c7b6779d8db494fef9befc77c7f7e37584bb3afa450150496",
+      "protocol_file": "generation/all_experiments/inputs/e1/scoring_protocol.json",
+      "protocol_sha256": "5c6c24ce6b3ec3216dc586c46a2749724e2e57733a5c6d5f67378d1905a8d66f",
+      "tokens_file": "generation/all_experiments/inputs/e1/token_counts.sqlite",
+      "tokens_sha256": "b482ef947c74003ec66eabf1f8e0eb56d4060a9f75660ea97c267794fa02398f",
+      "token_receipt_file": "generation/all_experiments/inputs/e1/token_counts.json",
+      "token_receipt_sha256": "02ced3841c99d68e704a89614ad9f4f2466d43931c78a14e35dffa02a0e2e1ff",
+      "requested_rows": 1800,
+      "source_unique_prompts": 432,
+      "policies": [
+        "none",
+        "ctx",
+        "no_guard",
+        "fused",
+        "tfidf_lr",
+        "guard_only"
+      ],
+      "condition_policy_counts": [
+        {
+          "condition": "attack",
+          "policy": "ctx",
+          "rows": 200
+        },
+        {
+          "condition": "attack",
+          "policy": "fused",
+          "rows": 200
+        },
+        {
+          "condition": "attack",
+          "policy": "guard_only",
+          "rows": 200
+        },
+        {
+          "condition": "attack",
+          "policy": "no_guard",
+          "rows": 200
+        },
+        {
+          "condition": "attack",
+          "policy": "none",
+          "rows": 200
+        },
+        {
+          "condition": "attack",
+          "policy": "tfidf_lr",
+          "rows": 200
+        },
+        {
+          "condition": "clean",
+          "policy": "ctx",
+          "rows": 100
+        },
+        {
+          "condition": "clean",
+          "policy": "fused",
+          "rows": 100
+        },
+        {
+          "condition": "clean",
+          "policy": "guard_only",
+          "rows": 100
+        },
+        {
+          "condition": "clean",
+          "policy": "no_guard",
+          "rows": 100
+        },
+        {
+          "condition": "clean",
+          "policy": "none",
+          "rows": 100
+        },
+        {
+          "condition": "clean",
+          "policy": "tfidf_lr",
+          "rows": 100
+        }
+      ],
+      "required_models": [
+        "qwen25_3b_gguf",
+        "qwen3_8b",
+        "llama31_8b"
+      ],
+      "scoring_version": "Group9-expanded-generation-scoring-v1",
+      "scorer_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+      "gguf_token_preflight": {
+        "status": "PASS_ALL_FULL_PROMPTS_FIT",
+        "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+        "tokenizer_runtime": "llama-cpp-python 0.3.36",
+        "input_tokens_min": 521,
+        "input_tokens_max": 1265,
+        "context_tokens": 4096,
+        "maximum_new_tokens": 48,
+        "generation_calls": 0,
+        "truncation_permitted": false
+      }
+    },
+    "E2": {
+      "inputs_file": "generation/all_experiments/inputs/e2/generation_inputs.sqlite",
+      "inputs_sha256": "98bf0d9612e41957b49c2d1146602a38477a2c98a1b8a19cdb42ecf2b1573051",
+      "protocol_file": "generation/all_experiments/inputs/e2/scoring_protocol.json",
+      "protocol_sha256": "336611731522546895ef37e15528b6b5a3b4eb1b795bc3d19bfff33eab665a72",
+      "tokens_file": "generation/all_experiments/inputs/e2/token_counts.sqlite",
+      "tokens_sha256": "ebfc6e84ff24753a249ca920cdbeee9b34a8bb9cab702b3130dce53afcb2b0b5",
+      "token_receipt_file": "generation/all_experiments/inputs/e2/token_counts.json",
+      "token_receipt_sha256": "5f7f5fcc73c807963351b5aa8c46f6fc006b06a3886a95689a42132dcd1b9a11",
+      "requested_rows": 700,
+      "source_unique_prompts": 204,
+      "policies": [
+        "none",
+        "ctx",
+        "no_guard",
+        "fused"
+      ],
+      "condition_policy_counts": [
+        {
+          "condition": "attack",
+          "policy": "ctx",
+          "rows": 50
+        },
+        {
+          "condition": "attack",
+          "policy": "fused",
+          "rows": 50
+        },
+        {
+          "condition": "attack",
+          "policy": "no_guard",
+          "rows": 50
+        },
+        {
+          "condition": "attack",
+          "policy": "none",
+          "rows": 50
+        },
+        {
+          "condition": "clean",
+          "policy": "ctx",
+          "rows": 25
+        },
+        {
+          "condition": "clean",
+          "policy": "fused",
+          "rows": 25
+        },
+        {
+          "condition": "clean",
+          "policy": "no_guard",
+          "rows": 25
+        },
+        {
+          "condition": "clean",
+          "policy": "none",
+          "rows": 25
+        },
+        {
+          "condition": "matched_benign",
+          "policy": "ctx",
+          "rows": 100
+        },
+        {
+          "condition": "matched_benign",
+          "policy": "fused",
+          "rows": 100
+        },
+        {
+          "condition": "matched_benign",
+          "policy": "no_guard",
+          "rows": 100
+        },
+        {
+          "condition": "matched_benign",
+          "policy": "none",
+          "rows": 100
+        }
+      ],
+      "required_models": [
+        "qwen25_3b_gguf",
+        "qwen3_8b",
+        "llama31_8b"
+      ],
+      "scoring_version": "Group9-expanded-generation-scoring-v1",
+      "scorer_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+      "gguf_token_preflight": {
+        "status": "PASS_ALL_FULL_PROMPTS_FIT",
+        "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+        "tokenizer_runtime": "llama-cpp-python 0.3.36",
+        "input_tokens_min": 554,
+        "input_tokens_max": 1217,
+        "context_tokens": 4096,
+        "maximum_new_tokens": 48,
+        "generation_calls": 0,
+        "truncation_permitted": false
+      }
+    },
+    "E3": {
+      "inputs_file": "generation/input/generation_inputs.sqlite",
+      "inputs_sha256": "7d1ae61cf8b2163eec3654a2429f76f64088bba58df51ddb5a6cb96c7f1aa27b",
+      "protocol_file": "generation/scoring_protocol_frozen.json",
+      "protocol_sha256": "c3a6b274c1aa8f3c13f6665d4dd32f8aea9410eccf312780a949ba9461f4074e",
+      "tokens_file": "generation/input/token_counts.sqlite",
+      "tokens_sha256": "ba20b593aeb3e36c90d11c132275a2470a03a96389031d566a6bce1f2d4e0d03",
+      "token_receipt_file": "generation/input/token_counts.json",
+      "token_receipt_sha256": "728c5978a19ca77ea7feb69410ebbdcaa44e7c035f9e68ecb8e96a8e93ba6d86",
+      "requested_rows": 176400,
+      "source_unique_prompts": 56373,
+      "policies": [
+        "none",
+        "LR__new_normal_1pct",
+        "LinearSVC__new_normal_1pct"
+      ],
+      "condition_policy_counts": [
+        {
+          "condition": "attack",
+          "policy": "LR__new_normal_1pct",
+          "rows": 28800
+        },
+        {
+          "condition": "attack",
+          "policy": "LinearSVC__new_normal_1pct",
+          "rows": 28800
+        },
+        {
+          "condition": "attack",
+          "policy": "none",
+          "rows": 28800
+        },
+        {
+          "condition": "clean",
+          "policy": "LR__new_normal_1pct",
+          "rows": 1200
+        },
+        {
+          "condition": "clean",
+          "policy": "LinearSVC__new_normal_1pct",
+          "rows": 1200
+        },
+        {
+          "condition": "clean",
+          "policy": "none",
+          "rows": 1200
+        },
+        {
+          "condition": "matched_benign",
+          "policy": "LR__new_normal_1pct",
+          "rows": 28800
+        },
+        {
+          "condition": "matched_benign",
+          "policy": "LinearSVC__new_normal_1pct",
+          "rows": 28800
+        },
+        {
+          "condition": "matched_benign",
+          "policy": "none",
+          "rows": 28800
+        }
+      ],
+      "required_models": [
+        "qwen25_3b_gguf",
+        "qwen3_8b",
+        "llama31_8b"
+      ],
+      "scoring_version": "Group9-expanded-generation-scoring-v1",
+      "scorer_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+      "gguf_token_preflight": {
+        "status": "PASS_ALL_FULL_PROMPTS_FIT",
+        "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+        "tokenizer_runtime": "llama-cpp-python 0.3.36",
+        "input_tokens_min": 321,
+        "input_tokens_max": 2193,
+        "context_tokens": 4096,
+        "maximum_new_tokens": 48,
+        "generation_calls": 0,
+        "truncation_permitted": false
+      }
+    }
+  },
+  "producer_file": "generation/all_experiments/build_registry.py",
+  "producer_sha256": "a519f9c573351ad0844b2f84712ba71aba931f7d1f017c59161a4da236c3a636",
+  "metric_source_file": "code/generation/score_generations.py",
+  "metric_source_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+  "postanalysis_source_file": "generation/all_experiments/postanalyse_scope.py",
+  "postanalysis_source_sha256": "61ecf0cd6e7458ee9bee8d42e2b2c26d2b74cb94bd5efd4a230951abdcb281f4",
+  "mapped_request_rows_per_model": 178990,
+  "independent_scope_unique_prompt_budget_per_model": 57099,
+  "all_models_mapped_request_rows": 536970,
+  "all_models_independent_scope_unique_prompt_budget": 171297,
+  "deduplication_scope": "Each scope and model has an independent response store. Cross-scope shared source prompts are not reused as executed new responses.",
+  "token_preflight_scope": "Registered token files measure only the pinned Qwen2.5-3B GGUF exact ChatML prompts. Each native HF model rerenders and remeasures its full grid before generation; GGUF lengths are not an HF fit claim.",
+  "input_and_protocol_mutation": false,
+  "model_generation_calls_by_registry_builder": 0
+}

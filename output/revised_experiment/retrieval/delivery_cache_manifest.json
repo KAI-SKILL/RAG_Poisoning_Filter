@@ -1,0 +1,78 @@
+{
+  "purpose": "Frozen vector/evidence cache, not model weights or proof of every downstream claim",
+  "canonical_scoring": "float64 fixed-axis elementwise sum; no neural re-execution for numerical correction",
+  "files": {
+    "output/revised_experiment/retrieval/README.md": {
+      "bytes": 1336,
+      "sha256": "bcf41ea33111dab603fca8c2f5ee37a698a53327f6688c590516db7083d301ac"
+    },
+    "output/revised_experiment/retrieval/cache/contriever.npy": {
+      "bytes": 9179264,
+      "sha256": "4a1b3fa69f5a2e8e07adc1ebfc3edc7d04b3d3c6dd8fa3d293b396e682ae77c7"
+    },
+    "output/revised_experiment/retrieval/cache/contriever_config.json": {
+      "bytes": 600,
+      "sha256": "0da739255012f40af7db74228fcb0dd680ea975985f6cdee421625aa98b1af97"
+    },
+    "output/revised_experiment/retrieval/cache/contriever_progress.json": {
+      "bytes": 407,
+      "sha256": "4b5851f95c999e750cdb84204e8dbd28bff11b12d9d441be469f3040328e3eb0"
+    },
+    "output/revised_experiment/retrieval/cache/contriever_texts.json": {
+      "bytes": 2057991,
+      "sha256": "a773e2efbeb8ea776eea4b5c778360c918535f1cb39bf0ef3fed12aa2cabd22f"
+    },
+    "output/revised_experiment/retrieval/cache/guard.npy": {
+      "bytes": 6544,
+      "sha256": "b646e73d375f258ddef6b63107f054a003a85e14728f4d492631ebec195ead31"
+    },
+    "output/revised_experiment/retrieval/cache/guard_config.json": {
+      "bytes": 621,
+      "sha256": "ec605862fa757126a49dc4f149a93407f250245345ffd742ab21c1791a1b687f"
+    },
+    "output/revised_experiment/retrieval/cache/guard_progress.json": {
+      "bytes": 347,
+      "sha256": "850d5c5b283c633b0c316204cfff443931f54f5b6e7a4e8fff06de88f2506738"
+    },
+    "output/revised_experiment/retrieval/cache/guard_texts.json": {
+      "bytes": 1175739,
+      "sha256": "2b69f2b4c81013a951054985c4264d3a6ed196003748673ef5a51842e8c4fb69"
+    },
+    "output/revised_experiment/retrieval/clean_retrieval.jsonl": {
+      "bytes": 4848911,
+      "sha256": "4c4a295cc97fd0d7e26db50e9399ef54f7f647fa27f71c92e87e3635293e5d1a"
+    },
+    "output/revised_experiment/retrieval/contriever_inference_metadata.json": {
+      "bytes": 1378,
+      "sha256": "0eb4802d245792095e095288beed6e2722fca7fe1a97731c5d1f58500c8baa3d"
+    },
+    "output/revised_experiment/retrieval/executed_neural_source/retrieve.py": {
+      "bytes": 3075,
+      "sha256": "f4dec2e1e50b1ee6d3bb620027d16ce7b118f3b41277fac199ca48451e2a81d7"
+    },
+    "output/revised_experiment/retrieval/executed_neural_source/run_features.py": {
+      "bytes": 13679,
+      "sha256": "4d9e9c20d225b0d92d96b29e218ef2027da8cf4c5270be1d5670e7a31dcd3c34"
+    },
+    "output/revised_experiment/retrieval/guard_inference_metadata.json": {
+      "bytes": 1333,
+      "sha256": "11df79fd833cd57117f486e037dcee2b4f1eb018960142d2161e2f91ef1c4f82"
+    },
+    "output/revised_experiment/retrieval/guard_text_freeze.json": {
+      "bytes": 1520,
+      "sha256": "76c682b1c7d772a9c92b5475a11c4fcb41147f662f8ff938e228041a24f23e88"
+    },
+    "output/revised_experiment/retrieval/retrieval_diagnostics.json": {
+      "bytes": 348731,
+      "sha256": "e2fb07d74314e18fc6d2fe5558c8e0d1ba61b599e4088e4641456a844c924415"
+    },
+    "output/revised_experiment/retrieval/retrieval_manifest.json": {
+      "bytes": 977,
+      "sha256": "ff752aa0628c7efdf5173f08f476251adbf7205205b51fd92f7b9ba39c00105d"
+    },
+    "output/revised_experiment/retrieval/retrieval_validation.json": {
+      "bytes": 1970,
+      "sha256": "df6e6172422e24c5dbbe06b816235d51b1917f45fa8c1cc3c005e0e4e021e42e"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "scope": "Independent re-summed question-cluster bootstrap using draw-count matrix; same10000 seed12 draws as declared",
+  "interval_scalars_verified": 2662,
+  "settings_verified": 24,
+  "public_notinject": {
+    "all": {
+      "unique_prompts": 339,
+      "fold_false_positive_counts": [
+        172,
+        176,
+        170,
+        167,
+        172
+      ],
+      "mean_fold_fpr": 0.5056047197640118
+    },
+    "multilingual_category": {
+      "unique_prompts": 84,
+      "fold_false_positive_counts": [
+        67,
+        68,
+        66,
+        65,
+        67
+      ],
+      "mean_fold_fpr": 0.7928571428571428
+    },
+    "other_category": {
+      "unique_prompts": 255,
+      "fold_false_positive_counts": [
+        105,
+        108,
+        104,
+        102,
+        105
+      ],
+      "mean_fold_fpr": 0.4109803921568628
+    }
+  },
+  "cross_fold_document_ids": {
+    "doc2147737": [
+      "test192",
+      "test79"
+    ],
+    "doc455105": [
+      "test418",
+      "test58"
+    ]
+  },
+  "status": "passed"
+}

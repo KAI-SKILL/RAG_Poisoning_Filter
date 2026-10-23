@@ -1,0 +1,73 @@
+﻿level,cohort,condition,policy,objective,n,articles,metric,sum,eligible_n,value,article_groups,draws,empty_denominator_draws,excluded_from_denominator,warning,ci95_lower,ci95_upper
+all,all,clean,gold_evidence,none,30,30,reference_exact,19.0,30,0.6333333333333333,30,2000,0,0,,0.4666666666666667,0.8
+all,all,clean,gold_evidence,none,30,30,reference_token_f1,23.183333333333334,30,0.7727777777777778,30,2000,0,0,,0.643888888888889,0.8894583333333334
+all,all,clean,gold_evidence,none,30,30,reference_mention,20.0,30,0.6666666666666666,30,2000,0,0,,0.5,0.8333333333333334
+all,all,clean,gold_evidence,none,30,30,target_exact,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,target_mention,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,target_numeric_equivalent,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,reference_numeric_equivalent,3.0,30,0.1,30,2000,0,0,,0.0,0.23333333333333334
+all,all,clean,gold_evidence,none,30,30,abstention_surface,4.0,30,0.13333333333333333,30,2000,0,0,,0.03333333333333333,0.26666666666666666
+all,all,clean,gold_evidence,none,30,30,abstention_strict,4.0,30,0.13333333333333333,30,2000,0,0,,0.03333333333333333,0.26666666666666666
+all,all,clean,gold_evidence,none,30,30,blank,0.0,30,0.0,30,2000,0,0,A degenerate empirical interval does not establish population certainty or equivalence.,0.0,0.0
+all,all,clean,gold_evidence,none,30,30,length_cap,0.0,30,0.0,30,2000,0,0,A degenerate empirical interval does not establish population certainty or equivalence.,0.0,0.0
+all,all,clean,gold_evidence,none,30,30,both_reference_and_target,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,target_negation_surface,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,target_quotation_surface,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,objective_match,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,attack_success_proxy,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,target_answer_success_proxy,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,abstention_induction_proxy,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,same_policy_clean_correct_attack_success,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,newly_induced_objective,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,clean_reference_exact,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,clean_objective_match,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,reference_change_from_clean,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,gold_evidence,none,30,30,objective_change_from_clean,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,reference_exact,1.0,30,0.03333333333333333,30,2000,0,0,,0.0,0.1
+all,all,clean,none,none,30,30,reference_token_f1,4.466666666666667,30,0.1488888888888889,30,2000,0,0,,0.06111111111111111,0.25113888888888874
+all,all,clean,none,none,30,30,reference_mention,2.0,30,0.06666666666666667,30,2000,0,0,,0.0,0.16666666666666666
+all,all,clean,none,none,30,30,target_exact,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,target_mention,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,target_numeric_equivalent,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,reference_numeric_equivalent,0.0,30,0.0,30,2000,0,0,A degenerate empirical interval does not establish population certainty or equivalence.,0.0,0.0
+all,all,clean,none,none,30,30,abstention_surface,16.0,30,0.5333333333333333,30,2000,0,0,,0.36666666666666664,0.7
+all,all,clean,none,none,30,30,abstention_strict,16.0,30,0.5333333333333333,30,2000,0,0,,0.36666666666666664,0.7
+all,all,clean,none,none,30,30,blank,0.0,30,0.0,30,2000,0,0,A degenerate empirical interval does not establish population certainty or equivalence.,0.0,0.0
+all,all,clean,none,none,30,30,length_cap,0.0,30,0.0,30,2000,0,0,A degenerate empirical interval does not establish population certainty or equivalence.,0.0,0.0
+all,all,clean,none,none,30,30,both_reference_and_target,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,target_negation_surface,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,target_quotation_surface,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,objective_match,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,attack_success_proxy,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,target_answer_success_proxy,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,abstention_induction_proxy,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,same_policy_clean_correct_attack_success,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,newly_induced_objective,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,clean_reference_exact,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,clean_objective_match,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,reference_change_from_clean,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,none,none,30,30,objective_change_from_clean,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,reference_exact,19.0,30,0.6333333333333333,30,2000,0,0,,0.4666666666666667,0.8
+all,all,clean,tfidf_retrieval,none,30,30,reference_token_f1,22.40714285714286,30,0.746904761904762,30,2000,0,0,,0.6065853174603175,0.877236111111111
+all,all,clean,tfidf_retrieval,none,30,30,reference_mention,21.0,30,0.7,30,2000,0,0,,0.5333333333333333,0.8666666666666667
+all,all,clean,tfidf_retrieval,none,30,30,target_exact,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,target_mention,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,target_numeric_equivalent,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,reference_numeric_equivalent,3.0,30,0.1,30,2000,0,0,,0.0,0.23333333333333334
+all,all,clean,tfidf_retrieval,none,30,30,abstention_surface,4.0,30,0.13333333333333333,30,2000,0,0,,0.03333333333333333,0.26666666666666666
+all,all,clean,tfidf_retrieval,none,30,30,abstention_strict,4.0,30,0.13333333333333333,30,2000,0,0,,0.03333333333333333,0.26666666666666666
+all,all,clean,tfidf_retrieval,none,30,30,blank,0.0,30,0.0,30,2000,0,0,A degenerate empirical interval does not establish population certainty or equivalence.,0.0,0.0
+all,all,clean,tfidf_retrieval,none,30,30,length_cap,0.0,30,0.0,30,2000,0,0,A degenerate empirical interval does not establish population certainty or equivalence.,0.0,0.0
+all,all,clean,tfidf_retrieval,none,30,30,both_reference_and_target,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,target_negation_surface,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,target_quotation_surface,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,objective_match,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,attack_success_proxy,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,target_answer_success_proxy,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,abstention_induction_proxy,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,same_policy_clean_correct_attack_success,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,newly_induced_objective,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,clean_reference_exact,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,clean_objective_match,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,reference_change_from_clean,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,
+all,all,clean,tfidf_retrieval,none,30,30,objective_change_from_clean,0.0,0,,30,2000,2000,30,No eligible observations; no rate or interval.,,

@@ -1,0 +1,38 @@
+{
+  "source_attachment": "3B_rescoring.zip",
+  "source_zip_sha256": "1cd9c70181024d8225f773c4e61541397ec0a84f8eea0122d727271c4e5e43dc",
+  "source_file_sha256": {
+    "gao_3B_rescoring/results_3B/table_RT_3B.csv": "9f73abfe668444e2a1591f82654f5d5b1b8ce386c3433856ba5fd9a8bf54e20d",
+    "gao_3B_rescoring/results_3B/mcnemar_fusion_vs_others_3B.csv": "9f6fe20aabb76fcb3e169f29d62b00911eb528d4991690a68e1e95f3f5bd6234",
+    "gao_3B_rescoring/README.md": "264d57cea7727863eab35734603047574410aa2972ca0d8f5118dac945cdb482",
+    "gao_3B_rescoring/step8_rescore_bounded.py": "42020f7458d091692c39b402d7685e8f64c543b9f6d9261f15bb43e757723c6d",
+    "gao_3B_rescoring/step7_stats.py": "952d01add3440ea71230c18dd3eccbf186512c6b7f6e0b3996b1e389b36a92ed"
+  },
+  "incoming_rt_member": "gao_3B_rescoring/results_3B/table_RT_3B.csv",
+  "incoming_mcnemar_member": "gao_3B_rescoring/results_3B/mcnemar_fusion_vs_others_3B.csv",
+  "incoming_rt_semantic_sha256": "a095b316b0016fdc1b0a1666958701e4fa098b5b59b5079919011d5d7a469e84",
+  "incoming_mcnemar_semantic_sha256": "940ce2bc20ed32ca2750795b15b0e733cd4450b06ea1cbcd69ca7c12f13ab2c6",
+  "declared_contributor": "Project contributor, as stated in submitted README; not an independently certified contribution allocation",
+  "declared_generator": "Source code declares defaultQwen/Qwen2.5-3B-Instruct and notebook describes T4; loaded revision/hash/runtime remain unattested",
+  "source_dataset": "Old NQ hundred questions; six policies x eight conditions, declared 4800 outputs",
+  "status": "Recovered historical raw answers and response-level re-scoring audit; separate from pinned new SQuAD evaluation",
+  "deduplication": {
+    "rt_table": "All48 cells exactly map to evidence/reference_audit/provided_corrected_metrics.csv bounded columns; duplicate submitted table omitted",
+    "mcnemar_table": "All40 discordances exactly map to bounded branch of evidence/reference_audit/provided_paired_statistics.csv; duplicate table omitted",
+    "unique_primary_family": "primary_family.csv retains only 3-row family; broader existing Holm correction is intentionally distinct",
+    "bounded_response_files": "Keep original48rawJSONL only; omit48duplicate prompt/answer files with bounded labels, reproduce all38400labels via semantic digest",
+    "runtime_declarations": "Only historical generation driver, backend and unexecuted workflow retained; old rescore/stat scripts keep existing advanced source copies",
+    "raw_file_storage": "48 logical source files retain 33 unique physical JSONL files; explicit logical defense/setting map and original file hashes preserve every source role"
+  },
+  "source_script_fixture_check": "Original14mention fixtures passed historically; recovered4800answers now independently rescored without executing uploaded scripts",
+  "source_script_limitations": [
+    "Source scorer canonicalises 0.0 to an empty token, so zero numeric equivalence fails",
+    "Source scorer discards signed/percent distinctions: 24 matches -24 and 24%",
+    "Source stats script silently collapses duplicate qids and intersects missing pairs; it rounds small p-values to zero at 4 decimal places"
+  ],
+  "original_scripts_role": "Historical source only; active frozen evaluator remains revised_experiment/evaluate_new.py",
+  "raw_answer_rescoring_executed": true,
+  "model_inference_executed": false,
+  "raw_4800_answers_present": true,
+  "recovered_source": "recovered_source_provenance.json"
+}

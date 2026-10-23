@@ -1,0 +1,2426 @@
+{
+  "1pct": {
+    "main": {
+      "combine": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 481,
+          "benign_n": 1519,
+          "tp": 357,
+          "fp": 7,
+          "recall": 0.7422037422037422,
+          "fpr": 0.004608294930875576,
+          "auroc": 0.9948935110225432,
+          "auprc": 0.9734239825032431
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 481,
+          "benign_n": 1519,
+          "tp": 480,
+          "fp": 4,
+          "recall": 0.997920997920998,
+          "fpr": 0.0026333113890717576,
+          "auroc": 0.9999945253401474,
+          "auprc": 0.9999828535911011
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 481,
+          "benign_n": 1519,
+          "tp": 481,
+          "fp": 4,
+          "recall": 1.0,
+          "fpr": 0.0026333113890717576,
+          "auroc": 0.9999958940051106,
+          "auprc": 0.9999871136234773
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 481,
+          "benign_n": 1519,
+          "tp": 481,
+          "fp": 18,
+          "recall": 1.0,
+          "fpr": 0.01184990125082291,
+          "auroc": 0.9999945253401474,
+          "auprc": 0.9999826929170867
+        }
+      },
+      "escape": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 491,
+          "benign_n": 1509,
+          "tp": 431,
+          "fp": 6,
+          "recall": 0.8778004073319755,
+          "fpr": 0.003976143141153081,
+          "auroc": 0.9980038303782195,
+          "auprc": 0.9949090181266036
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 491,
+          "benign_n": 1509,
+          "tp": 484,
+          "fp": 2,
+          "recall": 0.9857433808553971,
+          "fpr": 0.0013253810470510272,
+          "auroc": 0.9999257678639635,
+          "auprc": 0.9997870047041172
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 491,
+          "benign_n": 1509,
+          "tp": 484,
+          "fp": 2,
+          "recall": 0.9857433808553971,
+          "fpr": 0.0013253810470510272,
+          "auroc": 0.9999082220863549,
+          "auprc": 0.9997330527709578
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 491,
+          "benign_n": 1509,
+          "tp": 491,
+          "fp": 18,
+          "recall": 1.0,
+          "fpr": 0.011928429423459244,
+          "auroc": 0.9999784051967894,
+          "auprc": 0.9999329174391733
+        }
+      },
+      "fake_comp": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 482,
+          "benign_n": 1518,
+          "tp": 332,
+          "fp": 7,
+          "recall": 0.6887966804979253,
+          "fpr": 0.00461133069828722,
+          "auroc": 0.9962893411838026,
+          "auprc": 0.9757909273655174
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 482,
+          "benign_n": 1518,
+          "tp": 478,
+          "fp": 4,
+          "recall": 0.991701244813278,
+          "fpr": 0.002635046113306983,
+          "auroc": 0.9999466977186623,
+          "auprc": 0.9998324687793312
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 482,
+          "benign_n": 1518,
+          "tp": 475,
+          "fp": 4,
+          "recall": 0.9854771784232366,
+          "fpr": 0.002635046113306983,
+          "auroc": 0.9999207299405748,
+          "auprc": 0.9997514060114369
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 482,
+          "benign_n": 1518,
+          "tp": 482,
+          "fp": 18,
+          "recall": 1.0,
+          "fpr": 0.011857707509881422,
+          "auroc": 0.99999453309935,
+          "auprc": 0.9999827646938095
+        }
+      },
+      "ignore": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 487,
+          "benign_n": 1513,
+          "tp": 388,
+          "fp": 7,
+          "recall": 0.7967145790554415,
+          "fpr": 0.004626569729015202,
+          "auroc": 0.9972449584775885,
+          "auprc": 0.9854353422027755
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 487,
+          "benign_n": 1513,
+          "tp": 487,
+          "fp": 2,
+          "recall": 1.0,
+          "fpr": 0.0013218770654329147,
+          "auroc": 1.0,
+          "auprc": 1.0
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 487,
+          "benign_n": 1513,
+          "tp": 485,
+          "fp": 2,
+          "recall": 0.9958932238193019,
+          "fpr": 0.0013218770654329147,
+          "auroc": 0.9999918570201308,
+          "auprc": 0.9999748307632348
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 487,
+          "benign_n": 1513,
+          "tp": 487,
+          "fp": 18,
+          "recall": 1.0,
+          "fpr": 0.011896893588896233,
+          "auroc": 0.9999932141834424,
+          "auprc": 0.9999788744292413
+        }
+      },
+      "naive": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 496,
+          "benign_n": 1504,
+          "tp": 426,
+          "fp": 6,
+          "recall": 0.8588709677419355,
+          "fpr": 0.003989361702127659,
+          "auroc": 0.9985039893617021,
+          "auprc": 0.9951594114101769
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 496,
+          "benign_n": 1504,
+          "tp": 491,
+          "fp": 2,
+          "recall": 0.9899193548387096,
+          "fpr": 0.0013297872340425532,
+          "auroc": 0.9999638061942348,
+          "auprc": 0.9998944268507434
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 496,
+          "benign_n": 1504,
+          "tp": 490,
+          "fp": 2,
+          "recall": 0.9879032258064516,
+          "fpr": 0.0013297872340425532,
+          "auroc": 0.9999209098318462,
+          "auprc": 0.9997741949340364
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 496,
+          "benign_n": 1504,
+          "tp": 496,
+          "fp": 18,
+          "recall": 1.0,
+          "fpr": 0.011968085106382979,
+          "auroc": 0.9999758707961565,
+          "auprc": 0.9999260807354583
+        }
+      },
+      "none": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 23,
+          "recall": null,
+          "fpr": 0.0115,
+          "auroc": null,
+          "auprc": null
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 24,
+          "recall": null,
+          "fpr": 0.012,
+          "auroc": null,
+          "auprc": null
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 24,
+          "recall": null,
+          "fpr": 0.012,
+          "auroc": null,
+          "auprc": null
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 24,
+          "recall": null,
+          "fpr": 0.012,
+          "auroc": null,
+          "auprc": null
+        }
+      },
+      "poison": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 500,
+          "benign_n": 1500,
+          "tp": 229,
+          "fp": 4,
+          "recall": 0.458,
+          "fpr": 0.0026666666666666666,
+          "auroc": 0.9945786666666666,
+          "auprc": 0.9667888070562678
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 500,
+          "benign_n": 1500,
+          "tp": 198,
+          "fp": 1,
+          "recall": 0.396,
+          "fpr": 0.0006666666666666666,
+          "auroc": 0.9968306666666666,
+          "auprc": 0.9801385520415009
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 500,
+          "benign_n": 1500,
+          "tp": 204,
+          "fp": 1,
+          "recall": 0.408,
+          "fpr": 0.0006666666666666666,
+          "auroc": 0.9967573333333334,
+          "auprc": 0.980470036659228
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 500,
+          "benign_n": 1500,
+          "tp": 366,
+          "fp": 18,
+          "recall": 0.732,
+          "fpr": 0.012,
+          "auroc": 0.9879226666666666,
+          "auprc": 0.9630439505222402
+        }
+      },
+      "stealth": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 492,
+          "benign_n": 1508,
+          "tp": 123,
+          "fp": 6,
+          "recall": 0.25,
+          "fpr": 0.003978779840848806,
+          "auroc": 0.9909264410946497,
+          "auprc": 0.9417781017379414
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 492,
+          "benign_n": 1508,
+          "tp": 106,
+          "fp": 4,
+          "recall": 0.21544715447154472,
+          "fpr": 0.002652519893899204,
+          "auroc": 0.9930681352569493,
+          "auprc": 0.9571893602693918
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 492,
+          "benign_n": 1508,
+          "tp": 115,
+          "fp": 4,
+          "recall": 0.23373983739837398,
+          "fpr": 0.002652519893899204,
+          "auroc": 0.9937110478531841,
+          "auprc": 0.9621775122440761
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 492,
+          "benign_n": 1508,
+          "tp": 288,
+          "fp": 18,
+          "recall": 0.5853658536585366,
+          "fpr": 0.011936339522546418,
+          "auroc": 0.9763591468805936,
+          "auprc": 0.9296851445228611
+        }
+      }
+    },
+    "single_matched": {
+      "combine": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 5,
+          "fp": 13,
+          "recall": 0.05102040816326531,
+          "fpr": 0.006834910620399579,
+          "auroc": 0.8814888731517845,
+          "auprc": 0.2797683276178038
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 92,
+          "fp": 6,
+          "recall": 0.9387755102040817,
+          "fpr": 0.0031545741324921135,
+          "auroc": 0.9988465417712826,
+          "auprc": 0.9858014202645967
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 95,
+          "fp": 6,
+          "recall": 0.9693877551020408,
+          "fpr": 0.0031545741324921135,
+          "auroc": 0.9990450438850619,
+          "auprc": 0.9873238088795642
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 98,
+          "fp": 23,
+          "recall": 1.0,
+          "fpr": 0.012092534174553101,
+          "auroc": 0.9999892701560119,
+          "auprc": 0.9997928051863914
+        }
+      },
+      "escape": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 7,
+          "fp": 14,
+          "recall": 0.07,
+          "fpr": 0.007368421052631579,
+          "auroc": 0.9456842105263158,
+          "auprc": 0.44254943376452416
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 88,
+          "fp": 5,
+          "recall": 0.88,
+          "fpr": 0.002631578947368421,
+          "auroc": 0.9973315789473685,
+          "auprc": 0.9655604238459078
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 83,
+          "fp": 5,
+          "recall": 0.83,
+          "fpr": 0.002631578947368421,
+          "auroc": 0.9957315789473684,
+          "auprc": 0.9554784587619582
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 100,
+          "fp": 23,
+          "recall": 1.0,
+          "fpr": 0.012105263157894737,
+          "auroc": 0.9999736842105262,
+          "auprc": 0.9994948463981681
+        }
+      },
+      "fake_comp": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 1,
+          "fp": 13,
+          "recall": 0.01020408163265306,
+          "fpr": 0.006834910620399579,
+          "auroc": 0.8964945599690981,
+          "auprc": 0.2944860532656329
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 80,
+          "fp": 5,
+          "recall": 0.8163265306122449,
+          "fpr": 0.0026288117770767614,
+          "auroc": 0.994340007296294,
+          "auprc": 0.9428527844602546
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 78,
+          "fp": 5,
+          "recall": 0.7959183673469388,
+          "fpr": 0.0026288117770767614,
+          "auroc": 0.9909976608940105,
+          "auprc": 0.9326877790905825
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 98,
+          "fp": 23,
+          "recall": 1.0,
+          "fpr": 0.012092534174553101,
+          "auroc": 0.999994635078006,
+          "auprc": 0.9998969284683572
+        }
+      },
+      "ignore": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 4,
+          "fp": 14,
+          "recall": 0.04081632653061224,
+          "fpr": 0.007360672975814932,
+          "auroc": 0.9101268267559389,
+          "auprc": 0.3296445399935781
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 95,
+          "fp": 5,
+          "recall": 0.9693877551020408,
+          "fpr": 0.0026288117770767614,
+          "auroc": 0.9993562093607159,
+          "auprc": 0.9929384332189546
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 96,
+          "fp": 5,
+          "recall": 0.9795918367346939,
+          "fpr": 0.0026288117770767614,
+          "auroc": 0.9981759265220282,
+          "auprc": 0.9902998596855255
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 98,
+          "fp": 23,
+          "recall": 1.0,
+          "fpr": 0.012092534174553101,
+          "auroc": 0.999994635078006,
+          "auprc": 0.9998969284683572
+        }
+      },
+      "naive": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 7,
+          "fp": 14,
+          "recall": 0.07,
+          "fpr": 0.007368421052631579,
+          "auroc": 0.9457473684210527,
+          "auprc": 0.44323292254891083
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 88,
+          "fp": 5,
+          "recall": 0.88,
+          "fpr": 0.002631578947368421,
+          "auroc": 0.9973368421052632,
+          "auprc": 0.9655819570069759
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 83,
+          "fp": 5,
+          "recall": 0.83,
+          "fpr": 0.002631578947368421,
+          "auroc": 0.9957526315789473,
+          "auprc": 0.955864446512244
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 100,
+          "fp": 23,
+          "recall": 1.0,
+          "fpr": 0.012105263157894737,
+          "auroc": 0.9999736842105262,
+          "auprc": 0.9994948463981681
+        }
+      },
+      "poison": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 13,
+          "fp": 12,
+          "recall": 0.13,
+          "fpr": 0.00631578947368421,
+          "auroc": 0.9774,
+          "auprc": 0.579177570458233
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 40,
+          "fp": 5,
+          "recall": 0.4,
+          "fpr": 0.002631578947368421,
+          "auroc": 0.994678947368421,
+          "auprc": 0.8732751228027144
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 40,
+          "fp": 5,
+          "recall": 0.4,
+          "fpr": 0.002631578947368421,
+          "auroc": 0.9945263157894737,
+          "auprc": 0.8672819242126034
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 71,
+          "fp": 23,
+          "recall": 0.71,
+          "fpr": 0.012105263157894737,
+          "auroc": 0.9872000000000001,
+          "auprc": 0.8412824155764229
+        }
+      },
+      "stealth": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 0,
+          "fp": 14,
+          "recall": 0.0,
+          "fpr": 0.007368421052631579,
+          "auroc": 0.9178157894736843,
+          "auprc": 0.3413057400928794
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 9,
+          "fp": 6,
+          "recall": 0.09,
+          "fpr": 0.003157894736842105,
+          "auroc": 0.9544842105263157,
+          "auprc": 0.6709811008800869
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 11,
+          "fp": 6,
+          "recall": 0.11,
+          "fpr": 0.003157894736842105,
+          "auroc": 0.9542578947368421,
+          "auprc": 0.6730385263260995
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 71,
+          "fp": 23,
+          "recall": 0.71,
+          "fpr": 0.012105263157894737,
+          "auroc": 0.9815105263157895,
+          "auprc": 0.810240166477594
+        }
+      }
+    },
+    "single_supplied": {
+      "combine": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 96,
+          "benign_n": 1904,
+          "tp": 2,
+          "fp": 13,
+          "recall": 0.020833333333333332,
+          "fpr": 0.006827731092436975,
+          "auroc": 0.8437882965686274,
+          "auprc": 0.20489576839334722
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 96,
+          "benign_n": 1904,
+          "tp": 94,
+          "fp": 8,
+          "recall": 0.9791666666666666,
+          "fpr": 0.004201680672268907,
+          "auroc": 0.9998851102941176,
+          "auprc": 0.9977199621714987
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 96,
+          "benign_n": 1904,
+          "tp": 95,
+          "fp": 8,
+          "recall": 0.9895833333333334,
+          "fpr": 0.004201680672268907,
+          "auroc": 0.9997264530812325,
+          "auprc": 0.9952159093024722
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 96,
+          "benign_n": 1904,
+          "tp": 96,
+          "fp": 23,
+          "recall": 1.0,
+          "fpr": 0.01207983193277311,
+          "auroc": 1.0,
+          "auprc": 0.9999999999999998
+        }
+      },
+      "escape": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 99,
+          "benign_n": 1901,
+          "tp": 6,
+          "fp": 14,
+          "recall": 0.06060606060606061,
+          "fpr": 0.007364544976328248,
+          "auroc": 0.9197445257413694,
+          "auprc": 0.37064048139136013
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 99,
+          "benign_n": 1901,
+          "tp": 85,
+          "fp": 5,
+          "recall": 0.8585858585858586,
+          "fpr": 0.0026301946344029457,
+          "auroc": 0.9964399385756566,
+          "auprc": 0.9611547140331376
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 99,
+          "benign_n": 1901,
+          "tp": 83,
+          "fp": 5,
+          "recall": 0.8383838383838383,
+          "fpr": 0.0026301946344029457,
+          "auroc": 0.9936078300097237,
+          "auprc": 0.9492789226079932
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 99,
+          "benign_n": 1901,
+          "tp": 99,
+          "fp": 23,
+          "recall": 1.0,
+          "fpr": 0.01209889531825355,
+          "auroc": 0.9999681188529164,
+          "auprc": 0.9994026258263635
+        }
+      },
+      "fake_comp": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 1,
+          "fp": 14,
+          "recall": 0.01020408163265306,
+          "fpr": 0.007360672975814932,
+          "auroc": 0.8590259447627633,
+          "auprc": 0.23466682371624817
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 80,
+          "fp": 7,
+          "recall": 0.8163265306122449,
+          "fpr": 0.003680336487907466,
+          "auroc": 0.9837925706560225,
+          "auprc": 0.9388931712524965
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 79,
+          "fp": 8,
+          "recall": 0.8061224489795918,
+          "fpr": 0.004206098843322818,
+          "auroc": 0.978352539754072,
+          "auprc": 0.9277810752399764
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 98,
+          "fp": 23,
+          "recall": 1.0,
+          "fpr": 0.012092534174553101,
+          "auroc": 1.0,
+          "auprc": 1.0
+        }
+      },
+      "ignore": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 0,
+          "fp": 14,
+          "recall": 0.0,
+          "fpr": 0.007360672975814932,
+          "auroc": 0.8867089422519797,
+          "auprc": 0.27758901274640785
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 95,
+          "fp": 6,
+          "recall": 0.9693877551020408,
+          "fpr": 0.0031545741324921135,
+          "auroc": 0.9986104852035452,
+          "auprc": 0.9892954712427865
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 95,
+          "fp": 6,
+          "recall": 0.9693877551020408,
+          "fpr": 0.0031545741324921135,
+          "auroc": 0.9961318912423014,
+          "auprc": 0.981574240421278
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 98,
+          "fp": 23,
+          "recall": 1.0,
+          "fpr": 0.012092534174553101,
+          "auroc": 0.9999892701560119,
+          "auprc": 0.9997928051863914
+        }
+      },
+      "naive": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 3,
+          "fp": 13,
+          "recall": 0.030612244897959183,
+          "fpr": 0.006834910620399579,
+          "auroc": 0.9237000794008454,
+          "auprc": 0.35791861914984335
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 87,
+          "fp": 8,
+          "recall": 0.8877551020408163,
+          "fpr": 0.004206098843322818,
+          "auroc": 0.9967327625056331,
+          "auprc": 0.9632251710033304
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 84,
+          "fp": 8,
+          "recall": 0.8571428571428571,
+          "fpr": 0.004206098843322818,
+          "auroc": 0.9939108135367711,
+          "auprc": 0.9537729554849927
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 98,
+          "fp": 23,
+          "recall": 1.0,
+          "fpr": 0.012092534174553101,
+          "auroc": 0.9999731753900298,
+          "auprc": 0.9994875884665286
+        }
+      },
+      "poison": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 7,
+          "fp": 12,
+          "recall": 0.07,
+          "fpr": 0.00631578947368421,
+          "auroc": 0.9494052631578948,
+          "auprc": 0.4881008723999828
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 36,
+          "fp": 5,
+          "recall": 0.36,
+          "fpr": 0.002631578947368421,
+          "auroc": 0.9762315789473685,
+          "auprc": 0.7858152735925282
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 36,
+          "fp": 5,
+          "recall": 0.36,
+          "fpr": 0.002631578947368421,
+          "auroc": 0.9757473684210526,
+          "auprc": 0.7896327820329234
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 78,
+          "fp": 23,
+          "recall": 0.78,
+          "fpr": 0.012105263157894737,
+          "auroc": 0.9901052631578948,
+          "auprc": 0.8693555549750881
+        }
+      },
+      "stealth": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 0,
+          "fp": 14,
+          "recall": 0.0,
+          "fpr": 0.007360672975814932,
+          "auroc": 0.900244640442928,
+          "auprc": 0.2842128010806774
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 10,
+          "fp": 8,
+          "recall": 0.10204081632653061,
+          "fpr": 0.004206098843322818,
+          "auroc": 0.946983840854954,
+          "auprc": 0.5784197045333079
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 11,
+          "fp": 8,
+          "recall": 0.11224489795918367,
+          "fpr": 0.004206098843322818,
+          "auroc": 0.9468926371810553,
+          "auprc": 0.5830165805089328
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 56,
+          "fp": 23,
+          "recall": 0.5714285714285714,
+          "fpr": 0.012092534174553101,
+          "auroc": 0.9779448056825254,
+          "auprc": 0.7473112265535266
+        }
+      }
+    },
+    "benign_echo": {
+      "benign_echo": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 44,
+          "recall": null,
+          "fpr": 0.022,
+          "auroc": null,
+          "auprc": null
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 42,
+          "recall": null,
+          "fpr": 0.021,
+          "auroc": null,
+          "auprc": null
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 42,
+          "recall": null,
+          "fpr": 0.021,
+          "auroc": null,
+          "auprc": null
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 55,
+          "recall": null,
+          "fpr": 0.0275,
+          "auroc": null,
+          "auprc": null
+        }
+      }
+    },
+    "benign_mirror": {
+      "benign_mirror": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 713,
+          "recall": null,
+          "fpr": 0.3565,
+          "auroc": null,
+          "auprc": null
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 446,
+          "recall": null,
+          "fpr": 0.223,
+          "auroc": null,
+          "auprc": null
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 456,
+          "recall": null,
+          "fpr": 0.228,
+          "auroc": null,
+          "auprc": null
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 25,
+          "recall": null,
+          "fpr": 0.0125,
+          "auroc": null,
+          "auprc": null
+        }
+      }
+    }
+  },
+  "5pct": {
+    "main": {
+      "combine": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 481,
+          "benign_n": 1519,
+          "tp": 473,
+          "fp": 37,
+          "recall": 0.9833679833679834,
+          "fpr": 0.024358130348913758,
+          "auroc": 0.9948935110225432,
+          "auprc": 0.9734239825032431
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 481,
+          "benign_n": 1519,
+          "tp": 481,
+          "fp": 20,
+          "recall": 1.0,
+          "fpr": 0.013166556945358789,
+          "auroc": 0.9999945253401474,
+          "auprc": 0.9999828535911011
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 481,
+          "benign_n": 1519,
+          "tp": 481,
+          "fp": 21,
+          "recall": 1.0,
+          "fpr": 0.013824884792626729,
+          "auroc": 0.9999958940051106,
+          "auprc": 0.9999871136234773
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 481,
+          "benign_n": 1519,
+          "tp": 481,
+          "fp": 74,
+          "recall": 1.0,
+          "fpr": 0.048716260697827515,
+          "auroc": 0.9999945253401474,
+          "auprc": 0.9999826929170867
+        }
+      },
+      "escape": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 491,
+          "benign_n": 1509,
+          "tp": 489,
+          "fp": 33,
+          "recall": 0.9959266802443992,
+          "fpr": 0.02186878727634195,
+          "auroc": 0.9980038303782195,
+          "auprc": 0.9949090181266036
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 491,
+          "benign_n": 1509,
+          "tp": 490,
+          "fp": 11,
+          "recall": 0.9979633401221996,
+          "fpr": 0.00728959575878065,
+          "auroc": 0.9999257678639635,
+          "auprc": 0.9997870047041172
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 491,
+          "benign_n": 1509,
+          "tp": 490,
+          "fp": 11,
+          "recall": 0.9979633401221996,
+          "fpr": 0.00728959575878065,
+          "auroc": 0.9999082220863549,
+          "auprc": 0.9997330527709578
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 491,
+          "benign_n": 1509,
+          "tp": 491,
+          "fp": 74,
+          "recall": 1.0,
+          "fpr": 0.04903909874088801,
+          "auroc": 0.9999784051967894,
+          "auprc": 0.9999329174391733
+        }
+      },
+      "fake_comp": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 482,
+          "benign_n": 1518,
+          "tp": 472,
+          "fp": 36,
+          "recall": 0.979253112033195,
+          "fpr": 0.023715415019762844,
+          "auroc": 0.9962893411838026,
+          "auprc": 0.9757909273655174
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 482,
+          "benign_n": 1518,
+          "tp": 482,
+          "fp": 15,
+          "recall": 1.0,
+          "fpr": 0.009881422924901186,
+          "auroc": 0.9999466977186623,
+          "auprc": 0.9998324687793312
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 482,
+          "benign_n": 1518,
+          "tp": 481,
+          "fp": 16,
+          "recall": 0.9979253112033195,
+          "fpr": 0.010540184453227932,
+          "auroc": 0.9999207299405748,
+          "auprc": 0.9997514060114369
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 482,
+          "benign_n": 1518,
+          "tp": 482,
+          "fp": 74,
+          "recall": 1.0,
+          "fpr": 0.048748353096179184,
+          "auroc": 0.99999453309935,
+          "auprc": 0.9999827646938095
+        }
+      },
+      "ignore": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 487,
+          "benign_n": 1513,
+          "tp": 479,
+          "fp": 35,
+          "recall": 0.9835728952772074,
+          "fpr": 0.023132848645076007,
+          "auroc": 0.9972449584775885,
+          "auprc": 0.9854353422027755
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 487,
+          "benign_n": 1513,
+          "tp": 487,
+          "fp": 15,
+          "recall": 1.0,
+          "fpr": 0.00991407799074686,
+          "auroc": 1.0,
+          "auprc": 1.0
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 487,
+          "benign_n": 1513,
+          "tp": 487,
+          "fp": 17,
+          "recall": 1.0,
+          "fpr": 0.011235955056179775,
+          "auroc": 0.9999918570201308,
+          "auprc": 0.9999748307632348
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 487,
+          "benign_n": 1513,
+          "tp": 487,
+          "fp": 74,
+          "recall": 1.0,
+          "fpr": 0.048909451421017845,
+          "auroc": 0.9999932141834424,
+          "auprc": 0.9999788744292413
+        }
+      },
+      "naive": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 496,
+          "benign_n": 1504,
+          "tp": 492,
+          "fp": 33,
+          "recall": 0.9919354838709677,
+          "fpr": 0.021941489361702128,
+          "auroc": 0.9985039893617021,
+          "auprc": 0.9951594114101769
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 496,
+          "benign_n": 1504,
+          "tp": 495,
+          "fp": 11,
+          "recall": 0.9979838709677419,
+          "fpr": 0.007313829787234043,
+          "auroc": 0.9999638061942348,
+          "auprc": 0.9998944268507434
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 496,
+          "benign_n": 1504,
+          "tp": 495,
+          "fp": 11,
+          "recall": 0.9979838709677419,
+          "fpr": 0.007313829787234043,
+          "auroc": 0.9999209098318462,
+          "auprc": 0.9997741949340364
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 496,
+          "benign_n": 1504,
+          "tp": 496,
+          "fp": 74,
+          "recall": 1.0,
+          "fpr": 0.04920212765957447,
+          "auroc": 0.9999758707961565,
+          "auprc": 0.9999260807354583
+        }
+      },
+      "none": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 108,
+          "recall": null,
+          "fpr": 0.054,
+          "auroc": null,
+          "auprc": null
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 99,
+          "recall": null,
+          "fpr": 0.0495,
+          "auroc": null,
+          "auprc": null
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 99,
+          "recall": null,
+          "fpr": 0.0495,
+          "auroc": null,
+          "auprc": null
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 98,
+          "recall": null,
+          "fpr": 0.049,
+          "auroc": null,
+          "auprc": null
+        }
+      },
+      "poison": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 500,
+          "benign_n": 1500,
+          "tp": 485,
+          "fp": 31,
+          "recall": 0.97,
+          "fpr": 0.020666666666666667,
+          "auroc": 0.9945786666666666,
+          "auprc": 0.9667888070562678
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 500,
+          "benign_n": 1500,
+          "tp": 462,
+          "fp": 11,
+          "recall": 0.924,
+          "fpr": 0.007333333333333333,
+          "auroc": 0.9968306666666666,
+          "auprc": 0.9801385520415009
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 500,
+          "benign_n": 1500,
+          "tp": 462,
+          "fp": 11,
+          "recall": 0.924,
+          "fpr": 0.007333333333333333,
+          "auroc": 0.9967573333333334,
+          "auprc": 0.980470036659228
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 500,
+          "benign_n": 1500,
+          "tp": 461,
+          "fp": 74,
+          "recall": 0.922,
+          "fpr": 0.04933333333333333,
+          "auroc": 0.9879226666666666,
+          "auprc": 0.9630439505222402
+        }
+      },
+      "stealth": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 492,
+          "benign_n": 1508,
+          "tp": 465,
+          "fp": 34,
+          "recall": 0.9451219512195121,
+          "fpr": 0.022546419098143235,
+          "auroc": 0.9909264410946497,
+          "auprc": 0.9417781017379414
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 492,
+          "benign_n": 1508,
+          "tp": 446,
+          "fp": 13,
+          "recall": 0.9065040650406504,
+          "fpr": 0.008620689655172414,
+          "auroc": 0.9930681352569493,
+          "auprc": 0.9571893602693918
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 492,
+          "benign_n": 1508,
+          "tp": 446,
+          "fp": 14,
+          "recall": 0.9065040650406504,
+          "fpr": 0.009283819628647215,
+          "auroc": 0.9937110478531841,
+          "auprc": 0.9621775122440761
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 492,
+          "benign_n": 1508,
+          "tp": 411,
+          "fp": 74,
+          "recall": 0.8353658536585366,
+          "fpr": 0.04907161803713528,
+          "auroc": 0.9763591468805936,
+          "auprc": 0.9296851445228611
+        }
+      }
+    },
+    "single_matched": {
+      "combine": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 30,
+          "fp": 52,
+          "recall": 0.30612244897959184,
+          "fpr": 0.027339642481598318,
+          "auroc": 0.8814888731517845,
+          "auprc": 0.2797683276178038
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 96,
+          "fp": 35,
+          "recall": 0.9795918367346939,
+          "fpr": 0.01840168243953733,
+          "auroc": 0.9988465417712826,
+          "auprc": 0.9858014202645967
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 96,
+          "fp": 36,
+          "recall": 0.9795918367346939,
+          "fpr": 0.01892744479495268,
+          "auroc": 0.9990450438850619,
+          "auprc": 0.9873238088795642
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 98,
+          "fp": 93,
+          "recall": 1.0,
+          "fpr": 0.04889589905362776,
+          "auroc": 0.9999892701560119,
+          "auprc": 0.9997928051863914
+        }
+      },
+      "escape": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 54,
+          "fp": 48,
+          "recall": 0.54,
+          "fpr": 0.02526315789473684,
+          "auroc": 0.9456842105263158,
+          "auprc": 0.44254943376452416
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 96,
+          "fp": 26,
+          "recall": 0.96,
+          "fpr": 0.01368421052631579,
+          "auroc": 0.9973315789473685,
+          "auprc": 0.9655604238459078
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 94,
+          "fp": 26,
+          "recall": 0.94,
+          "fpr": 0.01368421052631579,
+          "auroc": 0.9957315789473684,
+          "auprc": 0.9554784587619582
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 100,
+          "fp": 93,
+          "recall": 1.0,
+          "fpr": 0.04894736842105263,
+          "auroc": 0.9999736842105262,
+          "auprc": 0.9994948463981681
+        }
+      },
+      "fake_comp": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 35,
+          "fp": 53,
+          "recall": 0.35714285714285715,
+          "fpr": 0.02786540483701367,
+          "auroc": 0.8964945599690981,
+          "auprc": 0.2944860532656329
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 91,
+          "fp": 34,
+          "recall": 0.9285714285714286,
+          "fpr": 0.017875920084121977,
+          "auroc": 0.994340007296294,
+          "auprc": 0.9428527844602546
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 91,
+          "fp": 35,
+          "recall": 0.9285714285714286,
+          "fpr": 0.01840168243953733,
+          "auroc": 0.9909976608940105,
+          "auprc": 0.9326877790905825
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 98,
+          "fp": 93,
+          "recall": 1.0,
+          "fpr": 0.04889589905362776,
+          "auroc": 0.999994635078006,
+          "auprc": 0.9998969284683572
+        }
+      },
+      "ignore": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 38,
+          "fp": 52,
+          "recall": 0.3877551020408163,
+          "fpr": 0.027339642481598318,
+          "auroc": 0.9101268267559389,
+          "auprc": 0.3296445399935781
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 97,
+          "fp": 36,
+          "recall": 0.9897959183673469,
+          "fpr": 0.01892744479495268,
+          "auroc": 0.9993562093607159,
+          "auprc": 0.9929384332189546
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 97,
+          "fp": 37,
+          "recall": 0.9897959183673469,
+          "fpr": 0.019453207150368034,
+          "auroc": 0.9981759265220282,
+          "auprc": 0.9902998596855255
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 98,
+          "fp": 93,
+          "recall": 1.0,
+          "fpr": 0.04889589905362776,
+          "auroc": 0.999994635078006,
+          "auprc": 0.9998969284683572
+        }
+      },
+      "naive": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 54,
+          "fp": 48,
+          "recall": 0.54,
+          "fpr": 0.02526315789473684,
+          "auroc": 0.9457473684210527,
+          "auprc": 0.44323292254891083
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 96,
+          "fp": 26,
+          "recall": 0.96,
+          "fpr": 0.01368421052631579,
+          "auroc": 0.9973368421052632,
+          "auprc": 0.9655819570069759
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 94,
+          "fp": 26,
+          "recall": 0.94,
+          "fpr": 0.01368421052631579,
+          "auroc": 0.9957526315789473,
+          "auprc": 0.955864446512244
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 100,
+          "fp": 93,
+          "recall": 1.0,
+          "fpr": 0.04894736842105263,
+          "auroc": 0.9999736842105262,
+          "auprc": 0.9994948463981681
+        }
+      },
+      "poison": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 74,
+          "fp": 49,
+          "recall": 0.74,
+          "fpr": 0.025789473684210525,
+          "auroc": 0.9774,
+          "auprc": 0.579177570458233
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 89,
+          "fp": 27,
+          "recall": 0.89,
+          "fpr": 0.014210526315789474,
+          "auroc": 0.994678947368421,
+          "auprc": 0.8732751228027144
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 89,
+          "fp": 27,
+          "recall": 0.89,
+          "fpr": 0.014210526315789474,
+          "auroc": 0.9945263157894737,
+          "auprc": 0.8672819242126034
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 94,
+          "fp": 93,
+          "recall": 0.94,
+          "fpr": 0.04894736842105263,
+          "auroc": 0.9872000000000001,
+          "auprc": 0.8412824155764229
+        }
+      },
+      "stealth": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 39,
+          "fp": 49,
+          "recall": 0.39,
+          "fpr": 0.025789473684210525,
+          "auroc": 0.9178157894736843,
+          "auprc": 0.3413057400928794
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 73,
+          "fp": 28,
+          "recall": 0.73,
+          "fpr": 0.014736842105263158,
+          "auroc": 0.9544842105263157,
+          "auprc": 0.6709811008800869
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 74,
+          "fp": 30,
+          "recall": 0.74,
+          "fpr": 0.015789473684210527,
+          "auroc": 0.9542578947368421,
+          "auprc": 0.6730385263260995
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 88,
+          "fp": 93,
+          "recall": 0.88,
+          "fpr": 0.04894736842105263,
+          "auroc": 0.9815105263157895,
+          "auprc": 0.810240166477594
+        }
+      }
+    },
+    "single_supplied": {
+      "combine": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 96,
+          "benign_n": 1904,
+          "tp": 19,
+          "fp": 59,
+          "recall": 0.19791666666666666,
+          "fpr": 0.030987394957983194,
+          "auroc": 0.8437882965686274,
+          "auprc": 0.20489576839334722
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 96,
+          "benign_n": 1904,
+          "tp": 96,
+          "fp": 42,
+          "recall": 1.0,
+          "fpr": 0.022058823529411766,
+          "auroc": 0.9998851102941176,
+          "auprc": 0.9977199621714987
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 96,
+          "benign_n": 1904,
+          "tp": 96,
+          "fp": 43,
+          "recall": 1.0,
+          "fpr": 0.022584033613445378,
+          "auroc": 0.9997264530812325,
+          "auprc": 0.9952159093024722
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 96,
+          "benign_n": 1904,
+          "tp": 96,
+          "fp": 93,
+          "recall": 1.0,
+          "fpr": 0.04884453781512605,
+          "auroc": 1.0,
+          "auprc": 0.9999999999999998
+        }
+      },
+      "escape": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 99,
+          "benign_n": 1901,
+          "tp": 41,
+          "fp": 54,
+          "recall": 0.41414141414141414,
+          "fpr": 0.028406102051551814,
+          "auroc": 0.9197445257413694,
+          "auprc": 0.37064048139136013
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 99,
+          "benign_n": 1901,
+          "tp": 94,
+          "fp": 34,
+          "recall": 0.9494949494949495,
+          "fpr": 0.01788532351394003,
+          "auroc": 0.9964399385756566,
+          "auprc": 0.9611547140331376
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 99,
+          "benign_n": 1901,
+          "tp": 94,
+          "fp": 35,
+          "recall": 0.9494949494949495,
+          "fpr": 0.01841136244082062,
+          "auroc": 0.9936078300097237,
+          "auprc": 0.9492789226079932
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 99,
+          "benign_n": 1901,
+          "tp": 99,
+          "fp": 93,
+          "recall": 1.0,
+          "fpr": 0.048921620199894794,
+          "auroc": 0.9999681188529164,
+          "auprc": 0.9994026258263635
+        }
+      },
+      "fake_comp": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 21,
+          "fp": 55,
+          "recall": 0.21428571428571427,
+          "fpr": 0.028916929547844375,
+          "auroc": 0.8590259447627633,
+          "auprc": 0.23466682371624817
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 94,
+          "fp": 37,
+          "recall": 0.9591836734693877,
+          "fpr": 0.019453207150368034,
+          "auroc": 0.9837925706560225,
+          "auprc": 0.9388931712524965
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 92,
+          "fp": 38,
+          "recall": 0.9387755102040817,
+          "fpr": 0.019978969505783387,
+          "auroc": 0.978352539754072,
+          "auprc": 0.9277810752399764
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 98,
+          "fp": 93,
+          "recall": 1.0,
+          "fpr": 0.04889589905362776,
+          "auroc": 1.0,
+          "auprc": 1.0
+        }
+      },
+      "ignore": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 30,
+          "fp": 54,
+          "recall": 0.30612244897959184,
+          "fpr": 0.028391167192429023,
+          "auroc": 0.8867089422519797,
+          "auprc": 0.27758901274640785
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 97,
+          "fp": 34,
+          "recall": 0.9897959183673469,
+          "fpr": 0.017875920084121977,
+          "auroc": 0.9986104852035452,
+          "auprc": 0.9892954712427865
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 95,
+          "fp": 35,
+          "recall": 0.9693877551020408,
+          "fpr": 0.01840168243953733,
+          "auroc": 0.9961318912423014,
+          "auprc": 0.981574240421278
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 98,
+          "fp": 93,
+          "recall": 1.0,
+          "fpr": 0.04889589905362776,
+          "auroc": 0.9999892701560119,
+          "auprc": 0.9997928051863914
+        }
+      },
+      "naive": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 44,
+          "fp": 54,
+          "recall": 0.4489795918367347,
+          "fpr": 0.028391167192429023,
+          "auroc": 0.9237000794008454,
+          "auprc": 0.35791861914984335
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 94,
+          "fp": 34,
+          "recall": 0.9591836734693877,
+          "fpr": 0.017875920084121977,
+          "auroc": 0.9967327625056331,
+          "auprc": 0.9632251710033304
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 93,
+          "fp": 35,
+          "recall": 0.9489795918367347,
+          "fpr": 0.01840168243953733,
+          "auroc": 0.9939108135367711,
+          "auprc": 0.9537729554849927
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 98,
+          "fp": 93,
+          "recall": 1.0,
+          "fpr": 0.04889589905362776,
+          "auroc": 0.9999731753900298,
+          "auprc": 0.9994875884665286
+        }
+      },
+      "poison": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 64,
+          "fp": 51,
+          "recall": 0.64,
+          "fpr": 0.026842105263157896,
+          "auroc": 0.9494052631578948,
+          "auprc": 0.4881008723999828
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 79,
+          "fp": 29,
+          "recall": 0.79,
+          "fpr": 0.015263157894736841,
+          "auroc": 0.9762315789473685,
+          "auprc": 0.7858152735925282
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 79,
+          "fp": 28,
+          "recall": 0.79,
+          "fpr": 0.014736842105263158,
+          "auroc": 0.9757473684210526,
+          "auprc": 0.7896327820329234
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 100,
+          "benign_n": 1900,
+          "tp": 94,
+          "fp": 93,
+          "recall": 0.94,
+          "fpr": 0.04894736842105263,
+          "auroc": 0.9901052631578948,
+          "auprc": 0.8693555549750881
+        }
+      },
+      "stealth": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 30,
+          "fp": 54,
+          "recall": 0.30612244897959184,
+          "fpr": 0.028391167192429023,
+          "auroc": 0.900244640442928,
+          "auprc": 0.2842128010806774
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 65,
+          "fp": 37,
+          "recall": 0.6632653061224489,
+          "fpr": 0.019453207150368034,
+          "auroc": 0.946983840854954,
+          "auprc": 0.5784197045333079
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 65,
+          "fp": 38,
+          "recall": 0.6632653061224489,
+          "fpr": 0.019978969505783387,
+          "auroc": 0.9468926371810553,
+          "auprc": 0.5830165805089328
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 98,
+          "benign_n": 1902,
+          "tp": 83,
+          "fp": 93,
+          "recall": 0.8469387755102041,
+          "fpr": 0.04889589905362776,
+          "auroc": 0.9779448056825254,
+          "auprc": 0.7473112265535266
+        }
+      }
+    },
+    "benign_echo": {
+      "benign_echo": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 166,
+          "recall": null,
+          "fpr": 0.083,
+          "auroc": null,
+          "auprc": null
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 154,
+          "recall": null,
+          "fpr": 0.077,
+          "auroc": null,
+          "auprc": null
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 154,
+          "recall": null,
+          "fpr": 0.077,
+          "auroc": null,
+          "auprc": null
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 142,
+          "recall": null,
+          "fpr": 0.071,
+          "auroc": null,
+          "auprc": null
+        }
+      }
+    },
+    "benign_mirror": {
+      "benign_mirror": {
+        "ctx": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 1015,
+          "recall": null,
+          "fpr": 0.5075,
+          "auroc": null,
+          "auprc": null
+        },
+        "no_guard": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 1001,
+          "recall": null,
+          "fpr": 0.5005,
+          "auroc": null,
+          "auprc": null
+        },
+        "fused": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 1001,
+          "recall": null,
+          "fpr": 0.5005,
+          "auroc": null,
+          "auprc": null
+        },
+        "tfidf_lr": {
+          "records": 2000,
+          "questions": 100,
+          "malicious_n": 0,
+          "benign_n": 2000,
+          "tp": 0,
+          "fp": 105,
+          "recall": null,
+          "fpr": 0.0525,
+          "auroc": null,
+          "auprc": null
+        }
+      }
+    }
+  }
+}

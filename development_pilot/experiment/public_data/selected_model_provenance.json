@@ -1,0 +1,28 @@
+{
+  "model": "fmops/distilbert-prompt-injection",
+  "revision": "c5da1fefd33c98c447b50dd806fe86aeb9e8c26c",
+  "backend": "PyTorch CPU",
+  "model_file": {
+    "bytes": 267832560,
+    "sha256": "2e4646e1f03c0ced285c67a52353b829ff6d76a1bf35ab5ee0beb19dd4447eef"
+  },
+  "source_training_end_commit": {
+    "id": "dc10a7c545af1bf0c6a7e58a199e2ba95eb36b04",
+    "date": "2023-07-17T22:01:43.000Z",
+    "title": "End of training"
+  },
+  "selected_safetensors_commit": {
+    "id": "c5da1fefd33c98c447b50dd806fe86aeb9e8c26c",
+    "date": "2023-07-28T17:56:32.000Z",
+    "title": "Adding `safetensors` variant of this model (#1)"
+  },
+  "upstream_lfs_sha256": "2e4646e1f03c0ced285c67a52353b829ff6d76a1bf35ab5ee0beb19dd4447eef",
+  "upstream_lfs_bytes": 267832560,
+  "local_hash_matches_pinned_upstream_object": true,
+  "source_tree_evidence": "DistilBERT_source_tree_c5da1fefd33c98c447b50dd806fe86aeb9e8c26c.json",
+  "commit_evidence": "DistilBERT_source_commits.json",
+  "declared_training_dataset": "deepset/prompt-injections",
+  "notinject_first_release": "2024-10-27 (PIGuard README news)",
+  "limitation": "Predates benchmark release; does not establish every phrase is novel, complete historical training set, or absence of paraphrase/base-pretraining overlap.",
+  "onnx_evidence": "Historical alternative; not the final experiment backend."
+}

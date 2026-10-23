@@ -1,0 +1,24 @@
+{
+  "torch": "2.14.1+cpu",
+  "threads": 4,
+  "batch": 12,
+  "max_tokens": 512,
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "model_inference": "local files only, no model API, HF telemetry disabled, no ONNX Runtime",
+  "variant_count": 9,
+  "generator_gates": [
+    "none",
+    "rule",
+    "guard",
+    "ctx",
+    "fused",
+    "aug_fused",
+    "oracle"
+  ],
+  "run_py_sha256": "4f18658eca51fd824c5c8ba8b840519f79ec54227e7ecc18bf178a4015d7699b",
+  "protocol_sha256": "eade1862561ff8b2393428089c991a0593f40ab70bc8dce4a4ddd91b9cbca72e",
+  "input_manifest_sha256": "8a8089ecf9df68578c9567eabc352eeec13be3281c9e1177383ea62e77063ab5",
+  "model_manifests_sha256": "2bf57087c759ff1b878f9958ddac7d88bb623fba03b94727ba6f07224b98b867",
+  "frozen_heads_sha256": "09fd4f632888ed13c3bdf6c5e9de076032491eb54d58c87ac83c42cb6fea8466",
+  "status": "complete"
+}

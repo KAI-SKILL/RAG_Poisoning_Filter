@@ -1,0 +1,24 @@
+{
+ "status": "FROZEN_BEFORE_INSPECTING_OR_SCORING_NEW_MODEL_OUTPUTS",
+ "scope": "Custom development question repairs from source evidence. Preserve the original 30 source groups, original questions, original refs and old executions. These are not official SQuAD metrics.",
+ "model_outputs_used": false,
+ "repairs": [
+  {"qid":"squad-570a04be4103511400d594f7","new_question":"Regarding Hanover: Who was William IV's heir in the United Kingdom in 1837?","accepted_aliases":["Queen Victoria","Victoria"],"reason":"Original question did not specify UK versus Hanover succession; paragraph explicitly distinguishes Queen Victoria from Ernest Augustus."},
+  {"qid":"squad-572ecc0fcb0c0d14000f157f","new_question":"Regarding Geography of the United States: To which ocean does the passage say the Laurentian Highlands, Interior Plains and Interior Highlands collectively stretch northward?","accepted_aliases":["Arctic Ocean","the Arctic"],"reason":"Original question narrowed a collective sentence to the Interior Highlands, which the paragraph does not securely support."},
+  {"qid":"squad-572fe5e8b2c2fd1400568583","new_question":"Regarding The Blitz: What kind of receiver did the Beam Approach Training Development Unit aircraft use to search for the Knickebein beams?","accepted_aliases":["30 MHz receiver","30 MHz","30 megahertz receiver"],"reason":"Original question asks transmitter while paragraph and annotation describe a 30 MHz receiver. Fix question from source, preserve original annotation/history."}
+ ],
+ "additional_aliases": [
+  {"qid":"squad-57328bf706a3a419008acaf7","accepted_aliases":["Pangaea","Pangea"],"reason":"Conventional spelling variant of the source supercontinent name."},
+  {"qid":"squad-5709aacc200fba140036823f","accepted_aliases":["Nationales Cyber-Abwehrzentrum","National Center for Cyber Defense"],"reason":"Both German and English forms appear in the source paragraph."},
+  {"qid":"squad-573096d2396df919000961d6","accepted_aliases":["1927–28","1927-28","1927–1928","1927 to 1928"],"reason":"Equivalent date-range surface forms."},
+  {"qid":"squad-5727cb4d4b864d1900163d37","accepted_aliases":["Cortegada","Cortegada Island","Cíes","Cies","Ons","Sálvora","Salvora"],"reason":"Source identifies these islands/archipelagos as parts of the park; the question asks one rather than uniquely naming an island."},
+  {"qid":"squad-5730537d396df91900096074","accepted_aliases":["Swaziland Christian University","Limkokwing University of Creative Technology","Limkokwing University"],"reason":"Question asks another university besides two already listed; both alternatives occur in source."},
+  {"qid":"squad-572b951ef75d5e190021fe5f","accepted_aliases":["Online courses","online education","e-learning"],"reason":"Paragraph discusses online/e-learning costs, not a universal ordering of all schooling costs. This remains passage-conditioned."}
+ ],
+ "remaining_scope_notes": [
+  "Ann Arbor household size is the year-2000 snapshot in the passage, not a current 2026 estimate.",
+  "Aircraft carrier refit question concerns the historical plan in the passage, not a verified current refit state.",
+  "Quran manuscript question has parchment-versus-writing date imprecision; evidence gives radiocarbon bound for parchment. Report this separately rather than assume current factual validation.",
+  "No question was replaced or chosen based on model success. Full original 30-question results remain archived separately."
+ ]
+}

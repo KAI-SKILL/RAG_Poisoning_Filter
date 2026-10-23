@@ -1,0 +1,10 @@
+{
+  "status": "CUSTOM_DEV_V2_INPUTS_FROZEN_BEFORE_OUTPUT_SCORING",
+  "n_questions": 30,
+  "n_rows": 90,
+  "source_repairs": 3,
+  "original_source_and_execution_preserved": true,
+  "model_outputs_used_for_repairs": false,
+  "sha256": "98f85fb66dc514dea1529a29d91ccd601ccbe80031b081b89eea4ec6ff8398d8",
+  "retrieval": "word1\u20132 TF-IDF on unchanged179-passages development corpus, recomputed for repaired query text; separate from formal Contriever test"
+}

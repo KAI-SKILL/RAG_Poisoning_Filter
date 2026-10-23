@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "2026-10-19T02:26:08.091662+00:00",
+  "status": "Before fresh held-out metrics and before any new NQ generator call",
+  "amendment": "Add passage-only no_guard=rule+score_z+density to isolate neural guard incremental contribution. No extra neural inference, no change to seven generator gates, training/calibration policy unchanged.",
+  "authorisation": "Root approved this ablation before results were observed.",
+  "run_py_sha256_at_amendment": "4f18658eca51fd824c5c8ba8b840519f79ec54227e7ecc18bf178a4015d7699b"
+}

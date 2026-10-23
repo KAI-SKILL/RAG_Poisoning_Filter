@@ -1,0 +1,19 @@
+{
+  "done": 450,
+  "batch_seconds": 115.64555786200162,
+  "batches": 38,
+  "at_cap_count": 0,
+  "truncated_text_count": 0,
+  "max_original_tokens": 312,
+  "max_observed_tokens": 312,
+  "load_seconds": 0.3125521750007465,
+  "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [
+      "pooler.dense.bias",
+      "pooler.dense.weight"
+    ],
+    "mismatched_keys": [],
+    "error_msgs": []
+  }
+}

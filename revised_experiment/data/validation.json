@@ -1,0 +1,1191 @@
+{
+  "status": "passed",
+  "questions": 230,
+  "unique_article_groups": 230,
+  "corpus_passages": 1379,
+  "split_counts": {
+    "dev": 30,
+    "calibration": 100,
+    "test": 100
+  },
+  "old_exact_title_question_text_overlap": 0,
+  "cross_split_article_group_overlap": 0,
+  "exact_answer_offsets_verified": 230,
+  "actual_TFIDF_retrieval": {
+    "dev": {
+      "queries": 30,
+      "corpus_passages": 179,
+      "gold_in_top5": 30,
+      "gold_in_top20": 30,
+      "per_question": [
+        {
+          "qid": "squad-57328bf706a3a419008acaf7",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56e6dc12de9d371400068097",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570a04be4103511400d594f7",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-573254560fdd8d15006c69bf",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5709aacc200fba140036823f",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572774785951b619008f8a4b",
+          "gold_rank_in_top20": 5,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-573096d2396df919000961d6",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727fc123acd2414000df176",
+          "gold_rank_in_top20": 4,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-571a9fd84faf5e1900b8ab51",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727cb4d4b864d1900163d37",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56e07d387aa994140058e56f",
+          "gold_rank_in_top20": 4,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572fac9304bcaa1900d76bca",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572eaddec246551400ce44e6",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572b951ef75d5e190021fe5f",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56e0f5fc231d4119001ac4dd",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5730537d396df91900096074",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56e1747fe3433e1400422f2f",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56dfc85c7aa994140058e1ae",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57268d7ef1498d1400e8e396",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57293faa6aef051400154be8",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572ea993cb0c0d14000f1417",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572ecc0fcb0c0d14000f157f",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57278b525951b619008f8ced",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570a5b7e6d058f1900182d9d",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570b09a96b8089140040f704",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56e82e8c00c9c71400d7760a",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727b8482ca10214002d94bc",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726b169708984140094ce09",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572fe5e8b2c2fd1400568583",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57340aae4776f41900661790",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        }
+      ]
+    },
+    "calibration": {
+      "queries": 100,
+      "corpus_passages": 600,
+      "gold_in_top5": 98,
+      "gold_in_top20": 99,
+      "per_question": [
+        {
+          "qid": "squad-572eb435cb0c0d14000f1494",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-573021a304bcaa1900d771ea",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572676395951b619008f7351",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572f506a04bcaa1900d76841",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726f90b5951b619008f83c9",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56e86f5b99e8941900975e04",
+          "gold_rank_in_top20": 4,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-571a722f10f8ca140030504a",
+          "gold_rank_in_top20": 4,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570b5d446b8089140040f8ce",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572975206aef051400154f30",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572a19b61d0469140077977c",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-573234a9e17f3d1400422723",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727db044b864d1900163ea4",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56f8df889b226e1400dd114e",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57268c14dd62a815002e891f",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5707feb09e06ca38007e94da",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570d6620b3d812140066d817",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5706b0492eaba6190074ac30",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56dfb65b7aa994140058e041",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57278440708984140094dfce",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57280ab8ff5b5019007d9ba2",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572ab384be1ee31400cb8198",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572827e6ff5b5019007d9e32",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5731b46ee99e3014001e61e7",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570a89404103511400d5982b",
+          "gold_rank_in_top20": 4,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5709a434ed30961900e843b2",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5729873f3f37b3190047847e",
+          "gold_rank_in_top20": null,
+          "gold_in_top5": false
+        },
+        {
+          "qid": "squad-5731b7dcb9d445190005e4bb",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-573402084776f419006616bd",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57313b47e6313a140071cd5b",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726881e708984140094c909",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56e6d8a1de9d371400068076",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5728229d4b864d190016452d",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727b6c44b864d1900163b1d",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5707066b9e06ca38007e92b2",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57069fac75f01819005e7c5f",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572b5109111d821400f38e5b",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57326c89e99e3014001e679e",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5728c608ff5b5019007da66b",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727feae3acd2414000df198",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56e06d44231d4119001ac105",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56ddd84066d3e219004dad1f",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-571020f7b654c5140001f81e",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727ee363acd2414000df017",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5731579e497a881900248e33",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56e7299137bdd419002c3ddc",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5719f8ef4faf5e1900b8a859",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572a1ef73f37b31900478701",
+          "gold_rank_in_top20": 5,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572c97fbf182dd1900d7c7ee",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5730cac0b7151e1900c01542",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-573084818ab72b1400f9c543",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57302da4a23a5019007fcf13",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56de11834396321400ee25b0",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5731dae40fdd8d15006c659d",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570971cb200fba1400368004",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5730a5e02461fd1900a9cf3e",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-573078db396df91900096143",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57328842b9988014000c7668",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726b60ef1498d1400e8e875",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570ce135fed7b91900d45a67",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56f7c49eaef2371900625bdd",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56ddd7499a695914005b9608",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5729e5501d0469140077965b",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572923981d046914007790b3",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56f981b79b226e1400dd14df",
+          "gold_rank_in_top20": 4,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572786705951b619008f8c5b",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57307298396df9190009610d",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572aac81f75d5e190021fc25",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726eb3e708984140094d5ef",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727bfcf3acd2414000deb74",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572ec816c246551400ce4658",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56cd7ca662d2951400fa6629",
+          "gold_rank_in_top20": 7,
+          "gold_in_top5": false
+        },
+        {
+          "qid": "squad-570a807e6d058f1900182ece",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570d5cf5fed7b91900d45f40",
+          "gold_rank_in_top20": 4,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5732ab8ed6dcfa19001e8a6c",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5731785b497a881900248f3a",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57281206ff5b5019007d9c64",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56f788eeaef2371900625ba2",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726801e708984140094c80f",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572847174b864d190016489f",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5735190cacc1501500bac405",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572f435f947a6a140053c829",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5728cf903acd2414000dff1d",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572827732ca10214002d9f5e",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57304155a23a5019007fd015",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5725d426271a42140099d277",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572e9f64cb0c0d14000f1389",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56de2e2d4396321400ee2644",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572a70a327b69114009ef5b9",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572eaedccb0c0d14000f146e",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572aafcd111d821400f38cc3",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57277434708984140094de02",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572873c3ff5b5019007da23c",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5729a33c6aef051400155063",
+          "gold_rank_in_top20": 4,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56cbe5df6d243a140015edd5",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5729baed1d046914007795d6",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57265aa2f1498d1400e8dcee",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-573425204776f41900661950",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5731c6730fdd8d15006c652a",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56df62218bc80c19004e4b82",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57278955dd62a815002e9fbc",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        }
+      ]
+    },
+    "test": {
+      "queries": 100,
+      "corpus_passages": 600,
+      "gold_in_top5": 99,
+      "gold_in_top20": 99,
+      "per_question": [
+        {
+          "qid": "squad-572b69c0be1ee31400cb8371",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572801a52ca10214002d9b40",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570bfabb6b8089140040fafe",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56de71ee4396321400ee2914",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572691a7708984140094ca63",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56cdcb2c62d2951400fa6830",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572ea93ec246551400ce448b",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572811cc2ca10214002d9d22",
+          "gold_rank_in_top20": 4,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5730bfba069b5314008322f1",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5728e4102ca10214002daa49",
+          "gold_rank_in_top20": 4,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570e737a0dc6ce1900205095",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572f0fb8c246551400ce488b",
+          "gold_rank_in_top20": 4,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727d5992ca10214002d979b",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5733c827d058e614000b6242",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570fc7d35ab6b81900390fce",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57283ef9ff5b5019007d9fe9",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572b4f0b111d821400f38e50",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56def1133277331400b4d83d",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57344ca4acc1501500babdcc",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572653fef1498d1400e8dc19",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-571a481910f8ca1400304fb5",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57324c76e99e3014001e666a",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570b6593ec8fbc190045b9d5",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570a64106d058f1900182dfd",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56f97e1c9e9bad19000a09bc",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572863cb3acd2414000df990",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727f7ee4b864d19001640ca",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726785bf1498d1400e8e0d3",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56df79fe5ca0a614008f9b0a",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56f904a39e9bad19000a07df",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5728ab303acd2414000dfc7f",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56e19ab0e3433e1400423002",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570cee7ffed7b91900d45aff",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5706fbf590286e26004fc7a6",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570d1aeafed7b91900d45c17",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572ff38604bcaa1900d76f19",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5728ac94ff5b5019007da442",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5731a0a1b9d445190005e415",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56e1ce38e3433e14004231b0",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572936086aef051400154b79",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56f732a2711bf01900a44a5d",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56f8d39d9b226e1400dd10a6",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726a317dd62a815002e8bab",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726a342f1498d1400e8e594",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5730a8cc2461fd1900a9cf5a",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572edac4dfa6aa1500f8d46b",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727c8104b864d1900163cfd",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572736f0dd62a815002e999a",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56de6a2e4396321400ee28ad",
+          "gold_rank_in_top20": 5,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57303a2d947a6a140053d2da",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56d12d5117492d1400aabb71",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5731200be6313a140071cc5c",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726b3445951b619008f7afe",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572802ae4b864d1900164214",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56dfecfb231d4119001abea8",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572e9358cb0c0d14000f12ed",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727fe1c4b864d190016419b",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726d7e25951b619008f7fab",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572855143acd2414000df91f",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572999813f37b319004784e8",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5709a0c3ed30961900e84392",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57321018b9d445190005e7b0",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57317b4d05b4da19006bd1e4",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572a73ae27b69114009ef5c9",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570f38055ab6b81900390ea4",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727ea07ff5b5019007d9860",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570c2d8e6b8089140040fbd6",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-573088d7396df9190009618c",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5709d8514103511400d59483",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57342eb44776f41900661a2c",
+          "gold_rank_in_top20": 5,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56cf1d3baab44d1400b88da7",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57297a3baf94a219006aa4c1",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5733d4364776f419006612f4",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56fb85aab28b3419009f1dfa",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5728cd4f3acd2414000dfedc",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57270a67dd62a815002e9849",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5706917375f01819005e7c10",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727456add62a815002e9a48",
+          "gold_rank_in_top20": 4,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726ed33f1498d1400e8f003",
+          "gold_rank_in_top20": 2,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726b882dd62a815002e8e21",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572a33f0af94a219006aa893",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57268eb85951b619008f7689",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57101252a58dae1900cd685c",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570b6608ec8fbc190045b9dd",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5706bb610eeca41400aa0dbf",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727dd8dff5b5019007d970f",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57278aac708984140094e059",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-572a2cfc1d04691400779817",
+          "gold_rank_in_top20": null,
+          "gold_in_top5": false
+        },
+        {
+          "qid": "squad-5725140d0a492a19004356ea",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56dc79fc14d3a41400c268db",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56f8aaba9b226e1400dd0dae",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57278ab15951b619008f8ce6",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56ccf96562d2951400fa6509",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5728e52d2ca10214002daa54",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-570af9ad6b8089140040f65c",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5726c6385951b619008f7dc3",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-57277e54f1498d1400e8f9bd",
+          "gold_rank_in_top20": 3,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-56eaa5425a205f1900d6d3b6",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5711225fa58dae1900cd6c8b",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        },
+        {
+          "qid": "squad-5727824e708984140094df94",
+          "gold_rank_in_top20": 1,
+          "gold_in_top5": true
+        }
+      ]
+    }
+  },
+  "limits": "Title and exact text exclusions are not proof against all semantic duplicates or public-model pretraining contamination."
+}

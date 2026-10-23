@@ -1,0 +1,14 @@
+{
+  "LR": {
+    "ordinary_calibration_seconds": 0.9337554829980945,
+    "test_and_corpus_scoring_seconds": 74.63430570900164,
+    "unique_new_texts_scored": 73377
+  },
+  "LinearSVC": {
+    "ordinary_calibration_seconds": 0.8629968519999238,
+    "test_and_corpus_scoring_seconds": 70.37972827699923,
+    "unique_new_texts_scored": 73377
+  },
+  "total_seconds": 258.97929393600134,
+  "scope": "CPU vectorization and sparse classification, analysis and optional exact TF-IDF delivery; no neural/generator execution."
+}

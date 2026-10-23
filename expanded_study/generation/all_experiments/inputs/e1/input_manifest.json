@@ -1,0 +1,148 @@
+{
+  "status": "COMPLETE_VALIDATED_INPUTS_NO_GENERATION",
+  "version": "Group9-all-experiments-inputs-v1",
+  "created_utc": "2026-10-22T02:06:58.003116+00:00",
+  "scope": "e1",
+  "requested_rows": 1800,
+  "unique_prompts": 432,
+  "questions": 100,
+  "articles": 100,
+  "policies": [
+    "none",
+    "ctx",
+    "no_guard",
+    "fused",
+    "tfidf_lr",
+    "guard_only"
+  ],
+  "conditions": {
+    "clean": 600,
+    "attack": 1200
+  },
+  "objectives": {
+    "none": 600,
+    "target_answer": 1200
+  },
+  "condition_policy_counts": {
+    "attack": {
+      "none": 200,
+      "ctx": 200,
+      "no_guard": 200,
+      "fused": 200,
+      "tfidf_lr": 200,
+      "guard_only": 200
+    },
+    "clean": {
+      "none": 100,
+      "ctx": 100,
+      "no_guard": 100,
+      "fused": 100,
+      "tfidf_lr": 100,
+      "guard_only": 100
+    }
+  },
+  "source_setting_counts": {
+    "clean": 600,
+    "counterfactual_1": 600,
+    "explicit_PI_1": 600
+  },
+  "source_supported_rows": 1530,
+  "readback_all_request_fields_equal": true,
+  "readback_all_user_prompt_bytes_equal": true,
+  "readback_all_chatml_sha256_equal": true,
+  "integrity_check": "ok",
+  "foreign_key_violations": 0,
+  "input_sqlite_file": "generation/all_experiments/inputs/e1/generation_inputs.sqlite",
+  "input_sqlite_sha256": "8247fdfd5bccb57c7b6779d8db494fef9befc77c7f7e37584bb3afa450150496",
+  "input_sqlite_size_bytes": 12148736,
+  "scoring_protocol_sha256": "5c6c24ce6b3ec3216dc586c46a2749724e2e57733a5c6d5f67378d1905a8d66f",
+  "scoring_protocol_file": "generation/all_experiments/inputs/e1/scoring_protocol.json",
+  "producer_file": "generation/all_experiments/build_e12_inputs.py",
+  "producer_sha256": "59c0a71105fdb17cf7b58c6a8209d19bee5d9f6de2a834bb50f9f2e057b76aea",
+  "source_files": {
+    "prior_study/original_project/output/revised_experiment/fresh_features/pools_with_features.jsonl": {
+      "sha256": "a1dec174a4a7402ebfed0ee8a65b460fb2f5c30a6d3a65440b529ca3822bbba7",
+      "size_bytes": 12805821
+    },
+    "prior_study/original_project/output/revised_experiment/selection/context_requests.jsonl": {
+      "sha256": "3967d4c96db534d721a71c872771c567ae5dcf4321086c406309a786fee5593b",
+      "size_bytes": 10366387
+    },
+    "prior_study/original_project/output/revised_experiment/selection/predictions.jsonl": {
+      "sha256": "8ae27bf73c14d2d4e0d6a038e372f1c598b385c5f616dff2dd652c7d715e5243",
+      "size_bytes": 6360576
+    },
+    "prior_study/original_project/extensions/e2_unfiltered/requests.jsonl": {
+      "sha256": "a08328a2a7fe0af333e3d500ca6b75c22822e813f2a6d123e0683933c323e444",
+      "size_bytes": 550026
+    },
+    "prior_study/original_project/extensions/e2_unfiltered/baseline_keys.json": {
+      "sha256": "cc67e4a85d1e5ec18185bc2331af32b55055c0a1c2336bf4bb54e354183ad020",
+      "size_bytes": 15503
+    },
+    "prior_study/original_project/revised_experiment/data/test_source_quality_audit.json": {
+      "sha256": "f6e4819ae64da845b87628556dd0ae55bd3ab835bfcac863f2e15fa49ef63953",
+      "size_bytes": 101605
+    },
+    "prior_study/original_project/revised_experiment/prompts.py": {
+      "sha256": "37bdf27a3df0fb04f13c372ca2973d7d03ba843b0e2136593fcc13e8d5c23575",
+      "size_bytes": 612
+    },
+    "prior_study/original_project/revised_experiment/gguf_generate.py": {
+      "sha256": "892499a5e4d5fb1c31ae29d22fbd3d2a177bc81fc61f61098aef0ffaca72b0f6",
+      "size_bytes": 5337
+    },
+    "prior_study/original_project/revised_experiment/dev_q_requests.jsonl": {
+      "sha256": "c31e31b24900069e5e2433460a6e8034778c8b76d839da277e4e37fdab27301f",
+      "size_bytes": 194255
+    },
+    "prior_study/original_project/revised_experiment/dev_q_v2_requests.jsonl": {
+      "sha256": "98f85fb66dc514dea1529a29d91ccd601ccbe80031b081b89eea4ec6ff8398d8",
+      "size_bytes": 213109
+    },
+    "prior_study/original_project/revised_experiment/dev_q_v2_frozen.json": {
+      "sha256": "596e0bda098ab512fa483bdcf3afd9e6be24287631d047a4b45c488f1cdd3513",
+      "size_bytes": 458
+    },
+    "prior_study/original_project/revised_experiment/data/dev_q_inputs.jsonl": {
+      "sha256": "b213423df7509d0ac16fc668221d317a1abd7aeb3f1bb4daac89b63cd8fa8907",
+      "size_bytes": 904618
+    },
+    "prior_study/original_project/revised_experiment/data/dev_q_repairs.json": {
+      "sha256": "1753012d398bfa4829fe79db7616bbe2af20e0cfc59a992709f498b0286c1f9c",
+      "size_bytes": 3452
+    },
+    "prior_study/original_project/revised_experiment/data/corpus.jsonl": {
+      "sha256": "39fa694d8a4a8ffef39ac0efe8a8b574d57cf84cc919c7bdd6219d247f0b6658",
+      "size_bytes": 1381537
+    },
+    "generation/scoring_protocol_frozen.json": {
+      "sha256": "c3a6b274c1aa8f3c13f6665d4dd32f8aea9410eccf312780a949ba9461f4074e",
+      "size_bytes": 4542
+    },
+    "generation/scoring_protocol_frozen.sha256": {
+      "sha256": "bfa80ff43cddad4c7f4f4c7347b826028e180c327b0b6b80394e1a1b8fa54814",
+      "size_bytes": 95
+    },
+    "code/generation/score_generations.py": {
+      "sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+      "size_bytes": 28918
+    },
+    "generation/all_experiments/build_e12_inputs.py": {
+      "sha256": "59c0a71105fdb17cf7b58c6a8209d19bee5d9f6de2a834bb50f9f2e057b76aea",
+      "size_bytes": 29124
+    }
+  },
+  "source_validation": {
+    "validated_source_requests": 2300,
+    "exact_user_prompt_matches": 2300,
+    "exact_chatml_sha_matches": 2300,
+    "selection_and_reference_field_discrepancies": 0,
+    "e2_reused_e1_baseline_rows": 200,
+    "source_union_unique_prompts": 557
+  },
+  "prompt_hash_definition": "SHA256 of exact original gguf_generate.render(user_body) UTF8 bytes. User body bytes and references preserved.",
+  "no_generation_or_model_calls": true,
+  "source_response_records_read_by_builder": 0,
+  "warning": "Ready input is not a measured new attack success rate. Each independent scope run has its own exact deduplication budget."
+}

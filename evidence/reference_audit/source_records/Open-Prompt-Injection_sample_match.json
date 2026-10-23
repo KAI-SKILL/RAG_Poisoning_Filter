@@ -1,0 +1,10 @@
+{
+  "repository": "liu00222/Open-Prompt-Injection",
+  "full_sha": "fbed5cca347488f88363790ae3ae97c56116da6a",
+  "path": "OpenPromptInjection/attackers/CombineAttacker.py",
+  "url": "https://raw.githubusercontent.com/liu00222/Open-Prompt-Injection/fbed5cca347488f88363790ae3ae97c56116da6a/OpenPromptInjection/attackers/CombineAttacker.py",
+  "remote_sha256": "95babceff897c8c6f6657aedf43f1c08495aa8acb4f7797e15b6f91023a7a924",
+  "local_sha256": "95babceff897c8c6f6657aedf43f1c08495aa8acb4f7797e15b6f91023a7a924",
+  "identical_bytes": true,
+  "identical_lf": true
+}

@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "scope": "All11 slide scripts match both PowerPoint speaker notes and standalone English script after whitespace normalization",
+  "checks": [
+    {
+      "slide": 1,
+      "script_in_notes": true,
+      "script_in_md": true
+    },
+    {
+      "slide": 2,
+      "script_in_notes": true,
+      "script_in_md": true
+    },
+    {
+      "slide": 3,
+      "script_in_notes": true,
+      "script_in_md": true
+    },
+    {
+      "slide": 4,
+      "script_in_notes": true,
+      "script_in_md": true
+    },
+    {
+      "slide": 5,
+      "script_in_notes": true,
+      "script_in_md": true
+    },
+    {
+      "slide": 6,
+      "script_in_notes": true,
+      "script_in_md": true
+    },
+    {
+      "slide": 7,
+      "script_in_notes": true,
+      "script_in_md": true
+    },
+    {
+      "slide": 8,
+      "script_in_notes": true,
+      "script_in_md": true
+    },
+    {
+      "slide": 9,
+      "script_in_notes": true,
+      "script_in_md": true
+    },
+    {
+      "slide": 10,
+      "script_in_notes": true,
+      "script_in_md": true
+    },
+    {
+      "slide": 11,
+      "script_in_notes": true,
+      "script_in_md": true
+    }
+  ],
+  "pptx_sha256": "2a3761b4364b86e922f251acf4ba2e4ac217303c3e4cb2242f7a9a66db87633c",
+  "script_sha256": "fa69a4a314f9e3ce56b1586e9091c854141e68ce2b42337dc154602c06d05e6f",
+  "source_sha256": "2ce5d1cd94f61b31d4650e4b1fb30aecc83943c4c808ed99d35bec4f35ccffd6"
+}

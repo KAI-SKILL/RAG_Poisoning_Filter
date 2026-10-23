@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "method": "exact dot-product search over all specified corpus passages",
+  "scope": "declared shared small corpus, not full NQ/Wikipedia",
+  "corpus_sha256": "39fa694d8a4a8ffef39ac0efe8a8b574d57cf84cc919c7bdd6219d247f0b6658",
+  "query_sha256": "3927440448d2c745d6df2d15d2fecdc597a10674098c5535c45b3548c073ca71",
+  "script_sha256": "29e31fe93ef0764b4e25d11d36ab4ecbf0868638b401429dff3958edb958af97",
+  "feature_module_sha256": "4d9e9c20d225b0d92d96b29e218ef2027da8cf4c5270be1d5670e7a31dcd3c34",
+  "reused_embedding_cache": "revision_work/fresh_features/retrieval",
+  "corpus_passages": 1379,
+  "corpus_passages_by_split": {
+    "calibration": 600,
+    "dev": 179,
+    "test": 600
+  },
+  "separate_corpus_by_split": true,
+  "queries": 30,
+  "top_k": 20,
+  "total_seconds": 6.051521746000617,
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "query_split_counts": {
+    "dev": 30
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "status": "REVIEW_COMPLETED_WITH_TWO_BLOCKERS_BEFORE_PRODUCTION",
+  "created_utc": "2026-10-21T23:06:40.449855+00:00",
+  "scope": "Independent read-only code and pinned vendor-source review; no model loading, generation, network or experiment-result mutation.",
+  "reviewed_files": {
+    "code/generation/preflight_tokens.py": "09ed23542210db6f05e8cc818e63c96fe2ee8efef3539579b1feeae5a8e8ec66",
+    "code/generation/run_native_generation.py": "f7d8a4c3dd67e97ef52f654c52d5c71ef2ed4c52a004318dc08473f936ec2942",
+    "code/generation/launch_native_run.py": "9d859e70802db3af2b388d1ea715e3e60873f2850345b1981bfd470aceb1872f"
+  },
+  "must_fix": [
+    {
+      "id": "R1",
+      "severity": "high",
+      "finding": "No durable attempted-execution ledger across resume. The session-only HTTP attempt counter resets and the previous run manifest is overwritten. A server may finish a batch while the client times out or fails response validation, and a later resume legitimately reruns those prompts. Unique saved response count is therefore not total actual model executions.",
+      "required_change": "Persist each submitted batch key list and start/status/outcome before the POST, preserve attempts across resume, and distinguish committed unique answers, attempted prompt invocations, acknowledged generated outputs, and unknown-outcome attempts. Never describe attempted prompts as known successful executions."
+    },
+    {
+      "id": "R2",
+      "severity": "high",
+      "finding": "Launcher and runner default batch size is still16, although the actual16slot allocation failed under this8GiB environment. An ordinary default replay would repeat the known OOM setup.",
+      "required_change": "Use safe default8 or require explicit batch-size; preserve measured eight-slot configuration in the launch/config evidence."
+    }
+  ],
+  "verified": [
+    "Pinned vendor server_response_reader::post_tasks assigns task indices in original input order; wait_for_all places results by index before nonstream array serialization. The runner index/order mapping is correct for this exact source.",
+    "Real calibration-only8slot response archive contains eight results with index0..7, each echoed prompt exactly equal to its corresponding full ChatML input. Measured prompt/completion counts are integers and stop_type is eos.",
+    "SQLite successful-response rows commit only after validating the complete returned batch; a validation exception rolls back all new rows from that batch, preserving earlier committed batches.",
+    "Response table schema and config_sha256/config metadata are compatible with score_generations.py; finish_reason stop/length and measured integer token fields are required by that scorer.",
+    "Preflight receipt binds all56373 exactfullprompts, tokenizer/model/input hashes, 4096context with48newtokens, maximum2193inputtokens, nooverflow or silenttruncation.",
+    "Pinned vendor props contain defaults, paths/templates/build information and is_sleeping, but no per-process ID/start timestamp. Under this launcher freshactive startup,is_sleeping isfalse. Exact fullprops hashing is not currently proven to block resume, though is_sleeping should be kept outside the stable config fingerprint."
+  ],
+  "recommended_nonblocking_guards": [
+    "Require raw.prompt==exact ChatML and raw.index==input index because both identity witnesses exist in this server schema. Fail closed on malformed stop/token fields before committing.",
+    "Verify preflight model SHA equals the pinnedGGUF manifest hash and bind actual launcher model hash/native binary/sharedlibrary hashes to the execution configuration, rather than relying solely on the claimed source build receipt.",
+    "Store complete raw props as observation but use a stable projection for resume comparisons, excluding is_sleeping. Do not weaken frozen generation/backend settings.",
+    "elapsed_seconds currently stores batch_elapsed/number_of_items. Label this explicitly amortized batch cost, not measured individual request latency.",
+    "If an error occurs after db.close() in the completion path, exception cleanup currently calls rollback on a closed connection and can mask the original error. Make cleanup close-state aware while retaining committed results."
+  ],
+  "resources": {
+    "effective_memory_bytes": 8589934592,
+    "effective_cpu_equivalents": 8,
+    "measured_16slot_attempt": "OOM according to parent",
+    "measured_8slot_calibration_outputs": 8
+  },
+  "executed_model_calls_by_reviewer": 0,
+  "vendor_source": "working/expanded_generation_runtime/source/llama.cpp-0c1e57098bba43ac29e6e3b677cdceebdd22334f/tools/server",
+  "calibration_schema_archive": "working/generation_benchmark/native_calibration_results_8slots.json"
+}

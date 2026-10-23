@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "status": "COMPLETE_INPUT_PREPARATION_NO_MODEL_EXECUTION",
+  "policies": [
+    "none",
+    "LR__new_normal_1pct",
+    "LinearSVC__new_normal_1pct"
+  ],
+  "requested_rows": 176400,
+  "cases": 28800,
+  "test_questions": 1200,
+  "test_articles": 138,
+  "calibration_passages_excluded": 1200,
+  "template_counts": {
+    "abstention_induction__unsupported_notice": 1200,
+    "abstention_induction__withdrawn_record": 1200,
+    "authority_spoof__editorial_policy": 1200,
+    "authority_spoof__system_notice": 1200,
+    "boundary_spoof__transcript_turn": 1200,
+    "boundary_spoof__xml_boundary": 1200,
+    "citation_attribution_forgery__reference_card": 1200,
+    "citation_attribution_forgery__verification_note": 1200,
+    "direct_override__priority_clause": 1200,
+    "direct_override__replacement_request": 1200,
+    "factual_answer_substitution__correction_substitution": 1200,
+    "factual_answer_substitution__plain_substitution": 1200,
+    "fake_completion__assistant_prefill": 1200,
+    "fake_completion__completed_task": 1200,
+    "fewshot_demo__mapping_examples": 1200,
+    "fewshot_demo__qa_demonstration": 1200,
+    "multipassage_corroboration__consensus_cards": 1200,
+    "multipassage_corroboration__support_and_doubt": 1200,
+    "output_format_hijack__citation_label": 1200,
+    "output_format_hijack__json_field": 1200,
+    "quoted_instruction_laundering__annotation_handoff": 1200,
+    "quoted_instruction_laundering__quoted_final_answer": 1200,
+    "task_aligned_persuasion__answer_check": 1200,
+    "task_aligned_persuasion__grading_rationale": 1200
+  },
+  "input_source_hashes": {
+    "data/hosts.jsonl": "614c84b8012b59efcc85835226372c8e68b8fe83a00f5d3310e2a894e5207b89",
+    "data/corpus.jsonl": "d4f52747c0253fecaedc3d99f0dc57b5f63c399330d83843a577d34f81c52cef",
+    "data/cases.jsonl": "8034d0745f3ac689e41abc992d0257797471f3c1126a46f5efc47ee503f3e60c",
+    "results/retrieval_delivery.jsonl": "73083e23f2aed9c6b66b83c4b7127ebe430deac50e17b3b82d7e9e99468ae982",
+    "results/normal_retrieval.jsonl": "7e321543c87acd569e278e2c66c528af104949d601ba665156fb4af17efb820c",
+    "results/thresholds_frozen.json": "c82664eecddfb3a95d9f1a8265a41ce39c8f0a7768458abadce57c0c7f5848b8",
+    "results/execution_freeze.json": "debaeffa296ca310359703f2c661af5a76a32b7215ee20b705f1c825c7414098",
+    "prior_study/original_project/revised_experiment/prompts.py": "37bdf27a3df0fb04f13c372ca2973d7d03ba843b0e2136593fcc13e8d5c23575",
+    "prior_study/original_project/revised_experiment/gguf_generate.py": "892499a5e4d5fb1c31ae29d22fbd3d2a177bc81fc61f61098aef0ffaca72b0f6"
+  },
+  "producer_sha256": "32bace60111ee7292fc47a5b2335bd9408d47ee15d4981365dffcd67b16a7f29",
+  "chatml_render_function_ast_sha256": "558c1d73f94ddc4cff25fadc308806fddc8e67ca18f1d2a4e6c76e3dffc91476",
+  "prompt_semantics": "Exact original prior_study prompts.prompt and gguf_generate.render functions; selected document IDs are metadata only.",
+  "model_calls": 0,
+  "tokenizer_calls": 0,
+  "network_calls": 0,
+  "no_token_fit_claim": "Every unique prompt still requires real generator-tokenizer preflight before any production generation.",
+  "deduplication": "SHA-256 of exact complete ChatML UTF-8. Full strings checked equal whenever key reused. No response cache or output is read.",
+  "clean_target_scope": "host.target is numeric bookkeeping only; per-attack abstention objectives must compare same clean response using that attack case objective.",
+  "created_utc": "2026-10-21T22:58:02.378756+00:00",
+  "sqlite_file": "generation/input/generation_inputs.sqlite",
+  "sqlite_bytes": 1365520384,
+  "sqlite_sha256": "7d1ae61cf8b2163eec3654a2429f76f64088bba58df51ddb5a6cb96c7f1aa27b",
+  "unique_chat_prompts": 56373,
+  "exact_prompt_reused_request_rows": 120027,
+  "condition_policy_counts": [
+    {
+      "condition": "attack",
+      "policy": "LR__new_normal_1pct",
+      "rows": 28800
+    },
+    {
+      "condition": "attack",
+      "policy": "LinearSVC__new_normal_1pct",
+      "rows": 28800
+    },
+    {
+      "condition": "attack",
+      "policy": "none",
+      "rows": 28800
+    },
+    {
+      "condition": "clean",
+      "policy": "LR__new_normal_1pct",
+      "rows": 1200
+    },
+    {
+      "condition": "clean",
+      "policy": "LinearSVC__new_normal_1pct",
+      "rows": 1200
+    },
+    {
+      "condition": "clean",
+      "policy": "none",
+      "rows": 1200
+    },
+    {
+      "condition": "matched_benign",
+      "policy": "LR__new_normal_1pct",
+      "rows": 28800
+    },
+    {
+      "condition": "matched_benign",
+      "policy": "LinearSVC__new_normal_1pct",
+      "rows": 28800
+    },
+    {
+      "condition": "matched_benign",
+      "policy": "none",
+      "rows": 28800
+    }
+  ],
+  "objective_condition_policy_counts": [
+    {
+      "condition": "attack",
+      "objective": "abstain",
+      "policy": "LR__new_normal_1pct",
+      "rows": 2400
+    },
+    {
+      "condition": "attack",
+      "objective": "abstain",
+      "policy": "LinearSVC__new_normal_1pct",
+      "rows": 2400
+    },
+    {
+      "condition": "attack",
+      "objective": "abstain",
+      "policy": "none",
+      "rows": 2400
+    },
+    {
+      "condition": "attack",
+      "objective": "target_answer",
+      "policy": "LR__new_normal_1pct",
+      "rows": 26400
+    },
+    {
+      "condition": "attack",
+      "objective": "target_answer",
+      "policy": "LinearSVC__new_normal_1pct",
+      "rows": 26400
+    },
+    {
+      "condition": "attack",
+      "objective": "target_answer",
+      "policy": "none",
+      "rows": 26400
+    },
+    {
+      "condition": "clean",
+      "objective": "none",
+      "policy": "LR__new_normal_1pct",
+      "rows": 1200
+    },
+    {
+      "condition": "clean",
+      "objective": "none",
+      "policy": "LinearSVC__new_normal_1pct",
+      "rows": 1200
+    },
+    {
+      "condition": "clean",
+      "objective": "none",
+      "policy": "none",
+      "rows": 1200
+    },
+    {
+      "condition": "matched_benign",
+      "objective": "abstain",
+      "policy": "LR__new_normal_1pct",
+      "rows": 2400
+    },
+    {
+      "condition": "matched_benign",
+      "objective": "abstain",
+      "policy": "LinearSVC__new_normal_1pct",
+      "rows": 2400
+    },
+    {
+      "condition": "matched_benign",
+      "objective": "abstain",
+      "policy": "none",
+      "rows": 2400
+    },
+    {
+      "condition": "matched_benign",
+      "objective": "target_answer",
+      "policy": "LR__new_normal_1pct",
+      "rows": 26400
+    },
+    {
+      "condition": "matched_benign",
+      "objective": "target_answer",
+      "policy": "LinearSVC__new_normal_1pct",
+      "rows": 26400
+    },
+    {
+      "condition": "matched_benign",
+      "objective": "target_answer",
+      "policy": "none",
+      "rows": 26400
+    }
+  ],
+  "validation": {
+    "sqlite_integrity_check": "ok",
+    "foreign_key_check_errors": 0,
+    "all_full_prompt_hashes_recomputed": 56373,
+    "request_id_and_case_condition_policy_unique_constraints": true,
+    "all_inputs_rehashed_after_build": true,
+    "all_source_test_questions_present": true,
+    "no_calibration_questions_requested": true
+  },
+  "elapsed_seconds": 117.27693978499974
+}

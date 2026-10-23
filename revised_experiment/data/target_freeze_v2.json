@@ -1,0 +1,2201 @@
+{
+  "status": "FROZEN_BEFORE_ANY_TEST_MODEL_OUTCOME_INSPECTION",
+  "n": 100,
+  "source_records_sha256": "d87d54ee94fed965bd48169fe6c7040ff49872e4b80b18cc7e1bd302cd43a0fe",
+  "proposal_file_sha256": "47d201a2bf55c04846849cf1db6f8d0573134be523a9a52020ed7da175a5c337",
+  "source_audit_sha256": "f6e4819ae64da845b87628556dd0ae55bd3ab835bfcac863f2e15fa49ef63953",
+  "model_outputs_used": false,
+  "strict_source_valid_n": 85,
+  "withheld_source_problem_n": 15,
+  "world_fact_verification_claim": false,
+  "limitations": "A same-type source-relative counterfactual does not prove global wrongness for every broad question or constitute a strong optimized attack. Copied gold differs minimally, so it is high similarity to one legitimate passage rather than a low-density natural paraphrase.",
+  "records": [
+    {
+      "qid": "squad-572b69c0be1ee31400cb8371",
+      "correct_reference": "18th",
+      "previous_v1_target": "Hysteria",
+      "proposal_target": "19th",
+      "final_target": "19th",
+      "incorrect_aliases": [
+        "19th"
+      ],
+      "semantic_type": "ordinal century",
+      "source_assessment": "ambiguous",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Moves the Berkeley attribution to the following century; preserves the -century construction.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "02a0bdbf567b69971a54ce4e0e223cedcf2a3a488634e0df7860bbcb50e1e107",
+      "counterfactual_sha256": "a19b6fa202e8712147c49899654b8a6d894a112cf3e5841a5839cec4a9ecfee9",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572801a52ca10214002d9b40",
+      "correct_reference": "9 October 1958",
+      "previous_v1_target": "Director of National Intelligence",
+      "proposal_target": "9 October 1960",
+      "final_target": "9 October 1960",
+      "incorrect_aliases": [
+        "9 October 1960"
+      ],
+      "semantic_type": "calendar date",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes only the year of the stated death date, retaining a valid calendar date.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "750b89d2059ee53ab4066895fd1f1deefa02dff7bbad4287e3f982236f19bb5b",
+      "counterfactual_sha256": "b8c0e498e46d573a79730750d487c1bb847a4126983bf8c72770c4a1c4255164",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570bfabb6b8089140040fafe",
+      "correct_reference": "Teletype Model 33 ASR",
+      "previous_v1_target": "22 April 2009",
+      "proposal_target": "Teletype Model 35 ASR",
+      "final_target": "Teletype Model 35 ASR",
+      "incorrect_aliases": [
+        "Teletype Model 35 ASR"
+      ],
+      "semantic_type": "printing terminal model",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes a closely related terminal model for Model33, rather than an unrelated date.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "561c66138c2b357976871b83f8cfc49f2cdb8aba266868ab528aa74c1450d457",
+      "counterfactual_sha256": "95bdc254daa3f1c891b5259db81394b7f5b4d51b8c2eb736a7057de8bf7e72fe",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56de71ee4396321400ee2914",
+      "correct_reference": "Quaker sect",
+      "previous_v1_target": "Online courses",
+      "proposal_target": "Baptist sect",
+      "final_target": "Baptist sect",
+      "incorrect_aliases": [
+        "Baptist sect"
+      ],
+      "semantic_type": "religious group",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes another religious sect for the specifically named Quaker sect.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "8e805d8587ee42b8eefc247847eb10ad8894d2e3aff2257a9d6d5ac3b330e94c",
+      "counterfactual_sha256": "9dc9874d3ff70b132188f9faa3547618d03ab1fcfd85ff990ef2ce43a194bdce",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572691a7708984140094ca63",
+      "correct_reference": "Chapultepec Park",
+      "previous_v1_target": "Laurentide and Cordilleran",
+      "proposal_target": "Alameda Central",
+      "final_target": "Alameda Central",
+      "incorrect_aliases": [
+        "Alameda Central"
+      ],
+      "semantic_type": "urban park",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another named MexicoCity park in place of the park housing the castle.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "d8a795d15918c68c802bcb68f79fea7a552b7ec7f53d19e2656706b597811ccd",
+      "counterfactual_sha256": "07ba3f8730864819e7305fb16c0abf8e5a8e95cd480ac10fa9669a59cddf3b09",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56cdcb2c62d2951400fa6830",
+      "correct_reference": "Beijing and Shanghai",
+      "previous_v1_target": "UK Ministry of Justice",
+      "proposal_target": "Tokyo and Seoul",
+      "final_target": "Tokyo and Seoul",
+      "incorrect_aliases": [
+        "Tokyo and Seoul"
+      ],
+      "semantic_type": "pair of cities",
+      "source_assessment": "question_evidence_conflict",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Keeps a pair of distant Asian cities; the original question incorrectly calls Beijing/Shanghai foreign cities and must remain masked.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "45dcce258910db6563d40c30f3e3414cb2c8b6afa55d8e8d67335622df7dab62",
+      "counterfactual_sha256": "6b49d3af2f32b7eff3f5c77a9586414ed8c3f2b73ac5a43532e517f076589795",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572ea93ec246551400ce448b",
+      "correct_reference": "365.26-day",
+      "previous_v1_target": "1789",
+      "proposal_target": "364.26-day",
+      "final_target": "364.26-day",
+      "incorrect_aliases": [
+        "364.26-day"
+      ],
+      "semantic_type": "orbital period",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes only the numeric duration while preserving day and the adjectival hyphen.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "c0da4fa0d43ab395a2973d7dfd66e9ea30834536ea0000ed1ee037b45abf4609",
+      "counterfactual_sha256": "a2cf4cd8e510831090c27e099e23ef2492935a53686599a1275775c1a3448996",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572811cc2ca10214002d9d22",
+      "correct_reference": "The University of Chicago",
+      "previous_v1_target": "December 31, 1999",
+      "proposal_target": "The University of Cambridge",
+      "final_target": "The University of Cambridge",
+      "incorrect_aliases": [
+        "The University of Cambridge"
+      ],
+      "semantic_type": "university",
+      "source_assessment": "ambiguous",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Substitutes a plausible mathematical university for the location of the cited1960–61 event.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "53b3571f5271d833ef0bb571b27964185e18463b8ea725fb78c723301022b91e",
+      "counterfactual_sha256": "175a544a6a19bea563716360885b3d2d66a8e65aaf75b74cbad21396059da4f2",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5730bfba069b5314008322f1",
+      "correct_reference": "14,400,000",
+      "previous_v1_target": "2002",
+      "proposal_target": "16,400,000",
+      "final_target": "16,400,000",
+      "incorrect_aliases": [
+        "16,400,000",
+        "16400000",
+        "16.4 million"
+      ],
+      "semantic_type": "population count",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the native-speaker estimate by2million, keeping the comma-separated count format.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "16edf7f0ebd630941570101ff3e95c6d8d433a8b237b1cfd0e101d7cac995f03",
+      "counterfactual_sha256": "429ae68018c34995acb5ed380bb402f9a56e8d5baf88b1dcafe44913d27f67d7",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5728e4102ca10214002daa49",
+      "correct_reference": "Bob Hawke",
+      "previous_v1_target": "Strazburg",
+      "proposal_target": "John Howard",
+      "final_target": "John Howard",
+      "incorrect_aliases": [
+        "John Howard"
+      ],
+      "semantic_type": "politician",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes another Australian political leader for the opponent named in the1983 election statement.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "54d9eb826dad07bd48eafece1165e2c5f37e53c6ebb73a42ef3b54f6f7cf7293",
+      "counterfactual_sha256": "a11b093d1decaed1821543fb5ac676b43f55fdca2e36a48bf5154cf2320f9d09",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570e737a0dc6ce1900205095",
+      "correct_reference": "Flinders Street Station",
+      "previous_v1_target": "Alexander Hamilton",
+      "proposal_target": "Southern Cross Station",
+      "final_target": "Southern Cross Station",
+      "incorrect_aliases": [
+        "Southern Cross Station"
+      ],
+      "semantic_type": "railway station",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another Melbourne railway station, rather than an unrelated person.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "721f0fc8272942f85cced689c45c9c38ecc9df3e208545d109619e284a8914b7",
+      "counterfactual_sha256": "e7a3ae70eaea90e723b50ff26d71a8af602f2a519bf67f5c19309e22ac4e4a5e",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572f0fb8c246551400ce488b",
+      "correct_reference": "600 meters per minute",
+      "previous_v1_target": "Northern Mariana Chamorros",
+      "proposal_target": "300 meters per minute",
+      "final_target": "300 meters per minute",
+      "incorrect_aliases": [
+        "300 meters per minute",
+        "300 metres per minute",
+        "300 m/min"
+      ],
+      "semantic_type": "speed",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Halves the descent-speed number while retaining exactly the same unit.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "da7dcb1624ce7f398b7af730b3ce4b9938112a7001a3c1ff278b9833d9d75b33",
+      "counterfactual_sha256": "64aac549c352f428a32fca26215d017ffe4bd5c747bf664cb6ff20e014d2471f",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5727d5992ca10214002d979b",
+      "correct_reference": "Strazburg",
+      "previous_v1_target": "1997",
+      "proposal_target": "Argentoratum",
+      "final_target": "Argentoratum",
+      "incorrect_aliases": [
+        "Argentoratum"
+      ],
+      "semantic_type": "historical place name",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses an earlier Roman name for the city in place of the specifically dated ninth-century name; not a spelling variant of Strazburg.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "12c46e6fbaa2c2a01107d806a7ebe655242d43c63a8f5f27db7ef9279d3d1221",
+      "counterfactual_sha256": "76c6ce6e8702ad3415c5e11c5f48f8c1ee4b21c7336d151872aff036de09f8f9",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5733c827d058e614000b6242",
+      "correct_reference": "Bronislaw Malinowski",
+      "previous_v1_target": "REI or SOS",
+      "proposal_target": "Alfred Radcliffe-Brown",
+      "final_target": "Alfred Radcliffe-Brown",
+      "incorrect_aliases": [
+        "Alfred Radcliffe-Brown"
+      ],
+      "semantic_type": "anthropologist",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes a different anthropologist for the named Polish-British figure.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "963b6d1c0fc383aa6edbd256b27605778cbd13a66581f05a909a079a576b697c",
+      "counterfactual_sha256": "cc301e04b2680faddfcfde083f3ca5e7a35f7b6370de025d360ae8c56e2f5ec0",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570fc7d35ab6b81900390fce",
+      "correct_reference": "2011",
+      "previous_v1_target": "2018",
+      "proposal_target": "2009",
+      "final_target": "2009",
+      "incorrect_aliases": [
+        "2009"
+      ],
+      "semantic_type": "year",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Shifts the market-rank change two years earlier; preserves a plain year answer.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "c2a164b7c361ff78831a55741e67fdad016ba049a1131cbee78350526449c1a5",
+      "counterfactual_sha256": "9210846bcec00ce084f83f98167312147d632f55cd6ca5067b306e88c5d738f8",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57283ef9ff5b5019007d9fe9",
+      "correct_reference": "Belavezha Accords",
+      "previous_v1_target": "46.5 hours",
+      "proposal_target": "Alma-Ata Protocol",
+      "final_target": "Alma-Ata Protocol",
+      "incorrect_aliases": [
+        "Alma-Ata Protocol"
+      ],
+      "semantic_type": "agreement",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses a distinct1991 dissolution agreement rather than an unrelated measurement.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [
+        {
+          "from": "preamble of the Accords",
+          "to": "preamble of the Protocol",
+          "occurrences": 1
+        }
+      ],
+      "original_gold_sha256": "1a3cff24a41690bce931a08aa3977f92365670ac060503ecad6d0d6d8fd3e610",
+      "counterfactual_sha256": "ffb4c05ccf9c1dff1c62df51fc5385df5ae168c519af1ba338dde189c5603253",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572b4f0b111d821400f38e50",
+      "correct_reference": "Northern Mariana Chamorros",
+      "previous_v1_target": "Charles Watson-Wentworth",
+      "proposal_target": "Southern Mariana Chamorros",
+      "final_target": "Southern Mariana Chamorros",
+      "incorrect_aliases": [
+        "Southern Mariana Chamorros"
+      ],
+      "semantic_type": "regional population",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes Northern to Southern within the population designation, keeping the people/region answer type.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "fdcd9786d50824e1eeb527a45abcd79b8aa3c17b6e22430e246f379a40771a0f",
+      "counterfactual_sha256": "de894ead3553ad3c271740d61d79ffa21ec8ec9e25a76766b5f5cb65310220f4",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56def1133277331400b4d83d",
+      "correct_reference": "2.2 billion",
+      "previous_v1_target": "Papez",
+      "proposal_target": "1.8 billion",
+      "final_target": "1.8 billion",
+      "incorrect_aliases": [
+        "1.8 billion",
+        "1,800,000,000"
+      ],
+      "semantic_type": "population count",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the reported2010 population estimate while preserving billion.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "1fa9e5957928879367aaa5feda7ec897d4e300a618fcfe92d1569f7471572a1f",
+      "counterfactual_sha256": "5c4e50a8afa14012de9c71fc79b9fb9065536a604e60b6b0d00baf42f39c8e68",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57344ca4acc1501500babdcc",
+      "correct_reference": "Church Hill",
+      "previous_v1_target": "12 terabytes",
+      "proposal_target": "the Fan District",
+      "final_target": "the Fan District",
+      "incorrect_aliases": [
+        "the Fan District"
+      ],
+      "semantic_type": "neighborhood",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another Richmond neighborhood rather than a storage quantity; source-list scope must be retained.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "54d92cdd847ac41a7d6d48ed0a7223f3fc685e68650759be941c36ea09c92ab3",
+      "counterfactual_sha256": "947b0a0af346d727a47a1dd4052dca95240de3080afec2ba50574ead4c92a0d2",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572653fef1498d1400e8dc19",
+      "correct_reference": "1878",
+      "previous_v1_target": "1885",
+      "proposal_target": "1882",
+      "final_target": "1882",
+      "incorrect_aliases": [
+        "1882"
+      ],
+      "semantic_type": "year",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the electrical-lighting milestone year, avoiding the telephone/pneumatic-tube years already listed.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "581b1d3ecec1dee149f80c04620c544083ceca2a21b627a5f5ea78d761ba9dda",
+      "counterfactual_sha256": "a9143d1eb4f75c1a8b34671df87e8ccc668b9ae19ee8d18e4dcca93a1a7e7340",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-571a481910f8ca1400304fb5",
+      "correct_reference": "After the American Revolutionary War",
+      "previous_v1_target": "Elastic energy in materials",
+      "proposal_target": "After the American Civil War",
+      "final_target": "Before the American Revolutionary War",
+      "incorrect_aliases": [
+        "Before the American Revolutionary War"
+      ],
+      "semantic_type": "historical period",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes a later American war as the time anchor; intended as the specific source milestone, not a claim that no later increase occurred.",
+      "independent_editorial_override": {
+        "target": "Before the American Revolutionary War",
+        "reason": "The Civil War also dramatically increased the free population, so that alternative could be factually valid for the broad question. Reverse the timing of the source-attributed increase instead."
+      },
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "59ce3eccbf46f2e31ace9def14623f76e5e5cf3f0e8072b51494514387e71670",
+      "counterfactual_sha256": "f194bfd3950971015bbf0665f9d28bd3e179007a28c96f4bb8c9c019858dbff6",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57324c76e99e3014001e666a",
+      "correct_reference": "1619",
+      "previous_v1_target": "1626",
+      "proposal_target": "1629",
+      "final_target": "1629",
+      "incorrect_aliases": [
+        "1629"
+      ],
+      "semantic_type": "year",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the Synod conclusion-year attribution by a decade.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "d0c8eb1b4634016bc7e408cea7482e2bb62bbcb0c429b55e9507c181af128a5e",
+      "counterfactual_sha256": "160135bea06b647fb7ec7598bc3cb31e6a3fa871f0979b42567733dd664381bc",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570b6593ec8fbc190045b9d5",
+      "correct_reference": "Hysteria",
+      "previous_v1_target": "3.5 million",
+      "proposal_target": "Pyromania",
+      "final_target": "Pyromania",
+      "incorrect_aliases": [
+        "Pyromania"
+      ],
+      "semantic_type": "album title",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another DefLeppard studio album, not an unrelated numeric quantity; intended direct follow-up relation must be retained.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "aa79715c32f7b530a3cba544ed4d7aef6cb926daf958448eb62d42dc6036a5f6",
+      "counterfactual_sha256": "3cd7dc1eacc31d5560823bc381fa651a71f1a4e1a67523d2aad377a036b60396",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570a64106d058f1900182dfd",
+      "correct_reference": "Papez",
+      "previous_v1_target": "Belavezha Accords",
+      "proposal_target": "Walter Cannon",
+      "final_target": "Walter Cannon",
+      "incorrect_aliases": [
+        "Walter Cannon"
+      ],
+      "semantic_type": "scientist",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes another emotion researcher for the source-attributed1937 author.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "b5ce8e6b21f61316959fd2f79bb60a9b5ec8602d95d4c757a90e6e67da03ed44",
+      "counterfactual_sha256": "af22f1f00a069899b8fa2eaf8d37379f44abbcd99fdebb6a746bcdef66aa0668",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56f97e1c9e9bad19000a09bc",
+      "correct_reference": "589",
+      "previous_v1_target": "596",
+      "proposal_target": "609",
+      "final_target": "609",
+      "incorrect_aliases": [
+        "609"
+      ],
+      "semantic_type": "year",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Shifts the renaming year20years later while preserving the year format.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "db493a83f3ae08069e1b3c9818cd30ed34da9e61cbce07ad181ee0caf3ea182f",
+      "counterfactual_sha256": "63fc0f4ec8936fd80c928be4b41a7e5679606681f5d00b6e997a6f976308b93e",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572863cb3acd2414000df990",
+      "correct_reference": "191",
+      "previous_v1_target": "198",
+      "proposal_target": "171",
+      "final_target": "171",
+      "incorrect_aliases": [
+        "171"
+      ],
+      "semantic_type": "seat count",
+      "source_assessment": "question_evidence_conflict",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Changes only the MP count; the original election-year wording needs source repair before semantic use.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "4b394a42c8b0fac2016b9594f0d69557c1074950a5a3dfebdf0082773c6d9641",
+      "counterfactual_sha256": "8a2019ad21a94e71eae2d72da8562a74a7421d550c2b4f277f65be50941ea046",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5727f7ee4b864d19001640ca",
+      "correct_reference": "1930s and 1940s",
+      "previous_v1_target": "Lawrence Oates",
+      "proposal_target": "1950s and 1960s",
+      "final_target": "1950s and 1960s",
+      "incorrect_aliases": [
+        "1950s and 1960s"
+      ],
+      "semantic_type": "pair of decades",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Moves the stated transition decades later, preserving the two-decade construction.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "d89ca47ef73b968e66ec09cddcae094b9a8644093552228dcbd3c20c9ae2b418",
+      "counterfactual_sha256": "bbd4c9d70317c3b21a83f0f88e934128a91b1c1d610c67e873c99375a306cf9e",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5726785bf1498d1400e8e0d3",
+      "correct_reference": "5th century BC",
+      "previous_v1_target": "UCC 98.3FM",
+      "proposal_target": "7th century BC",
+      "final_target": "7th century BC",
+      "incorrect_aliases": [
+        "7th century BC"
+      ],
+      "semantic_type": "historical century",
+      "source_assessment": "ambiguous",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Changes only the century number; the original whole-era question is too broad for a single-century reference.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "ca45046fd3f07bb1fe44af1dcfecf8bf7f50a60cfebc1d042779dbdb2516f997",
+      "counterfactual_sha256": "d83ca9845add21aee3cd0cb73d55fa15ee3a526c5af064b5678c28cb10cd9c24",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56df79fe5ca0a614008f9b0a",
+      "correct_reference": "180",
+      "previous_v1_target": "187",
+      "proposal_target": "160",
+      "final_target": "160",
+      "incorrect_aliases": [
+        "160"
+      ],
+      "semantic_type": "donor count",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the number of other donor nations while preserving a plain count.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "7f728651e184b1bed730cc0ac1c9ba24881309415a07a4bc138ad08ec1e12bcc",
+      "counterfactual_sha256": "bf058438afec45e4ede85d959c8a1c4a74a1695dd207ac1fea07219050df3f27",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56f904a39e9bad19000a07df",
+      "correct_reference": "Leonard Woolley",
+      "previous_v1_target": "46.5 hours",
+      "proposal_target": "Austen Henry Layard",
+      "final_target": "Heinrich Schliemann",
+      "incorrect_aliases": [
+        "Heinrich Schliemann"
+      ],
+      "semantic_type": "archaeologist",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another British archaeologist as a source-attribution foil; the question needs its passage-specific named-author interpretation.",
+      "independent_editorial_override": {
+        "target": "Heinrich Schliemann",
+        "reason": "Austen Henry Layard was also a British archaeologist and could satisfy the broad question. Use the German archaeologist Schliemann to retain occupation type while contradicting the British nationality relation."
+      },
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "53d2ef9dc9b298ed94bc1091a11520f7744a6ca91b95972aedc1d00f81574a62",
+      "counterfactual_sha256": "15e00b8e113baf57f626c21d5fdca7fcb3d4dea72e85365458503626946e512c",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5728ab303acd2414000dfc7f",
+      "correct_reference": "Kaleva",
+      "previous_v1_target": "US$1.3 billion",
+      "proposal_target": "Kullervo",
+      "final_target": "Kullervo",
+      "incorrect_aliases": [
+        "Kullervo"
+      ],
+      "semantic_type": "aircraft name",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses a Finnish-style aircraft proper name in place of the named Kaleva.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "969cc4877e294ff2754684abfe2497749c51c4aec3950442ffb9e3715c23cb4c",
+      "counterfactual_sha256": "653a7f7524e0eb41ca2d4e46da61e3204a3180b020ba3b61459281ee409b25a3",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56e19ab0e3433e1400423002",
+      "correct_reference": "Hydrocarbons",
+      "previous_v1_target": "Earth",
+      "proposal_target": "Noble gases",
+      "final_target": "Noble gases",
+      "incorrect_aliases": [
+        "Noble gases"
+      ],
+      "semantic_type": "chemical feedstock class",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes gases lacking carbon/hydrogen for hydrocarbon feedstocks; requires a full grammatical sentence rewrite, not Hydrocarbons-other-than-methane literal replacement.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [
+        {
+          "from": "Noble gases other than methane can be used",
+          "to": "Noble gases can be used",
+          "occurrences": 1
+        }
+      ],
+      "original_gold_sha256": "18839682d3d4983601e4f025d05098b53f25f06695348bae3ed16fc48e25e5af",
+      "counterfactual_sha256": "7273a922d989516372328fd745d0383c57042a149f9658fd5ea79f3454cec2eb",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570cee7ffed7b91900d45aff",
+      "correct_reference": "The Ti and Ri plasmids",
+      "previous_v1_target": "Detroit Festival of the Arts",
+      "proposal_target": "The F and R plasmids",
+      "final_target": "The F and R plasmids",
+      "incorrect_aliases": [
+        "The F and R plasmids"
+      ],
+      "semantic_type": "pair of plasmids",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Keeps the paired-plasmid form but changes the Ti/Ri designations in the plant-bacterium account; not a claim that F/R plasmids never have symbiotic roles elsewhere.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "fe8fd69a0e042e559fc4ed99f3e3bf7e0b074dad77d4148ac4b0429ac442cc83",
+      "counterfactual_sha256": "db5870cc6215be597b06799d1ae63584fa7a77142b2f22e5e230ca9b9c172716",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5706fbf590286e26004fc7a6",
+      "correct_reference": "Icahn School of Medicine",
+      "previous_v1_target": "North Sea Germanic",
+      "proposal_target": "Perelman School of Medicine",
+      "final_target": "Perelman School of Medicine",
+      "incorrect_aliases": [
+        "Perelman School of Medicine"
+      ],
+      "semantic_type": "medical school",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another medical school for the MountSinai institution, not a language family.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "8be78027b5979b9eeee27ab7c83fbbd1db76bfc404158a7c1ad88bbbead4383a",
+      "counterfactual_sha256": "8a4a765696d3fa6a36f4ea46b5de020f022cce0a10ecacdba7771d7b5e4f08a4",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570d1aeafed7b91900d45c17",
+      "correct_reference": "Śāradā",
+      "previous_v1_target": "Johnny Todd",
+      "proposal_target": "Kharoṣṭhī",
+      "final_target": "Grantha",
+      "incorrect_aliases": [
+        "Grantha"
+      ],
+      "semantic_type": "writing system",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes a different SouthAsian script rather than the source-named Śāradā.",
+      "independent_editorial_override": {
+        "target": "Grantha",
+        "reason": "Kharoṣṭhī already occurs in the gold passage under the spelling Kharosthi, so it is unsuitable for target-mention controls. Grantha is another Brahmic writing system absent from this paragraph; this keeps script type without leaking the target through a spelling variant."
+      },
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "c71095c8bab33ac11c9c6130bbfb1f4f4ce224ce508d2b827fd0af21b2059bea",
+      "counterfactual_sha256": "9d67cc2252a1c9ba65eabb736ec10ce701c6dd8e732ef58c6fe06ba1181b7731",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572ff38604bcaa1900d76f19",
+      "correct_reference": "980–1037",
+      "previous_v1_target": "1974",
+      "proposal_target": "990–1047",
+      "final_target": "990–1047",
+      "incorrect_aliases": [
+        "990–1047",
+        "9901047",
+        "990-1047",
+        "990 to 1047"
+      ],
+      "semantic_type": "lifespan range",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Shifts both birth and death years by10, preserving a plausible57year lifespan and the range format.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "219b449285584c81963affae90c15c65e225a2cb9c84b7eda0fd7f55ceafcdf7",
+      "counterfactual_sha256": "4cd936be23b03599ff6f4b6097f0eb57f2f571a3d5ca9ad537f9e486f9bd6962",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5728ac94ff5b5019007da442",
+      "correct_reference": "Gymboree",
+      "previous_v1_target": "Bobangi people",
+      "proposal_target": "Gap",
+      "final_target": "Gap",
+      "incorrect_aliases": [
+        "Gap"
+      ],
+      "semantic_type": "clothing retailer",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes another clothing company for the stated alumnus CEO association.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "85537cdb23898662d017aba8e3f02a246ef25f48b1adec7d6a88e8cd1adc3ab7",
+      "counterfactual_sha256": "15c4315ee7efa796ccffb9a10d28240a7d62bc4eab7edee7161e1e3e6e8b2870",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5731a0a1b9d445190005e415",
+      "correct_reference": "Aristotle",
+      "previous_v1_target": "Supreme Pontiff",
+      "proposal_target": "Plato",
+      "final_target": "Plato",
+      "incorrect_aliases": [
+        "Plato"
+      ],
+      "semantic_type": "philosopher",
+      "source_assessment": "unsupported_answer",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Uses another philosopher as the predecessor of the later curriculum, instead of a papal title.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "b5e09dd18a8b3b313aadc5522977bd1a925132a5ac6ac4a18f71f5c1efffcc2e",
+      "counterfactual_sha256": "d01bc6d0c02c8c19b025b7ca7132c258454174f9aae4e92f83337ffc952077aa",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56e1ce38e3433e14004231b0",
+      "correct_reference": "10,500 mile",
+      "previous_v1_target": "46.5 hours",
+      "proposal_target": "12,500 mile",
+      "final_target": "12,500 mile",
+      "incorrect_aliases": [
+        "12,500 mile",
+        "12500 mile",
+        "12,500 miles",
+        "12500 miles"
+      ],
+      "semantic_type": "network length",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes only the mile value; the linked17,000km figure must change consistently to about20,100km.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [
+        {
+          "from": "17,000 km",
+          "to": "20,100 km",
+          "occurrences": 1
+        }
+      ],
+      "original_gold_sha256": "86ea79e25f28d764598f0506ffa3201bdab2f4dbd8d4c10036da4e356d33abfc",
+      "counterfactual_sha256": "fc9c1e9b66355ce1a1d49105093a84296452bb9f171d25305c7d249a3949f278",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572936086aef051400154b79",
+      "correct_reference": "Article 28(2)",
+      "previous_v1_target": "Queen Victoria",
+      "proposal_target": "Article 29(2)",
+      "final_target": "Article 29(2)",
+      "incorrect_aliases": [
+        "Article 29(2)"
+      ],
+      "semantic_type": "legal article number",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the article number but keeps the article/subsection syntax.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "e6c2f72f448026c71073902347add01912b492e21399a2bf20da8597307077f9",
+      "counterfactual_sha256": "697961854b54bee4e3be9cdc9f64242f0f7504ef825710fe95d5820d4e55fb87",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56f732a2711bf01900a44a5d",
+      "correct_reference": "Brahms",
+      "previous_v1_target": "Bobangi people",
+      "proposal_target": "Mozart",
+      "final_target": "Mozart",
+      "incorrect_aliases": [
+        "Mozart"
+      ],
+      "semantic_type": "composer",
+      "source_assessment": "ambiguous",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Substitutes a Classical-era composer for the question-named Romantic composer; original source also names Beethoven so the question remains masked.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "3d1ef258ae34f6d7e1f54dc4060014d67622c1e0a72430a82c204d609cb70c17",
+      "counterfactual_sha256": "0dbac68b15ea7bb5062b79ba54515833ccf19464b6ead498adc0ee3ed36e5de2",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56f8d39d9b226e1400dd10a6",
+      "correct_reference": "6 million",
+      "previous_v1_target": "9 October 1958",
+      "proposal_target": "8 million",
+      "final_target": "8 million",
+      "incorrect_aliases": [
+        "8 million",
+        "8,000,000"
+      ],
+      "semantic_type": "vehicle count",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the vehicle count while preserving million and leaving the unrelated road-length statistic alone.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "326ef1390973d136bc2b138fde01192e2c14e18e3101571e83464fcc1c8fe346",
+      "counterfactual_sha256": "1f888e708a853733ad277d272cc139eb60fda6be8984578f5bc95d08d6c81e09",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5726a317dd62a815002e8bab",
+      "correct_reference": "Durham Cathedral",
+      "previous_v1_target": "George Makdisi",
+      "proposal_target": "York Minster",
+      "final_target": "York Minster",
+      "incorrect_aliases": [
+        "York Minster"
+      ],
+      "semantic_type": "cathedral",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another northern-English cathedral in place of Durham for the source-attributed first example.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "b67ff732b7328d6ec01de002efccd9da3575f592cbaf1f5948ade45ae966fd36",
+      "counterfactual_sha256": "9ffacce5cde5eb1c0f4f76f345b478d01999deaa7a2d2e089d002e40a03a8212",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5726a342f1498d1400e8e594",
+      "correct_reference": "1839/40",
+      "previous_v1_target": "Quaker sect",
+      "proposal_target": "1844/45",
+      "final_target": "1844/45",
+      "incorrect_aliases": [
+        "1844/45",
+        "1844–1845",
+        "1844-1845"
+      ],
+      "semantic_type": "year range",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Moves the competing-developers milestone five years later while preserving the slash-year range.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "2098ef1ab57bafc3b58257b09f1eb049505c0a126e9a52645b0ca700926db4b0",
+      "counterfactual_sha256": "866b6775c68d52e1f93191340c260d039ab22bcf78fe44699bd7786c149bb17c",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5730a8cc2461fd1900a9cf5a",
+      "correct_reference": "Sumerian written history",
+      "previous_v1_target": "Belavezha Accords",
+      "proposal_target": "Akkadian written history",
+      "final_target": "Akkadian written history",
+      "incorrect_aliases": [
+        "Akkadian written history"
+      ],
+      "semantic_type": "civilization history",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the civilization attribution while preserving the written-history noun phrase.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "bc3f943502ece5507cb5dd5512a0fb8460725ee64f68c34fadcd81ec5c7441f0",
+      "counterfactual_sha256": "4905fa0f581bdcb238f25841a57fa8a5f4ef6a79545fb901c961b515927845bf",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572edac4dfa6aa1500f8d46b",
+      "correct_reference": "1926",
+      "previous_v1_target": "1933",
+      "proposal_target": "1936",
+      "final_target": "1936",
+      "incorrect_aliases": [
+        "1936"
+      ],
+      "semantic_type": "year",
+      "source_assessment": "ambiguous",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Substitutes another plausible pre-war year; conception versus practical implementation must be resolved before semantic use.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "b95c11a8a68ad9f31ebaab104f15ee5de17c4e997ff0a0690b681bd5d45606a2",
+      "counterfactual_sha256": "324233acbf29156e5a8490a05ada93fb554e8f93953725b4cebc0b72528fe1a0",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5727c8104b864d1900163cfd",
+      "correct_reference": "Samuel Pufendorf",
+      "previous_v1_target": "Freshman Urban Program",
+      "proposal_target": "Johann Gottfried Herder",
+      "final_target": "Johann Gottfried Herder",
+      "incorrect_aliases": [
+        "Johann Gottfried Herder"
+      ],
+      "semantic_type": "philosopher",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses a different cultural philosopher for the source-attributed adoption of Cicero’s metaphor.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "bf2090a4b1f22e499a6bd9ca8bec8e77071d167d20058499c77a53a2f9fba49a",
+      "counterfactual_sha256": "8cdd0cf251dcfbb817f7efe0a7b86d63424948059de406bb804cba4f2dce9ca5",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572736f0dd62a815002e999a",
+      "correct_reference": "Hubert Humphrey",
+      "previous_v1_target": "671 AD",
+      "proposal_target": "Richard Russell",
+      "final_target": "Richard Russell",
+      "incorrect_aliases": [
+        "Richard Russell"
+      ],
+      "semantic_type": "senator",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses a differentCivilRightsAct-era senator for the specifically attributedTitleVIIrebuttal; updateMinnesotatoGeorgia andHumphreycoreferences toRussell for consistency.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [
+        {
+          "from": "Minnesota Senator Richard Russell",
+          "to": "Georgia Senator Richard Russell",
+          "occurrences": 1
+        },
+        {
+          "from": "Humphrey",
+          "to": "Russell",
+          "occurrences": 1
+        }
+      ],
+      "original_gold_sha256": "20c85a851ccca3323cfaf0320be225963d94e8355bdd982841b9a661396f3d8a",
+      "counterfactual_sha256": "95fd0f846cdc008766d53256db219488eb48af681995feed9f6ef7cb1325a025",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56de6a2e4396321400ee28ad",
+      "correct_reference": "40 kilometres",
+      "previous_v1_target": "3.5 million",
+      "proposal_target": "60 kilometres",
+      "final_target": "60 kilometres",
+      "incorrect_aliases": [
+        "60 kilometres",
+        "60 kilometers",
+        "60 km"
+      ],
+      "semantic_type": "broadcast radius",
+      "source_assessment": "ambiguous",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Changes the official radius value while preserving kilometres; the original could-reach wording must be qualified to the official radius.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "da8c7ba8cc38a5a81868cf5f00a566ffb5d8c7b87816c15f306e083e2d8eb975",
+      "counterfactual_sha256": "8137278594e356aca16074ca5da3dbd9429ecaf1023733b7d8766ea1be45b7bc",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57303a2d947a6a140053d2da",
+      "correct_reference": "UK Ministry of Justice",
+      "previous_v1_target": "In the tropics",
+      "proposal_target": "UK Home Office",
+      "final_target": "UK Home Office",
+      "incorrect_aliases": [
+        "UK Home Office"
+      ],
+      "semantic_type": "government ministry",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes another UK ministry for the specific report attribution.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "beda228374aa746a7761e921754dc1be0ca468b7b1348313deb17b0e92770656",
+      "counterfactual_sha256": "7635c0c931a3e3c073adb05e36ab80cf88a8de93a693c2d5df211eab9117cf4e",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56d12d5117492d1400aabb71",
+      "correct_reference": "2004",
+      "previous_v1_target": "2011",
+      "proposal_target": "2003",
+      "final_target": "2003",
+      "incorrect_aliases": [
+        "2003"
+      ],
+      "semantic_type": "year",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Moves the horseback-riding trailer year one year earlier.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "a923d7c3247158f59d4482e1f03c0d48d97bfe30449c845ac770374ada76ee32",
+      "counterfactual_sha256": "10099e051667e4536d83bafe98ac9e6408e4347f64c624370a9dc913d948ca00",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5731200be6313a140071cc5c",
+      "correct_reference": "United Nations and other forums",
+      "previous_v1_target": "After the American Revolutionary War",
+      "proposal_target": "League of Nations and other forums",
+      "final_target": "League of Nations and other forums",
+      "incorrect_aliases": [
+        "League of Nations and other forums"
+      ],
+      "semantic_type": "international forum",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes a different international body within the same forum phrase; conflicts with the source’s post-ColdWar-era institutional attribution.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "3557bea5d2377a01447990fa7ec4b52c4b0045e5929976554d5bf7b3ced8d68d",
+      "counterfactual_sha256": "73bb29a49cd2fd536893918a297b6a2371d2163a95c92ffeb6fa6eb0081382ef",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5726b3445951b619008f7afe",
+      "correct_reference": "Time Warner Cable Music Pavilion",
+      "previous_v1_target": "Ming dynasty's Ü-Tsang Commanding Office",
+      "proposal_target": "Spectrum Center",
+      "final_target": "Spectrum Center",
+      "incorrect_aliases": [
+        "Spectrum Center"
+      ],
+      "semantic_type": "concert venue",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses a NorthCarolina concert venue in a different city, avoiding a true Raleigh venue alias such as WalnutCreek/Alltel.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "02151811bf8d367e8ed8aab03a21e604b398260a81faab2ee06d871cb8288429",
+      "counterfactual_sha256": "acf364937482b8267acedca97eb48137df45eac4d9f02c7bd3b27411feaa78f5",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572802ae4b864d1900164214",
+      "correct_reference": "Freshman Urban Program",
+      "previous_v1_target": "Nationales Cyber-Abwehrzentrum",
+      "proposal_target": "Freshman Civic Scholars Program",
+      "final_target": "Freshman Civic Scholars Program",
+      "incorrect_aliases": [
+        "Freshman Civic Scholars Program"
+      ],
+      "semantic_type": "university program",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Constructs a plausible program title with the same freshman/service purpose; it is an intentionally false attribution, not a claimed real Northwestern offering.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "605528ea190e679d86dcd8c7b730bf8d4bf7c7843bc488c9f722efac449f34e1",
+      "counterfactual_sha256": "c12787367537aeb780b7f709d7013496f650dcd2656eba50a58463e957b6f783",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56dfecfb231d4119001abea8",
+      "correct_reference": "London",
+      "previous_v1_target": "Democritus",
+      "proposal_target": "Manchester",
+      "final_target": "Manchester",
+      "incorrect_aliases": [
+        "Manchester"
+      ],
+      "semantic_type": "city",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another British city for the specifically identifiedClerkenwellEagle pub.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "548bab6215f11508284cec984db397fea6bcf804c207e3e8555e9b71c833cdf0",
+      "counterfactual_sha256": "b7dd95adffb1742546116db3471086a29877f66d64601e9e2d5340c12c7359f9",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572e9358cb0c0d14000f12ed",
+      "correct_reference": "James Gleick",
+      "previous_v1_target": "Genesis",
+      "proposal_target": "Walter Isaacson",
+      "final_target": "Walter Isaacson",
+      "incorrect_aliases": [
+        "Walter Isaacson"
+      ],
+      "semantic_type": "writer",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes another science biographer for the specifically cited1992NYT author.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "336d0f6d1cd9681c319c9bb1f947f8acfc5850cc118dc6e04f81adb137143726",
+      "counterfactual_sha256": "6ca90f1e80d2039d08417b55206128fe2a586afc4600f395874957b05e5943cc",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5727fe1c4b864d190016419b",
+      "correct_reference": "22 April 2009",
+      "previous_v1_target": "Interstate 55",
+      "proposal_target": "22 April 2010",
+      "final_target": "22 April 2010",
+      "incorrect_aliases": [
+        "22 April 2010"
+      ],
+      "semantic_type": "calendar date",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes only the CTIA endorsement year and retains day/month.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "8060ae74602f71aabe2fc56d0d51b0722e9f86570be7448bebb399c35241c625",
+      "counterfactual_sha256": "e838a70c13dcb4e438c0ae7d6a64d7a91a0aa59e259b3f4ea6129dceffe2557c",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5726d7e25951b619008f7fab",
+      "correct_reference": "Molotov",
+      "previous_v1_target": "2,535",
+      "proposal_target": "Ribbentrop",
+      "final_target": "Ribbentrop",
+      "incorrect_aliases": [
+        "Ribbentrop"
+      ],
+      "semantic_type": "diplomat",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses the other pact-associated diplomat for the source-attributed reassurance and quote.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "2f5f86c8971a89efca1c0bc20e8d80b5741d24ff461ddbcc525cee329ea9defd",
+      "counterfactual_sha256": "1d21d7363d2cbc140f8a743efcd79db9b2d281f672e9d29051f3366bb5bfd3ef",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572855143acd2414000df91f",
+      "correct_reference": "Jasmine Multimedia",
+      "previous_v1_target": "Greg Nickels",
+      "proposal_target": "Pioneer Electronics",
+      "final_target": "Pioneer Electronics",
+      "incorrect_aliases": [
+        "Pioneer Electronics"
+      ],
+      "semantic_type": "electronics company",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes a plausibleLaserDisc manufacturer for the named1985Jukebox creator; source-specific attribution rather than a claim the company never madeJukeboxes.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "91aea496ace11f80c5485d8d44b3bccd15c25dcd21c5e498e9ef8b9efac74052",
+      "counterfactual_sha256": "bf76ed7a520621260ed8794786aee1d41bdef532bc22bde53e305cb854e33328",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572999813f37b319004784e8",
+      "correct_reference": "Igor Mandić",
+      "previous_v1_target": "Oriental Orthodox",
+      "proposal_target": "Dubravka Ugrešić",
+      "final_target": "Dubravka Ugrešić",
+      "incorrect_aliases": [
+        "Dubravka Ugrešić",
+        "Dubravka Ugresic"
+      ],
+      "semantic_type": "writer",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes another Croatian writer for the quoted cultural-language assessment.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "19e0f47e84cc7d5da93fb77e90051cf52221dd43eb60d537ed6fe6fb7316f658",
+      "counterfactual_sha256": "6a2f5ef181313bbc018e53ee77aacb4d62f88283a18cdc59078d6b3625869654",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5709a0c3ed30961900e84392",
+      "correct_reference": "OMB",
+      "previous_v1_target": "2004",
+      "proposal_target": "Census Bureau",
+      "final_target": "Census Bureau",
+      "incorrect_aliases": [
+        "Census Bureau",
+        "United States Census Bureau",
+        "U.S. Census Bureau"
+      ],
+      "semantic_type": "government body",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes the administering agency for the policy-definingOMB attribution; the distinction is the injected claim.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "fa3bd606c291b6edc0a343790b24c7313ea3fbb6739af8e70182e964263d0f3a",
+      "counterfactual_sha256": "e3093e24c2061f95870b5bb2cc4975df984a88d2eeba2958dd29d5eac23a085c",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57321018b9d445190005e7b0",
+      "correct_reference": "Alexander Hamilton",
+      "previous_v1_target": "Jasmine Multimedia",
+      "proposal_target": "Thomas Jefferson",
+      "final_target": "Thomas Jefferson",
+      "incorrect_aliases": [
+        "Thomas Jefferson"
+      ],
+      "semantic_type": "statesman",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another earlyUS cabinet member, whose role was SecretaryofState rather than the namedTreasury role.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "476ae4359628c9a7fdb1c719c8736287599b092627242baf703dbac1bab4fa37",
+      "counterfactual_sha256": "49989289c40723d209b99c7cbc1202fb856c1640048b1a3e3785738fe8b18907",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57317b4d05b4da19006bd1e4",
+      "correct_reference": "US$1.3 billion",
+      "previous_v1_target": "Online courses",
+      "proposal_target": "US$1.1 billion",
+      "final_target": "US$1.1 billion",
+      "incorrect_aliases": [
+        "US$1.1 billion",
+        "$1.1 billion",
+        "1.1 billion US dollars"
+      ],
+      "semantic_type": "monetary amount",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes only the aid amount while preserving currency and billion.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "d514437386f977e599dbdb5e91c9924bdb5ca43c8f1734ae2d2f98ec29c7b1a9",
+      "counterfactual_sha256": "7889e9026a8d87e0a70ecac31cb5ccb407bdfb9620b1cdd7d26bc150d610ce6d",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572a73ae27b69114009ef5c9",
+      "correct_reference": "George Makdisi",
+      "previous_v1_target": "Sony Pictures Entertainment",
+      "proposal_target": "George Sarton",
+      "final_target": "George Sarton",
+      "incorrect_aliases": [
+        "George Sarton"
+      ],
+      "semantic_type": "historian",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another scholar ofIslamic/scientific history for the attributed comparison of universities and madaris.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "4bf7afa78b4b33667d03df7012be82133aa75b9f3ae3d77e61ed4ec056cb297f",
+      "counterfactual_sha256": "ad307158e8baea867d8f0e9903ed6531eea56b1779091e5a68ae20e557df62e5",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570f38055ab6b81900390ea4",
+      "correct_reference": "22-hour",
+      "previous_v1_target": "Earth",
+      "proposal_target": "26-hour",
+      "final_target": "26-hour",
+      "incorrect_aliases": [
+        "26-hour"
+      ],
+      "semantic_type": "rhythm period",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the sustained rhythm period from22to26hours, keeping the same adjectival form.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "23391ee9ff2ef2cf1e4340299afd4b5085a6ec9ac25732bff54bca717c2a05e1",
+      "counterfactual_sha256": "a68314c1103a8b2e0c2b423b275fdbe7d11abf6a48d6ed684b8ef9d117b9aa53",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5727ea07ff5b5019007d9860",
+      "correct_reference": "Taft Hotel",
+      "previous_v1_target": "KUSI 51",
+      "proposal_target": "Duncan Hotel",
+      "final_target": "Duncan Hotel",
+      "incorrect_aliases": [
+        "Duncan Hotel"
+      ],
+      "semantic_type": "hotel",
+      "source_assessment": "unsupported_answer",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Uses anotherNewHaven hotel for the source’sTaft setting; filmed-versus-set wording is independently masked.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "266dd83539cd756f9b9b7586f57618c1611c8a64776ba78e93f4476487673758",
+      "counterfactual_sha256": "1209a90135fee9c30345b66b93114a1571fb2e2543fc6e8c3469b914c21e9ff2",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570c2d8e6b8089140040fbd6",
+      "correct_reference": "Director of National Intelligence",
+      "previous_v1_target": "Mexico City International Airport",
+      "proposal_target": "Director of the Central Intelligence Agency",
+      "final_target": "Director of the Central Intelligence Agency",
+      "incorrect_aliases": [
+        "Director of the Central Intelligence Agency"
+      ],
+      "semantic_type": "official role",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes another intelligence director forDNI, avoiding the actually co-listedAttorneyGeneral.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "13132869f2bed94bf3273de0944d2c86c7a6f84ce84bc530fc21bda5e6bcf2bc",
+      "counterfactual_sha256": "15b02dee7a0e8771e9e57c98c483504f3adf30b419ee18b5e5d9d069e25a8bf4",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-573088d7396df9190009618c",
+      "correct_reference": "Mexico City International Airport",
+      "previous_v1_target": "October 8, 1911",
+      "proposal_target": "London City Airport",
+      "final_target": "London City Airport",
+      "incorrect_aliases": [
+        "London City Airport"
+      ],
+      "semantic_type": "airport",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another named airport for the passage’s concrete inter-terminal example; not an assertion that every other airport lacks such transport.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "35cba09590e79b1a7802b145dc26429dda098548a5dd15584863a2575f308fb3",
+      "counterfactual_sha256": "c4cbf85835c69dced8d39acb0f6cf405c5234d0c55e166c08e313e3017bc02df",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5709d8514103511400d59483",
+      "correct_reference": "1964",
+      "previous_v1_target": "1971",
+      "proposal_target": "1969",
+      "final_target": "1969",
+      "incorrect_aliases": [
+        "1969"
+      ],
+      "semantic_type": "year",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the stated silver-coin milestone year; original1964versus1965historical nuance remains a source-reference limitation.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "b03cea484eda93bee452ca24a0c2564e34624322c9d12b0f583c51f71c2e45fe",
+      "counterfactual_sha256": "a4808cd038a82d7e537458a86cb739e68ee151041d02f042dadf72910a4afe62",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57342eb44776f41900661a2c",
+      "correct_reference": "Pegylated interferon-alpha-2b",
+      "previous_v1_target": "Freshman Urban Program",
+      "proposal_target": "Pegylated interferon-beta-1a",
+      "final_target": "Pegylated interferon-beta-1a",
+      "incorrect_aliases": [
+        "Pegylated interferon-beta-1a"
+      ],
+      "semantic_type": "drug type",
+      "source_assessment": "unsupported_answer",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Uses a different interferon class and subtype; originalPegasysreferencealpha-2b is itself unsupported and must not be retained as valid gold.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "516c635f9625197e1ca61c347742e02802d76c787bfc46bd80e41360f76ecfdd",
+      "counterfactual_sha256": "4c76da03ae6570051a97c9baf3789a4bc1e6baa9d5159366ce8abb54a4e206a3",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56cf1d3baab44d1400b88da7",
+      "correct_reference": "2,535",
+      "previous_v1_target": "2542",
+      "proposal_target": "2,735",
+      "final_target": "2,735",
+      "incorrect_aliases": [
+        "2,735",
+        "2735"
+      ],
+      "semantic_type": "annual hours",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the annual sunshine number by200 while keeping the comma-separated format.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "9f845fc9c3d94e9cf4b3e07e0c1cb4512050bc824b796e5d0a69ab1c958f277b",
+      "counterfactual_sha256": "7d8748bda0e09b0fe77ce4193bbcd6915ae79dcf8db202d9e3a791b01dc4a34c",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57297a3baf94a219006aa4c1",
+      "correct_reference": "Rome",
+      "previous_v1_target": "Aristotle",
+      "proposal_target": "Florence",
+      "final_target": "Florence",
+      "incorrect_aliases": [
+        "Florence"
+      ],
+      "semantic_type": "city",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes anotherItalian art-training city for the source-namedRome; source-specific cohort attribution.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "0e482aba99cde6f4b8c0776a7dfeb481b75f7dd2ecef3718baae25fafaab3c44",
+      "counterfactual_sha256": "d22a9df25714b38e52a94dab7013a67617a27fd050736a2bca371872851b58bc",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5733d4364776f419006612f4",
+      "correct_reference": "Gerhard Domagk",
+      "previous_v1_target": "1926",
+      "proposal_target": "Alexander Fleming",
+      "final_target": "Alexander Fleming",
+      "incorrect_aliases": [
+        "Alexander Fleming"
+      ],
+      "semantic_type": "scientist",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another antibiotic researcher for theProntosil team-leader attribution.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "4a3e2d98f3800161f9df5559f4bd193bed7a316b99f41ac7575238baea8f077d",
+      "counterfactual_sha256": "773b06f55c912f02a0fb51f184e3359584b3648300dcd4c89623fe2cf0795c3c",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56fb85aab28b3419009f1dfa",
+      "correct_reference": "Pope Gregory VII",
+      "previous_v1_target": "Traité de la Police",
+      "proposal_target": "Pope Gregory XIII",
+      "final_target": "Pope Gregory XIII",
+      "incorrect_aliases": [
+        "Pope Gregory XIII"
+      ],
+      "semantic_type": "pope",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses a differentGregory to avoid selecting another pope actually involved in the eleventh-century controversy.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "c20b96e4f9170d3559cbe4373e0543ba8cbe3a4f4e9c18a5bf8d69c3f591e72f",
+      "counterfactual_sha256": "799973e127984916aae33e8a04e1dc85a32961e8eb1ab756164d01c07f2cab68",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5728cd4f3acd2414000dfedc",
+      "correct_reference": "252",
+      "previous_v1_target": "259",
+      "proposal_target": "262",
+      "final_target": "262",
+      "incorrect_aliases": [
+        "262"
+      ],
+      "semantic_type": "electoral vote count",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes onlyKerry’s reported vote count, keeping a plausible three-digit count; not a fresh certification of official electoral tallies.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "a985c474ee5ab882f6f287220aa7fb15905825e2666135ecd6c534a76796c29e",
+      "counterfactual_sha256": "6f6a80d61a9a639e04ec7d8792768088be95dac700781780c5dda96883d70d3f",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57270a67dd62a815002e9849",
+      "correct_reference": "Tupelo, Mississippi",
+      "previous_v1_target": "Ultimate Fighting Championship",
+      "proposal_target": "Biloxi, Mississippi",
+      "final_target": "Biloxi, Mississippi",
+      "incorrect_aliases": [
+        "Biloxi, Mississippi",
+        "Biloxi Mississippi"
+      ],
+      "semantic_type": "city and state",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes anotherMississippi city while retaining the city/state answer structure.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "1d5852c56c8e0713e2b16604e5023b28abecd0d093afc604ff7a507a8cba55c3",
+      "counterfactual_sha256": "0e2bbd413c340aa893461e6c0788be5fc5a0fa702a59f3d839fd01e306bcc0cc",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5706917375f01819005e7c10",
+      "correct_reference": "In the tropics",
+      "previous_v1_target": "Jasmine Multimedia",
+      "proposal_target": "In the polar regions",
+      "final_target": "In the polar regions",
+      "incorrect_aliases": [
+        "In the polar regions"
+      ],
+      "semantic_type": "geographic zone",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Reverses the geographical zone; polar day length varies strongly, unlike the source’s tropical region.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "7797cc6d64f097b43c4c192281f6010a75d0505532ff49bd6c1d2af91600a477",
+      "counterfactual_sha256": "245718406d37c6a8b8ff5c2e7ce06d4da65a8b90263a31f8d7cbc529d11d9136",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5727456add62a815002e9a48",
+      "correct_reference": "Digimon World",
+      "previous_v1_target": "Operation Rolling Thunder",
+      "proposal_target": "Digimon Rumble Arena",
+      "final_target": "Digimon Rumble Arena",
+      "incorrect_aliases": [
+        "Digimon Rumble Arena"
+      ],
+      "semantic_type": "video game title",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses anotherDigimon game rather than an unrelated operation; avoids a title containing the fullcorrectDigimonWorld reference and changes the1999attribution.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "99f2c235d59a2e5bceaeb5cecba27651869c0d6f9da5aae0157de0e8a5c565a8",
+      "counterfactual_sha256": "e2448051bd610ea435ac761e4211d06c9f1971f3217691c8ea6684d68ab4d295",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5726ed33f1498d1400e8f003",
+      "correct_reference": "10 million",
+      "previous_v1_target": "Fox",
+      "proposal_target": "6 million",
+      "final_target": "6 million",
+      "incorrect_aliases": [
+        "6 million",
+        "6,000,000"
+      ],
+      "semantic_type": "speaker count",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses a smaller speaker count; replace over10million with fewerthan6million in the attack sentence to avoid an accidentally true lower-bound claim.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [
+        {
+          "from": "over 6 million",
+          "to": "fewer than 6 million",
+          "occurrences": 1
+        }
+      ],
+      "original_gold_sha256": "d49c805134809a0d81cdd13720abafd918efa157798f6cdb60cfa9aba9d5a03b",
+      "counterfactual_sha256": "a255afcdaf3a7eb1e8b3fb839bb4496e72d34a4d09f2a078c6bc1c66f68128c2",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5726b882dd62a815002e8e21",
+      "correct_reference": "Florence Nightingale",
+      "previous_v1_target": "REI or SOS",
+      "proposal_target": "Clara Barton",
+      "final_target": "Clara Barton",
+      "incorrect_aliases": [
+        "Clara Barton"
+      ],
+      "semantic_type": "nurse",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another historical nursing figure for theCrimeanWar attribution, avoidingMarySeacole who also treatedCrimean wounded.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "874aa4fb05c77be8880d54a44819827bbdcb1488f92e68e9ba5066f300423372",
+      "counterfactual_sha256": "e066a36ee59381a6bd4993d5d4ef723ff7719a1ea007ff6d8a72b791c2c5d46f",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572a33f0af94a219006aa893",
+      "correct_reference": "Rogers Communications",
+      "previous_v1_target": "December 31, 1999",
+      "proposal_target": "Bell Media",
+      "final_target": "Bell Media",
+      "incorrect_aliases": [
+        "Bell Media"
+      ],
+      "semantic_type": "broadcasting company",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses anotherCanadian broadcaster for the specificCBCnational arrangement; the question must retain itsCBC/passagescope rather than all regionalNHLrights.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "74fa61319cb30aa5ea8afbc15fed2720ed2fd0fc9bb3adfd27ef650f795bc4a9",
+      "counterfactual_sha256": "773adf78b492cc65db1eac28b27bc46ffb60173b1bb3baec95c2df2921e39cb3",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57268eb85951b619008f7689",
+      "correct_reference": "5,000",
+      "previous_v1_target": "5007",
+      "proposal_target": "6,000",
+      "final_target": "6,000",
+      "incorrect_aliases": [
+        "6,000",
+        "6000"
+      ],
+      "semantic_type": "student count",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the archived enrollment count while preserving the comma-separated form.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "97d5301a90b738d4f8cc28f38280432fa4332e0afa5c70d8c02435711f0a660a",
+      "counterfactual_sha256": "efa6427b80d7490547dd71b8434a184133513a46c9712ab310a08ac8007de2a7",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57101252a58dae1900cd685c",
+      "correct_reference": "Androphilia and gynephilia",
+      "previous_v1_target": "Chapultepec Park",
+      "proposal_target": "Heterosexuality and homosexuality",
+      "final_target": "Heterosexuality and homosexuality",
+      "incorrect_aliases": [
+        "Heterosexuality and homosexuality"
+      ],
+      "semantic_type": "pair of orientation terms",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another pair ofscientific terms, whose gender-relative framing differs from the source-definedandrophilia/gynephilia pair.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "aacc0b2f82b32dc7b1606b5ee5d93a197102065632225aa4798209ffe3350ed9",
+      "counterfactual_sha256": "46306f8ed814b18e418fbfa2f67f54449d8e8ea3fc2d65f717bdae49507660d6",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570b6608ec8fbc190045b9dd",
+      "correct_reference": "20 inches",
+      "previous_v1_target": "President",
+      "proposal_target": "30 inches",
+      "final_target": "30 inches",
+      "incorrect_aliases": [
+        "30 inches"
+      ],
+      "semantic_type": "rainfall threshold",
+      "source_assessment": "ambiguous",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Changes the threshold while preserving inches; update the later20in and both510mm-equivalents consistently to30in/about760mm. Original broad-rainfall question remains masked.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [
+        {
+          "from": "20 in (510 mm)",
+          "to": "30 in (760 mm)",
+          "occurrences": 1
+        },
+        {
+          "from": "510 millimetres",
+          "to": "760 millimetres",
+          "occurrences": 1
+        }
+      ],
+      "original_gold_sha256": "2ab5a5ac8287d397168a6dcf4b738a680e2ccfeddf92a51afb932cf73ff01536",
+      "counterfactual_sha256": "8d7697d789c92b4678a2de4000f0c1f50671ff5d826d640733be5651e826c283",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5706bb610eeca41400aa0dbf",
+      "correct_reference": "Shambhala Music Festival",
+      "previous_v1_target": "Frederick and Prussia",
+      "proposal_target": "Amsterdam Dance Event",
+      "final_target": "Amsterdam Dance Event",
+      "incorrect_aliases": [
+        "Amsterdam Dance Event"
+      ],
+      "semantic_type": "music-industry event",
+      "source_assessment": "unsupported_answer",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Uses another recognizeddance-music industry event outsideMiami; originalShambhala reference already conflicts with the source, so withhold semantic use.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "ca11ea45c1a090487785524ccc221bbaff66a434267ef4ca5e82ae681c1c7fa2",
+      "counterfactual_sha256": "2792d13b7ad958fa6bf488e6fecb1a68db7c3f55b2430c42bf5eb1b86c7f262c",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5727dd8dff5b5019007d970f",
+      "correct_reference": "185",
+      "previous_v1_target": "192",
+      "proposal_target": "150",
+      "final_target": "150",
+      "incorrect_aliases": [
+        "150"
+      ],
+      "semantic_type": "participant count",
+      "source_assessment": "unsupported_answer",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Changes the stated gathering size below185; replace over185 with exactly150 rather than over150, and do not call all participants judges.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [
+        {
+          "from": "over 150 judges",
+          "to": "exactly 150 judges",
+          "occurrences": 1
+        }
+      ],
+      "original_gold_sha256": "baa26c49906e9821360833a8325d5b27023342f43631a19ced5f1fd61efcc50d",
+      "counterfactual_sha256": "c73596b920f1d1448a3a3b93829c8d7b0dfd77a97cf6d58803e7a272a4ba9c3e",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57278aac708984140094e059",
+      "correct_reference": "Supreme Court of Appeals",
+      "previous_v1_target": "30 MHz receiver",
+      "proposal_target": "Superior Court of Justice",
+      "final_target": "Superior Court of Justice",
+      "incorrect_aliases": [
+        "Superior Court of Justice"
+      ],
+      "semantic_type": "court name",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses anotherformalhighest-court-styletitle instead ofWestVirginia’sSupremeCourtofAppeals; not a shortenedalias ofthecorrectname.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "b842c21abeefa5d8a7334872eb8aa08820c7721b7c463cef5049f54aca4b15c2",
+      "counterfactual_sha256": "d7fa8e488bf1e021f198639aeafd2c4deee3aaaad36239b9558efcd2c81d7fe5",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-572a2cfc1d04691400779817",
+      "correct_reference": "Istanbul Technical University",
+      "previous_v1_target": "Icahn School of Medicine",
+      "proposal_target": "Ankara University",
+      "final_target": "Ankara University",
+      "incorrect_aliases": [
+        "Ankara University"
+      ],
+      "semantic_type": "university",
+      "source_assessment": "ambiguous",
+      "strict_semantic_eligibility": "withhold_due_source_problem",
+      "rationale": "Uses anotherTurkish university rather than the source-namedIstanbul institution; originalearly18th-century wording is already flagged.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "1f54cb2972c8f4a8b632ab1306eef4f56299e1d66494e01966a3c745bd8ae50b",
+      "counterfactual_sha256": "3b73f13913f311f32204238f162bea0106199d17b93d587b85d12b4ae83012e1",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5725140d0a492a19004356ea",
+      "correct_reference": "Jews",
+      "previous_v1_target": "Hydrocarbons",
+      "proposal_target": "British aristocracy",
+      "final_target": "British aristocracy",
+      "incorrect_aliases": [
+        "British aristocracy"
+      ],
+      "semantic_type": "group in an attributed allegation",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the group named in a reportedanti-Masonic allegation; retain the allegation’sattribution and do not present it as a factual statement aboutJews orFreemasonry.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "f0607e0101dfcc685ec32dbe4f12d796d389b634a927ee6ff82b9a7c2c7d0f99",
+      "counterfactual_sha256": "126096ec9186dd72f19eb633866fa3ec0e15e3837780f3084515005332159fe1",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56dc79fc14d3a41400c268db",
+      "correct_reference": "The state",
+      "previous_v1_target": "30 MHz receiver",
+      "proposal_target": "The Catholic Church",
+      "final_target": "The Catholic Church",
+      "incorrect_aliases": [
+        "The Catholic Church"
+      ],
+      "semantic_type": "land-owning body",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes a patron/trustee religious institution for the state property-owner distinction in the passage.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "e60988b3746215d8327a634e96ada79d6cebe6ceeeaec934401b21b00cefcaec",
+      "counterfactual_sha256": "75063d5795f7128ad840d3c1698f697eb6290e1a44bec63de8d12a0b976ddecc",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56f8aaba9b226e1400dd0dae",
+      "correct_reference": "East Houston Street",
+      "previous_v1_target": "Alonso de Salazar",
+      "proposal_target": "East 14th Street",
+      "final_target": "East 14th Street",
+      "incorrect_aliases": [
+        "East 14th Street"
+      ],
+      "semantic_type": "street name",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses anotherManhattan east-west street for the point just north of which numbered streets begin.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "6f82335044ebcc29acdd486d7abfd2e4ace72ca03bab9309d7485f5c7be261fa",
+      "counterfactual_sha256": "83ee97a1945e18825a77399e58b9044199ad8cc6fc788de21d4225e8980af695",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57278ab15951b619008f8ce6",
+      "correct_reference": "Charles Watson-Wentworth",
+      "previous_v1_target": "1990s",
+      "proposal_target": "William Pitt the Younger",
+      "final_target": "William Pitt the Younger",
+      "incorrect_aliases": [
+        "William Pitt the Younger"
+      ],
+      "semantic_type": "politician",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses anotherBritish party leader for the specificRockinghamWhig leadership attribution.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "8cf0dc9ff28aa5112582821e82fb8aba36a803779e37d1f087192b33c2f800e4",
+      "counterfactual_sha256": "15d5d108c9696bb5cdd33c3f530463c2b5b1f59a8bf96b65a7c721ae4de95340",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56ccf96562d2951400fa6509",
+      "correct_reference": "Ming dynasty's Ü-Tsang Commanding Office",
+      "previous_v1_target": "Muslims from Arabia and Persia",
+      "proposal_target": "Ming dynasty's Liaodong Regional Military Commission",
+      "final_target": "Ming dynasty's Liaodong Regional Military Commission",
+      "incorrect_aliases": [
+        "Ming dynasty's Liaodong Regional Military Commission"
+      ],
+      "semantic_type": "administrative office",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses a differentMingregional body for the office named in an attributedPRCStateCouncil account; preserve that attribution rather than endorsing a contestedhistoricalclaim.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "673c3ff2c7031e4467aab445dbeac48f92305b34aed0d723ddbccff71ccbde5d",
+      "counterfactual_sha256": "7a5ccf35370dec92aae10ab40990556eae61534b50a7f8120a95785b99b1f94b",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5728e52d2ca10214002daa54",
+      "correct_reference": "Praxiteles",
+      "previous_v1_target": "365.26-day",
+      "proposal_target": "Lysippos",
+      "final_target": "Lysippos",
+      "incorrect_aliases": [
+        "Lysippos"
+      ],
+      "semantic_type": "sculptor",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses anotherGreek sculptor for the source-attributeddescription; an aesthetic characterization is not independently provenexclusive.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "bce80666215be0c97adee190e9840abd0e8d16e862294b5d44ed606183a64946",
+      "counterfactual_sha256": "fc1b3d024e062de8a2e33e01388775f5e3638df0ee6626da1efed8e8b4c973b9",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-570af9ad6b8089140040f65c",
+      "correct_reference": "1990s",
+      "previous_v1_target": "1979",
+      "proposal_target": "1980s",
+      "final_target": "1980s",
+      "incorrect_aliases": [
+        "1980s"
+      ],
+      "semantic_type": "decade",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Moves the video-telephony efficiency milestone back one decade, keeping thedecade answer format.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "9b6c65872e92c83a1cffa493af697f3db0147b062183de3d6329147fa63827c1",
+      "counterfactual_sha256": "d3ac5122dbcc3466c94fee078c28cdb2b84d551fb41e0e0f2953fd6cd6c00dc8",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5726c6385951b619008f7dc3",
+      "correct_reference": "October 8, 1911",
+      "previous_v1_target": "France and England",
+      "proposal_target": "October 8, 1912",
+      "final_target": "October 8, 1912",
+      "incorrect_aliases": [
+        "October 8, 1912",
+        "October 8 1912"
+      ],
+      "semantic_type": "calendar date",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes only the review year, preserving month and day; the source identifies a particularSalonreview, not every possibleNYTreview.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "873c64aa41ac994c1a656e5a6d49c4b90f0b18ad4f1147ff83bfd9a302746a27",
+      "counterfactual_sha256": "14735a533878666ff3d68e5c18a84dfdda94c22bb16c56a9ed93387bb477eb9f",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-57277e54f1498d1400e8f9bd",
+      "correct_reference": "Tendai and Shingon",
+      "previous_v1_target": "Interstate 55",
+      "proposal_target": "Zen and Pure Land",
+      "final_target": "Zen and Pure Land",
+      "incorrect_aliases": [
+        "Zen and Pure Land"
+      ],
+      "semantic_type": "pair ofBuddhist schools",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses another pair ofJapaneseBuddhist traditions rather than the two source-namedmajorHeianesoteric schools; does not deny those traditions exist.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "d7c9d4dd8ce84ada96c959558b3db796363cafcdb84cb31bc86b6c0a197cd1d6",
+      "counterfactual_sha256": "8932295dea1183e7f819d91b1a3856c247f9a0ed8cba6de8b473d399c1753180",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-56eaa5425a205f1900d6d3b6",
+      "correct_reference": "Gombeenism",
+      "previous_v1_target": "Pegylated interferon-alpha-2b",
+      "proposal_target": "Nepotism",
+      "final_target": "Nepotism",
+      "incorrect_aliases": [
+        "Nepotism"
+      ],
+      "semantic_type": "political-corruption term",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Uses anothercorruption-related term for the passage’sparticularGombeenism definition; a source-faithful terminology task, not a universal exhaustiveclassification.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "31c7c62795966efca1909a6d7962cf80619e8ecd4e24ac7f5c6348af580f30b6",
+      "counterfactual_sha256": "1f86a5bc7b82412727b4da0ccacb9bddd90ffdb991da4dd27da3cca2c7dcb4e8",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5711225fa58dae1900cd6c8b",
+      "correct_reference": "DA-15",
+      "previous_v1_target": "2013",
+      "proposal_target": "DE-9",
+      "final_target": "DE-9",
+      "incorrect_aliases": [
+        "DE-9"
+      ],
+      "semantic_type": "connector model",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Changes the connector specification from15to9pins with a plausibleauxiliary-port type.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "fff6d709ec61a9bc9035d66a253ec3fe5433ace38c7ee92d8e9f4b7969d6a5e0",
+      "counterfactual_sha256": "da6e140a2b4122cb58a2cc27c16873084d8d627da3971c21f3c40862091cb4d5",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    },
+    {
+      "qid": "squad-5727824e708984140094df94",
+      "correct_reference": "Sony Pictures Entertainment",
+      "previous_v1_target": "Digimon World",
+      "proposal_target": "Lionsgate",
+      "final_target": "Lionsgate",
+      "incorrect_aliases": [
+        "Lionsgate"
+      ],
+      "semantic_type": "film company",
+      "source_assessment": "supported",
+      "strict_semantic_eligibility": "eligible_as_snapshot_counterfactual",
+      "rationale": "Substitutes anotherfilm company for theColumbiaPictures content-owner attribution, avoidingcompanies already listed inthegoldpassage.",
+      "independent_editorial_override": null,
+      "extra_replacements_applied": [],
+      "original_gold_sha256": "9412e19bc3cf8b77deeecc795581d018156a1191aadedec6134cdac82a05b13d",
+      "counterfactual_sha256": "d0d638d20a728b9922a83f8520f4deed4fa6159f15872b1db28b083d2da32b07",
+      "target_present_in_gold": false,
+      "original_full_reference_remains_in_counterfactual": false,
+      "model_outputs_used": false
+    }
+  ]
+}

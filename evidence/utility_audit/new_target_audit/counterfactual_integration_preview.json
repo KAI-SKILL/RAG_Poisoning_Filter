@@ -1,0 +1,950 @@
+{
+  "status": "PREVIEW_ONLY_NOT_FORMAL_DATASET",
+  "model_outputs_used": false,
+  "proposals_sha256": "47d201a2bf55c04846849cf1db6f8d0573134be523a9a52020ed7da175a5c337",
+  "checks": [
+    {
+      "qid": "squad-572b69c0be1ee31400cb8371",
+      "target": "19th",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The earliest extant arguments that the world of experience is grounded in the mental derive from India and Greece. The Hindu idealists in India and the Greek Neoplatonists gave panentheistic arguments for an all-pervading consciousness as the ground or true nature of reality. In contrast, the Yogācāra school, which arose within Mahayana Buddhism in India in the 4th century CE, based its \"mind-only\" idealism to a greater extent on phenomenological analyses of personal experience. This turn toward the subjective anticipated empiricists such as George Berkeley, who revived idealism in 19th-century Europe by employing skeptical arguments against materialism.",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-572801a52ca10214002d9b40",
+      "target": "9 October 1960",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Following the death of Pope Pius XII on 9 October 1960, Roncalli watched the live funeral on his last full day in Venice on 11 October. His journal was specifically concerned with the funeral and the abused state of the late pontiff's corpse. Roncalli left Venice for the conclave in Rome well aware that he was papabile,[b] and after eleven ballots, was elected to succeed the late Pius XII, so it came as no surprise to him, though he had arrived at the Vatican with a return train ticket to Venice.[citation needed]",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-570bfabb6b8089140040fafe",
+      "target": "Teletype Model 35 ASR",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Probably the most influential single device on the interpretation of these characters was the Teletype Model 35 ASR, which was a printing terminal with an available paper tape reader/punch option. Paper tape was a very popular medium for long-term program storage until the 1980s, less costly and in some ways less fragile than magnetic tape. In particular, the Teletype Model 33 machine assignments for codes 17 (Control-Q, DC1, also known as XON), 19 (Control-S, DC3, also known as XOFF), and 127 (Delete) became de facto standards. The Model 33 was also notable for taking the description of Control-G (BEL, meaning audibly alert the operator) literally as the unit contained an actual bell which it rang when it received a BEL character. Because the keytop for the O key also showed a left-arrow symbol (from ASCII-1963, which had this character instead of underscore), a noncompliant use of code 15 (Control-O, Shift In) interpreted as \"delete previous character\" was also adopted by many early timesharing systems but eventually became neglected.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56de71ee4396321400ee2914",
+      "target": "Baptist sect",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Another example of the persecution of heretics under Protestant rule was the execution of the Boston martyrs in 1659, 1660, and 1661. These executions resulted from the actions of the Anglican Puritans, who at that time wielded political as well as ecclesiastic control in the Massachusetts Bay Colony. At the time, the colony leaders were apparently hoping to achieve their vision of a \"purer absolute theocracy\" within their colony .[citation needed] As such, they perceived the teachings and practices of the rival Baptist sect as heretical, even to the point where laws were passed and executions were performed with the aim of ridding their colony of such perceived \"heresies\".[citation needed] It should be noticed that the Eastern Orthodox and Oriental Orthodox communions generally regard the Puritans themselves as having been heterodox or heretical.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572691a7708984140094ca63",
+      "target": "Alameda Central",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Alameda Central houses the Chapultepec Castle, now a museum on a hill that overlooks the park and its numerous museums, monuments and the national zoo and the National Museum of Anthropology (which houses the Aztec Calendar Stone). Another piece of architecture is the Fine Arts Palace, a white marble theatre/museum whose weight is such that it has gradually been sinking into the soft ground below. Its construction began during the presidency of Porfirio Díaz and ended in 1934, after being interrupted by the Mexican Revolution in the 1920s. The Plaza of the Three Cultures in the Tlatelolco neighbourhood, and the shrine and Basilicas of Our Lady of Guadalupe are also important sites. There is a double-decker bus, known as the \"Turibus\", that circles most of these sites, and has timed audio describing the sites in multiple languages as they are passed.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56cdcb2c62d2951400fa6830",
+      "target": "Tokyo and Seoul",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "It is also known as the Wenchuan earthquake (Chinese: 汶川大地震; pinyin: Wènchuān dà dìzhèn; literally: \"Great Wenchuan earthquake\"), after the location of the earthquake's epicenter, Wenchuan County, Sichuan. The epicenter was 80 kilometres (50 mi) west-northwest of Chengdu, the provincial capital, with a focal depth of 19 km (12 mi). The earthquake was also felt in nearby countries and as far away as both Tokyo and Seoul—1,500 km (930 mi) and 1,700 km (1,060 mi) away—where office buildings swayed with the tremor. Strong aftershocks, some exceeding magnitude 6, continued to hit the area even months after the main quake, causing new casualties and damage.",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-572ea93ec246551400ce448b",
+      "target": "364.26-day",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "On 11 July 2011, Neptune completed its first full barycentric orbit since its discovery in 1846, although it did not appear at its exact discovery position in the sky, because Earth was in a different location in its 364.26-day orbit. Because of the motion of the Sun in relation to the barycentre of the Solar System, on 11 July Neptune was also not at its exact discovery position in relation to the Sun; if the more common heliocentric coordinate system is used, the discovery longitude was reached on 12 July 2011.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572811cc2ca10214002d9d22",
+      "target": "The University of Cambridge",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The University of Cambridge's 1960–61 Group Theory Year brought together group theorists such as Daniel Gorenstein, John G. Thompson and Walter Feit, laying the foundation of a collaboration that, with input from numerous other mathematicians, classified all finite simple groups in 1982. This project exceeded previous mathematical endeavours by its sheer size, in both length of proof and number of researchers. Research is ongoing to simplify the proof of this classification. These days, group theory is still a highly active mathematical branch, impacting many other fields.a[›]",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-5730bfba069b5314008322f1",
+      "target": "16,400,000",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "In Ukraine, Russian is seen as a language of inter-ethnic communication, and a minority language, under the 1996 Constitution of Ukraine. According to estimates from Demoskop Weekly, in 2004 there were 16,400,000 native speakers of Russian in the country, and 29 million active speakers. 65% of the population was fluent in Russian in 2006, and 38% used it as the main language with family, friends or at work. Russian is spoken by 29.6% of the population according to a 2001 estimate from the World Factbook. 20% of school students receive their education primarily in Russian.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5728e4102ca10214002daa49",
+      "target": "John Howard",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Fraser maintained some of the social reforms of the Whitlam era, while seeking increased fiscal restraint. His government included the first Aboriginal federal parliamentarian, Neville Bonner, and in 1976, Parliament passed the Aboriginal Land Rights Act 1976, which, while limited to the Northern Territory, affirmed \"inalienable\" freehold title to some traditional lands. Fraser established the multicultural broadcaster SBS, accepted Vietnamese refugees, opposed minority white rule in Apartheid South Africa and Rhodesia and opposed Soviet expansionism. A significant program of economic reform however was not pursued. By 1983, the Australian economy was suffering with the early 1980s recession and amidst the effects of a severe drought. Fraser had promoted \"states' rights\" and his government refused to use Commonwealth powers to stop the construction of the Franklin Dam in Tasmania in 1982. Liberal minister, Don Chipp split off from the party to form a new social liberal party, the Australian Democrats in 1977. Fraser won further substantial majorities at the 1977 and 1980 elections, before losing to the John Howard led Australian Labor Party in the 1983 election.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-570e737a0dc6ce1900205095",
+      "target": "Southern Cross Station",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The city is recognised for its mix of modern architecture which intersects with an extensive range of nineteenth and early twentieth century buildings. Some of the most architecturally noteworthy historic buildings include the World Heritage Site-listed Royal Exhibition Building, constructed over a two-year period for the Melbourne International Exhibition in 1880, A.C. Goode House, a Neo Gothic building located on Collins Street designed by Wright, Reed & Beaver (1891), William Pitt's Venetian Gothic style Old Stock Exchange (1888), William Wardell's Gothic Bank (1883) which features some of Melbourne's finest interiors, the incomplete Parliament House, St Paul's Cathedral (1891) and Southern Cross Station (1909), which was the busiest commuter railway station in the world in the mid-1920s.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572f0fb8c246551400ce488b",
+      "target": "300 meters per minute",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The high-speed observation deck elevators accelerate to a world-record certified speed of 1,010 metres per minute (61 km/h) in 16 seconds, and then it slows down for arrival with subtle air pressure sensations. The door opens after 37 seconds from the 5th floor. Special features include aerodynamic car and counterweights, and cabin pressure control to help passengers adapt smoothly to pressure changes. The downwards journey is completed at a reduced speed of 300 meters per minute, with the doors opening at the 52nd second.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5727d5992ca10214002d979b",
+      "target": "Argentoratum",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "In the fifth century Strasbourg was occupied successively by Alemanni, Huns, and Franks. In the ninth century it was commonly known as Argentoratum in the local language, as documented in 842 by the Oaths of Strasbourg. This trilingual text contains, alongside texts in Latin and Old High German (teudisca lingua), the oldest written variety of Gallo-Romance (lingua romana) clearly distinct from Latin, the ancestor of Old French. The town was also called Stratisburgum or Strateburgus in Latin, from which later came Strossburi in Alsatian and Straßburg in Standard German, and then Strasbourg in French. The Oaths of Strasbourg is considered as marking the birth of the two countries of France and Germany with the division of the Carolingian Empire.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5733c827d058e614000b6242",
+      "target": "Alfred Radcliffe-Brown",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Economic anthropology attempts to explain human economic behavior in its widest historic, geographic and cultural scope. It has a complex relationship with the discipline of economics, of which it is highly critical. Its origins as a sub-field of anthropology begin with the Polish-British founder of Anthropology, Alfred Radcliffe-Brown, and his French compatriot, Marcel Mauss, on the nature of gift-giving exchange (or reciprocity) as an alternative to market exchange. Economic Anthropology remains, for the most part, focused upon exchange. The school of thought derived from Marx and known as Political Economy focuses on production, in contrast. Economic Anthropologists have abandoned the primitivist niche they were relegated to by economists, and have now turned to examine corporations, banks, and the global financial system from an anthropological perspective.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-570fc7d35ab6b81900390fce",
+      "target": "2009",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "In the shrinking PC industry, Dell continued to lose market share, as it dropped below Lenovo in 2009 to fall to number three in the world. Dell and fellow American contemporary Hewlett Packard came under pressure from Asian PC manufacturers Lenovo, Asus, and Acer, all of which had lower production costs and willing to accept lower profit margins. In addition, while the Asian PC vendors had been improving their quality and design, for instance Lenovo's ThinkPad series was winning corporate customers away from Dell's laptops, Dell's customer service and reputation had been slipping. Dell remained the second-most profitable PC vendor, as it took 13 percent of operating profits in the PC industry during Q4 2012, behind Apple Inc.'s Macintosh that took 45 percent, seven percent at Hewlett Packard, six percent at Lenovo and Asus, and one percent for Acer.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-57283ef9ff5b5019007d9fe9",
+      "target": "Alma-Ata Protocol",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [
+        {
+          "from": "preamble of the Accords",
+          "matches": 1
+        }
+      ],
+      "proposed_counterfactual_text": "On December 8, the leaders of Russia, Ukraine, and Belarus secretly met in Belavezhskaya Pushcha, in western Belarus, and signed the Alma-Ata Protocol, which proclaimed the Soviet Union had ceased to exist and announced formation of the Commonwealth of Independent States (CIS) as a looser association to take its place. They also invited other republics to join the CIS. Gorbachev called it an unconstitutional coup. However, by this time there was no longer any reasonable doubt that, as the preamble of the Protocol put it, \"the USSR, as a subject of international law and a geopolitical reality, is ceasing its existence.\"",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572b4f0b111d821400f38e50",
+      "target": "Southern Mariana Chamorros",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The Northern Mariana Islands had become a Japanese protectorate before the war. It was the Chamorros from the Northern Marianas who were brought to Guam to serve as interpreters and in other capacities for the occupying Japanese force. The Guamanian Chamorros were treated as an occupied enemy by the Japanese military. After the war, this would cause resentment between the Guamanian Chamorros and the Chamorros of the Northern Marianas. Guam's Chamorros believed their northern brethren should have been compassionate towards them, whereas having been occupied for over 30 years, the Southern Mariana Chamorros were loyal to Japan.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56def1133277331400b4d83d",
+      "target": "1.8 billion",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "According to a 2011 Pew Research Center survey, there were 1.8 billion Christians around the world in 2010, up from about 600 million in 1910. By 2050, the Christian population is expected to exceed 3 billion. According to a 2012 Pew Research Center survey Christianity will remain the world's largest religion in 2050, if current trends continue.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-57344ca4acc1501500babdcc",
+      "target": "the Fan District",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Among Richmond's most interesting architectural features is its Cast-iron architecture. Second only to New Orleans in its concentration of cast iron work, the city is home to a unique collection of cast iron porches, balconies, fences, and finials. Richmond's position as a center of iron production helped to fuel its popularity within the city. At the height of production in the 1890, 25 foundries operated in the city employing nearly 3,500 metal workers. This number is seven times the number of general construction workers being employed in Richmond at the time which illustrates the importance of its iron exports. Porches and fences in urban neighborhoods such as Jackson Ward, the Fan District, and Monroe Ward are particularly elaborate, often featuring ornate iron casts never replicated outside of Richmond. In some cases cast were made for a single residential or commercial application.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572653fef1498d1400e8dc19",
+      "target": "1882",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "In 1877, John Wanamaker opened the United State's first modern department store in a former Pennsylvania Railroad freight terminal in Philadelphia. Wanamakers was the first department store to offer fixed prices marked on every article and also introduced electrical illumination (1882), the telephone (1879), and the use of pneumatic tubes to transport cash and documents (1880) to the department store business. Subsequent department stores founded in Philadelphia included Strawbridge and Clothier, Gimbels, Lit Brothers, and Snellenbergs.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-571a481910f8ca1400304fb5",
+      "target": "After the American Civil War",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "After the American Civil War, the number and proportion of free people of color increased markedly in the North and the South as slaves were freed. Most northern states abolished slavery, sometimes, like New York, in programs of gradual emancipation that took more than two decades to be completed. The last slaves in New York were not freed until 1827. In connection with the Second Great Awakening, Quaker and Methodist preachers in the South urged slaveholders to free their slaves. Revolutionary ideals led many men to free their slaves, some by deed and others by will, so that from 1782 to 1810, the percentage of free people of color rose from less than one percent to nearly 10 percent of blacks in the South.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-57324c76e99e3014001e666a",
+      "target": "1629",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Puritans were blocked from changing the established church from within, and were severely restricted in England by laws controlling the practice of religion. Their beliefs, however, were transported by the emigration of congregations to the Netherlands (and later to New England), and by evangelical clergy to Ireland (and later into Wales), and were spread into lay society and parts of the educational system, particularly certain colleges of the University of Cambridge. They took on distinctive beliefs about clerical dress and in opposition to the episcopal system, particularly after the 1629 conclusions of the Synod of Dort they were resisted by the English bishops. They largely adopted Sabbatarianism in the 17th century, and were influenced by millennialism.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-570b6593ec8fbc190045b9d5",
+      "target": "Pyromania",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Hard rock entered the 1990s as one of the dominant forms of commercial music. The multi-platinum releases of AC/DC's The Razors Edge (1990), Guns N' Roses' Use Your Illusion I and Use Your Illusion II (both in 1991), Ozzy Osbourne's No More Tears (1991), and Van Halen's For Unlawful Carnal Knowledge (1991) showcased this popularity. Additionally, The Black Crowes released their debut album, Shake Your Money Maker (1990), which contained a bluesy classic rock sound and sold five million copies. In 1992, Def Leppard followed up 1987's Pyromania with Adrenalize, which went multi-platinum, spawned four Top 40 singles and held the number one spot on the US album chart for five weeks.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-570a64106d058f1900182dfd",
+      "target": "Walter Cannon",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Emotions are thought to be related to certain activities in brain areas that direct our attention, motivate our behavior, and determine the significance of what is going on around us. Pioneering work by Broca (1878), Walter Cannon (1937), and MacLean (1952) suggested that emotion is related to a group of structures in the center of the brain called the limbic system, which includes the hypothalamus, cingulate cortex, hippocampi, and other structures. More recent research has shown that some of these limbic structures are not as directly related to emotion as others are while some non-limbic structures have been found to be of greater emotional relevance.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56f97e1c9e9bad19000a09bc",
+      "target": "609",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Despite the continuing prominence of Nanjing (then known as Jiankang), the settlement of Qiantang, the former name of Hangzhou, remained one of the three major metropolitan centers in the south to provide major tax revenue to the imperial centers in the north China. The other two centers in the south were Jiankang and Chengdu. In 609, Qiangtang was raised in status and renamed Hangzhou.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572863cb3acd2414000df990",
+      "target": "171",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The 1923 general election was fought on the Conservatives' protectionist proposals but, although they got the most votes and remained the largest party, they lost their majority in parliament, necessitating the formation of a government supporting free trade. Thus, with the acquiescence of Asquith's Liberals, Ramsay MacDonald became the first ever Labour Prime Minister in January 1924, forming the first Labour government, despite Labour only having 171 MPs (less than a third of the House of Commons).",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-5727f7ee4b864d19001640ca",
+      "target": "1950s and 1960s",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Eventually, when it was more common for electric recordings to be played back electrically in the 1950s and 1960s, the overall tone was much like listening to a radio of the era. Magnetic pickups became more common and were better designed as time went on, making it possible to improve the damping of spurious resonances. Crystal pickups were also introduced as lower cost alternatives. The dynamic or moving coil microphone was introduced around 1930 and the velocity or ribbon microphone in 1932. Both of these high quality microphones became widespread in motion picture, radio, recording, and public address applications.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5726785bf1498d1400e8e0d3",
+      "target": "7th century BC",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "In Iran (Persia), the history of cotton dates back to the Achaemenid era (7th century BC); however, there are few sources about the planting of cotton in pre-Islamic Iran. The planting of cotton was common in Merv, Ray and Pars of Iran. In Persian poets' poems, especially Ferdowsi's Shahname, there are references to cotton (\"panbe\" in Persian). Marco Polo (13th century) refers to the major products of Persia, including cotton. John Chardin, a French traveler of the 17th century who visited the Safavid Persia, spoke approvingly of the vast cotton farms of Persia.",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-56df79fe5ca0a614008f9b0a",
+      "target": "160",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "In January 2009 President Barack Obama restored US funding to UNFPA, saying in a public statement that he would \"look forward to working with Congress to restore US financial support for the UN Population Fund. By resuming funding to UNFPA, the US will be joining 160 other donor nations working collaboratively to reduce poverty, improve the health of women and children, prevent HIV/AIDS and provide family planning assistance to women in 154 countries.\" ",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56f904a39e9bad19000a07df",
+      "target": "Austen Henry Layard",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Resorting to this verbal device, however, did not protect the \"Ancient Near East\" from the inroads of \"the Middle East.\" For example, a high point in the use of \"Ancient Near East\" was for Biblical scholars the Ancient Near Eastern Texts relating to the Old Testament by James Bennett Pritchard, a textbook of first edition dated 1950. The last great book written by Austen Henry Layard, British archaeologist, excavator of ancient Ur and associate of T.E. Lawrence and Arthur Evans, was The Art of the Middle East, Including Persia, Mesopotamia and Palestine, published in 1961. Woolley had completed it in 1960 two weeks before his death. The geographical ranges in each case are identical.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5728ab303acd2414000dfc7f",
+      "target": "Kullervo",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "On 14 June, while the world's attention was focused on the fall of Paris to Nazi Germany a day earlier, the Soviet military blockade on Estonia went into effect, two Soviet bombers downed the Finnish passenger aeroplane \"Kullervo\" flying from Tallinn to Helsinki carrying three diplomatic pouches from the US delegations in Tallinn, Riga and Helsinki. On 16 June, the Soviet Union invaded Estonia. The Red Army exited from their military bases in Estonia on 17 June. The following day, some 90,000 additional troops entered the country. In the face of overwhelming Soviet force, the Estonian government capitulated on 17 June 1940 to avoid bloodshed.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56e19ab0e3433e1400423002",
+      "target": "Noble gases",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [
+        {
+          "from": "Noble gases other than methane can be used",
+          "matches": 1
+        }
+      ],
+      "proposed_counterfactual_text": "This reaction is favored at low pressures but is nonetheless conducted at high pressures (2.0  MPa, 20 atm or 600 inHg). This is because high-pressure H\n2 is the most marketable product and Pressure Swing Adsorption (PSA) purification systems work better at higher pressures. The product mixture is known as \"synthesis gas\" because it is often used directly for the production of methanol and related compounds. Noble gases can be used to produce synthesis gas with varying product ratios. One of the many complications to this highly optimized technology is the formation of coke or carbon:",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-570cee7ffed7b91900d45aff",
+      "target": "The F and R plasmids",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The nitrogen fixing Rhizobia are an interesting case, wherein conjugative elements naturally engage in inter-kingdom conjugation. Such elements as the Agrobacterium Ti or Ri plasmids contain elements that can transfer to plant cells. Transferred genes enter the plant cell nucleus and effectively transform the plant cells into factories for the production of opines, which the bacteria use as carbon and energy sources. Infected plant cells form crown gall or root tumors. The F and R plasmids are thus endosymbionts of the bacteria, which are in turn endosymbionts (or parasites) of the infected plant.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5706fbf590286e26004fc7a6",
+      "target": "Perelman School of Medicine",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Most graduate immunology schools follow the AAI courses immunology which are offered throughout numerous schools in the United States. For example, in New York State, there are several universities that offer the AAI courses immunology: Albany Medical College, Cornell University, Perelman School of Medicine at Mount Sinai, New York University Langone Medical Center, University at Albany (SUNY), University at Buffalo (SUNY), University of Rochester Medical Center and Upstate Medical University (SUNY). The AAI immunology courses include an Introductory Course and an Advance Course. The Introductory Course is a course that gives students an overview of the basics of immunology.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-570d1aeafed7b91900d45c17",
+      "target": "Kharoṣṭhī",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Brahmi evolved into a multiplicity of Brahmic scripts, many of which were used to write Sanskrit. Roughly contemporary with the Brahmi, Kharosthi was used in the northwest of the subcontinent. Sometime between the fourth and eighth centuries, the Gupta script, derived from Brahmi, became prevalent. Around the eighth century, the Kharoṣṭhī script evolved out of the Gupta script. The latter was displaced in its turn by Devanagari in the 11th or 12th century, with intermediary stages such as the Siddhaṃ script. In East India, the Bengali alphabet, and, later, the Odia alphabet, were used.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572ff38604bcaa1900d76f19",
+      "target": "990–1047",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "One of the common definitions for \"Islamic philosophy\" is \"the style of philosophy produced within the framework of Islamic culture.\" Islamic philosophy, in this definition is neither necessarily concerned with religious issues, nor is exclusively produced by Muslims. The Persian scholar Ibn Sina (Avicenna) (990–1047) had more than 450 books attributed to him. His writings were concerned with various subjects, most notably philosophy and medicine. His medical textbook The Canon of Medicine was used as the standard text in European universities for centuries. He also wrote The Book of Healing, an influential scientific and philosophical encyclopedia.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5728ac94ff5b5019007da442",
+      "target": "Gap",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "BYU alumni in academia include former Dean of the Harvard Business School Kim B. Clark, two time world's most influential business thinker Clayton M. Christensen, Michael K. Young '73, current president of the University of Washington, Matthew S. Holland, current president of Utah Valley University, Stan L. Albrecht, current president of Utah State University, Teppo Felin, Professor at the University of Oxford, and Stephen D. Nadauld, previous president of Dixie State University. The University also graduated Nobel Prize winner Paul D. Boyer, as well as Philo Farnsworth (inventor of the electronic television) and Harvey Fletcher (inventor of the hearing aid). Four of BYU's thirteen presidents were alumni of the University. Additionally, alumni of BYU who have served as business leaders include Citigroup CFO Gary Crittenden '76, former Dell CEO Kevin Rollins '84, Deseret Book CEO Sheri L. Dew, and Matthew K. McCauley, CEO of children's clothing company Gap.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5731a0a1b9d445190005e415",
+      "target": "Plato",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "By the end of the early modern period, the structure and orientation of higher education had changed in ways that are eminently recognizable for the modern context. Plato was no longer a force providing the epistemological and methodological focus for universities and a more mechanistic orientation was emerging. The hierarchical place of theological knowledge had for the most part been displaced and the humanities had become a fixture, and a new openness was beginning to take hold in the construction and dissemination of knowledge that were to become imperative for the formation of the modern state.",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-56e1ce38e3433e14004231b0",
+      "target": "12,500 mile",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [
+        {
+          "from": "17,000 km",
+          "matches": 1
+        }
+      ],
+      "proposed_counterfactual_text": "In November 2013, Somalia received its first fiber optic connection. The country previously had to rely on expensive satellite links due to the civil conflict, which limited internet usage. However, residents now have access to broadband internet cable for the first time after an agreement reached between Hormuud Telecom and Liquid Telecom. The deal will see Liquid Telecom link Hormuud to its 20,100 km (12,500 mile) network of terrestrial cables, which will deliver faster internet capacity. The fiber optic connection will also make online access more affordable to the average user. This in turn is expected to further increase the number of internet users. Dalkom Somalia reached a similar agreement with the West Indian Ocean Cable Company (WIOCC) Ltd, which it holds shares in. Effective the first quarter of 2014, the deal will establish fiber optic connectivity to and from Somalia via the EASSy cable. The new services are expected to reduce the cost of international bandwidth and to better optimize performance, thereby further broadening internet access. Dalkom Somalia is concurrently constructing a 1,000 square mile state-of-the-art data center in Mogadishu. The site will facilitate direct connection into the international fiber optic network by hosting equipment for all of the capital's ISPs and telecommunication companies.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572936086aef051400154b79",
+      "target": "Article 29(2)",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The municipalities have two major policy responsibilities. First, they administer programs authorized by the federal or state government. Such programs typically relate to youth, schools, public health, and social assistance. Second, Article 29(2) of the Basic Law guarantees the municipalities \"the right to regulate on their own responsibility all the affairs of the local community within the limits set by law.\" Under this broad statement of competence, local governments can justify a wide range of activities. For instance, many municipalities develop and expand the economic infrastructure of their communities through the development of industrial trading estates.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56f732a2711bf01900a44a5d",
+      "target": "Mozart",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The dates are generalizations, since the periods and eras overlap and the categories are somewhat arbitrary, to the point that some authorities reverse terminologies and refer to a common practice \"era\" comprising baroque, classical, and romantic \"periods\". For example, the use of counterpoint and fugue, which is considered characteristic of the Baroque era (or period), was continued by Haydn, who is classified as typical of the Classical era. Beethoven, who is often described as a founder of the Romantic era, and Mozart, who is classified as Romantic, also used counterpoint and fugue, but other characteristics of their music define their era.",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-56f8d39d9b226e1400dd10a6",
+      "target": "8 million",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The region is serviced by 4,200 km (2,600 mi) of roads used by 8 million vehicles. Train travel is well established in the Alps, with, for instance 120 km (75 mi) of track for every 1,000 km2 (390 sq mi) in a country such as Switzerland. Most of Europe's highest railways are located there. Moreover, plans are underway to build a 57 km (35 mi)-long sub-alpine tunnel connecting the older Lötschberg and Gotthard tunnels built in the 19th century.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5726a317dd62a815002e8bab",
+      "target": "York Minster",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "It was principally the widespread introduction of a single feature, the pointed arch, which was to bring about the change that separates Gothic from Romanesque. The technological change permitted a stylistic change which broke the tradition of massive masonry and solid walls penetrated by small openings, replacing it with a style where light appears to triumph over substance. With its use came the development of many other architectural devices, previously put to the test in scattered buildings and then called into service to meet the structural, aesthetic and ideological needs of the new style. These include the flying buttresses, pinnacles and traceried windows which typify Gothic ecclesiastical architecture. But while pointed arch is so strongly associated with the Gothic style, it was first used in Western architecture in buildings that were in other ways clearly Romanesque, notably York Minster in the north of England, Monreale Cathedral and Cathedral of Cefalù in Sicily, Autun Cathedral in France.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5726a342f1498d1400e8e594",
+      "target": "1844/45",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "After many other more or less successful attempts with relatively weak rotating and reciprocating apparatus the Prussian Moritz von Jacobi created the first real rotating electric motor in May 1834 that actually developed a remarkable mechanical output power. His motor set a world record which was improved only four years later in September 1838 by Jacobi himself. His second motor was powerful enough to drive a boat with 14 people across a wide river. It was not until 1844/45 that other developers worldwide managed to build motors of similar and later also of higher performance.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5730a8cc2461fd1900a9cf5a",
+      "target": "Akkadian written history",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The Sumerian city-states rose to power during the prehistoric Ubaid and Uruk periods. Akkadian written history reaches back to the 27th century BC and before, but the historical record remains obscure until the Early Dynastic III period, c. the 23rd century BC, when a now deciphered syllabary writing system was developed, which has allowed archaeologists to read contemporary records and inscriptions. Classical Sumer ends with the rise of the Akkadian Empire in the 23rd century BC. Following the Gutian period, there is a brief Sumerian Renaissance in the 21st century BC, cut short in the 20th century BC by Semitic Amorite invasions. The Amorite \"dynasty of Isin\" persisted until c. 1700 BC, when Mesopotamia was united under Babylonian rule. The Sumerians were eventually absorbed into the Akkadian (Assyro-Babylonian) population.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572edac4dfa6aa1500f8d46b",
+      "target": "1936",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The transistor is the fundamental building block of modern electronic devices, and is ubiquitous in modern electronic systems. First conceived by Julius Lilienfeld in 1936 and practically implemented in 1947 by American physicists John Bardeen, Walter Brattain, and William Shockley, the transistor revolutionized the field of electronics, and paved the way for smaller and cheaper radios, calculators, and computers, among other things. The transistor is on the list of IEEE milestones in electronics, and Bardeen, Brattain, and Shockley shared the 1956 Nobel Prize in Physics for their achievement.",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-5727c8104b864d1900163cfd",
+      "target": "Johann Gottfried Herder",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The modern term \"culture\" is based on a term used by the Ancient Roman orator Cicero in his Tusculanae Disputationes, where he wrote of a cultivation of the soul or \"cultura animi\", using an agricultural metaphor for the development of a philosophical soul, understood teleologically as the highest possible ideal for human development. Johann Gottfried Herder took over this metaphor in a modern context, meaning something similar, but no longer assuming that philosophy was man's natural perfection. His use, and that of many writers after him \"refers to all the ways in which human beings overcome their original barbarism, and through artifice, become fully human\".",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572736f0dd62a815002e999a",
+      "target": "Richard Russell",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [
+        {
+          "from": "Minnesota Senator Richard Russell",
+          "matches": 1
+        },
+        {
+          "from": "Humphrey",
+          "matches": 1
+        }
+      ],
+      "proposed_counterfactual_text": "Title VII was perhaps the most controversial of the entire bill. Many conservatives accused it of advocating a de facto quota system, and claimed unconstitutionality as it attempts to regulate the workplace. Georgia Senator Richard Russell corrected this notion: \"there is nothing in [Title VII] that will give power to the Commission to require hiring, firing, and promotion to meet a racial 'quota.' [. . .] Title VII is designed to encourage the hiring on basis of ability and qualifications, not race or religion.\" Title VII prohibits discrimination. Russell was the silent hero of the bill's passing through Congress. He pledged that the bill required no quotas, just nondiscrimination. Doing so, he convinced many pro-business Republicans, including Senate Minority Leader Everett Dirksen (IL) to support Title VII.:78–80",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56de6a2e4396321400ee28ad",
+      "target": "60 kilometres",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Initially, the station's range was officially a 60 kilometres radius of the Alexandra Palace transmitter—in practice, however, transmissions could be picked up a good deal further away, and on one occasion in 1938 were picked up by engineers at RCA in New York, who were experimenting with a British television set.",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-57303a2d947a6a140053d2da",
+      "target": "UK Home Office",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Reciprocal arrangements allow British and Irish citizens to full voting rights in the two states. Exceptions to this are presidential elections and constitutional referendums in the Republic of Ireland, for which there is no comparable franchise in the other states. In the United Kingdom, these pre-date European Union law, and in both jurisdictions go further than that required by European Union law. Other EU nationals may only vote in local and European Parliament elections while resident in either the UK or Ireland. In 2008, a UK Home Office report investigating how to strengthen the British sense of citizenship proposed to end this arrangement arguing that, \"the right to vote is one of the hallmarks of the political status of citizens; it is not a means of expressing closeness between countries.\"",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56d12d5117492d1400aabb71",
+      "target": "2003",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "In four months, Aonuma's team managed to present realistic horseback riding,[l] which Nintendo later revealed to the public with a trailer at Electronic Entertainment Expo 2003. The game was scheduled to be released the next year, and was no longer a follow-up to The Wind Waker; a true sequel to it was released for the Nintendo DS in 2007, in the form of Phantom Hourglass. Miyamoto explained in interviews that the graphical style was chosen to satisfy demand, and that it better fit the theme of an older incarnation of Link. The game runs on a modified The Wind Waker engine.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5731200be6313a140071cc5c",
+      "target": "League of Nations and other forums",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Another important factor is the apparent consensus among Western great powers that military force is no longer an effective tool of resolving disputes among their peers. This \"subset\" of great powers – France, Germany, Japan, the United Kingdom and the United States – consider maintaining a \"state of peace\" as desirable. As evidence, Baron outlines that since the Cuban missile crisis (1962) during the Cold War, these influential Western nations have resolved all disputes among the great powers peacefully at the League of Nations and other forums of international discussion.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5726b3445951b619008f7afe",
+      "target": "Spectrum Center",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Southeast Raleigh is bounded by downtown on the west, Garner on the southwest, and rural Wake County to the southeast. The area includes areas along Rock Quarry Road, Poole Road, and New Bern Avenue. Primary neighborhoods include Chastain, Chavis Heights, Raleigh Country Club, Southgate, Kingwood Forest, Rochester Heights, Emerald Village and Biltmore Hills. Spectrum Center (formerly Alltel Pavilion and Walnut Creek Amphitheatre) is one of the region's major outdoor concert venues and is located on Rock Quarry Road. Shaw University is located in this part of the city.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572802ae4b864d1900164214",
+      "target": "Freshman Civic Scholars Program",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Many students are involved in community service in one form or another. Annual events include Dance Marathon, a thirty-hour event that raised more than a million dollars for charity in 2011; and Project Pumpkin, a Halloween celebration hosted by the Northwestern Community Development Corps (NCDC) to which more than 800 local children are invited for an afternoon of games and sweets. NCDC's work is to connect hundreds of student volunteers to some twenty volunteer sites in Evanston and Chicago throughout the year. Many students have assisted with the Special Olympics and have taken alternative spring break trips to hundreds of service sites across the United States. Northwestern students also participate in the Freshman Civic Scholars Program, a program for students interested in community service. A large and growing number of students participate in the university's Global Engagement Summer Institute (GESI), a group service-learning expedition in Asia, Africa, or Latin America, in conjunction with the Foundation for Sustainable Development. Several internationally recognized non-profit organizations have originated at Northwestern including the World Health Imaging, Informatics and Telemedicine Alliance, a spin-off from an engineering student's honors thesis.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56dfecfb231d4119001abea8",
+      "target": "Manchester",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "A gastropub concentrates on quality food. The name is a portmanteau of pub and gastronomy and was coined in 1991 when David Eyre and Mike Belben took over The Eagle pub in Clerkenwell, Manchester. The concept of a restaurant in a pub reinvigorated both pub culture and British dining, though has occasionally attracted criticism for potentially removing the character of traditional pubs.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572e9358cb0c0d14000f12ed",
+      "target": "Walter Isaacson",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "In a 1992 New York Times article on Feynman and his legacy, Walter Isaacson recounts the story of how Murray Gell-Mann described what has become known as \"The Feynman Algorithm\" or \"The Feynman Problem-Solving Algorithm\" to a student: \"The student asks Gell-Mann about Feynman's notes. Gell-Mann says no, Dick's methods are not the same as the methods used here. The student asks, well, what are Feynman's methods? Gell-Mann leans coyly against the blackboard and says: Dick's method is this. You write down the problem. You think very hard. (He shuts his eyes and presses his knuckles parodically to his forehead.) Then you write down the answer.\"",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5727fe1c4b864d190016419b",
+      "target": "22 April 2010",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The GSM Association (GSMA) followed suit on 17 February 2009, and on 22 April 2010, this was further endorsed by the CTIA – The Wireless Association, with the International Telecommunication Union (ITU) announcing on 22 October 2009 that it had also embraced the Universal Charging Solution as its \"energy-efficient one-charger-fits-all new mobile phone solution,\" and added: \"Based on the Micro-USB interface, UCS chargers will also include a 4-star or higher efficiency rating—up to three times more energy-efficient than an unrated charger.\"",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5726d7e25951b619008f7fab",
+      "target": "Ribbentrop",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Soviet propaganda and representatives went to great lengths to minimize the importance of the fact that they had opposed and fought against the Nazis in various ways for a decade prior to signing the Pact. Upon signing the pact, Ribbentrop tried to reassure the Germans of his good intentions by commenting to journalists that \"fascism is a matter of taste\". For its part, Nazi Germany also did a public volte-face regarding its virulent opposition to the Soviet Union, though Hitler still viewed an attack on the Soviet Union as \"inevitable\".[citation needed]",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572855143acd2414000df91f",
+      "target": "Pioneer Electronics",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "In the early 1980s, Philips produced a LaserDisc player model adapted for a computer interface, dubbed \"professional\". In 1985, Pioneer Electronics created LaserDisc Juke Boxes featuring music videos from Michael Jackson, Duran Duran, and Cyndi Lauper. When connected to a PC this combination could be used to display images or information for educational or archival purposes, for example thousands of scanned medieval manuscripts. This strange device could be considered a very early equivalent of a CD-ROM.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572999813f37b319004784e8",
+      "target": "Dubravka Ugrešić",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The opinion of the majority of Croatian linguists[citation needed] is that there has never been a Serbo-Croatian language, but two different standard languages that overlapped sometime in the course of history. However, Croatian linguist Snježana Kordić has been leading an academic discussion on that issue in the Croatian journal Književna republika from 2001 to 2010. In the discussion, she shows that linguistic criteria such as mutual intelligibility, huge overlap in linguistic system, and the same dialectic basis of standard language provide evidence that Croatian, Serbian, Bosnian and Montenegrin are four national variants of the pluricentric Serbo-Croatian language. Dubravka Ugrešić states: \"During the last ten years, it has been the longest, the most serious and most acrid discussion (…) in 21st-century Croatian culture\". Inspired by that discussion, a monograph on language and nationalism has been published.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5709a0c3ed30961900e84392",
+      "target": "Census Bureau",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The racial categories represent a social-political construct for the race or races that respondents consider themselves to be and \"generally reflect a social definition of race recognized in this country.\" Census Bureau defines the concept of race as outlined for the U.S. Census as not \"scientific or anthropological\" and takes into account \"social and cultural characteristics as well as ancestry\", using \"appropriate scientific methodologies\" that are not \"primarily biological or genetic in reference.\" The race categories include both racial and national-origin groups.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-57321018b9d445190005e7b0",
+      "target": "Thomas Jefferson",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "To a large extent, the minority leader's position is a 20th-century innovation. Prior to this time congressional parties were often relatively disorganized, so it was not always evident who functioned as the opposition floor leader. Decades went by before anything like the modern two-party congressional system emerged on Capitol Hill with official titles for those who were its official leaders. However, from the beginning days of Congress, various House members intermittently assumed the role of \"opposition leader.\" Some scholars suggest that Representative James Madison of Virginia informally functioned as the first \"minority leader\" because in the First Congress he led the opposition to Treasury Secretary Thomas Jefferson's fiscal policies.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-57317b4d05b4da19006bd1e4",
+      "target": "US$1.1 billion",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The United States provides Egypt with annual military assistance, which in 2015 amounted to US$1.1 billion. In 1989, Egypt was designated as a major non-NATO ally of the United States. Nevertheless, ties between the two countries have partially soured since the July 2013 military coup that deposed Islamist president Mohamed Morsi, with the Obama administration condemning Egypt's violent crackdown on the Muslim Brotherhood and its supporters, and cancelling future military exercises involving the two countries. There have been recent attempts, however, to normalise relations between the two, with both governments frequently calling for mutual support in the fight against regional and international terrorism.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572a73ae27b69114009ef5c9",
+      "target": "George Sarton",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "There is disagreement whether madaris ever became universities. Scholars like Arnold H. Green and Seyyed Hossein Nasr have argued that starting in the 10th century, some medieval Islamic madaris indeed became universities. George Sarton and others, however, argue that the European university has no parallel in the medieval Islamic world. Darleen Pryds questions this view, pointing out that madaris and European universities in the Mediterranean region shared similar foundations by princely patrons and were intended to provide loyal administrators to further the rulers' agenda. Other scholars regard the university as uniquely European in origin and characteristics.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-570f38055ab6b81900390ea4",
+      "target": "26-hour",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The simplest known circadian clock is that of the prokaryotic cyanobacteria. Recent research has demonstrated that the circadian clock of Synechococcus elongatus can be reconstituted in vitro with just the three proteins (KaiA, KaiB, KaiC) of their central oscillator. This clock has been shown to sustain a 26-hour rhythm over several days upon the addition of ATP. Previous explanations of the prokaryotic circadian timekeeper were dependent upon a DNA transcription/translation feedback mechanism.[citation needed]",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5727ea07ff5b5019007d9860",
+      "target": "Duncan Hotel",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "New Haven has been depicted in a number of movies. Scenes in the film All About Eve (1950) are set at the Duncan Hotel (now Taft Apartments) on the corner of College and Chapel streets, and the history of New Haven theaters as Broadway \"tryouts\" is depicted in the Fred Astaire film The Band Wagon (1953). The city was fictionally portrayed in the Steven Spielberg movie Amistad (1997) concerning the events around the mutiny trial of that ship's rebelling captives. New Haven was also fictionalized in the movie The Skulls (2000), which focused on conspiracy theories surrounding the real-life Skull and Bones secret society which is located in New Haven.",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-570c2d8e6b8089140040fbd6",
+      "target": "Director of the Central Intelligence Agency",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The Federal Bureau of Investigation (FBI) is the domestic intelligence and security service of the United States, which simultaneously serves as the nation's prime federal law enforcement organization. Operating under the jurisdiction of the U.S. Department of Justice, FBI is concurrently a member of the U.S. Intelligence Community and reports to both the Attorney General and the Director of the Central Intelligence Agency. A leading U.S. counterterrorism, counterintelligence, and criminal investigative organization, FBI has jurisdiction over violations of more than 200 categories of federal crimes.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-573088d7396df9190009618c",
+      "target": "London City Airport",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The distances passengers need to move within a large airport can be substantial. It is common for airports to provide moving walkways and buses. The Hartsfield–Jackson Atlanta International Airport has a tram that takes people through the concourses and baggage claim. Major airports with more than one terminal offer inter-terminal transportation, such as London City Airport, where the domestic building of Terminal 1 is connected by Aerotrén to Terminal 2, on the other side of the airport.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5709d8514103511400d59483",
+      "target": "1969",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The Gold Standard Act of 1900 abandoned the bimetallic standard and defined the dollar as 23.22 grains (1.505 g) of gold, equivalent to setting the price of 1 troy ounce of gold at $20.67. Silver coins continued to be issued for circulation until 1969, when all silver was removed from dimes and quarters, and the half dollar was reduced to 40% silver. Silver half dollars were last issued for circulation in 1970. Gold coins were confiscated by Executive Order 6102 issued in 1933 by Franklin Roosevelt. The gold standard was changed to 13.71 grains (0.888 g), equivalent to setting the price of 1 troy ounce of gold at $35. This standard persisted until 1968.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-57342eb44776f41900661a2c",
+      "target": "Pegylated interferon-beta-1a",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The clearance of the pathogens, either treatment-induced or spontaneous, it can be influenced by the genetic variants carried by the individual patients. For instance, for genotype 1 hepatitis C treated with Pegylated interferon-alpha-2a or Pegylated interferon-beta-1a (brand names Pegasys or PEG-Intron) combined with ribavirin, it has been shown that genetic polymorphisms near the human IL28B gene, encoding interferon lambda 3, are associated with significant differences in the treatment-induced clearance of the virus. This finding, originally reported in Nature, showed that genotype 1 hepatitis C patients carrying certain genetic variant alleles near the IL28B gene are more possibly to achieve sustained virological response after the treatment than others. Later report from Nature demonstrated that the same genetic variants are also associated with the natural clearance of the genotype 1 hepatitis C virus.",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-56cf1d3baab44d1400b88da7",
+      "target": "2,735",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Under the Köppen climate classification, using the 0 °C (32 °F) coldest month (January) isotherm, New York City itself experiences a humid subtropical climate (Cfa) and is thus the northernmost major city on the North American continent with this categorization. The suburbs to the immediate north and west lie in the transition zone from a humid subtropical (Cfa) to a humid continental climate (Dfa). The area averages 234 days with at least some sunshine annually, and averages 57% of possible sunshine annually, accumulating 2,735 hours of sunshine per annum. The city falls under USDA 7b Plant Hardiness zone.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-57297a3baf94a219006aa4c1",
+      "target": "Florence",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "By the mid 18th century, the movement broadened to incorporate a greater range of Classical influences, including those from Ancient Greece. The shift to neoclassical architecture is conventionally dated to the 1750s. It first gained influence in England and France; in England, Sir William Hamilton's excavations at Pompeii and other sites, the influence of the Grand Tour and the work of William Chambers and Robert Adam, was pivotal in this regard. In France, the movement was propelled by a generation of French art students trained in Florence, and was influenced by the writings of Johann Joachim Winckelmann. The style was also adopted by progressive circles in other countries such as Sweden and Russia.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5733d4364776f419006612f4",
+      "target": "Alexander Fleming",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The first sulfonamide and first commercially available antibacterial, Prontosil, was developed by a research team led by Alexander Fleming in 1932 at the Bayer Laboratories of the IG Farben conglomerate in Germany. Domagk received the 1939 Nobel Prize for Medicine for his efforts. Prontosil had a relatively broad effect against Gram-positive cocci, but not against enterobacteria. Research was stimulated apace by its success. The discovery and development of this sulfonamide drug opened the era of antibacterials.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56fb85aab28b3419009f1dfa",
+      "target": "Pope Gregory XIII",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Monastic reform inspired change in the secular church. The ideals that it was based upon were brought to the papacy by Pope Leo IX (pope 1049–1054), and provided the ideology of the clerical independence that led to the Investiture Controversy in the late 11th century. This involved Pope Gregory XIII (pope 1073–85) and Emperor Henry IV, who initially clashed over episcopal appointments, a dispute that turned into a battle over the ideas of investiture, clerical marriage, and simony. The emperor saw the protection of the Church as one of his responsibilities as well as wanting to preserve the right to appoint his own choices as bishops within his lands, but the papacy insisted on the Church's independence from secular lords. These issues remained unresolved after the compromise of 1122 known as the Concordat of Worms. The dispute represents a significant stage in the creation of a papal monarchy separate from and equal to lay authorities. It also had the permanent consequence of empowering German princes at the expense of the German emperors.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5728cd4f3acd2414000dfedc",
+      "target": "262",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Bush's margin of victory in the popular vote was the smallest ever for a reelected incumbent president, but marked the first time since his father's victory 16 years prior that a candidate won a majority of the popular vote. The electoral map closely resembled that of 2000, with only three states changing sides: New Mexico and Iowa voted Republican in 2004 after having voted Democratic in 2000, while New Hampshire voted Democratic in 2004 after previously voting Republican. In the Electoral College, Bush received 286 votes to Kerry's 262.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-57270a67dd62a815002e9849",
+      "target": "Biloxi, Mississippi",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "In 1963, Ralph J. Roberts in conjunction with his two business partners, Daniel Aaron and Julian A. Brodsky, purchased American Cable Systems as a corporate spin-off from its parent, Jerrold Electronics, for US $500,000. At the time, American Cable was a small cable operator in Biloxi, Mississippi, with five channels and 12,000 customers. Storecast Corporation of America, a product placement supermarket specialist marketing firm, was purchased by American Cable in 1965. With Storecast being a Muzak client, American Cable purchased its first Muzak franchise of many in Orlando, Florida.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5706917375f01819005e7c10",
+      "target": "In the polar regions",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "In the polar regions there is little variation in the length of day throughout the year, and it is always warm enough for a food supply, but altitudinal migration occurs in some tropical birds. There is evidence that this enables the migrants to obtain more of their preferred foods such as fruits.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5727456add62a815002e9a48",
+      "target": "Digimon Rumble Arena",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The franchise was first created in 1997 as a series of virtual pets, akin to—and influenced in style by—the contemporary Tamagotchi or nano Giga Pet toys. The creatures were first designed to look cute and iconic even on the devices' small screens; later developments had them created with a harder-edged style influenced by American comics. The franchise gained momentum with its first anime incarnation, Digimon Adventure, and an early video game, Digimon Rumble Arena, both released in 1999. Several seasons of the anime and films based on them have aired, and the video game series has expanded into genres such as role-playing, racing, fighting, and MMORPGs. Other media forms have also been released.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5726ed33f1498d1400e8f003",
+      "target": "6 million",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [
+        {
+          "from": "over 6 million",
+          "matches": 1
+        }
+      ],
+      "proposed_counterfactual_text": "Czech (/ˈtʃɛk/; čeština Czech pronunciation: [ˈt͡ʃɛʃcɪna]), formerly known as Bohemian (/boʊˈhiːmiən, bə-/; lingua Bohemica in Latin), is a West Slavic language strongly influenced by Latin and German language, spoken by fewer than 6 million people and it is the official language of the Czech Republic. Czech's closest relative is Slovak, with which it is mutually intelligible. It is closely related to other West Slavic languages, such as Silesian and Polish. Although most Czech vocabulary is based on shared roots with Slavic, Romance, and Germanic languages, many loanwords (most associated with high culture) have been adopted in recent years.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5726b882dd62a815002e8e21",
+      "target": "Clara Barton",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The Crimean War was one of the first conflicts to use modern technologies such as explosive naval shells, railways, and telegraphs.(Preface) The war was one of the first to be documented extensively in written reports and photographs. As the legend of the \"Charge of the Light Brigade\" demonstrates, the war quickly became an iconic symbol of logistical, medical and tactical failures and mismanagement. The reaction in the UK was a demand for professionalization, most famously achieved by Clara Barton, who gained worldwide attention for pioneering modern nursing while treating the wounded.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572a33f0af94a219006aa893",
+      "target": "Bell Media",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Under the CBC's current arrangement with Bell Media for National Hockey League broadcast rights, Hockey Night in Canada broadcasts on CBC-owned stations and affiliates are not technically aired over the CBC Television network, but over a separate CRTC-licensed part-time network operated by Rogers. This was required by the CRTC as Rogers exercises editorial control and sells all advertising time during the HNIC broadcasts, even though the CBC bug and promos for other CBC Television programs appear throughout HNIC.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-57268eb85951b619008f7689",
+      "target": "6,000",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The German higher education system comprises two forms of academic institutions: universities and polytechnics (Fachhochschule). The University of Jena is the biggest amongst Thuringia's four universities and offers nearly every discipline. It was founded in 1558, and today has 21,000 students. The second-largest is the Technische Universität Ilmenau with 7,000 students, founded in 1894, which offers many technical disciplines such as engineering and mathematics. The University of Erfurt, founded in 1392, has 6,000 students today and an emphasis on humanities and teacher training. The Bauhaus University Weimar with 4,000 students is Thuringia's smallest university, specialising in creative subjects such as architecture and arts. It was founded in 1860 and came to prominence as Germany's leading art school during the inter-war period, the Bauhaus.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-57101252a58dae1900cd685c",
+      "target": "Heterosexuality and homosexuality",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "These categories are aspects of the more nuanced nature of sexual identity and terminology. For example, people may use other labels, such as pansexual or polysexual, or none at all. According to the American Psychological Association, sexual orientation \"also refers to a person's sense of identity based on those attractions, related behaviors, and membership in a community of others who share those attractions\". Heterosexuality and homosexuality are terms used in behavioral science to describe sexual orientation as an alternative to a gender binary conceptualization. Androphilia describes sexual attraction to masculinity; gynephilia describes the sexual attraction to femininity. The term sexual preference largely overlaps with sexual orientation, but is generally distinguished in psychological research. A person who identifies as bisexual, for example, may sexually prefer one sex over the other. Sexual preference may also suggest a degree of voluntary choice, whereas the scientific consensus is that sexual orientation is not a choice.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-570b6608ec8fbc190045b9dd",
+      "target": "30 inches",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [
+        {
+          "from": "20 in (510 mm)",
+          "matches": 1
+        },
+        {
+          "from": "510 millimetres",
+          "matches": 1
+        }
+      ],
+      "proposed_counterfactual_text": "The 100th meridian roughly corresponds with the line that divides the Great Plains into an area that receive 30 inches (760 millimetres) or more of rainfall per year and an area that receives less than 30 in (760 mm). In this context, the High Plains, as well as Southern Alberta, south-western Saskatchewan and Eastern Montana are mainly semi hot steppe land and are generally characterised by rangeland or marginal farmland. The region (especially the High Plains) is periodically subjected to extended periods of drought; high winds in the region may then generate devastating dust storms. The eastern Great Plains near the eastern boundary falls in the humid subtropical climate zone in the southern areas, and the northern and central areas fall in the humid continental climate.",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-5706bb610eeca41400aa0dbf",
+      "target": "Amsterdam Dance Event",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Numerous live performance events dedicated to house music were founded during the course of the decade, including Amsterdam Dance Event and major industry sponsored events like Miami's Winter Music Conference. The genre even gained popularity in the Middle East in cities such as Dubai & Abu Dhabi[citation needed] and at events like Creamfields.",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-5727dd8dff5b5019007d970f",
+      "target": "150",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [
+        {
+          "from": "over 150 judges",
+          "matches": 1
+        }
+      ],
+      "proposed_counterfactual_text": "In 1959, an international gathering of exactly 150 judges, lawyers, and law professors from 53 countries, meeting in New Delhi and speaking as the International Commission of Jurists, made a declaration as to the fundamental principle of the rule of law. This was the Declaration of Delhi. They declared that the rule of law implies certain rights and freedoms, that it implies an independent judiciary, and that it implies social, economic and cultural conditions conducive to human dignity. The Declaration of Delhi did not, however, suggest that the rule of law requires legislative power to be subject to judicial review.",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-57278aac708984140094e059",
+      "target": "Superior Court of Justice",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The titles of state supreme court vary, which can cause confusion between jurisdictions because one state may use a name for its highest court that another uses for a lower court. In New York, Maryland, and the District of Columbia the highest court is called the Court of Appeals, a name used by many states for their intermediate appellate courts. Further, trial courts of general jurisdiction in New York are called the Supreme Court, and the intermediate appellate court is called the Supreme Court, Appellate Division. In West Virginia, the highest court of the state is the Superior Court of Justice. In Maine and Massachusetts the highest court is styled the \"Supreme Judicial Court\"; the last is the oldest appellate court of continuous operation in the Western Hemisphere.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-572a2cfc1d04691400779817",
+      "target": "Ankara University",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Educational and technological reforms came about, including the establishment of higher education institutions such as the Ankara University. In 1734 an artillery school was established to impart Western-style artillery methods, but the Islamic clergy successfully objected under the grounds of theodicy. In 1754 the artillery school was reopened on a semi-secret basis. In 1726, Ibrahim Muteferrika convinced the Grand Vizier Nevşehirli Damat İbrahim Pasha, the Grand Mufti, and the clergy on the efficiency of the printing press, and Muteferrika was later granted by Sultan Ahmed III permission to publish non-religious books (despite opposition from some calligraphers and religious leaders). Muteferrika's press published its first book in 1729 and, by 1743, issued 17 works in 23 volumes, each having between 500 and 1,000 copies.",
+      "source_eligibility": "withhold_due_source_problem"
+    },
+    {
+      "qid": "squad-5725140d0a492a19004356ea",
+      "target": "British aristocracy",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Many Islamic anti-Masonic arguments are closely tied to both antisemitism and Anti-Zionism, though other criticisms are made such as linking Freemasonry to al-Masih ad-Dajjal (the false Messiah). Some Muslim anti-Masons argue that Freemasonry promotes the interests of the British aristocracy around the world and that one of its aims is to destroy the Al-Aqsa Mosque in order to rebuild the Temple of Solomon in Jerusalem. In article 28 of its Covenant, Hamas states that Freemasonry, Rotary, and other similar groups \"work in the interest of Zionism and according to its instructions ...\"",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56dc79fc14d3a41400c268db",
+      "target": "The Catholic Church",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "In Ireland comprehensive schools were an earlier model of state schools, introduced in the late 1960s and largely replaced by the secular community model of the 1970s. The comprehensive model generally incorporated older schools that were under Roman Catholic or Protestant ownership, and the various denominations still manage the school as patrons or trustees. The Catholic Church owns the school property, which is vested in the trustees in perpetuity. The model was adopted to make state schools more acceptable to a largely conservative society of the time.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56f8aaba9b226e1400dd0dae",
+      "target": "East 14th Street",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Although the numbered streets begin just north of East 14th Street in the East Village, they generally do not extend west into Greenwich Village, which already had streets when the grid plan was laid out by the Commissioners' Plan of 1811. Streets that do continue farther west change direction before reaching the Hudson River. The grid covers the length of the island from 14th Street north.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-57278ab15951b619008f8ce6",
+      "target": "William Pitt the Younger",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "When they lost power, the old Whig leadership dissolved into a decade of factional chaos with distinct \"Grenvillite\", \"Bedfordite\", \"Rockinghamite\", and \"Chathamite\" factions successively in power, and all referring to themselves as \"Whigs\". Out of this chaos, the first distinctive parties emerged. The first such party was the Rockingham Whigs under the leadership of William Pitt the Younger and the intellectual guidance of the political philosopher Edmund Burke. Burke laid out a philosophy that described the basic framework of the political party as \"a body of men united for promoting by their joint endeavours the national interest, upon some particular principle in which they are all agreed\". As opposed to the instability of the earlier factions, which were often tied to a particular leader and could disintegrate if removed from power, the party was centred around a set of core principles and remained out of power as a united opposition to government.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56ccf96562d2951400fa6509",
+      "target": "Ming dynasty's Liaodong Regional Military Commission",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The official position of the Ministry of Foreign Affairs of the People's Republic of China is that the Ming implemented a policy of managing Tibet according to conventions and customs, granting titles and setting up administrative organs over Tibet. The State Council Information Office of the People's Republic states that the Ming dynasty's Liaodong Regional Military Commission governed most areas of Tibet. It also states that while the Ming abolished the policy council set up by the Mongol Yuan to manage local affairs in Tibet and the Mongol system of Imperial Tutors to govern religious affairs, the Ming adopted a policy of bestowing titles upon religious leaders who had submitted to the Ming dynasty. For example, an edict of the Hongwu Emperor in 1373 appointed the Tibetan leader Choskunskyabs as the General of the Ngari Military and Civil Wanhu Office, stating:",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5728e52d2ca10214002daa54",
+      "target": "Lysippos",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "The evolution of the Greek sculpture can be observed in his depictions from the almost static formal Kouros type in early archaic period, to the representation of motion in a relative harmonious whole in late archaic period. In classical Greece the emphasis is not given to the illusive imaginative reality represented by the ideal forms, but to the analogies and the interaction of the members in the whole, a method created by Polykleitos. Finally Lysippos seems to be released from any art and religious conformities, and his masterpieces are a mixture of naturalism with stylization.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-570af9ad6b8089140040f65c",
+      "target": "1980s",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "One of the first demonstrations of the ability for telecommunications to help sign language users communicate with each other occurred when AT&T's videophone (trademarked as the \"Picturephone\") was introduced to the public at the 1964 New York World's Fair –two deaf users were able to communicate freely with each other between the fair and another city. Various universities and other organizations, including British Telecom's Martlesham facility, have also conducted extensive research on signing via videotelephony. The use of sign language via videotelephony was hampered for many years due to the difficulty of its use over slow analogue copper phone lines, coupled with the high cost of better quality ISDN (data) phone lines. Those factors largely disappeared with the introduction of more efficient video codecs and the advent of lower cost high-speed ISDN data and IP (Internet) services in the 1980s.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5726c6385951b619008f7dc3",
+      "target": "October 8, 1912",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "At the Salon d'Automne of the same year, in addition to the Indépendants group of Salle 41, were exhibited works by André Lhote, Marcel Duchamp, Jacques Villon, Roger de La Fresnaye, André Dunoyer de Segonzac and František Kupka. The exhibition was reviewed in the October 8, 1912 issue of The New York Times. This article was published a year after Gelett Burgess' The Wild Men of Paris, and two years prior to the Armory Show, which introduced astonished Americans, accustomed to realistic art, to the experimental styles of the European avant garde, including Fauvism, Cubism, and Futurism. The 1911 New York Times article portrayed works by Picasso, Matisse, Derain, Metzinger and others dated before 1909; not exhibited at the 1911 Salon. The article was titled The \"Cubists\" Dominate Paris' Fall Salon and subtitled Eccentric School of Painting Increases Its Vogue in the Current Art Exhibition - What Its Followers Attempt to Do.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-57277e54f1498d1400e8f9bd",
+      "target": "Zen and Pure Land",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Buddhism began to spread throughout Japan during the Heian period, primarily through two major esoteric sects, Zen and Pure Land. Tendai originated in China and is based on the Lotus Sutra, one of the most important sutras of Mahayana Buddhism; Saichō was key to its transmission to Japan. Shingon is the Japanese transmission of the Chinese Chen Yen school. Shingon, brought to Japan by the monk Kūkai, emphasizes Esoteric Buddhism. Both Kūkai and Saichō aimed to connect state and religion and establish support from the aristocracy, leading to the notion of 'aristocratic Buddhism'. An important element of Tendai doctrine was the suggestion that enlightenment was accessible to \"every creature\". Saichō also sought independent ordination for Tendai monks. A close relationship developed between the Tendai monastery complex on Mount Hiei and the imperial court in its new capital at the foot of the mountain. As a result, Tendai emphasized great reverence for the emperor and the nation. Kammu himself was a notable patron of the otherworldly Tendai sect, which rose to great power over the ensuing centuries. Kūkai greatly impressed the emperors who succeeded Emperor Kammu, and also generations of Japanese, not only with his holiness but also with his poetry, calligraphy, painting, and sculpture. Shingon, through its use of \"rich symbols, rituals and mandalas\" held a wide-ranging appeal.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-56eaa5425a205f1900d6d3b6",
+      "target": "Nepotism",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "Nepotism refers to an individual who is dishonest and corrupt for the purpose of personal gain, more often through monetary, while, parochialism which is also known as parish pump politics relates to placing local or vanity projects ahead of the national interest.For instance in Irish politics, populist left wing political parties will often apply these terms to mainstream establisment political parties and will cite the many cases of Corruption in Ireland, such as the Irish Banking crisis, which found evidence of bribery, cronyism and collusion, where in some cases politicians who were coming to the end of their political careers would receive a senior management or committee position in a company they had dealings with.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5711225fa58dae1900cd6c8b",
+      "target": "DE-9",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "A number of special controllers designed for use with specific games were released for the system, though very few such devices proved particularly popular. Such devices included, but were not limited to, the Zapper (a light gun), the R.O.B., and the Power Pad. The original Famicom featured a deepened DE-9 expansion port on the front of the unit, which was used to connect most auxiliary devices. On the NES, these special controllers were generally connected to one of the two control ports on the front of the console.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    },
+    {
+      "qid": "squad-5727824e708984140094df94",
+      "target": "Lionsgate",
+      "target_occurs_after_replacement": true,
+      "reference_remains_after_replacement": false,
+      "extra_replacement_matches": [],
+      "proposed_counterfactual_text": "TCM's library of films spans several decades of cinema and includes thousands of film titles. Besides its deals to broadcast film releases from Metro-Goldwyn-Mayer and Warner Bros. Entertainment, Turner Classic Movies also maintains movie licensing rights agreements with Universal Studios, Paramount Pictures, 20th Century Fox, Walt Disney Studios (primarily film content from Walt Disney Pictures, as well as most of the Selznick International Pictures library), Lionsgate (primarily film content from Columbia Pictures), StudioCanal, and Janus Films.",
+      "source_eligibility": "eligible_as_snapshot_counterfactual"
+    }
+  ]
+}

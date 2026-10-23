@@ -1,0 +1,8 @@
+{
+  "method": "word trigram TF-IDF cosine with full combined old-clean and selected-new corpus; thresholds fixed .8 audit only, not model-output selection",
+  "new_passages": 1379,
+  "old_unique_docids": 1998,
+  "cross_split_pairs_at_least_point8": [],
+  "new_old_pairs_at_least_point8": [],
+  "note": "No pair above threshold does not prove absence of semantic duplicates, related facts or pretraining contamination."
+}

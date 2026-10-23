@@ -1,0 +1,7 @@
+# First install CPU PyTorch from https://download.pytorch.org/whl/cpu
+# python -m pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+transformers==5.20.1
+tokenizers==0.23.3
+safetensors==0.8.0
+numpy==2.3.5

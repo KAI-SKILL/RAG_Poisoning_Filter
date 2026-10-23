@@ -1,0 +1,244 @@
+{
+  "status": "PASS_REAL_FROZEN_SOURCES_PLAN_ONLY",
+  "created_utc": "2026-10-22T02:29:32.027281+00:00",
+  "plan_invocations": 8,
+  "checks": [
+    {
+      "scope": "Q",
+      "model_key": "qwen3_8b",
+      "status": "PASS",
+      "requested_rows": 90,
+      "source_unique_prompts": 90,
+      "source_inputs_sha256": "84331d83eb52efc4ef533158716a42f8a0ea3735d78b7cbb437b8d7ec34df28d",
+      "source_protocol_sha256": "fec0fa3140644c1ca0cdc31e4a0c32be86e67df887f7106827a512663a49f065",
+      "scope_adapter_binding": {
+        "scope": "Q",
+        "registry_schema": "Group9-all-experiments-v1",
+        "registry_sha256": "d741e70180e325ff4f9c1fadea9869cea63d4ee54685970bbd8c4ee33d1e1e76",
+        "registry_scope_entry_sha256": "8e391daf0c03dcee129af6bb14cffbf724e9d9df20d5684e2a11edcb5a4a443b",
+        "adapter_entrypoint_sha256": "cb342034758826d0e255c5737ccaffe3e40aa6f743939769bd6aef24b9506276",
+        "original_hf_entrypoint_sha256": "0f3e4af44f1c86edd28bec916d3158c75a3c2fa3d4a8fbf09573406e3d7abbe6",
+        "model_registry_sha256": "6188d2145edf9bec14927306cb7ea7cd44ce7dcd9cc5d2d0420f1149da52c3cf",
+        "source_inputs_sha256": "84331d83eb52efc4ef533158716a42f8a0ea3735d78b7cbb437b8d7ec34df28d",
+        "source_protocol_sha256": "fec0fa3140644c1ca0cdc31e4a0c32be86e67df887f7106827a512663a49f065",
+        "metric_source_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+        "identity_note": "Adapter provenance; no source protocol or model text is changed."
+      },
+      "model": {
+        "model_id": "Qwen/Qwen3-8B",
+        "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+        "thinking": false,
+        "family": "qwen3",
+        "gated": false
+      }
+    },
+    {
+      "scope": "Q",
+      "model_key": "llama31_8b",
+      "status": "PASS",
+      "requested_rows": 90,
+      "source_unique_prompts": 90,
+      "source_inputs_sha256": "84331d83eb52efc4ef533158716a42f8a0ea3735d78b7cbb437b8d7ec34df28d",
+      "source_protocol_sha256": "fec0fa3140644c1ca0cdc31e4a0c32be86e67df887f7106827a512663a49f065",
+      "scope_adapter_binding": {
+        "scope": "Q",
+        "registry_schema": "Group9-all-experiments-v1",
+        "registry_sha256": "d741e70180e325ff4f9c1fadea9869cea63d4ee54685970bbd8c4ee33d1e1e76",
+        "registry_scope_entry_sha256": "8e391daf0c03dcee129af6bb14cffbf724e9d9df20d5684e2a11edcb5a4a443b",
+        "adapter_entrypoint_sha256": "cb342034758826d0e255c5737ccaffe3e40aa6f743939769bd6aef24b9506276",
+        "original_hf_entrypoint_sha256": "0f3e4af44f1c86edd28bec916d3158c75a3c2fa3d4a8fbf09573406e3d7abbe6",
+        "model_registry_sha256": "6188d2145edf9bec14927306cb7ea7cd44ce7dcd9cc5d2d0420f1149da52c3cf",
+        "source_inputs_sha256": "84331d83eb52efc4ef533158716a42f8a0ea3735d78b7cbb437b8d7ec34df28d",
+        "source_protocol_sha256": "fec0fa3140644c1ca0cdc31e4a0c32be86e67df887f7106827a512663a49f065",
+        "metric_source_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+        "identity_note": "Adapter provenance; no source protocol or model text is changed."
+      },
+      "model": {
+        "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+        "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+        "thinking": null,
+        "family": "llama31",
+        "gated": "manual"
+      }
+    },
+    {
+      "scope": "E1",
+      "model_key": "qwen3_8b",
+      "status": "PASS",
+      "requested_rows": 1800,
+      "source_unique_prompts": 432,
+      "source_inputs_sha256": "8247fdfd5bccb57c7b6779d8db494fef9befc77c7f7e37584bb3afa450150496",
+      "source_protocol_sha256": "5c6c24ce6b3ec3216dc586c46a2749724e2e57733a5c6d5f67378d1905a8d66f",
+      "scope_adapter_binding": {
+        "scope": "E1",
+        "registry_schema": "Group9-all-experiments-v1",
+        "registry_sha256": "d741e70180e325ff4f9c1fadea9869cea63d4ee54685970bbd8c4ee33d1e1e76",
+        "registry_scope_entry_sha256": "6ed4160d5221ae99893f409d31e3ebc8fb0749b13807c155cfac977d834552f7",
+        "adapter_entrypoint_sha256": "cb342034758826d0e255c5737ccaffe3e40aa6f743939769bd6aef24b9506276",
+        "original_hf_entrypoint_sha256": "0f3e4af44f1c86edd28bec916d3158c75a3c2fa3d4a8fbf09573406e3d7abbe6",
+        "model_registry_sha256": "6188d2145edf9bec14927306cb7ea7cd44ce7dcd9cc5d2d0420f1149da52c3cf",
+        "source_inputs_sha256": "8247fdfd5bccb57c7b6779d8db494fef9befc77c7f7e37584bb3afa450150496",
+        "source_protocol_sha256": "5c6c24ce6b3ec3216dc586c46a2749724e2e57733a5c6d5f67378d1905a8d66f",
+        "metric_source_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+        "identity_note": "Adapter provenance; no source protocol or model text is changed."
+      },
+      "model": {
+        "model_id": "Qwen/Qwen3-8B",
+        "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+        "thinking": false,
+        "family": "qwen3",
+        "gated": false
+      }
+    },
+    {
+      "scope": "E1",
+      "model_key": "llama31_8b",
+      "status": "PASS",
+      "requested_rows": 1800,
+      "source_unique_prompts": 432,
+      "source_inputs_sha256": "8247fdfd5bccb57c7b6779d8db494fef9befc77c7f7e37584bb3afa450150496",
+      "source_protocol_sha256": "5c6c24ce6b3ec3216dc586c46a2749724e2e57733a5c6d5f67378d1905a8d66f",
+      "scope_adapter_binding": {
+        "scope": "E1",
+        "registry_schema": "Group9-all-experiments-v1",
+        "registry_sha256": "d741e70180e325ff4f9c1fadea9869cea63d4ee54685970bbd8c4ee33d1e1e76",
+        "registry_scope_entry_sha256": "6ed4160d5221ae99893f409d31e3ebc8fb0749b13807c155cfac977d834552f7",
+        "adapter_entrypoint_sha256": "cb342034758826d0e255c5737ccaffe3e40aa6f743939769bd6aef24b9506276",
+        "original_hf_entrypoint_sha256": "0f3e4af44f1c86edd28bec916d3158c75a3c2fa3d4a8fbf09573406e3d7abbe6",
+        "model_registry_sha256": "6188d2145edf9bec14927306cb7ea7cd44ce7dcd9cc5d2d0420f1149da52c3cf",
+        "source_inputs_sha256": "8247fdfd5bccb57c7b6779d8db494fef9befc77c7f7e37584bb3afa450150496",
+        "source_protocol_sha256": "5c6c24ce6b3ec3216dc586c46a2749724e2e57733a5c6d5f67378d1905a8d66f",
+        "metric_source_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+        "identity_note": "Adapter provenance; no source protocol or model text is changed."
+      },
+      "model": {
+        "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+        "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+        "thinking": null,
+        "family": "llama31",
+        "gated": "manual"
+      }
+    },
+    {
+      "scope": "E2",
+      "model_key": "qwen3_8b",
+      "status": "PASS",
+      "requested_rows": 700,
+      "source_unique_prompts": 204,
+      "source_inputs_sha256": "98bf0d9612e41957b49c2d1146602a38477a2c98a1b8a19cdb42ecf2b1573051",
+      "source_protocol_sha256": "336611731522546895ef37e15528b6b5a3b4eb1b795bc3d19bfff33eab665a72",
+      "scope_adapter_binding": {
+        "scope": "E2",
+        "registry_schema": "Group9-all-experiments-v1",
+        "registry_sha256": "d741e70180e325ff4f9c1fadea9869cea63d4ee54685970bbd8c4ee33d1e1e76",
+        "registry_scope_entry_sha256": "6a1214e56054a76fa970911b2d70dd601a3a5f3b6dee4bf50295f2b5ea977c09",
+        "adapter_entrypoint_sha256": "cb342034758826d0e255c5737ccaffe3e40aa6f743939769bd6aef24b9506276",
+        "original_hf_entrypoint_sha256": "0f3e4af44f1c86edd28bec916d3158c75a3c2fa3d4a8fbf09573406e3d7abbe6",
+        "model_registry_sha256": "6188d2145edf9bec14927306cb7ea7cd44ce7dcd9cc5d2d0420f1149da52c3cf",
+        "source_inputs_sha256": "98bf0d9612e41957b49c2d1146602a38477a2c98a1b8a19cdb42ecf2b1573051",
+        "source_protocol_sha256": "336611731522546895ef37e15528b6b5a3b4eb1b795bc3d19bfff33eab665a72",
+        "metric_source_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+        "identity_note": "Adapter provenance; no source protocol or model text is changed."
+      },
+      "model": {
+        "model_id": "Qwen/Qwen3-8B",
+        "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+        "thinking": false,
+        "family": "qwen3",
+        "gated": false
+      }
+    },
+    {
+      "scope": "E2",
+      "model_key": "llama31_8b",
+      "status": "PASS",
+      "requested_rows": 700,
+      "source_unique_prompts": 204,
+      "source_inputs_sha256": "98bf0d9612e41957b49c2d1146602a38477a2c98a1b8a19cdb42ecf2b1573051",
+      "source_protocol_sha256": "336611731522546895ef37e15528b6b5a3b4eb1b795bc3d19bfff33eab665a72",
+      "scope_adapter_binding": {
+        "scope": "E2",
+        "registry_schema": "Group9-all-experiments-v1",
+        "registry_sha256": "d741e70180e325ff4f9c1fadea9869cea63d4ee54685970bbd8c4ee33d1e1e76",
+        "registry_scope_entry_sha256": "6a1214e56054a76fa970911b2d70dd601a3a5f3b6dee4bf50295f2b5ea977c09",
+        "adapter_entrypoint_sha256": "cb342034758826d0e255c5737ccaffe3e40aa6f743939769bd6aef24b9506276",
+        "original_hf_entrypoint_sha256": "0f3e4af44f1c86edd28bec916d3158c75a3c2fa3d4a8fbf09573406e3d7abbe6",
+        "model_registry_sha256": "6188d2145edf9bec14927306cb7ea7cd44ce7dcd9cc5d2d0420f1149da52c3cf",
+        "source_inputs_sha256": "98bf0d9612e41957b49c2d1146602a38477a2c98a1b8a19cdb42ecf2b1573051",
+        "source_protocol_sha256": "336611731522546895ef37e15528b6b5a3b4eb1b795bc3d19bfff33eab665a72",
+        "metric_source_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+        "identity_note": "Adapter provenance; no source protocol or model text is changed."
+      },
+      "model": {
+        "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+        "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+        "thinking": null,
+        "family": "llama31",
+        "gated": "manual"
+      }
+    },
+    {
+      "scope": "E3",
+      "model_key": "qwen3_8b",
+      "status": "PASS",
+      "requested_rows": 176400,
+      "source_unique_prompts": 56373,
+      "source_inputs_sha256": "7d1ae61cf8b2163eec3654a2429f76f64088bba58df51ddb5a6cb96c7f1aa27b",
+      "source_protocol_sha256": "c3a6b274c1aa8f3c13f6665d4dd32f8aea9410eccf312780a949ba9461f4074e",
+      "scope_adapter_binding": {
+        "scope": "E3",
+        "registry_schema": "Group9-all-experiments-v1",
+        "registry_sha256": "d741e70180e325ff4f9c1fadea9869cea63d4ee54685970bbd8c4ee33d1e1e76",
+        "registry_scope_entry_sha256": "112efbc44cf00334e538b6478ec8aa0ed6af249f0bcfd040930174346f1db7bc",
+        "adapter_entrypoint_sha256": "cb342034758826d0e255c5737ccaffe3e40aa6f743939769bd6aef24b9506276",
+        "original_hf_entrypoint_sha256": "0f3e4af44f1c86edd28bec916d3158c75a3c2fa3d4a8fbf09573406e3d7abbe6",
+        "model_registry_sha256": "6188d2145edf9bec14927306cb7ea7cd44ce7dcd9cc5d2d0420f1149da52c3cf",
+        "source_inputs_sha256": "7d1ae61cf8b2163eec3654a2429f76f64088bba58df51ddb5a6cb96c7f1aa27b",
+        "source_protocol_sha256": "c3a6b274c1aa8f3c13f6665d4dd32f8aea9410eccf312780a949ba9461f4074e",
+        "metric_source_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+        "identity_note": "Adapter provenance; no source protocol or model text is changed."
+      },
+      "model": {
+        "model_id": "Qwen/Qwen3-8B",
+        "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+        "thinking": false,
+        "family": "qwen3",
+        "gated": false
+      }
+    },
+    {
+      "scope": "E3",
+      "model_key": "llama31_8b",
+      "status": "PASS",
+      "requested_rows": 176400,
+      "source_unique_prompts": 56373,
+      "source_inputs_sha256": "7d1ae61cf8b2163eec3654a2429f76f64088bba58df51ddb5a6cb96c7f1aa27b",
+      "source_protocol_sha256": "c3a6b274c1aa8f3c13f6665d4dd32f8aea9410eccf312780a949ba9461f4074e",
+      "scope_adapter_binding": {
+        "scope": "E3",
+        "registry_schema": "Group9-all-experiments-v1",
+        "registry_sha256": "d741e70180e325ff4f9c1fadea9869cea63d4ee54685970bbd8c4ee33d1e1e76",
+        "registry_scope_entry_sha256": "112efbc44cf00334e538b6478ec8aa0ed6af249f0bcfd040930174346f1db7bc",
+        "adapter_entrypoint_sha256": "cb342034758826d0e255c5737ccaffe3e40aa6f743939769bd6aef24b9506276",
+        "original_hf_entrypoint_sha256": "0f3e4af44f1c86edd28bec916d3158c75a3c2fa3d4a8fbf09573406e3d7abbe6",
+        "model_registry_sha256": "6188d2145edf9bec14927306cb7ea7cd44ce7dcd9cc5d2d0420f1149da52c3cf",
+        "source_inputs_sha256": "7d1ae61cf8b2163eec3654a2429f76f64088bba58df51ddb5a6cb96c7f1aa27b",
+        "source_protocol_sha256": "c3a6b274c1aa8f3c13f6665d4dd32f8aea9410eccf312780a949ba9461f4074e",
+        "metric_source_sha256": "b12f63e6076a14c6fd18904861ef00e67c69d4a467731ef9b4b4a1160a740b9e",
+        "identity_note": "Adapter provenance; no source protocol or model text is changed."
+      },
+      "model": {
+        "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+        "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+        "thinking": null,
+        "family": "llama31",
+        "gated": "manual"
+      }
+    }
+  ],
+  "actual_model_loads": 0,
+  "actual_gpu_inference": 0,
+  "network_calls": 0,
+  "output_run_directories_created": false,
+  "registry_sha256": "d741e70180e325ff4f9c1fadea9869cea63d4ee54685970bbd8c4ee33d1e1e76"
+}

@@ -1,0 +1,14 @@
+{
+  "n_rows": 1152,
+  "n_groups": 96,
+  "n_unique_prompts": 213,
+  "all_raw_answers_equal_gold_verbatim": true,
+  "all_prompt_sha256_verified": true,
+  "all_cached_prompt_answers_identical": true,
+  "exactly_one_row_per_group_gate_condition": true,
+  "no_truncation": true,
+  "all_local_model_file_hashes_verified": null,
+  "raw_generations_sha256": "f1864b67aac79263f69098681c98364ac3b36a6165e320e1fb74c30df28d34c0",
+  "context_file_sha256": "ac1ce6a93a3c7a71ef52ded021d9c11bc6ff3c1e88af9cc21d24ad60b3731d61",
+  "model_manifest_sha256": "836fd1dc7f0184abf55952dfba4a118e6b46113d2ec8541054dcfecdbdd623de"
+}

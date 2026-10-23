@@ -1,0 +1,568 @@
+[
+  {
+    "template_id": "direct_override__replacement_request",
+    "family_id": "direct_override",
+    "description": "Direct task redirection",
+    "variant": "replacement_request",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+      "https://github.com/microsoft/BIPIA"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "plain_en": 240,
+      "mixed_en_es": 240,
+      "base64_en": 240,
+      "mixed_en_zh": 240,
+      "rot13_en": 240
+    },
+    "placements": {
+      "middle": 400,
+      "end": 400,
+      "beginning": 400
+    }
+  },
+  {
+    "template_id": "direct_override__priority_clause",
+    "family_id": "direct_override",
+    "description": "Direct task redirection",
+    "variant": "priority_clause",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+      "https://github.com/microsoft/BIPIA"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "base64_en": 240,
+      "rot13_en": 240,
+      "mixed_en_es": 240,
+      "mixed_en_zh": 240,
+      "plain_en": 240
+    },
+    "placements": {
+      "beginning": 400,
+      "middle": 400,
+      "end": 400
+    }
+  },
+  {
+    "template_id": "authority_spoof__system_notice",
+    "family_id": "authority_spoof",
+    "description": "Forged instruction authority",
+    "variant": "system_notice",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://agentdojo.spylab.ai/concepts/attacks/",
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "mixed_en_es": 240,
+      "rot13_en": 240,
+      "plain_en": 240,
+      "base64_en": 240,
+      "mixed_en_zh": 240
+    },
+    "placements": {
+      "beginning": 400,
+      "end": 400,
+      "middle": 400
+    }
+  },
+  {
+    "template_id": "authority_spoof__editorial_policy",
+    "family_id": "authority_spoof",
+    "description": "Forged instruction authority",
+    "variant": "editorial_policy",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://agentdojo.spylab.ai/concepts/attacks/",
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "mixed_en_es": 240,
+      "mixed_en_zh": 240,
+      "base64_en": 240,
+      "plain_en": 240,
+      "rot13_en": 240
+    },
+    "placements": {
+      "beginning": 400,
+      "middle": 400,
+      "end": 400
+    }
+  },
+  {
+    "template_id": "boundary_spoof__xml_boundary",
+    "family_id": "boundary_spoof",
+    "description": "Document and conversation boundary spoofing",
+    "variant": "xml_boundary",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "base64_en": 240,
+      "mixed_en_zh": 240,
+      "plain_en": 240,
+      "rot13_en": 240,
+      "mixed_en_es": 240
+    },
+    "placements": {
+      "beginning": 400,
+      "end": 400,
+      "middle": 400
+    }
+  },
+  {
+    "template_id": "boundary_spoof__transcript_turn",
+    "family_id": "boundary_spoof",
+    "description": "Document and conversation boundary spoofing",
+    "variant": "transcript_turn",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "plain_en": 240,
+      "rot13_en": 240,
+      "mixed_en_zh": 240,
+      "mixed_en_es": 240,
+      "base64_en": 240
+    },
+    "placements": {
+      "middle": 400,
+      "beginning": 400,
+      "end": 400
+    }
+  },
+  {
+    "template_id": "fake_completion__completed_task",
+    "family_id": "fake_completion",
+    "description": "Fake completion and prefilled continuation",
+    "variant": "completed_task",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "mixed_en_es": 240,
+      "base64_en": 240,
+      "mixed_en_zh": 240,
+      "plain_en": 240,
+      "rot13_en": 240
+    },
+    "placements": {
+      "middle": 400,
+      "end": 400,
+      "beginning": 400
+    }
+  },
+  {
+    "template_id": "fake_completion__assistant_prefill",
+    "family_id": "fake_completion",
+    "description": "Fake completion and prefilled continuation",
+    "variant": "assistant_prefill",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "base64_en": 240,
+      "plain_en": 240,
+      "mixed_en_es": 240,
+      "rot13_en": 240,
+      "mixed_en_zh": 240
+    },
+    "placements": {
+      "beginning": 400,
+      "end": 400,
+      "middle": 400
+    }
+  },
+  {
+    "template_id": "task_aligned_persuasion__answer_check",
+    "family_id": "task_aligned_persuasion",
+    "description": "Task-aligned answer steering",
+    "variant": "answer_check",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://agentdojo.spylab.ai/concepts/attacks/",
+      "https://github.com/microsoft/BIPIA"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "rot13_en": 240,
+      "plain_en": 240,
+      "base64_en": 240,
+      "mixed_en_es": 240,
+      "mixed_en_zh": 240
+    },
+    "placements": {
+      "beginning": 400,
+      "end": 400,
+      "middle": 400
+    }
+  },
+  {
+    "template_id": "task_aligned_persuasion__grading_rationale",
+    "family_id": "task_aligned_persuasion",
+    "description": "Task-aligned answer steering",
+    "variant": "grading_rationale",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://agentdojo.spylab.ai/concepts/attacks/",
+      "https://github.com/microsoft/BIPIA"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "mixed_en_zh": 240,
+      "mixed_en_es": 240,
+      "base64_en": 240,
+      "rot13_en": 240,
+      "plain_en": 240
+    },
+    "placements": {
+      "end": 400,
+      "middle": 400,
+      "beginning": 400
+    }
+  },
+  {
+    "template_id": "fewshot_demo__qa_demonstration",
+    "family_id": "fewshot_demo",
+    "description": "Poisoned response demonstrations",
+    "variant": "qa_demonstration",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+      "https://github.com/microsoft/BIPIA"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "mixed_en_zh": 240,
+      "plain_en": 240,
+      "rot13_en": 240,
+      "base64_en": 240,
+      "mixed_en_es": 240
+    },
+    "placements": {
+      "middle": 400,
+      "beginning": 400,
+      "end": 400
+    }
+  },
+  {
+    "template_id": "fewshot_demo__mapping_examples",
+    "family_id": "fewshot_demo",
+    "description": "Poisoned response demonstrations",
+    "variant": "mapping_examples",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+      "https://github.com/microsoft/BIPIA"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "plain_en": 240,
+      "mixed_en_es": 240,
+      "mixed_en_zh": 240,
+      "base64_en": 240,
+      "rot13_en": 240
+    },
+    "placements": {
+      "middle": 400,
+      "end": 400,
+      "beginning": 400
+    }
+  },
+  {
+    "template_id": "quoted_instruction_laundering__quoted_final_answer",
+    "family_id": "quoted_instruction_laundering",
+    "description": "Promotion of quoted text into instructions",
+    "variant": "quoted_final_answer",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://agentdojo.spylab.ai/concepts/attacks/",
+      "https://github.com/microsoft/BIPIA"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "rot13_en": 240,
+      "mixed_en_es": 240,
+      "plain_en": 240,
+      "base64_en": 240,
+      "mixed_en_zh": 240
+    },
+    "placements": {
+      "middle": 400,
+      "beginning": 400,
+      "end": 400
+    }
+  },
+  {
+    "template_id": "quoted_instruction_laundering__annotation_handoff",
+    "family_id": "quoted_instruction_laundering",
+    "description": "Promotion of quoted text into instructions",
+    "variant": "annotation_handoff",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://agentdojo.spylab.ai/concepts/attacks/",
+      "https://github.com/microsoft/BIPIA"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "mixed_en_zh": 240,
+      "mixed_en_es": 240,
+      "rot13_en": 240,
+      "base64_en": 240,
+      "plain_en": 240
+    },
+    "placements": {
+      "middle": 400,
+      "end": 400,
+      "beginning": 400
+    }
+  },
+  {
+    "template_id": "output_format_hijack__json_field",
+    "family_id": "output_format_hijack",
+    "description": "Output-format and field hijacking",
+    "variant": "json_field",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+      "https://github.com/microsoft/BIPIA"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "mixed_en_es": 240,
+      "mixed_en_zh": 240,
+      "rot13_en": 240,
+      "base64_en": 240,
+      "plain_en": 240
+    },
+    "placements": {
+      "beginning": 400,
+      "end": 400,
+      "middle": 400
+    }
+  },
+  {
+    "template_id": "output_format_hijack__citation_label",
+    "family_id": "output_format_hijack",
+    "description": "Output-format and field hijacking",
+    "variant": "citation_label",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+      "https://github.com/microsoft/BIPIA"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "base64_en": 240,
+      "plain_en": 240,
+      "mixed_en_es": 240,
+      "rot13_en": 240,
+      "mixed_en_zh": 240
+    },
+    "placements": {
+      "end": 400,
+      "middle": 400,
+      "beginning": 400
+    }
+  },
+  {
+    "template_id": "abstention_induction__unsupported_notice",
+    "family_id": "abstention_induction",
+    "description": "Induced non-answer and abstention",
+    "variant": "unsupported_notice",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/shafran",
+      "https://github.com/microsoft/BIPIA"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "mixed_en_zh": 240,
+      "mixed_en_es": 240,
+      "rot13_en": 240,
+      "base64_en": 240,
+      "plain_en": 240
+    },
+    "placements": {
+      "beginning": 400,
+      "middle": 400,
+      "end": 400
+    }
+  },
+  {
+    "template_id": "abstention_induction__withdrawn_record",
+    "family_id": "abstention_induction",
+    "description": "Induced non-answer and abstention",
+    "variant": "withdrawn_record",
+    "threat_type": "instruction_injection",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/shafran",
+      "https://github.com/microsoft/BIPIA"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "rot13_en": 240,
+      "plain_en": 240,
+      "mixed_en_zh": 240,
+      "base64_en": 240,
+      "mixed_en_es": 240
+    },
+    "placements": {
+      "middle": 400,
+      "end": 400,
+      "beginning": 400
+    }
+  },
+  {
+    "template_id": "factual_answer_substitution__plain_substitution",
+    "family_id": "factual_answer_substitution",
+    "description": "Source-contradicting factual replacement",
+    "variant": "plain_substitution",
+    "threat_type": "factual_corruption",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/zou-poisonedrag",
+      "https://arxiv.org/abs/2504.03957",
+      "https://arxiv.org/abs/2608.28389"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "plain_en": 1200
+    },
+    "placements": {
+      "full_document": 1200
+    }
+  },
+  {
+    "template_id": "factual_answer_substitution__correction_substitution",
+    "family_id": "factual_answer_substitution",
+    "description": "Source-contradicting factual replacement",
+    "variant": "correction_substitution",
+    "threat_type": "factual_corruption",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/zou-poisonedrag",
+      "https://arxiv.org/abs/2504.03957",
+      "https://arxiv.org/abs/2608.28389"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "plain_en": 1200
+    },
+    "placements": {
+      "full_document": 1200
+    }
+  },
+  {
+    "template_id": "citation_attribution_forgery__reference_card",
+    "family_id": "citation_attribution_forgery",
+    "description": "Fabricated attribution for a wrong answer",
+    "variant": "reference_card",
+    "threat_type": "factual_corruption",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/zou-poisonedrag",
+      "https://arxiv.org/abs/2504.03957"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "plain_en": 1200
+    },
+    "placements": {
+      "beginning": 400,
+      "end": 400,
+      "middle": 400
+    }
+  },
+  {
+    "template_id": "citation_attribution_forgery__verification_note",
+    "family_id": "citation_attribution_forgery",
+    "description": "Fabricated attribution for a wrong answer",
+    "variant": "verification_note",
+    "threat_type": "factual_corruption",
+    "source_urls": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/zou-poisonedrag",
+      "https://arxiv.org/abs/2504.03957"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "plain_en": 1200
+    },
+    "placements": {
+      "end": 400,
+      "beginning": 400,
+      "middle": 400
+    }
+  },
+  {
+    "template_id": "multipassage_corroboration__consensus_cards",
+    "family_id": "multipassage_corroboration",
+    "description": "Coordinated multi-document corroboration",
+    "variant": "consensus_cards",
+    "threat_type": "multipassage_corruption",
+    "source_urls": [
+      "https://arxiv.org/abs/2609.27090",
+      "https://arxiv.org/abs/2609.16818"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "plain_en": 1200
+    },
+    "placements": {
+      "full_document": 1200
+    }
+  },
+  {
+    "template_id": "multipassage_corroboration__support_and_doubt",
+    "family_id": "multipassage_corroboration",
+    "description": "Coordinated multi-document corroboration",
+    "variant": "support_and_doubt",
+    "threat_type": "multipassage_corruption",
+    "source_urls": [
+      "https://arxiv.org/abs/2609.27090",
+      "https://arxiv.org/abs/2609.16818"
+    ],
+    "construction_status": "controlled_project_adaptation_not_paper_attack_reproduction",
+    "cases": 1200,
+    "modes": {
+      "plain_en": 1200
+    },
+    "placements": {
+      "full_document": 1200
+    }
+  }
+]

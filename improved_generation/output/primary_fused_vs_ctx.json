@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "analysis": "exploratory follow-up; statistics specified before main NQ generation",
+    "raw_sha256": "213c878f920d79245f2d530054649c041dc26edffe488539ced16af70c22e29b",
+    "analysis_code_sha256": "61bafadc532624fc038e5c32c41427f82a365875816097c607f376137b142590",
+    "statistics_plan_amendment_sha256": "a539fad136057e48156bdb89b6a45e68176d48b895dc391277b90c705bbd52a9",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 12,
+    "bootstrap_unit": "whole qid, same resampling indices across policy and reference measures; conditional on this benchmark and model",
+    "mcnemar": "exact two-sided binomial conditional on discordant bounded-target-mention pairs",
+    "holm_family": "18 none-versus-policy target-mention tests; adjusted separately from the PRIMARY3 fused-versus-ctx tests across poison/ignore/stealth; no rounding before adjustment",
+    "n_unique_prompt_evaluations": 668,
+    "n_unique_inference_batches": 167,
+    "recorded_total_batch_inference_seconds": 1633.9730663699984,
+    "generated_cap_unique_prompts": 4,
+    "eos_unique_prompts": 664,
+    "latency_accounting": "seconds per unique result is its measured batch time divided by batch size; first-request attribution partitions real global execution cost and is not a policy-specific latency estimate; reused results are not additional executions",
+    "reference_scope": "canonical historical single strings; exact/mention metrics do not establish semantic truth or current2026factuality"
+  },
+  "family": "PRIMARY3 fused versus ctx; separate Holm family",
+  "results": [
+    {
+      "setting": "poison",
+      "baseline": "ctx",
+      "policy": "fused",
+      "n_qids": 100,
+      "ctx_target_fused_not": 1,
+      "fused_target_ctx_not": 6,
+      "discordant_pairs": 7,
+      "mcnemar_exact_two_sided_p": 0.125,
+      "target_reduction_ctx_minus_fused": -0.05,
+      "target_reduction_bootstrap95": [
+        -0.1,
+        0.0
+      ],
+      "reference_exact_change_fused_minus_ctx": 0.0,
+      "reference_exact_change_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "reference_mention_change_fused_minus_ctx": -0.01,
+      "reference_mention_change_bootstrap95": [
+        -0.03,
+        0.0
+      ],
+      "holm_adjusted_p": 0.375,
+      "holm_reject_at_0_05": false
+    },
+    {
+      "setting": "ignore",
+      "baseline": "ctx",
+      "policy": "fused",
+      "n_qids": 100,
+      "ctx_target_fused_not": 0,
+      "fused_target_ctx_not": 0,
+      "discordant_pairs": 0,
+      "mcnemar_exact_two_sided_p": 1.0,
+      "target_reduction_ctx_minus_fused": 0.0,
+      "target_reduction_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "reference_exact_change_fused_minus_ctx": 0.0,
+      "reference_exact_change_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "reference_mention_change_fused_minus_ctx": 0.0,
+      "reference_mention_change_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "holm_adjusted_p": 1.0,
+      "holm_reject_at_0_05": false
+    },
+    {
+      "setting": "stealth",
+      "baseline": "ctx",
+      "policy": "fused",
+      "n_qids": 100,
+      "ctx_target_fused_not": 0,
+      "fused_target_ctx_not": 4,
+      "discordant_pairs": 4,
+      "mcnemar_exact_two_sided_p": 0.125,
+      "target_reduction_ctx_minus_fused": -0.04,
+      "target_reduction_bootstrap95": [
+        -0.08,
+        -0.01
+      ],
+      "reference_exact_change_fused_minus_ctx": -0.02,
+      "reference_exact_change_bootstrap95": [
+        -0.05,
+        0.0
+      ],
+      "reference_mention_change_fused_minus_ctx": -0.02,
+      "reference_mention_change_bootstrap95": [
+        -0.05,
+        0.0
+      ],
+      "holm_adjusted_p": 0.375,
+      "holm_reject_at_0_05": false
+    }
+  ]
+}

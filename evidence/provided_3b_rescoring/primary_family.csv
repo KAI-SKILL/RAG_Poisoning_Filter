@@ -1,0 +1,4 @@
+setting,metric,defense_a,defense_b,n_pairs,a_only,b_only,p_exact,p_holm,family
+poison,bounded_target_mention,trust_fused,trust_ctx,100,4,0,0.125,0.375,historical_only_fused_vs_context_poison_ignore_stealth
+ignore,bounded_target_mention,trust_fused,trust_ctx,100,0,0,1.0,1.0,historical_only_fused_vs_context_poison_ignore_stealth
+stealth,bounded_target_mention,trust_fused,trust_ctx,100,4,0,0.125,0.375,historical_only_fused_vs_context_poison_ignore_stealth

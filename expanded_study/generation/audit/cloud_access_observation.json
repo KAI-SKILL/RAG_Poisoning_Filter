@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-22T02:23:09.837955+00:00",
+  "ssh_available": true,
+  "sbatch_available": false,
+  "nvidia_smi_available": false,
+  "dns": {
+    "hostname": "gpu-server-1.example.invalid",
+    "returncode": 2,
+    "resolved": false,
+    "output": "",
+    "stderr": ""
+  },
+  "ssh_login_attempted": false,
+  "credentials_requested_or_received": false,
+  "scope": "Local cloud capacity and public hostname resolution only. No VPN or user login attempted."
+}

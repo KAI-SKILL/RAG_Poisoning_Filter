@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-10-20T05:14:28.867799+00:00",
+  "mode": "stdlib_offline",
+  "project": "Group9_Project",
+  "checks": {
+    "frozen_data_and_sources": {
+      "status": "passed",
+      "frozen_records": 230,
+      "corpus_passages": 1379,
+      "source_valid": 85,
+      "data_manifest_files": 31
+    },
+    "case_freeze_and_subset": {
+      "status": "passed",
+      "cases": 525,
+      "calibration": 100,
+      "E1_cases": 300,
+      "E2_cases": 125,
+      "E2_questions": 25
+    },
+    "features_and_rank_proof": {
+      "status": "passed",
+      "candidate_features": 10500,
+      "test_candidates": 8500,
+      "calibration_candidates": 2000,
+      "rank_cases": 525,
+      "vector_hashes_checked": 2,
+      "density_limit": "Default checks archived density consistency/range; --deep repeats vector calculations."
+    },
+    "frozen_fit_risks_and_contexts": {
+      "status": "passed",
+      "new_head_models": 4,
+      "test_probabilities_recomputed": 42500,
+      "calibration_probabilities_recomputed": 10000,
+      "thresholds_recomputed": 10,
+      "context_requests": 2175,
+      "E1_requests": 1800,
+      "E2_requests": 375,
+      "unique_prompts": 432,
+      "sparse_unique_texts": 824,
+      "max_sparse_float32_reconstruction_error": 3.5776414331056827e-09
+    },
+    "generation_dev_q": {
+      "status": "passed",
+      "condition_rows": 90,
+      "requested_unique_prompts": 90,
+      "cached_execution_records": 90,
+      "inherited_Qv1_records_proven": 0,
+      "runner_source_verified": "acd8487a28fe6bd742817f1cd9f1d4c739bce91d8676c45c4d9c7237929cd00a"
+    },
+    "generation_dev_q_v2": {
+      "status": "passed",
+      "condition_rows": 90,
+      "requested_unique_prompts": 90,
+      "cached_execution_records": 99,
+      "inherited_Qv1_records_proven": 90,
+      "runner_source_verified": "acd8487a28fe6bd742817f1cd9f1d4c739bce91d8676c45c4d9c7237929cd00a"
+    },
+    "generation_generation": {
+      "status": "passed",
+      "condition_rows": 2175,
+      "requested_unique_prompts": 432,
+      "cached_execution_records": 432,
+      "inherited_Qv1_records_proven": 0,
+      "runner_source_verified": "892499a5e4d5fb1c31ae29d22fbd3d2a177bc81fc61f61098aef0ffaca72b0f6"
+    },
+    "scoring_and_paired_statistics": {
+      "status": "passed",
+      "scored_rows_recomputed": 2175,
+      "all_questions": 100,
+      "source_valid_questions": 85,
+      "primary_comparisons": 8,
+      "mechanism_paired_effects": 336,
+      "statistics_limit": "Default recomputes effects, pair counts, McNemar/Holm and CI integrity; --deep also repeats all10000 NumPy resamples."
+    }
+  },
+  "errors": [],
+  "mutable_manifest_exclusion": "output/revised_validation.json",
+  "limits": [
+    "No model weight loading, neural inference, network request, or pickle/joblib deserialization.",
+    "Hashes and archived execution records establish consistency, not an independent model rerun or proof of semantic correctness.",
+    "Default verifies rank proof and vector hashes, and score/effect/count/McNemar/Holm consistency; --deep additionally repeats full declared-corpus ranking, density, and10000 bootstrap draws.",
+    "Sparse probabilities are independently reconstructed from JSON TF-IDF/linear parameters with3e-6 float32 tolerance; blocking uses the exact archived risk and strict frozen threshold."
+  ]
+}

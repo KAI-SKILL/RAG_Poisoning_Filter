@@ -1,0 +1,72 @@
+{
+  "1pct": {
+    "poison": {
+      "difference": -0.38,
+      "ci95": [
+        -0.4948504644278861,
+        -0.2631578947368421
+      ],
+      "questions": 100,
+      "source_groups": 83,
+      "bootstrap_draws": 2000,
+      "scope": "Conditional on fixed fitted folds; no model refitting in bootstrap. Source-group resampling, question-weighted mean."
+    },
+    "ignore": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "questions": 100,
+      "source_groups": 83,
+      "bootstrap_draws": 2000,
+      "scope": "Conditional on fixed fitted folds; no model refitting in bootstrap. Source-group resampling, question-weighted mean."
+    },
+    "stealth": {
+      "difference": -0.28,
+      "ci95": [
+        -0.37637992831541217,
+        -0.1875
+      ],
+      "questions": 100,
+      "source_groups": 83,
+      "bootstrap_draws": 2000,
+      "scope": "Conditional on fixed fitted folds; no model refitting in bootstrap. Source-group resampling, question-weighted mean."
+    }
+  },
+  "5pct": {
+    "poison": {
+      "difference": 0.0,
+      "ci95": [
+        -0.11884158415841584,
+        0.11831171107994373
+      ],
+      "questions": 100,
+      "source_groups": 83,
+      "bootstrap_draws": 2000,
+      "scope": "Conditional on fixed fitted folds; no model refitting in bootstrap. Source-group resampling, question-weighted mean."
+    },
+    "ignore": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "questions": 100,
+      "source_groups": 83,
+      "bootstrap_draws": 2000,
+      "scope": "Conditional on fixed fitted folds; no model refitting in bootstrap. Source-group resampling, question-weighted mean."
+    },
+    "stealth": {
+      "difference": 0.13,
+      "ci95": [
+        0.020833333333333332,
+        0.23914175724637676
+      ],
+      "questions": 100,
+      "source_groups": 83,
+      "bootstrap_draws": 2000,
+      "scope": "Conditional on fixed fitted folds; no model refitting in bootstrap. Source-group resampling, question-weighted mean."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all_four_scope_plans_use_only_stdlib_and_no_model_or_network",
+    "q_clean_only_and_e1_e2_e3_different_policies_and_conditions_run_and_score_without_gpu",
+    "adapter_engine_registry_scope_identities_bound_in_inputs_protocol_backend_and_responses",
+    "native_bodies_exactly_preserved_and_qwen_thinking_disabled",
+    "same_scope_resume_makes_zero_duplicate_generations_and_scores_idempotently",
+    "e1_checkpoint_cannot_be_reused_as_e2_native_inputs",
+    "changed_adapter_logic_fingerprint_rejects_response_resume_before_model_call",
+    "score_rejects_wrong_actual_run_scope_before_metric_analysis",
+    "score_rejects_native_input_adapter_provenance_change",
+    "registered_coverage_mismatch_is_rejected",
+    "explicit_source_protocol_scope_mismatch_is_rejected_even_when_hashes_are_registered",
+    "source_input_byte_change_is_rejected",
+    "cli_source_override_changed_revision_and_unrequested_3b_bf16_are_rejected",
+    "original_hf_engine_logic_change_is_bound_and_rejected_for_saved_native_inputs",
+    "actual_response_snapshot_blocks_false_full_completion_and_partial_keeps_missing_explicit",
+    "original_production_hf_engine_and_all_fixture_frozen_sources_remain_byte_unchanged"
+  ],
+  "real_model_loads": 0,
+  "real_gpu_inference": 0,
+  "network_calls": 0,
+  "scope_count": 4,
+  "fixture_backend": "MOCK_SCOPE_ONLY_NO_MODEL_NO_GPU",
+  "temporary_fixtures_removed": true,
+  "adapter_sha256": "cb342034758826d0e255c5737ccaffe3e40aa6f743939769bd6aef24b9506276",
+  "test_sha256": "8907e0af6a2ca111bd84108f36f606f16fd8123b15c805bdf72c608e94559151",
+  "original_hf_entrypoint_sha256": "0f3e4af44f1c86edd28bec916d3158c75a3c2fa3d4a8fbf09573406e3d7abbe6",
+  "actual_cluster_execution": "NOT_EXECUTED_ON_THIS_HOST"
+}

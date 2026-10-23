@@ -1,0 +1,6 @@
+{
+  "source_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "official_legal_code": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.en",
+  "notice_sha256": "417dd24065ab3ba5c06181821d9d84dd2880eabc7a1ca62ba13b20bdb003baac",
+  "note": "Direct plaintext download returned HTTP403 in runtime; official web source successfully read. This is a license URL notice, not a copy of the full legal code."
+}

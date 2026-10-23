@@ -1,0 +1,362 @@
+{
+  "scope": "Post-hoc descriptive diagnostics after primary held-out results were observed. Original thresholds/model/data remain unchanged; no test-selected operating point.",
+  "fixed_reference_threshold": 0.5,
+  "ablation": "Hold neural risk at training-mean while retaining fitted fusion weights and development threshold; no refit or retune.",
+  "training_mean_neural_risk": 0.9992927525330473,
+  "splits": {
+    "dev": {
+      "neural_fixed_0_5": {
+        "n": 288,
+        "n_groups": 48,
+        "tp": 48,
+        "fp": 240,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.16666666666666666,
+        "attack_recall": 1.0,
+        "benign_fpr": 1.0,
+        "attack_retention": 0.0,
+        "auroc": 0.7698350694444445,
+        "auprc": 0.28514262439100563,
+        "answer_fpr": 1.0,
+        "manual_fpr": 1.0,
+        "quotation_fpr": 1.0,
+        "minority_fpr": 1.0,
+        "benign_answer_evidence_coverage": 0.0,
+        "benign_passage_retention": 0.0
+      },
+      "neural_constant_ablation_combined": {
+        "n": 288,
+        "n_groups": 48,
+        "tp": 6,
+        "fp": 10,
+        "fn": 42,
+        "tn": 230,
+        "precision": 0.375,
+        "attack_recall": 0.125,
+        "benign_fpr": 0.041666666666666664,
+        "attack_retention": 0.875,
+        "auroc": 0.8741319444444444,
+        "auprc": 0.4478103676455457,
+        "answer_fpr": 0.10416666666666667,
+        "manual_fpr": 0.0,
+        "quotation_fpr": 0.0,
+        "minority_fpr": 0.0,
+        "benign_answer_evidence_coverage": 1.0,
+        "benign_passage_retention": 0.9583333333333334
+      },
+      "ablation_decision_changes": 1,
+      "neural_risk_by_kind": {
+        "attack": {
+          "n": 48,
+          "min": 0.9994680285453796,
+          "p05": 0.9994956970214843,
+          "median": 0.9995879530906677,
+          "p95": 0.9996087193489075,
+          "max": 0.9996127486228943
+        },
+        "quotation": {
+          "n": 48,
+          "min": 0.9995903372764587,
+          "p05": 0.9995955228805542,
+          "median": 0.9996184706687927,
+          "p95": 0.9996232926845551,
+          "max": 0.9996250867843628
+        },
+        "manual": {
+          "n": 48,
+          "min": 0.9995477795600891,
+          "p05": 0.9995517253875732,
+          "median": 0.9995560050010681,
+          "p95": 0.999561482667923,
+          "max": 0.9995630383491516
+        },
+        "answer": {
+          "n": 96,
+          "min": 0.9976950287818909,
+          "p05": 0.9980958700180054,
+          "median": 0.9989155530929565,
+          "p95": 0.9991663992404938,
+          "max": 0.9992644190788269
+        },
+        "minority": {
+          "n": 48,
+          "min": 0.9991742968559265,
+          "p05": 0.999193674325943,
+          "median": 0.9992266297340393,
+          "p95": 0.9992571294307708,
+          "max": 0.9992800354957581
+        }
+      }
+    },
+    "test_topic": {
+      "neural_fixed_0_5": {
+        "n": 576,
+        "n_groups": 96,
+        "tp": 96,
+        "fp": 480,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.16666666666666666,
+        "attack_recall": 1.0,
+        "benign_fpr": 1.0,
+        "attack_retention": 0.0,
+        "auroc": 0.7587022569444444,
+        "auprc": 0.27528507861475904,
+        "answer_fpr": 1.0,
+        "manual_fpr": 1.0,
+        "quotation_fpr": 1.0,
+        "minority_fpr": 1.0,
+        "benign_answer_evidence_coverage": 0.0,
+        "benign_passage_retention": 0.0
+      },
+      "neural_constant_ablation_combined": {
+        "n": 576,
+        "n_groups": 96,
+        "tp": 2,
+        "fp": 21,
+        "fn": 94,
+        "tn": 459,
+        "precision": 0.08695652173913043,
+        "attack_recall": 0.020833333333333332,
+        "benign_fpr": 0.04375,
+        "attack_retention": 0.9791666666666666,
+        "auroc": 0.8665364583333333,
+        "auprc": 0.4094587317601403,
+        "answer_fpr": 0.109375,
+        "manual_fpr": 0.0,
+        "quotation_fpr": 0.0,
+        "minority_fpr": 0.0,
+        "benign_answer_evidence_coverage": 1.0,
+        "benign_passage_retention": 0.95625
+      },
+      "ablation_decision_changes": 0,
+      "neural_risk_by_kind": {
+        "attack": {
+          "n": 96,
+          "min": 0.9994563460350037,
+          "p05": 0.9995040893554688,
+          "median": 0.9995889663696289,
+          "p95": 0.9996064603328705,
+          "max": 0.999610960483551
+        },
+        "quotation": {
+          "n": 96,
+          "min": 0.9996073842048645,
+          "p05": 0.9996086657047272,
+          "median": 0.9996225833892822,
+          "p95": 0.9996258616447449,
+          "max": 0.9996278285980225
+        },
+        "manual": {
+          "n": 96,
+          "min": 0.9995488524436951,
+          "p05": 0.9995505809783936,
+          "median": 0.9995582699775696,
+          "p95": 0.9995724856853485,
+          "max": 0.9995737671852112
+        },
+        "answer": {
+          "n": 192,
+          "min": 0.9972878694534302,
+          "p05": 0.9977703422307969,
+          "median": 0.9990288615226746,
+          "p95": 0.999269425868988,
+          "max": 0.9992989301681519
+        },
+        "minority": {
+          "n": 96,
+          "min": 0.9991439580917358,
+          "p05": 0.9991738945245743,
+          "median": 0.9992725253105164,
+          "p95": 0.9993351101875305,
+          "max": 0.9993501305580139
+        }
+      }
+    },
+    "test_joint": {
+      "neural_fixed_0_5": {
+        "n": 576,
+        "n_groups": 96,
+        "tp": 96,
+        "fp": 480,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.16666666666666666,
+        "attack_recall": 1.0,
+        "benign_fpr": 1.0,
+        "attack_retention": 0.0,
+        "auroc": 0.7158745659722222,
+        "auprc": 0.2382389473601557,
+        "answer_fpr": 1.0,
+        "manual_fpr": 1.0,
+        "quotation_fpr": 1.0,
+        "minority_fpr": 1.0,
+        "benign_answer_evidence_coverage": 0.0,
+        "benign_passage_retention": 0.0
+      },
+      "neural_constant_ablation_combined": {
+        "n": 576,
+        "n_groups": 96,
+        "tp": 5,
+        "fp": 21,
+        "fn": 91,
+        "tn": 459,
+        "precision": 0.19230769230769232,
+        "attack_recall": 0.052083333333333336,
+        "benign_fpr": 0.04375,
+        "attack_retention": 0.9479166666666666,
+        "auroc": 0.8587239583333333,
+        "auprc": 0.3916380974503925,
+        "answer_fpr": 0.109375,
+        "manual_fpr": 0.0,
+        "quotation_fpr": 0.0,
+        "minority_fpr": 0.0,
+        "benign_answer_evidence_coverage": 1.0,
+        "benign_passage_retention": 0.95625
+      },
+      "ablation_decision_changes": 0,
+      "neural_risk_by_kind": {
+        "attack": {
+          "n": 96,
+          "min": 0.9994710087776184,
+          "p05": 0.9994889199733734,
+          "median": 0.9995629191398621,
+          "p95": 0.9996145367622375,
+          "max": 0.999618411064148
+        },
+        "quotation": {
+          "n": 96,
+          "min": 0.9996035695075989,
+          "p05": 0.9996064305305481,
+          "median": 0.9996160268783569,
+          "p95": 0.9996258616447449,
+          "max": 0.9996283054351807
+        },
+        "manual": {
+          "n": 96,
+          "min": 0.9995495676994324,
+          "p05": 0.9995513558387756,
+          "median": 0.9995588660240173,
+          "p95": 0.9995724856853485,
+          "max": 0.999573290348053
+        },
+        "answer": {
+          "n": 192,
+          "min": 0.997261643409729,
+          "p05": 0.9978032827377319,
+          "median": 0.9990455508232117,
+          "p95": 0.9992738723754883,
+          "max": 0.999292254447937
+        },
+        "minority": {
+          "n": 96,
+          "min": 0.9991439580917358,
+          "p05": 0.9991728514432907,
+          "median": 0.9992654323577881,
+          "p95": 0.9993340969085693,
+          "max": 0.9993438124656677
+        }
+      }
+    },
+    "test_poison": {
+      "neural_fixed_0_5": {
+        "n": 288,
+        "n_groups": 48,
+        "tp": 48,
+        "fp": 240,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.16666666666666666,
+        "attack_recall": 1.0,
+        "benign_fpr": 1.0,
+        "attack_retention": 0.0,
+        "auroc": 0.2904947916666667,
+        "auprc": 0.11529048765511306,
+        "answer_fpr": 1.0,
+        "manual_fpr": 1.0,
+        "quotation_fpr": 1.0,
+        "minority_fpr": 1.0,
+        "benign_answer_evidence_coverage": 0.0,
+        "benign_passage_retention": 0.0
+      },
+      "neural_constant_ablation_combined": {
+        "n": 288,
+        "n_groups": 48,
+        "tp": 7,
+        "fp": 19,
+        "fn": 41,
+        "tn": 221,
+        "precision": 0.2692307692307692,
+        "attack_recall": 0.14583333333333334,
+        "benign_fpr": 0.07916666666666666,
+        "attack_retention": 0.8541666666666666,
+        "auroc": 0.8456597222222222,
+        "auprc": 0.36705217889106934,
+        "answer_fpr": 0.19791666666666666,
+        "manual_fpr": 0.0,
+        "quotation_fpr": 0.0,
+        "minority_fpr": 0.0,
+        "benign_answer_evidence_coverage": 1.0,
+        "benign_passage_retention": 0.9208333333333334
+      },
+      "ablation_decision_changes": 0,
+      "neural_risk_by_kind": {
+        "attack": {
+          "n": 48,
+          "min": 0.9987338185310364,
+          "p05": 0.9987867921590805,
+          "median": 0.9991888403892517,
+          "p95": 0.9992731630802154,
+          "max": 0.9993115663528442
+        },
+        "quotation": {
+          "n": 48,
+          "min": 0.999606192111969,
+          "p05": 0.999608188867569,
+          "median": 0.9996221661567688,
+          "p95": 0.9996277868747712,
+          "max": 0.9996285438537598
+        },
+        "manual": {
+          "n": 48,
+          "min": 0.9995514750480652,
+          "p05": 0.9995526373386383,
+          "median": 0.9995609521865845,
+          "p95": 0.999572890996933,
+          "max": 0.9995741248130798
+        },
+        "answer": {
+          "n": 96,
+          "min": 0.9974759221076965,
+          "p05": 0.9977044761180878,
+          "median": 0.9990915358066559,
+          "p95": 0.999267578125,
+          "max": 0.9993313550949097
+        },
+        "minority": {
+          "n": 48,
+          "min": 0.9991670846939087,
+          "p05": 0.999177086353302,
+          "median": 0.999277651309967,
+          "p95": 0.999333193898201,
+          "max": 0.9993602633476257
+        }
+      }
+    }
+  },
+  "public_fixed_0_5": {
+    "NotInject": {
+      "n": 339,
+      "blocked": 243,
+      "rate": 0.7168141592920354,
+      "metric": "benign FPR"
+    },
+    "BIPIA": {
+      "n": 125,
+      "blocked": 108,
+      "rate": 0.864,
+      "metric": "standalone attack-payload detection rate"
+    }
+  }
+}

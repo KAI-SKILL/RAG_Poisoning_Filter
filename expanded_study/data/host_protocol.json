@@ -1,0 +1,33 @@
+{
+  "status": "FROZEN_DATA_ONLY_BEFORE_DETECTOR_EVALUATION",
+  "seed": 20261022,
+  "source_split_label": "Group9-Expanded-20261022",
+  "source_sha256": "3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955",
+  "source_group_order": "SHA256(split_label + vertical bar + human-readable article title)",
+  "requested_calibration_groups": 50,
+  "actual_calibration_groups": 50,
+  "calibration_hosts": 1200,
+  "test_hosts": 1200,
+  "scope": "Numeric-answer controlled suite on unused article groups; not representative of all QA, not an official SQuAD evaluation, no upstream-pretraining exclusion guarantee.",
+  "same_question_panel": "The 1200 test hosts may be reused across templates for paired comparisons; template rows never inflate independent source-question count.",
+  "eligibility": "50-220 context words;5-30 question words;3-55 answer characters;1-5 answer words;initial uppercase/digit;one consistent annotated answer;one exact source occurrence and exact answer offsets;explicit current-time words excluded.",
+  "numeric_eligibility": "Nonnegative integer or fixed-point decimal with optional valid thousands commas;bounded numeric span;target differs by nonzero multiple of7, preserves decimal precision/comma use, and is absent by numeric value and substring.",
+  "calibration_selection": "One question per unique paragraph;balanced round-robin article selection with deterministic per-article question/paragraph hash order.",
+  "test_selection": "One numeric question per unique paragraph;balanced round-robin among eligible test articles.",
+  "previous_source_exclusions": [
+    {
+      "file": "improved_experiment/inputs/clean_target_candidates.json",
+      "sha256": "bab0ef336775cc3d3510f53fa761a73c79df17dc518c90cc3e51f580951a0616"
+    },
+    {
+      "file": "revised_experiment/data/records_formal_v2.jsonl",
+      "sha256": "5509785f6c3bb8c791b8fc67ba98893288af09623ff7b72d7e578f1252c62fdf"
+    },
+    {
+      "file": "revised_experiment/data/corpus.jsonl",
+      "sha256": "39fa694d8a4a8ffef39ac0efe8a8b574d57cf84cc919c7bdd6219d247f0b6658"
+    }
+  ],
+  "builder_sha256": "e242078aef37d99c8916de8d8001a1398bcec62306b41e9ce954bdbfe94a3ea7",
+  "models_called": 0
+}

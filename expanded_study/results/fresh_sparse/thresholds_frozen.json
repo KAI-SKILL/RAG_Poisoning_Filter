@@ -1,0 +1,60 @@
+{
+  "LR": {
+    "threshold_5pct": 0.7353746859541966,
+    "threshold_1pct": 0.761554975906073,
+    "previous_threshold": 0.5030478024149353,
+    "calibration_n": 1200,
+    "calibration_rejected": 59,
+    "order_statistic_one_based_rank": 1141,
+    "iid_continuous_one_sided95_tail_tolerance_upper": 0.0607033784324639,
+    "warning": "Ordinary-only descriptive calibration; article dependence and source shift preclude a deployment FPR guarantee.",
+    "model_sha256": "ef0e42ad0f9878ae5f020082d01d92cb62f2271d407c0e74ecc70b02b1e691e6",
+    "per_working_point_calibration": {
+      "new_normal_1pct": {
+        "target": 0.01,
+        "threshold": 0.761554975906073,
+        "n": 1200,
+        "rejected": 11,
+        "order_statistic_one_based_rank": 1189,
+        "iid_continuous_one_sided95_tail_tolerance_upper": 0.0151273585025957
+      },
+      "new_normal_5pct": {
+        "target": 0.05,
+        "threshold": 0.7353746859541966,
+        "n": 1200,
+        "rejected": 59,
+        "order_statistic_one_based_rank": 1141,
+        "iid_continuous_one_sided95_tail_tolerance_upper": 0.0607033784324639
+      }
+    }
+  },
+  "LinearSVC": {
+    "threshold_5pct": 0.7233880496642453,
+    "threshold_1pct": 0.8847522401051218,
+    "previous_threshold": 0.02209076325627035,
+    "calibration_n": 1200,
+    "calibration_rejected": 59,
+    "order_statistic_one_based_rank": 1141,
+    "iid_continuous_one_sided95_tail_tolerance_upper": 0.0607033784324639,
+    "warning": "Ordinary-only descriptive calibration; article dependence and source shift preclude a deployment FPR guarantee.",
+    "model_sha256": "b45ef5db8380f1f77e2af3c389097337c5530d60b3e3b518963acfc1df08a1e3",
+    "per_working_point_calibration": {
+      "new_normal_1pct": {
+        "target": 0.01,
+        "threshold": 0.8847522401051218,
+        "n": 1200,
+        "rejected": 11,
+        "order_statistic_one_based_rank": 1189,
+        "iid_continuous_one_sided95_tail_tolerance_upper": 0.0151273585025957
+      },
+      "new_normal_5pct": {
+        "target": 0.05,
+        "threshold": 0.7233880496642453,
+        "n": 1200,
+        "rejected": 59,
+        "order_statistic_one_based_rank": 1141,
+        "iid_continuous_one_sided95_tail_tolerance_upper": 0.0607033784324639
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS_ALL_FULL_PROMPTS_FIT",
+  "input_sqlite_sha256": "98bf0d9612e41957b49c2d1146602a38477a2c98a1b8a19cdb42ecf2b1573051",
+  "token_file_sha256": "ebfc6e84ff24753a249ca920cdbeee9b34a8bb9cab702b3130dce53afcb2b0b5",
+  "tokenizer_runtime": "llama-cpp-python 0.3.36",
+  "producer_sha256": "09ed23542210db6f05e8cc818e63c96fe2ee8efef3539579b1feeae5a8e8ec66",
+  "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+  "unique_prompts": 204,
+  "context_tokens": 4096,
+  "maximum_new_tokens": 48,
+  "input_tokens_min": 554,
+  "input_tokens_median": 793,
+  "input_tokens_p95": 1064,
+  "input_tokens_max": 1217,
+  "overflow_count": 0,
+  "overflow_prompts": [],
+  "add_bos": false,
+  "parse_special": true,
+  "generation_calls": 0,
+  "elapsed_seconds": 6.6291551329995855,
+  "truncation_permitted": false
+}

@@ -1,0 +1,183 @@
+{
+  "status": "passed",
+  "input_directory": "/project/improved_generation/output",
+  "primary3": [
+    {
+      "setting": "poison",
+      "policy": "fused",
+      "b": 1,
+      "c": 6,
+      "p": 0.125,
+      "holm": 0.375
+    },
+    {
+      "setting": "ignore",
+      "policy": "fused",
+      "b": 0,
+      "c": 0,
+      "p": 1.0,
+      "holm": 1.0
+    },
+    {
+      "setting": "stealth",
+      "policy": "fused",
+      "b": 0,
+      "c": 4,
+      "p": 0.125,
+      "holm": 0.375
+    }
+  ],
+  "secondary18": [
+    {
+      "setting": "poison",
+      "policy": "rule",
+      "b": 0,
+      "c": 0,
+      "p": 1.0,
+      "holm": 1.0
+    },
+    {
+      "setting": "poison",
+      "policy": "guard",
+      "b": 2,
+      "c": 0,
+      "p": 0.5,
+      "holm": 1.0
+    },
+    {
+      "setting": "poison",
+      "policy": "ctx",
+      "b": 81,
+      "c": 0,
+      "p": 8.271806125530277e-25,
+      "holm": 6.617444900424222e-24
+    },
+    {
+      "setting": "poison",
+      "policy": "fused",
+      "b": 77,
+      "c": 1,
+      "p": 5.227781471335135e-22,
+      "holm": 3.6594470299345944e-21
+    },
+    {
+      "setting": "poison",
+      "policy": "oracle",
+      "b": 91,
+      "c": 0,
+      "p": 8.077935669463161e-28,
+      "holm": 1.3732490638087374e-26
+    },
+    {
+      "setting": "poison",
+      "policy": "aug_fused",
+      "b": 77,
+      "c": 1,
+      "p": 5.227781471335135e-22,
+      "holm": 3.6594470299345944e-21
+    },
+    {
+      "setting": "ignore",
+      "policy": "rule",
+      "b": 91,
+      "c": 0,
+      "p": 8.077935669463161e-28,
+      "holm": 1.3732490638087374e-26
+    },
+    {
+      "setting": "ignore",
+      "policy": "guard",
+      "b": 43,
+      "c": 1,
+      "p": 5.115907697472721e-12,
+      "holm": 2.5579538487363607e-11
+    },
+    {
+      "setting": "ignore",
+      "policy": "ctx",
+      "b": 91,
+      "c": 0,
+      "p": 8.077935669463161e-28,
+      "holm": 1.3732490638087374e-26
+    },
+    {
+      "setting": "ignore",
+      "policy": "fused",
+      "b": 91,
+      "c": 0,
+      "p": 8.077935669463161e-28,
+      "holm": 1.3732490638087374e-26
+    },
+    {
+      "setting": "ignore",
+      "policy": "oracle",
+      "b": 91,
+      "c": 0,
+      "p": 8.077935669463161e-28,
+      "holm": 1.3732490638087374e-26
+    },
+    {
+      "setting": "ignore",
+      "policy": "aug_fused",
+      "b": 91,
+      "c": 0,
+      "p": 8.077935669463161e-28,
+      "holm": 1.3732490638087374e-26
+    },
+    {
+      "setting": "stealth",
+      "policy": "rule",
+      "b": 0,
+      "c": 0,
+      "p": 1.0,
+      "holm": 1.0
+    },
+    {
+      "setting": "stealth",
+      "policy": "guard",
+      "b": 3,
+      "c": 0,
+      "p": 0.25,
+      "holm": 1.0
+    },
+    {
+      "setting": "stealth",
+      "policy": "ctx",
+      "b": 86,
+      "c": 0,
+      "p": 2.5849394142282115e-26,
+      "holm": 2.8434333556510326e-25
+    },
+    {
+      "setting": "stealth",
+      "policy": "fused",
+      "b": 82,
+      "c": 0,
+      "p": 4.1359030627651384e-25,
+      "holm": 4.1359030627651384e-24
+    },
+    {
+      "setting": "stealth",
+      "policy": "oracle",
+      "b": 93,
+      "c": 0,
+      "p": 2.0194839173657902e-28,
+      "holm": 3.6350710512584224e-27
+    },
+    {
+      "setting": "stealth",
+      "policy": "aug_fused",
+      "b": 82,
+      "c": 0,
+      "p": 4.1359030627651384e-25,
+      "holm": 4.1359030627651384e-24
+    }
+  ],
+  "cost_conditions": 28,
+  "unique_prompts": 668,
+  "unique_batches": 167,
+  "total_batch_seconds": 1633.9730663699984,
+  "cap_unique_prompts": 4,
+  "cap_requested_rows": 37,
+  "interpretation": "No primary Holm rejection; lower target mentions relative to no filtering do not imply fusion superiority over context or semantic answer accuracy."
+}

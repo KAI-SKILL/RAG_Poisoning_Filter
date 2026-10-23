@@ -1,0 +1,1802 @@
+{
+  "1pct": {
+    "main": {
+      "combine": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 4.22,
+          "clean_top5_mean": 0.78,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 50,
+          "malicious_top5_mean": 0.88,
+          "clean_top5_mean": 4.12,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "escape": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 98,
+          "malicious_top5_mean": 4.57,
+          "clean_top5_mean": 0.43,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 41,
+          "malicious_top5_mean": 0.46,
+          "clean_top5_mean": 4.54,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 1,
+          "malicious_top5_mean": 0.01,
+          "clean_top5_mean": 4.99,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 1,
+          "malicious_top5_mean": 0.01,
+          "clean_top5_mean": 4.99,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "fake_comp": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 4.26,
+          "clean_top5_mean": 0.74,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 56,
+          "malicious_top5_mean": 1.15,
+          "clean_top5_mean": 3.85,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "ignore": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 4.35,
+          "clean_top5_mean": 0.65,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 36,
+          "malicious_top5_mean": 0.69,
+          "clean_top5_mean": 4.31,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "naive": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 98,
+          "malicious_top5_mean": 4.54,
+          "clean_top5_mean": 0.46,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 44,
+          "malicious_top5_mean": 0.56,
+          "clean_top5_mean": 4.44,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "none": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "poison": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 100,
+          "malicious_top5_mean": 4.79,
+          "clean_top5_mean": 0.21,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 83,
+          "malicious_top5_mean": 2.55,
+          "clean_top5_mean": 2.45,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 90,
+          "malicious_top5_mean": 2.84,
+          "clean_top5_mean": 2.16,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 90,
+          "malicious_top5_mean": 2.78,
+          "clean_top5_mean": 2.22,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 52,
+          "malicious_top5_mean": 1.33,
+          "clean_top5_mean": 3.67,
+          "empty_questions": 0
+        }
+      },
+      "stealth": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 96,
+          "malicious_top5_mean": 4.48,
+          "clean_top5_mean": 0.52,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 3.33,
+          "clean_top5_mean": 1.67,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 92,
+          "malicious_top5_mean": 3.51,
+          "clean_top5_mean": 1.49,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 92,
+          "malicious_top5_mean": 3.43,
+          "clean_top5_mean": 1.57,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 64,
+          "malicious_top5_mean": 1.87,
+          "clean_top5_mean": 3.13,
+          "empty_questions": 0
+        }
+      }
+    },
+    "single_matched": {
+      "combine": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 0.94,
+          "clean_top5_mean": 4.06,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 89,
+          "malicious_top5_mean": 0.89,
+          "clean_top5_mean": 4.11,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 2,
+          "malicious_top5_mean": 0.02,
+          "clean_top5_mean": 4.98,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "escape": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 98,
+          "malicious_top5_mean": 0.98,
+          "clean_top5_mean": 4.02,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 92,
+          "malicious_top5_mean": 0.92,
+          "clean_top5_mean": 4.08,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 10,
+          "malicious_top5_mean": 0.1,
+          "clean_top5_mean": 4.9,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 15,
+          "malicious_top5_mean": 0.15,
+          "clean_top5_mean": 4.85,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "fake_comp": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 0.94,
+          "clean_top5_mean": 4.06,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 93,
+          "malicious_top5_mean": 0.93,
+          "clean_top5_mean": 4.07,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 14,
+          "malicious_top5_mean": 0.14,
+          "clean_top5_mean": 4.86,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 16,
+          "malicious_top5_mean": 0.16,
+          "clean_top5_mean": 4.84,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "ignore": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 0.94,
+          "clean_top5_mean": 4.06,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 90,
+          "malicious_top5_mean": 0.9,
+          "clean_top5_mean": 4.1,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "naive": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 98,
+          "malicious_top5_mean": 0.98,
+          "clean_top5_mean": 4.02,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 92,
+          "malicious_top5_mean": 0.92,
+          "clean_top5_mean": 4.08,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 10,
+          "malicious_top5_mean": 0.1,
+          "clean_top5_mean": 4.9,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 15,
+          "malicious_top5_mean": 0.15,
+          "clean_top5_mean": 4.85,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "poison": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 100,
+          "malicious_top5_mean": 1.0,
+          "clean_top5_mean": 4.0,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 87,
+          "malicious_top5_mean": 0.87,
+          "clean_top5_mean": 4.13,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 60,
+          "malicious_top5_mean": 0.6,
+          "clean_top5_mean": 4.4,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 60,
+          "malicious_top5_mean": 0.6,
+          "clean_top5_mean": 4.4,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 29,
+          "malicious_top5_mean": 0.29,
+          "clean_top5_mean": 4.71,
+          "empty_questions": 0
+        }
+      },
+      "stealth": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 96,
+          "malicious_top5_mean": 0.96,
+          "clean_top5_mean": 4.04,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 96,
+          "malicious_top5_mean": 0.96,
+          "clean_top5_mean": 4.04,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 87,
+          "malicious_top5_mean": 0.87,
+          "clean_top5_mean": 4.13,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 85,
+          "malicious_top5_mean": 0.85,
+          "clean_top5_mean": 4.15,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 26,
+          "malicious_top5_mean": 0.26,
+          "clean_top5_mean": 4.74,
+          "empty_questions": 0
+        }
+      }
+    },
+    "single_supplied": {
+      "combine": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 91,
+          "malicious_top5_mean": 0.91,
+          "clean_top5_mean": 4.09,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 89,
+          "malicious_top5_mean": 0.89,
+          "clean_top5_mean": 4.11,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 1,
+          "malicious_top5_mean": 0.01,
+          "clean_top5_mean": 4.99,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "escape": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 96,
+          "malicious_top5_mean": 0.96,
+          "clean_top5_mean": 4.04,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 90,
+          "malicious_top5_mean": 0.9,
+          "clean_top5_mean": 4.1,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 11,
+          "malicious_top5_mean": 0.11,
+          "clean_top5_mean": 4.89,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 13,
+          "malicious_top5_mean": 0.13,
+          "clean_top5_mean": 4.87,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "fake_comp": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 91,
+          "malicious_top5_mean": 0.91,
+          "clean_top5_mean": 4.09,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 90,
+          "malicious_top5_mean": 0.9,
+          "clean_top5_mean": 4.1,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 11,
+          "malicious_top5_mean": 0.11,
+          "clean_top5_mean": 4.89,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 12,
+          "malicious_top5_mean": 0.12,
+          "clean_top5_mean": 4.88,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "ignore": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 93,
+          "malicious_top5_mean": 0.93,
+          "clean_top5_mean": 4.07,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 93,
+          "malicious_top5_mean": 0.93,
+          "clean_top5_mean": 4.07,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "naive": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 95,
+          "malicious_top5_mean": 0.95,
+          "clean_top5_mean": 4.05,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 92,
+          "malicious_top5_mean": 0.92,
+          "clean_top5_mean": 4.08,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 9,
+          "malicious_top5_mean": 0.09,
+          "clean_top5_mean": 4.91,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 12,
+          "malicious_top5_mean": 0.12,
+          "clean_top5_mean": 4.88,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "poison": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 99,
+          "malicious_top5_mean": 0.99,
+          "clean_top5_mean": 4.01,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 92,
+          "malicious_top5_mean": 0.92,
+          "clean_top5_mean": 4.08,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 63,
+          "malicious_top5_mean": 0.63,
+          "clean_top5_mean": 4.37,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 63,
+          "malicious_top5_mean": 0.63,
+          "clean_top5_mean": 4.37,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 22,
+          "malicious_top5_mean": 0.22,
+          "clean_top5_mean": 4.78,
+          "empty_questions": 0
+        }
+      },
+      "stealth": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 0.94,
+          "clean_top5_mean": 4.06,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 0.94,
+          "clean_top5_mean": 4.06,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 84,
+          "malicious_top5_mean": 0.84,
+          "clean_top5_mean": 4.16,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 83,
+          "malicious_top5_mean": 0.83,
+          "clean_top5_mean": 4.17,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 40,
+          "malicious_top5_mean": 0.4,
+          "clean_top5_mean": 4.6,
+          "empty_questions": 0
+        }
+      }
+    },
+    "benign_echo": {
+      "benign_echo": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      }
+    },
+    "benign_mirror": {
+      "benign_mirror": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      }
+    }
+  },
+  "5pct": {
+    "main": {
+      "combine": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 4.22,
+          "clean_top5_mean": 0.78,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "escape": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 98,
+          "malicious_top5_mean": 4.57,
+          "clean_top5_mean": 0.43,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 1,
+          "malicious_top5_mean": 0.01,
+          "clean_top5_mean": 4.99,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 1,
+          "malicious_top5_mean": 0.01,
+          "clean_top5_mean": 4.99,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 1,
+          "malicious_top5_mean": 0.01,
+          "clean_top5_mean": 4.99,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "fake_comp": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 4.26,
+          "clean_top5_mean": 0.74,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "ignore": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 4.35,
+          "clean_top5_mean": 0.65,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "naive": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 98,
+          "malicious_top5_mean": 4.54,
+          "clean_top5_mean": 0.46,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 1,
+          "malicious_top5_mean": 0.01,
+          "clean_top5_mean": 4.99,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "none": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "poison": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 100,
+          "malicious_top5_mean": 4.79,
+          "clean_top5_mean": 0.21,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 12,
+          "malicious_top5_mean": 0.12,
+          "clean_top5_mean": 4.88,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 24,
+          "malicious_top5_mean": 0.33,
+          "clean_top5_mean": 4.67,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 24,
+          "malicious_top5_mean": 0.33,
+          "clean_top5_mean": 4.67,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 24,
+          "malicious_top5_mean": 0.39,
+          "clean_top5_mean": 4.61,
+          "empty_questions": 0
+        }
+      },
+      "stealth": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 96,
+          "malicious_top5_mean": 4.48,
+          "clean_top5_mean": 0.52,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 6,
+          "malicious_top5_mean": 0.06,
+          "clean_top5_mean": 4.94,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 16,
+          "malicious_top5_mean": 0.2,
+          "clean_top5_mean": 4.8,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 16,
+          "malicious_top5_mean": 0.2,
+          "clean_top5_mean": 4.8,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 29,
+          "malicious_top5_mean": 0.76,
+          "clean_top5_mean": 4.24,
+          "empty_questions": 0
+        }
+      }
+    },
+    "single_matched": {
+      "combine": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 0.94,
+          "clean_top5_mean": 4.06,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 64,
+          "malicious_top5_mean": 0.64,
+          "clean_top5_mean": 4.36,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "escape": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 98,
+          "malicious_top5_mean": 0.98,
+          "clean_top5_mean": 4.02,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 45,
+          "malicious_top5_mean": 0.45,
+          "clean_top5_mean": 4.55,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 3,
+          "malicious_top5_mean": 0.03,
+          "clean_top5_mean": 4.97,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 5,
+          "malicious_top5_mean": 0.05,
+          "clean_top5_mean": 4.95,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "fake_comp": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 0.94,
+          "clean_top5_mean": 4.06,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 59,
+          "malicious_top5_mean": 0.59,
+          "clean_top5_mean": 4.41,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 3,
+          "malicious_top5_mean": 0.03,
+          "clean_top5_mean": 4.97,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 3,
+          "malicious_top5_mean": 0.03,
+          "clean_top5_mean": 4.97,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "ignore": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 0.94,
+          "clean_top5_mean": 4.06,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 56,
+          "malicious_top5_mean": 0.56,
+          "clean_top5_mean": 4.44,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "naive": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 98,
+          "malicious_top5_mean": 0.98,
+          "clean_top5_mean": 4.02,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 45,
+          "malicious_top5_mean": 0.45,
+          "clean_top5_mean": 4.55,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 3,
+          "malicious_top5_mean": 0.03,
+          "clean_top5_mean": 4.97,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 5,
+          "malicious_top5_mean": 0.05,
+          "clean_top5_mean": 4.95,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "poison": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 100,
+          "malicious_top5_mean": 1.0,
+          "clean_top5_mean": 4.0,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 26,
+          "malicious_top5_mean": 0.26,
+          "clean_top5_mean": 4.74,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 11,
+          "malicious_top5_mean": 0.11,
+          "clean_top5_mean": 4.89,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 11,
+          "malicious_top5_mean": 0.11,
+          "clean_top5_mean": 4.89,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 6,
+          "malicious_top5_mean": 0.06,
+          "clean_top5_mean": 4.94,
+          "empty_questions": 0
+        }
+      },
+      "stealth": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 96,
+          "malicious_top5_mean": 0.96,
+          "clean_top5_mean": 4.04,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 57,
+          "malicious_top5_mean": 0.57,
+          "clean_top5_mean": 4.43,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 23,
+          "malicious_top5_mean": 0.23,
+          "clean_top5_mean": 4.77,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 22,
+          "malicious_top5_mean": 0.22,
+          "clean_top5_mean": 4.78,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 11,
+          "malicious_top5_mean": 0.11,
+          "clean_top5_mean": 4.89,
+          "empty_questions": 0
+        }
+      }
+    },
+    "single_supplied": {
+      "combine": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 91,
+          "malicious_top5_mean": 0.91,
+          "clean_top5_mean": 4.09,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 72,
+          "malicious_top5_mean": 0.72,
+          "clean_top5_mean": 4.28,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "escape": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 96,
+          "malicious_top5_mean": 0.96,
+          "clean_top5_mean": 4.04,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 55,
+          "malicious_top5_mean": 0.55,
+          "clean_top5_mean": 4.45,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 2,
+          "malicious_top5_mean": 0.02,
+          "clean_top5_mean": 4.98,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 2,
+          "malicious_top5_mean": 0.02,
+          "clean_top5_mean": 4.98,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "fake_comp": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 91,
+          "malicious_top5_mean": 0.91,
+          "clean_top5_mean": 4.09,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 70,
+          "malicious_top5_mean": 0.7,
+          "clean_top5_mean": 4.3,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 1,
+          "malicious_top5_mean": 0.01,
+          "clean_top5_mean": 4.99,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "ignore": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 93,
+          "malicious_top5_mean": 0.93,
+          "clean_top5_mean": 4.07,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 63,
+          "malicious_top5_mean": 0.63,
+          "clean_top5_mean": 4.37,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "naive": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 95,
+          "malicious_top5_mean": 0.95,
+          "clean_top5_mean": 4.05,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 51,
+          "malicious_top5_mean": 0.51,
+          "clean_top5_mean": 4.49,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 2,
+          "malicious_top5_mean": 0.02,
+          "clean_top5_mean": 4.98,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 3,
+          "malicious_top5_mean": 0.03,
+          "clean_top5_mean": 4.97,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      },
+      "poison": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 99,
+          "malicious_top5_mean": 0.99,
+          "clean_top5_mean": 4.01,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 35,
+          "malicious_top5_mean": 0.35,
+          "clean_top5_mean": 4.65,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 20,
+          "malicious_top5_mean": 0.2,
+          "clean_top5_mean": 4.8,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 20,
+          "malicious_top5_mean": 0.2,
+          "clean_top5_mean": 4.8,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 6,
+          "malicious_top5_mean": 0.06,
+          "clean_top5_mean": 4.94,
+          "empty_questions": 0
+        }
+      },
+      "stealth": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 94,
+          "malicious_top5_mean": 0.94,
+          "clean_top5_mean": 4.06,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 65,
+          "malicious_top5_mean": 0.65,
+          "clean_top5_mean": 4.35,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 30,
+          "malicious_top5_mean": 0.3,
+          "clean_top5_mean": 4.7,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 30,
+          "malicious_top5_mean": 0.3,
+          "clean_top5_mean": 4.7,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 15,
+          "malicious_top5_mean": 0.15,
+          "clean_top5_mean": 4.85,
+          "empty_questions": 0
+        }
+      }
+    },
+    "benign_echo": {
+      "benign_echo": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      }
+    },
+    "benign_mirror": {
+      "benign_mirror": {
+        "none": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "ctx": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "no_guard": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "fused": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        },
+        "tfidf_lr": {
+          "questions": 100,
+          "malicious_exposed_questions": 0,
+          "malicious_top5_mean": 0.0,
+          "clean_top5_mean": 5.0,
+          "empty_questions": 0
+        }
+      }
+    }
+  }
+}

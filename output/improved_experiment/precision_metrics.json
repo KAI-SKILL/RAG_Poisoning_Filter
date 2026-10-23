@@ -1,0 +1,1575 @@
+{
+  "scope": "Pure arithmetic from frozen confusion counts; no model/threshold/prediction changes. Precision is undefined with no alerts; F1 is not reported for all-benign conditions. Precision and AUPRC depend on the authored attack prevalence.",
+  "metrics": {
+    "main": {
+      "combine": {
+        "rule": {
+          "precision": 0.9917525773195877,
+          "precision_denominator_alerts": 485,
+          "recall_denominator_retrieved_attacks": 481,
+          "f1": 0.9958592132505176,
+          "attack_prevalence": 0.2405
+        },
+        "guard": {
+          "precision": 0.8194130925507901,
+          "precision_denominator_alerts": 443,
+          "recall_denominator_retrieved_attacks": 481,
+          "f1": 0.7857142857142857,
+          "attack_prevalence": 0.2405
+        },
+        "score": {
+          "precision": 0.8378378378378378,
+          "precision_denominator_alerts": 74,
+          "recall_denominator_retrieved_attacks": 481,
+          "f1": 0.22342342342342342,
+          "attack_prevalence": 0.2405
+        },
+        "density": {
+          "precision": 0.8586762075134168,
+          "precision_denominator_alerts": 559,
+          "recall_denominator_retrieved_attacks": 481,
+          "f1": 0.9230769230769231,
+          "attack_prevalence": 0.2405
+        },
+        "ctx": {
+          "precision": 0.9292730844793713,
+          "precision_denominator_alerts": 509,
+          "recall_denominator_retrieved_attacks": 481,
+          "f1": 0.9555555555555556,
+          "attack_prevalence": 0.2405
+        },
+        "content": {
+          "precision": 0.857397504456328,
+          "precision_denominator_alerts": 561,
+          "recall_denominator_retrieved_attacks": 481,
+          "f1": 0.9232245681381958,
+          "attack_prevalence": 0.2405
+        },
+        "fused": {
+          "precision": 0.962,
+          "precision_denominator_alerts": 500,
+          "recall_denominator_retrieved_attacks": 481,
+          "f1": 0.9806320081549439,
+          "attack_prevalence": 0.2405
+        },
+        "no_guard": {
+          "precision": 0.9639278557114228,
+          "precision_denominator_alerts": 499,
+          "recall_denominator_retrieved_attacks": 481,
+          "f1": 0.9816326530612245,
+          "attack_prevalence": 0.2405
+        },
+        "aug_fused": {
+          "precision": 0.9524752475247524,
+          "precision_denominator_alerts": 505,
+          "recall_denominator_retrieved_attacks": 481,
+          "f1": 0.9756592292089249,
+          "attack_prevalence": 0.2405
+        }
+      },
+      "escape": {
+        "rule": {
+          "precision": 0.9919191919191919,
+          "precision_denominator_alerts": 495,
+          "recall_denominator_retrieved_attacks": 491,
+          "f1": 0.9959432048681541,
+          "attack_prevalence": 0.2455
+        },
+        "guard": {
+          "precision": 0.14893617021276595,
+          "precision_denominator_alerts": 94,
+          "recall_denominator_retrieved_attacks": 491,
+          "f1": 0.04786324786324787,
+          "attack_prevalence": 0.2455
+        },
+        "score": {
+          "precision": 0.9634146341463414,
+          "precision_denominator_alerts": 82,
+          "recall_denominator_retrieved_attacks": 491,
+          "f1": 0.2757417102966841,
+          "attack_prevalence": 0.2455
+        },
+        "density": {
+          "precision": 0.8611599297012302,
+          "precision_denominator_alerts": 569,
+          "recall_denominator_retrieved_attacks": 491,
+          "f1": 0.9245283018867925,
+          "attack_prevalence": 0.2455
+        },
+        "ctx": {
+          "precision": 0.9420849420849421,
+          "precision_denominator_alerts": 518,
+          "recall_denominator_retrieved_attacks": 491,
+          "f1": 0.9672943508424182,
+          "attack_prevalence": 0.2455
+        },
+        "content": {
+          "precision": 0.8598949211908932,
+          "precision_denominator_alerts": 571,
+          "recall_denominator_retrieved_attacks": 491,
+          "f1": 0.9246704331450094,
+          "attack_prevalence": 0.2455
+        },
+        "fused": {
+          "precision": 0.9760956175298805,
+          "precision_denominator_alerts": 502,
+          "recall_denominator_retrieved_attacks": 491,
+          "f1": 0.9869083585095669,
+          "attack_prevalence": 0.2455
+        },
+        "no_guard": {
+          "precision": 0.9780439121756487,
+          "precision_denominator_alerts": 501,
+          "recall_denominator_retrieved_attacks": 491,
+          "f1": 0.9879032258064516,
+          "attack_prevalence": 0.2455
+        },
+        "aug_fused": {
+          "precision": 0.9645669291338582,
+          "precision_denominator_alerts": 508,
+          "recall_denominator_retrieved_attacks": 491,
+          "f1": 0.980980980980981,
+          "attack_prevalence": 0.2455
+        }
+      },
+      "fake_comp": {
+        "rule": {
+          "precision": 0.9917695473251029,
+          "precision_denominator_alerts": 486,
+          "recall_denominator_retrieved_attacks": 482,
+          "f1": 0.9958677685950413,
+          "attack_prevalence": 0.241
+        },
+        "guard": {
+          "precision": 0.5909090909090909,
+          "precision_denominator_alerts": 198,
+          "recall_denominator_retrieved_attacks": 482,
+          "f1": 0.34411764705882353,
+          "attack_prevalence": 0.241
+        },
+        "score": {
+          "precision": 0.8787878787878788,
+          "precision_denominator_alerts": 66,
+          "recall_denominator_retrieved_attacks": 482,
+          "f1": 0.2116788321167883,
+          "attack_prevalence": 0.241
+        },
+        "density": {
+          "precision": 0.8589285714285714,
+          "precision_denominator_alerts": 560,
+          "recall_denominator_retrieved_attacks": 482,
+          "f1": 0.9232245681381958,
+          "attack_prevalence": 0.241
+        },
+        "ctx": {
+          "precision": 0.9346534653465347,
+          "precision_denominator_alerts": 505,
+          "recall_denominator_retrieved_attacks": 482,
+          "f1": 0.9564336372847011,
+          "attack_prevalence": 0.241
+        },
+        "content": {
+          "precision": 0.8561278863232682,
+          "precision_denominator_alerts": 563,
+          "recall_denominator_retrieved_attacks": 482,
+          "f1": 0.9224880382775119,
+          "attack_prevalence": 0.241
+        },
+        "fused": {
+          "precision": 0.9658634538152611,
+          "precision_denominator_alerts": 498,
+          "recall_denominator_retrieved_attacks": 482,
+          "f1": 0.9816326530612245,
+          "attack_prevalence": 0.241
+        },
+        "no_guard": {
+          "precision": 0.9659318637274549,
+          "precision_denominator_alerts": 499,
+          "recall_denominator_retrieved_attacks": 482,
+          "f1": 0.9826707441386341,
+          "attack_prevalence": 0.241
+        },
+        "aug_fused": {
+          "precision": 0.9563492063492064,
+          "precision_denominator_alerts": 504,
+          "recall_denominator_retrieved_attacks": 482,
+          "f1": 0.9776876267748479,
+          "attack_prevalence": 0.241
+        }
+      },
+      "ignore": {
+        "rule": {
+          "precision": 0.9918533604887984,
+          "precision_denominator_alerts": 491,
+          "recall_denominator_retrieved_attacks": 487,
+          "f1": 0.9959100204498977,
+          "attack_prevalence": 0.2435
+        },
+        "guard": {
+          "precision": 0.8312236286919831,
+          "precision_denominator_alerts": 474,
+          "recall_denominator_retrieved_attacks": 487,
+          "f1": 0.8199791883454735,
+          "attack_prevalence": 0.2435
+        },
+        "score": {
+          "precision": 0.8695652173913043,
+          "precision_denominator_alerts": 46,
+          "recall_denominator_retrieved_attacks": 487,
+          "f1": 0.150093808630394,
+          "attack_prevalence": 0.2435
+        },
+        "density": {
+          "precision": 0.8604240282685512,
+          "precision_denominator_alerts": 566,
+          "recall_denominator_retrieved_attacks": 487,
+          "f1": 0.9249762583095916,
+          "attack_prevalence": 0.2435
+        },
+        "ctx": {
+          "precision": 0.9354207436399217,
+          "precision_denominator_alerts": 511,
+          "recall_denominator_retrieved_attacks": 487,
+          "f1": 0.9579158316633266,
+          "attack_prevalence": 0.2435
+        },
+        "content": {
+          "precision": 0.8589065255731922,
+          "precision_denominator_alerts": 567,
+          "recall_denominator_retrieved_attacks": 487,
+          "f1": 0.9240986717267552,
+          "attack_prevalence": 0.2435
+        },
+        "fused": {
+          "precision": 0.9701195219123506,
+          "precision_denominator_alerts": 502,
+          "recall_denominator_retrieved_attacks": 487,
+          "f1": 0.9848331648129424,
+          "attack_prevalence": 0.2435
+        },
+        "no_guard": {
+          "precision": 0.9701195219123506,
+          "precision_denominator_alerts": 502,
+          "recall_denominator_retrieved_attacks": 487,
+          "f1": 0.9848331648129424,
+          "attack_prevalence": 0.2435
+        },
+        "aug_fused": {
+          "precision": 0.9586614173228346,
+          "precision_denominator_alerts": 508,
+          "recall_denominator_retrieved_attacks": 487,
+          "f1": 0.978894472361809,
+          "attack_prevalence": 0.2435
+        }
+      },
+      "naive": {
+        "rule": {
+          "precision": 0.992,
+          "precision_denominator_alerts": 500,
+          "recall_denominator_retrieved_attacks": 496,
+          "f1": 0.9959839357429718,
+          "attack_prevalence": 0.248
+        },
+        "guard": {
+          "precision": 0.2,
+          "precision_denominator_alerts": 100,
+          "recall_denominator_retrieved_attacks": 496,
+          "f1": 0.06711409395973154,
+          "attack_prevalence": 0.248
+        },
+        "score": {
+          "precision": 0.9436619718309859,
+          "precision_denominator_alerts": 71,
+          "recall_denominator_retrieved_attacks": 496,
+          "f1": 0.23633156966490299,
+          "attack_prevalence": 0.248
+        },
+        "density": {
+          "precision": 0.8626086956521739,
+          "precision_denominator_alerts": 575,
+          "recall_denominator_retrieved_attacks": 496,
+          "f1": 0.9262371615312792,
+          "attack_prevalence": 0.248
+        },
+        "ctx": {
+          "precision": 0.9425287356321839,
+          "precision_denominator_alerts": 522,
+          "recall_denominator_retrieved_attacks": 496,
+          "f1": 0.9666011787819253,
+          "attack_prevalence": 0.248
+        },
+        "content": {
+          "precision": 0.8611111111111112,
+          "precision_denominator_alerts": 576,
+          "recall_denominator_retrieved_attacks": 496,
+          "f1": 0.9253731343283582,
+          "attack_prevalence": 0.248
+        },
+        "fused": {
+          "precision": 0.9782608695652174,
+          "precision_denominator_alerts": 506,
+          "recall_denominator_retrieved_attacks": 496,
+          "f1": 0.9880239520958084,
+          "attack_prevalence": 0.248
+        },
+        "no_guard": {
+          "precision": 0.9782608695652174,
+          "precision_denominator_alerts": 506,
+          "recall_denominator_retrieved_attacks": 496,
+          "f1": 0.9880239520958084,
+          "attack_prevalence": 0.248
+        },
+        "aug_fused": {
+          "precision": 0.9649805447470817,
+          "precision_denominator_alerts": 514,
+          "recall_denominator_retrieved_attacks": 496,
+          "f1": 0.9821782178217822,
+          "attack_prevalence": 0.248
+        }
+      },
+      "none": {
+        "rule": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 4,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "guard": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "score": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 96,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 107,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "ctx": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 92,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "content": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "fused": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 95,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "no_guard": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 95,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "aug_fused": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 93,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        }
+      },
+      "poison": {
+        "rule": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 4,
+          "recall_denominator_retrieved_attacks": 500,
+          "f1": 0.0,
+          "attack_prevalence": 0.25
+        },
+        "guard": {
+          "precision": 0.25925925925925924,
+          "precision_denominator_alerts": 108,
+          "recall_denominator_retrieved_attacks": 500,
+          "f1": 0.09210526315789473,
+          "attack_prevalence": 0.25
+        },
+        "score": {
+          "precision": 0.9811320754716981,
+          "precision_denominator_alerts": 53,
+          "recall_denominator_retrieved_attacks": 500,
+          "f1": 0.18806509945750452,
+          "attack_prevalence": 0.25
+        },
+        "density": {
+          "precision": 0.8518518518518519,
+          "precision_denominator_alerts": 540,
+          "recall_denominator_retrieved_attacks": 500,
+          "f1": 0.8846153846153846,
+          "attack_prevalence": 0.25
+        },
+        "ctx": {
+          "precision": 0.9403578528827038,
+          "precision_denominator_alerts": 503,
+          "recall_denominator_retrieved_attacks": 500,
+          "f1": 0.9431704885343968,
+          "attack_prevalence": 0.25
+        },
+        "content": {
+          "precision": 0.25925925925925924,
+          "precision_denominator_alerts": 108,
+          "recall_denominator_retrieved_attacks": 500,
+          "f1": 0.09210526315789473,
+          "attack_prevalence": 0.25
+        },
+        "fused": {
+          "precision": 0.9769874476987448,
+          "precision_denominator_alerts": 478,
+          "recall_denominator_retrieved_attacks": 500,
+          "f1": 0.9550102249488752,
+          "attack_prevalence": 0.25
+        },
+        "no_guard": {
+          "precision": 0.9769874476987448,
+          "precision_denominator_alerts": 478,
+          "recall_denominator_retrieved_attacks": 500,
+          "f1": 0.9550102249488752,
+          "attack_prevalence": 0.25
+        },
+        "aug_fused": {
+          "precision": 0.9668737060041408,
+          "precision_denominator_alerts": 483,
+          "recall_denominator_retrieved_attacks": 500,
+          "f1": 0.9501525940996948,
+          "attack_prevalence": 0.25
+        }
+      },
+      "stealth": {
+        "rule": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 4,
+          "recall_denominator_retrieved_attacks": 492,
+          "f1": 0.0,
+          "attack_prevalence": 0.246
+        },
+        "guard": {
+          "precision": 0.574468085106383,
+          "precision_denominator_alerts": 188,
+          "recall_denominator_retrieved_attacks": 492,
+          "f1": 0.3176470588235294,
+          "attack_prevalence": 0.246
+        },
+        "score": {
+          "precision": 0.8958333333333334,
+          "precision_denominator_alerts": 48,
+          "recall_denominator_retrieved_attacks": 492,
+          "f1": 0.15925925925925927,
+          "attack_prevalence": 0.246
+        },
+        "density": {
+          "precision": 0.842,
+          "precision_denominator_alerts": 500,
+          "recall_denominator_retrieved_attacks": 492,
+          "f1": 0.8487903225806451,
+          "attack_prevalence": 0.246
+        },
+        "ctx": {
+          "precision": 0.9368635437881874,
+          "precision_denominator_alerts": 491,
+          "recall_denominator_retrieved_attacks": 492,
+          "f1": 0.9359104781281791,
+          "attack_prevalence": 0.246
+        },
+        "content": {
+          "precision": 0.5698924731182796,
+          "precision_denominator_alerts": 186,
+          "recall_denominator_retrieved_attacks": 492,
+          "f1": 0.31268436578171094,
+          "attack_prevalence": 0.246
+        },
+        "fused": {
+          "precision": 0.9697624190064795,
+          "precision_denominator_alerts": 463,
+          "recall_denominator_retrieved_attacks": 492,
+          "f1": 0.9403141361256544,
+          "attack_prevalence": 0.246
+        },
+        "no_guard": {
+          "precision": 0.9697624190064795,
+          "precision_denominator_alerts": 463,
+          "recall_denominator_retrieved_attacks": 492,
+          "f1": 0.9403141361256544,
+          "attack_prevalence": 0.246
+        },
+        "aug_fused": {
+          "precision": 0.9578947368421052,
+          "precision_denominator_alerts": 475,
+          "recall_denominator_retrieved_attacks": 492,
+          "f1": 0.9410548086866598,
+          "attack_prevalence": 0.246
+        }
+      }
+    },
+    "single_supplied": {
+      "combine": {
+        "rule": {
+          "precision": 0.96,
+          "precision_denominator_alerts": 100,
+          "recall_denominator_retrieved_attacks": 96,
+          "f1": 0.9795918367346939,
+          "attack_prevalence": 0.048
+        },
+        "guard": {
+          "precision": 0.40718562874251496,
+          "precision_denominator_alerts": 167,
+          "recall_denominator_retrieved_attacks": 96,
+          "f1": 0.5171102661596958,
+          "attack_prevalence": 0.048
+        },
+        "score": {
+          "precision": 0.7475728155339806,
+          "precision_denominator_alerts": 103,
+          "recall_denominator_retrieved_attacks": 96,
+          "f1": 0.7738693467336684,
+          "attack_prevalence": 0.048
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 96,
+          "f1": 0.0,
+          "attack_prevalence": 0.048
+        },
+        "ctx": {
+          "precision": 0.23943661971830985,
+          "precision_denominator_alerts": 71,
+          "recall_denominator_retrieved_attacks": 96,
+          "f1": 0.20359281437125748,
+          "attack_prevalence": 0.048
+        },
+        "content": {
+          "precision": 0.49230769230769234,
+          "precision_denominator_alerts": 195,
+          "recall_denominator_retrieved_attacks": 96,
+          "f1": 0.6597938144329897,
+          "attack_prevalence": 0.048
+        },
+        "fused": {
+          "precision": 0.6808510638297872,
+          "precision_denominator_alerts": 141,
+          "recall_denominator_retrieved_attacks": 96,
+          "f1": 0.810126582278481,
+          "attack_prevalence": 0.048
+        },
+        "no_guard": {
+          "precision": 0.6808510638297872,
+          "precision_denominator_alerts": 141,
+          "recall_denominator_retrieved_attacks": 96,
+          "f1": 0.810126582278481,
+          "attack_prevalence": 0.048
+        },
+        "aug_fused": {
+          "precision": 0.6620689655172414,
+          "precision_denominator_alerts": 145,
+          "recall_denominator_retrieved_attacks": 96,
+          "f1": 0.7966804979253111,
+          "attack_prevalence": 0.048
+        }
+      },
+      "escape": {
+        "rule": {
+          "precision": 0.9611650485436893,
+          "precision_denominator_alerts": 103,
+          "recall_denominator_retrieved_attacks": 99,
+          "f1": 0.9801980198019802,
+          "attack_prevalence": 0.0495
+        },
+        "guard": {
+          "precision": 0.029411764705882353,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 99,
+          "f1": 0.029850746268656716,
+          "attack_prevalence": 0.0495
+        },
+        "score": {
+          "precision": 0.8666666666666667,
+          "precision_denominator_alerts": 105,
+          "recall_denominator_retrieved_attacks": 99,
+          "f1": 0.8921568627450981,
+          "attack_prevalence": 0.0495
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 99,
+          "f1": 0.0,
+          "attack_prevalence": 0.0495
+        },
+        "ctx": {
+          "precision": 0.4367816091954023,
+          "precision_denominator_alerts": 87,
+          "recall_denominator_retrieved_attacks": 99,
+          "f1": 0.40860215053763443,
+          "attack_prevalence": 0.0495
+        },
+        "content": {
+          "precision": 0.5,
+          "precision_denominator_alerts": 198,
+          "recall_denominator_retrieved_attacks": 99,
+          "f1": 0.6666666666666666,
+          "attack_prevalence": 0.0495
+        },
+        "fused": {
+          "precision": 0.734375,
+          "precision_denominator_alerts": 128,
+          "recall_denominator_retrieved_attacks": 99,
+          "f1": 0.8281938325991189,
+          "attack_prevalence": 0.0495
+        },
+        "no_guard": {
+          "precision": 0.734375,
+          "precision_denominator_alerts": 128,
+          "recall_denominator_retrieved_attacks": 99,
+          "f1": 0.8281938325991189,
+          "attack_prevalence": 0.0495
+        },
+        "aug_fused": {
+          "precision": 0.6834532374100719,
+          "precision_denominator_alerts": 139,
+          "recall_denominator_retrieved_attacks": 99,
+          "f1": 0.7983193277310925,
+          "attack_prevalence": 0.0495
+        }
+      },
+      "fake_comp": {
+        "rule": {
+          "precision": 0.9607843137254902,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.98,
+          "attack_prevalence": 0.049
+        },
+        "guard": {
+          "precision": 0.1885245901639344,
+          "precision_denominator_alerts": 122,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.20909090909090908,
+          "attack_prevalence": 0.049
+        },
+        "score": {
+          "precision": 0.8018867924528302,
+          "precision_denominator_alerts": 106,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8333333333333334,
+          "attack_prevalence": 0.049
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.0,
+          "attack_prevalence": 0.049
+        },
+        "ctx": {
+          "precision": 0.22727272727272727,
+          "precision_denominator_alerts": 66,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.18292682926829268,
+          "attack_prevalence": 0.049
+        },
+        "content": {
+          "precision": 0.49746192893401014,
+          "precision_denominator_alerts": 197,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.6644067796610169,
+          "attack_prevalence": 0.049
+        },
+        "fused": {
+          "precision": 0.7209302325581395,
+          "precision_denominator_alerts": 129,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8193832599118943,
+          "attack_prevalence": 0.049
+        },
+        "no_guard": {
+          "precision": 0.7209302325581395,
+          "precision_denominator_alerts": 129,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8193832599118943,
+          "attack_prevalence": 0.049
+        },
+        "aug_fused": {
+          "precision": 0.6791044776119403,
+          "precision_denominator_alerts": 134,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.7844827586206896,
+          "attack_prevalence": 0.049
+        }
+      },
+      "ignore": {
+        "rule": {
+          "precision": 0.9607843137254902,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.98,
+          "attack_prevalence": 0.049
+        },
+        "guard": {
+          "precision": 0.4375,
+          "precision_denominator_alerts": 176,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.5620437956204379,
+          "attack_prevalence": 0.049
+        },
+        "score": {
+          "precision": 0.8095238095238095,
+          "precision_denominator_alerts": 105,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8374384236453202,
+          "attack_prevalence": 0.049
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.0,
+          "attack_prevalence": 0.049
+        },
+        "ctx": {
+          "precision": 0.2916666666666667,
+          "precision_denominator_alerts": 72,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.24705882352941178,
+          "attack_prevalence": 0.049
+        },
+        "content": {
+          "precision": 0.49746192893401014,
+          "precision_denominator_alerts": 197,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.6644067796610169,
+          "attack_prevalence": 0.049
+        },
+        "fused": {
+          "precision": 0.7384615384615385,
+          "precision_denominator_alerts": 130,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8421052631578947,
+          "attack_prevalence": 0.049
+        },
+        "no_guard": {
+          "precision": 0.7404580152671756,
+          "precision_denominator_alerts": 131,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8471615720524017,
+          "attack_prevalence": 0.049
+        },
+        "aug_fused": {
+          "precision": 0.6928571428571428,
+          "precision_denominator_alerts": 140,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8151260504201681,
+          "attack_prevalence": 0.049
+        }
+      },
+      "naive": {
+        "rule": {
+          "precision": 0.9607843137254902,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.98,
+          "attack_prevalence": 0.049
+        },
+        "guard": {
+          "precision": 0.029411764705882353,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.03,
+          "attack_prevalence": 0.049
+        },
+        "score": {
+          "precision": 0.8461538461538461,
+          "precision_denominator_alerts": 104,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8712871287128713,
+          "attack_prevalence": 0.049
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.0,
+          "attack_prevalence": 0.049
+        },
+        "ctx": {
+          "precision": 0.42528735632183906,
+          "precision_denominator_alerts": 87,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.4,
+          "attack_prevalence": 0.049
+        },
+        "content": {
+          "precision": 0.49746192893401014,
+          "precision_denominator_alerts": 197,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.6644067796610169,
+          "attack_prevalence": 0.049
+        },
+        "fused": {
+          "precision": 0.7322834645669292,
+          "precision_denominator_alerts": 127,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8266666666666667,
+          "attack_prevalence": 0.049
+        },
+        "no_guard": {
+          "precision": 0.734375,
+          "precision_denominator_alerts": 128,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.831858407079646,
+          "attack_prevalence": 0.049
+        },
+        "aug_fused": {
+          "precision": 0.6834532374100719,
+          "precision_denominator_alerts": 139,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8016877637130801,
+          "attack_prevalence": 0.049
+        }
+      },
+      "poison": {
+        "rule": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 4,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.0,
+          "attack_prevalence": 0.05
+        },
+        "guard": {
+          "precision": 0.038834951456310676,
+          "precision_denominator_alerts": 103,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.03940886699507389,
+          "attack_prevalence": 0.05
+        },
+        "score": {
+          "precision": 0.9313725490196079,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.9405940594059405,
+          "attack_prevalence": 0.05
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.0,
+          "attack_prevalence": 0.05
+        },
+        "ctx": {
+          "precision": 0.5420560747663551,
+          "precision_denominator_alerts": 107,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.5603864734299517,
+          "attack_prevalence": 0.05
+        },
+        "content": {
+          "precision": 0.038834951456310676,
+          "precision_denominator_alerts": 103,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.03940886699507389,
+          "attack_prevalence": 0.05
+        },
+        "fused": {
+          "precision": 0.7431192660550459,
+          "precision_denominator_alerts": 109,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.7751196172248804,
+          "attack_prevalence": 0.05
+        },
+        "no_guard": {
+          "precision": 0.75,
+          "precision_denominator_alerts": 108,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.7788461538461539,
+          "attack_prevalence": 0.05
+        },
+        "aug_fused": {
+          "precision": 0.6608695652173913,
+          "precision_denominator_alerts": 115,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.7069767441860465,
+          "attack_prevalence": 0.05
+        }
+      },
+      "stealth": {
+        "rule": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 4,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.0,
+          "attack_prevalence": 0.049
+        },
+        "guard": {
+          "precision": 0.16101694915254236,
+          "precision_denominator_alerts": 118,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.17592592592592593,
+          "attack_prevalence": 0.049
+        },
+        "score": {
+          "precision": 0.8514851485148515,
+          "precision_denominator_alerts": 101,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.864321608040201,
+          "attack_prevalence": 0.049
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.0,
+          "attack_prevalence": 0.049
+        },
+        "ctx": {
+          "precision": 0.35526315789473684,
+          "precision_denominator_alerts": 76,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.3103448275862069,
+          "attack_prevalence": 0.049
+        },
+        "content": {
+          "precision": 0.14655172413793102,
+          "precision_denominator_alerts": 116,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.1588785046728972,
+          "attack_prevalence": 0.049
+        },
+        "fused": {
+          "precision": 0.6310679611650486,
+          "precision_denominator_alerts": 103,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.6467661691542289,
+          "attack_prevalence": 0.049
+        },
+        "no_guard": {
+          "precision": 0.6310679611650486,
+          "precision_denominator_alerts": 103,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.6467661691542289,
+          "attack_prevalence": 0.049
+        },
+        "aug_fused": {
+          "precision": 0.5360824742268041,
+          "precision_denominator_alerts": 97,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.5333333333333333,
+          "attack_prevalence": 0.049
+        }
+      }
+    },
+    "single_matched": {
+      "combine": {
+        "rule": {
+          "precision": 0.9607843137254902,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.98,
+          "attack_prevalence": 0.049
+        },
+        "guard": {
+          "precision": 0.39263803680981596,
+          "precision_denominator_alerts": 163,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.4904214559386973,
+          "attack_prevalence": 0.049
+        },
+        "score": {
+          "precision": 0.8173076923076923,
+          "precision_denominator_alerts": 104,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8415841584158416,
+          "attack_prevalence": 0.049
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.0,
+          "attack_prevalence": 0.049
+        },
+        "ctx": {
+          "precision": 0.3670886075949367,
+          "precision_denominator_alerts": 79,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.327683615819209,
+          "attack_prevalence": 0.049
+        },
+        "content": {
+          "precision": 0.49746192893401014,
+          "precision_denominator_alerts": 197,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.6644067796610169,
+          "attack_prevalence": 0.049
+        },
+        "fused": {
+          "precision": 0.7293233082706767,
+          "precision_denominator_alerts": 133,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8398268398268398,
+          "attack_prevalence": 0.049
+        },
+        "no_guard": {
+          "precision": 0.7293233082706767,
+          "precision_denominator_alerts": 133,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8398268398268398,
+          "attack_prevalence": 0.049
+        },
+        "aug_fused": {
+          "precision": 0.6950354609929078,
+          "precision_denominator_alerts": 141,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8200836820083682,
+          "attack_prevalence": 0.049
+        }
+      },
+      "escape": {
+        "rule": {
+          "precision": 0.9615384615384616,
+          "precision_denominator_alerts": 104,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.9803921568627451,
+          "attack_prevalence": 0.05
+        },
+        "guard": {
+          "precision": 0.01,
+          "precision_denominator_alerts": 100,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.01,
+          "attack_prevalence": 0.05
+        },
+        "score": {
+          "precision": 0.9313725490196079,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.9405940594059405,
+          "attack_prevalence": 0.05
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.0,
+          "attack_prevalence": 0.05
+        },
+        "ctx": {
+          "precision": 0.53125,
+          "precision_denominator_alerts": 96,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.5204081632653061,
+          "attack_prevalence": 0.05
+        },
+        "content": {
+          "precision": 0.5025125628140703,
+          "precision_denominator_alerts": 199,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.6688963210702341,
+          "attack_prevalence": 0.05
+        },
+        "fused": {
+          "precision": 0.7661290322580645,
+          "precision_denominator_alerts": 124,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.8482142857142857,
+          "attack_prevalence": 0.05
+        },
+        "no_guard": {
+          "precision": 0.7661290322580645,
+          "precision_denominator_alerts": 124,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.8482142857142857,
+          "attack_prevalence": 0.05
+        },
+        "aug_fused": {
+          "precision": 0.7142857142857143,
+          "precision_denominator_alerts": 133,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.8154506437768241,
+          "attack_prevalence": 0.05
+        }
+      },
+      "fake_comp": {
+        "rule": {
+          "precision": 0.9607843137254902,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.98,
+          "attack_prevalence": 0.049
+        },
+        "guard": {
+          "precision": 0.12389380530973451,
+          "precision_denominator_alerts": 113,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.13270142180094788,
+          "attack_prevalence": 0.049
+        },
+        "score": {
+          "precision": 0.8240740740740741,
+          "precision_denominator_alerts": 108,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8640776699029126,
+          "attack_prevalence": 0.049
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.0,
+          "attack_prevalence": 0.049
+        },
+        "ctx": {
+          "precision": 0.379746835443038,
+          "precision_denominator_alerts": 79,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.3389830508474576,
+          "attack_prevalence": 0.049
+        },
+        "content": {
+          "precision": 0.49746192893401014,
+          "precision_denominator_alerts": 197,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.6644067796610169,
+          "attack_prevalence": 0.049
+        },
+        "fused": {
+          "precision": 0.7338709677419355,
+          "precision_denominator_alerts": 124,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8198198198198198,
+          "attack_prevalence": 0.049
+        },
+        "no_guard": {
+          "precision": 0.7338709677419355,
+          "precision_denominator_alerts": 124,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8198198198198198,
+          "attack_prevalence": 0.049
+        },
+        "aug_fused": {
+          "precision": 0.6791044776119403,
+          "precision_denominator_alerts": 134,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.7844827586206896,
+          "attack_prevalence": 0.049
+        }
+      },
+      "ignore": {
+        "rule": {
+          "precision": 0.9607843137254902,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.98,
+          "attack_prevalence": 0.049
+        },
+        "guard": {
+          "precision": 0.42105263157894735,
+          "precision_denominator_alerts": 171,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.5353159851301115,
+          "attack_prevalence": 0.049
+        },
+        "score": {
+          "precision": 0.8529411764705882,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.87,
+          "attack_prevalence": 0.049
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.0,
+          "attack_prevalence": 0.049
+        },
+        "ctx": {
+          "precision": 0.379746835443038,
+          "precision_denominator_alerts": 79,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.3389830508474576,
+          "attack_prevalence": 0.049
+        },
+        "content": {
+          "precision": 0.49746192893401014,
+          "precision_denominator_alerts": 197,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.6644067796610169,
+          "attack_prevalence": 0.049
+        },
+        "fused": {
+          "precision": 0.7461538461538462,
+          "precision_denominator_alerts": 130,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8508771929824561,
+          "attack_prevalence": 0.049
+        },
+        "no_guard": {
+          "precision": 0.7461538461538462,
+          "precision_denominator_alerts": 130,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8508771929824561,
+          "attack_prevalence": 0.049
+        },
+        "aug_fused": {
+          "precision": 0.697841726618705,
+          "precision_denominator_alerts": 139,
+          "recall_denominator_retrieved_attacks": 98,
+          "f1": 0.8185654008438819,
+          "attack_prevalence": 0.049
+        }
+      },
+      "naive": {
+        "rule": {
+          "precision": 0.9615384615384616,
+          "precision_denominator_alerts": 104,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.9803921568627451,
+          "attack_prevalence": 0.05
+        },
+        "guard": {
+          "precision": 0.01,
+          "precision_denominator_alerts": 100,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.01,
+          "attack_prevalence": 0.05
+        },
+        "score": {
+          "precision": 0.9313725490196079,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.9405940594059405,
+          "attack_prevalence": 0.05
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.0,
+          "attack_prevalence": 0.05
+        },
+        "ctx": {
+          "precision": 0.53125,
+          "precision_denominator_alerts": 96,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.5204081632653061,
+          "attack_prevalence": 0.05
+        },
+        "content": {
+          "precision": 0.5025125628140703,
+          "precision_denominator_alerts": 199,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.6688963210702341,
+          "attack_prevalence": 0.05
+        },
+        "fused": {
+          "precision": 0.7661290322580645,
+          "precision_denominator_alerts": 124,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.8482142857142857,
+          "attack_prevalence": 0.05
+        },
+        "no_guard": {
+          "precision": 0.7661290322580645,
+          "precision_denominator_alerts": 124,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.8482142857142857,
+          "attack_prevalence": 0.05
+        },
+        "aug_fused": {
+          "precision": 0.7142857142857143,
+          "precision_denominator_alerts": 133,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.8154506437768241,
+          "attack_prevalence": 0.05
+        }
+      },
+      "poison": {
+        "rule": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 4,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.0,
+          "attack_prevalence": 0.05
+        },
+        "guard": {
+          "precision": 0.029411764705882353,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.0297029702970297,
+          "attack_prevalence": 0.05
+        },
+        "score": {
+          "precision": 0.9514563106796117,
+          "precision_denominator_alerts": 103,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.9655172413793104,
+          "attack_prevalence": 0.05
+        },
+        "density": {
+          "precision": 0.009615384615384616,
+          "precision_denominator_alerts": 104,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.00980392156862745,
+          "attack_prevalence": 0.05
+        },
+        "ctx": {
+          "precision": 0.5877192982456141,
+          "precision_denominator_alerts": 114,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.6261682242990654,
+          "attack_prevalence": 0.05
+        },
+        "content": {
+          "precision": 0.029411764705882353,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.0297029702970297,
+          "attack_prevalence": 0.05
+        },
+        "fused": {
+          "precision": 0.7627118644067796,
+          "precision_denominator_alerts": 118,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.8256880733944955,
+          "attack_prevalence": 0.05
+        },
+        "no_guard": {
+          "precision": 0.7627118644067796,
+          "precision_denominator_alerts": 118,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.8256880733944955,
+          "attack_prevalence": 0.05
+        },
+        "aug_fused": {
+          "precision": 0.675,
+          "precision_denominator_alerts": 120,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.7363636363636363,
+          "attack_prevalence": 0.05
+        }
+      },
+      "stealth": {
+        "rule": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 4,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.0,
+          "attack_prevalence": 0.05
+        },
+        "guard": {
+          "precision": 0.20161290322580644,
+          "precision_denominator_alerts": 124,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.22321428571428573,
+          "attack_prevalence": 0.05
+        },
+        "score": {
+          "precision": 0.9019607843137255,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.9108910891089109,
+          "attack_prevalence": 0.05
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 102,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.0,
+          "attack_prevalence": 0.05
+        },
+        "ctx": {
+          "precision": 0.38961038961038963,
+          "precision_denominator_alerts": 77,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.3389830508474576,
+          "attack_prevalence": 0.05
+        },
+        "content": {
+          "precision": 0.20161290322580644,
+          "precision_denominator_alerts": 124,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.22321428571428573,
+          "attack_prevalence": 0.05
+        },
+        "fused": {
+          "precision": 0.7019230769230769,
+          "precision_denominator_alerts": 104,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.7156862745098039,
+          "attack_prevalence": 0.05
+        },
+        "no_guard": {
+          "precision": 0.7019230769230769,
+          "precision_denominator_alerts": 104,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.7156862745098039,
+          "attack_prevalence": 0.05
+        },
+        "aug_fused": {
+          "precision": 0.5841584158415841,
+          "precision_denominator_alerts": 101,
+          "recall_denominator_retrieved_attacks": 100,
+          "f1": 0.5870646766169154,
+          "attack_prevalence": 0.05
+        }
+      }
+    },
+    "benign_echo": {
+      "benign_echo": {
+        "rule": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 4,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "guard": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 86,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "score": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 118,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 143,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "ctx": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 147,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "content": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 83,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "fused": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 160,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "no_guard": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 160,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "aug_fused": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 157,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        }
+      }
+    },
+    "benign_mirror": {
+      "benign_mirror": {
+        "rule": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 6,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "guard": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 113,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "score": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 72,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "density": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 1046,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "ctx": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 1016,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "content": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 115,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "fused": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 1002,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "no_guard": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 1002,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        },
+        "aug_fused": {
+          "precision": 0.0,
+          "precision_denominator_alerts": 1008,
+          "recall_denominator_retrieved_attacks": 0,
+          "f1": null,
+          "attack_prevalence": 0.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "seconds": 0.40264399199804757,
+  "training_never_uses": [
+    "stealth",
+    "single_supplied",
+    "single_matched",
+    "benign_mirror"
+  ],
+  "augmentation_exception": "aug_fused uses train-QID benign_echo only; all ordinary heads exclude every control",
+  "all_new_evaluation_heads_frozen_before_count_shift": true
+}

@@ -1,0 +1,74 @@
+{
+  "status": "COMPLETE_NUMERICAL_AND_VISUAL_REVIEW_PASSED",
+  "recorded_utc": "2026-10-20T05:54:34.826708+00:00",
+  "study": {
+    "test_articles": 100,
+    "source_supported_sensitivity": 85,
+    "mechanism_questions": 25,
+    "formal_condition_rows": 2175,
+    "unique_full_prompt_executions": 432,
+    "primary_analysis": "all100",
+    "inference_elapsed_seconds": 4610.005215809999
+  },
+  "presentation": {
+    "slides": 11,
+    "combined_references_pages": 1,
+    "native_charts": 1,
+    "native_tables": 5,
+    "spoken_words": 1064,
+    "planned_duration": "09:15, unmeasured rehearsal target"
+  },
+  "report": {
+    "body_pages": 12,
+    "reference_pages": 1,
+    "abstract_words": 180,
+    "references": 16
+  },
+  "checks": [
+    "Strict stdlib consistency audit passed",
+    "Deep offline rank/density/bootstrap reconstruction passed",
+    "Root individually reviewed13report pages and11presentation layouts",
+    "All10spoken scripts agree with PPTnotes and standalone script",
+    "Native and LibreOffice presentation rendering reviewed",
+    "100paper evidence retained without redistributing full papers",
+    "Three attachments integrated with summary deduplication; protected experimental trees unchanged; merged PDF13pages visually reviewed"
+  ],
+  "artifacts": {
+    "output/presentation/Group9_RAG_Trust_Presentation_Final.pptx": {
+      "bytes": 74394,
+      "sha256": "2a3761b4364b86e922f251acf4ba2e4ac217303c3e4cb2242f7a9a66db87633c"
+    },
+    "output/presentation/Presentation_script_English.md": {
+      "bytes": 9569,
+      "sha256": "fa69a4a314f9e3ce56b1586e9091c854141e68ce2b42337dc154602c06d05e6f"
+    },
+    "output/report/Group9_Final_Report.pdf": {
+      "bytes": 227946,
+      "sha256": "8c5cb80e91f4fd16a1992ed7dc1b0c126476b658f0864a89622c8c6d63be4f32"
+    },
+    "output/report/Group9_Final_Report.md": {
+      "bytes": 76420,
+      "sha256": "ea9de936c15852242c9c42b6d9322c4e96e52b401f3b09dfbcb705349d76fc98"
+    }
+  },
+  "remaining_personal_actions": [
+    "Authors verify their actual individual contributions",
+    "Students rehearse and record the required real presentation video"
+  ],
+  "scope": "No full semantic test grading, full-Wikipedia retrieval, adaptive robustness or Windows performance guarantee is claimed.",
+  "merge": {
+    "input_files": 3,
+    "historical_summary_cells": 48,
+    "historical_paired_tests": 40,
+    "raw_4800_answers_present": false,
+    "new_inference": false,
+    "notes": "output/Merge_notes_\u4e2d\u6587.md",
+    "review": "evidence/merge/report_review.json",
+    "verification_checks": {
+      "output/package_validation.json": "passed: standard-library verifier completed with exit code 0; detailed checks are structured without a status field",
+      "output/revised_validation.json": "passed",
+      "evidence/provided_3b_rescoring/validation.json": "passed",
+      "evidence/merge/validation.json": "passed"
+    }
+  }
+}

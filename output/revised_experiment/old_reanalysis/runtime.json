@@ -1,0 +1,11 @@
+{
+  "elapsed_seconds": 83.42246457199963,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "no_neural_inference": true,
+  "new_model_fit_count": 20,
+  "independent_seed_repeats": 1
+}

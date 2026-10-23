@@ -1,0 +1,42 @@
+{
+  "status": "DOCUMENTED_EXAMPLES_NOT_FULL_SEMANTIC_RESCORING",
+  "examples": [
+    {
+      "qid": "test291",
+      "response": "Adrenaline and noradrenaline.",
+      "reference": "epinephrine",
+      "issue": "Clear synonym: adrenaline=epinephrine; old string score misses it."
+    },
+    {
+      "qid": "test337",
+      "response": "The red-white-blue tri-color flag of the Netherlands has been influenced by other flags like the Russian flag.",
+      "reference": "red, white, and blue",
+      "issue": "Clear paraphrase: red-white-blue tri-color names same three colors."
+    },
+    {
+      "qid": "test408",
+      "response": "The name for the CH3COO- ion is acetate.",
+      "reference": "acetate ion",
+      "issue": "Acetate is acceptable ion name; reference includes optionalword ion."
+    },
+    {
+      "qid": "test19",
+      "response": "In the sperm, mitochondria are located at the base of the sperm's tail.",
+      "reference": "midpiece",
+      "issue": "Base of sperm tail may describe midpiece broadly; requires anatomical rubric, not auto-correct."
+    },
+    {
+      "qid": "test243",
+      "response": "the Grand Banks of Newfoundland",
+      "reference": "North Atlantic Ocean",
+      "issue": "Grand Banks names geographic region, not requested ocean; partial/location mismatch should remain separate."
+    },
+    {
+      "qid": "test347",
+      "response": "1971",
+      "reference": "August 15, 1971",
+      "issue": "1971 gives correctyear for1971 suspension reading, not fulldate; score by requested precision."
+    }
+  ],
+  "rule": "Do not change archived generation records or label this alias check as new model performance. New alias rules must be frozen before new outputs."
+}

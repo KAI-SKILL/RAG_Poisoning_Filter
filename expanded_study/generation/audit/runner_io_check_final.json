@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-21T23:17:44.373030+00:00",
+  "runner_sha256": "aa4ff0c0d8e49b02bd480be8ea32ed53bac78af98fd9548c875d4301282d610b",
+  "launcher_sha256": "9d0bbf4b199f0c757ebbdfbc5c7e2e8bbd2f4e1c507f5ea9a2f772c467c76039",
+  "tests": [
+    {
+      "test": "successful_complete_exact_prompt_dedup",
+      "status": "PASS",
+      "unique_responses": 2,
+      "requested_rows": 3,
+      "mock_posts": 1,
+      "durable_sent_observed": [
+        1
+      ]
+    },
+    {
+      "test": "same_config_resume_no_repeated_post_including_volatile_props",
+      "status": "PASS",
+      "additional_mock_posts": 0,
+      "preserved_attempts": 1,
+      "cumulative_known_returned": 2,
+      "cumulative_unknown_requested": 0,
+      "overall_inference": true,
+      "session_inference": false,
+      "created_utc_model_path_kernel_observations_ignored": true
+    },
+    {
+      "test": "changed_execution_config_resume_rejected_before_post",
+      "status": "PASS",
+      "additional_mock_posts": 0
+    },
+    {
+      "test": "changed_backend_artifact_identity_resume_rejected_before_post",
+      "status": "PASS",
+      "additional_mock_posts": 0
+    },
+    {
+      "test": "changed_gpu_layers_0_to_99_resume_rejected_before_post",
+      "status": "PASS",
+      "additional_mock_posts": 0,
+      "frozen_gpu_layers": "0",
+      "attempted_changed_gpu_layers": "99"
+    },
+    {
+      "test": "http_failure_persists_sent_then_error_unknown",
+      "status": "PASS",
+      "durable_sent_observed": [
+        1
+      ],
+      "exception_type": "HTTPError"
+    },
+    {
+      "test": "unknown_failure_resume_retains_history_without_reset",
+      "status": "PASS",
+      "statuses": [
+        "ERROR_UNKNOWN",
+        "COMMITTED"
+      ],
+      "mock_posts": 2,
+      "known_returned": 2,
+      "unknown_requested": 2,
+      "cumulative_http_errors": 1,
+      "current_session_errors": 0,
+      "overall_inference": true,
+      "session_inference": true
+    },
+    {
+      "test": "prompt_echo_mismatch_rolls_back_entire_batch_and_retains_returned_attempt",
+      "status": "PASS",
+      "committed_responses": 0
+    },
+    {
+      "test": "control_file_before_first_batch_pauses_without_complete_or_post",
+      "status": "PASS"
+    },
+    {
+      "test": "control_file_after_batch_keeps_committed_checkpoint_and_pauses",
+      "status": "PASS",
+      "completed_unique_prompts": 2,
+      "remaining_unique_prompts": 1
+    },
+    {
+      "test": "paused_resume_submits_only_one_remaining_prompt_and_accepts_single_object",
+      "status": "PASS",
+      "total_unique": 3,
+      "total_mock_posts": 2
+    },
+    {
+      "test": "active_v1_metadata_matches_archived_executed_v1_sources",
+      "status": "PASS",
+      "runner_sha256": "aff6461e38d623265cbd04c695cae2e53e58a5708ff238fa55fff733cdba4fce",
+      "launcher_sha256": "d7dd47605496522f2e84348aedc52f0b4af6ec4740a54fb7a9a540f2f4bf1989"
+    }
+  ],
+  "bugs": [],
+  "production_code_changed": false,
+  "production_results_changed": false,
+  "real_model_calls": 0,
+  "real_network_calls": 0,
+  "mocked_http_only": true,
+  "temporary_fixture_removed": true,
+  "fixture_producer_sha256": "0cc7c02d48c7c6021b9f3e4d79fd7fd415746efc0a3ea7ff269f6ebf1d694d61"
+}

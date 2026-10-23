@@ -1,0 +1,80 @@
+{
+  "test_topic": {
+    "acceptall": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "keyword": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "lexical": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "retrieval": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "neural": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "combined": {
+      "clean": 0,
+      "attacked": 0
+    }
+  },
+  "test_joint": {
+    "acceptall": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "keyword": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "lexical": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "retrieval": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "neural": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "combined": {
+      "clean": 0,
+      "attacked": 0
+    }
+  },
+  "test_poison": {
+    "acceptall": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "keyword": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "lexical": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "retrieval": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "neural": {
+      "clean": 0,
+      "attacked": 0
+    },
+    "combined": {
+      "clean": 0,
+      "attacked": 0
+    }
+  }
+}

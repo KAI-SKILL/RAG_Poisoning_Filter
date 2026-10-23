@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_GENERATION_AND_SCORING",
+  "created_utc": "2026-10-22T02:30:17.332223+00:00",
+  "actual_unique_responses": 90,
+  "expected_unique_prompts": 90,
+  "config_sha256": "5bca52763387a2e760fcd58bedc913af5c28a54f1908042be2f9709f940f4126",
+  "source_runner_status": "COMPLETE",
+  "scoring_integrity_issues": [],
+  "full_asr_ready": true,
+  "exporter_model_calls": 0,
+  "scope": "Only a COMPLETE archive with full response coverage and fingerprint-verified formal scoring is a finished experiment."
+}

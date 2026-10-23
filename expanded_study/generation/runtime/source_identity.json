@@ -1,0 +1,7 @@
+{
+  "python_tag": "v0.3.36",
+  "python_tag_commit": "1652066e0af45f2313b339670ef9555e8a54e545",
+  "vendor_llama_cpp_commit": "0c1e57098bba43ac29e6e3b677cdceebdd22334f",
+  "source_url": "https://codeload.github.com/ggml-org/llama.cpp/tar.gz/0c1e57098bba43ac29e6e3b677cdceebdd22334f",
+  "archive_sha256": "6a85ec945b57789c875e1af90e66109fbf136a3c79802d5ca0333b043e10407f"
+}

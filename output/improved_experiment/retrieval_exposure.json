@@ -1,0 +1,118 @@
+{
+  "main": {
+    "combine": {
+      "queries": 100,
+      "adv_in_pool": 481,
+      "mean_adv_at_5": 4.22
+    },
+    "escape": {
+      "queries": 100,
+      "adv_in_pool": 491,
+      "mean_adv_at_5": 4.57
+    },
+    "fake_comp": {
+      "queries": 100,
+      "adv_in_pool": 482,
+      "mean_adv_at_5": 4.26
+    },
+    "ignore": {
+      "queries": 100,
+      "adv_in_pool": 487,
+      "mean_adv_at_5": 4.35
+    },
+    "naive": {
+      "queries": 100,
+      "adv_in_pool": 496,
+      "mean_adv_at_5": 4.54
+    },
+    "none": {
+      "queries": 100,
+      "adv_in_pool": 0,
+      "mean_adv_at_5": 0.0
+    },
+    "poison": {
+      "queries": 100,
+      "adv_in_pool": 500,
+      "mean_adv_at_5": 4.79
+    },
+    "stealth": {
+      "queries": 100,
+      "adv_in_pool": 492,
+      "mean_adv_at_5": 4.48
+    }
+  },
+  "single_matched": {
+    "combine": {
+      "queries": 100,
+      "adv_in_pool": 98,
+      "mean_adv_at_5": 0.94
+    },
+    "escape": {
+      "queries": 100,
+      "adv_in_pool": 100,
+      "mean_adv_at_5": 0.98
+    },
+    "fake_comp": {
+      "queries": 100,
+      "adv_in_pool": 98,
+      "mean_adv_at_5": 0.94
+    },
+    "ignore": {
+      "queries": 100,
+      "adv_in_pool": 98,
+      "mean_adv_at_5": 0.94
+    },
+    "naive": {
+      "queries": 100,
+      "adv_in_pool": 100,
+      "mean_adv_at_5": 0.98
+    },
+    "poison": {
+      "queries": 100,
+      "adv_in_pool": 100,
+      "mean_adv_at_5": 1.0
+    },
+    "stealth": {
+      "queries": 100,
+      "adv_in_pool": 100,
+      "mean_adv_at_5": 0.96
+    }
+  },
+  "single_supplied": {
+    "combine": {
+      "queries": 100,
+      "adv_in_pool": 96,
+      "mean_adv_at_5": 0.91
+    },
+    "escape": {
+      "queries": 100,
+      "adv_in_pool": 99,
+      "mean_adv_at_5": 0.96
+    },
+    "fake_comp": {
+      "queries": 100,
+      "adv_in_pool": 98,
+      "mean_adv_at_5": 0.91
+    },
+    "ignore": {
+      "queries": 100,
+      "adv_in_pool": 98,
+      "mean_adv_at_5": 0.93
+    },
+    "naive": {
+      "queries": 100,
+      "adv_in_pool": 98,
+      "mean_adv_at_5": 0.95
+    },
+    "poison": {
+      "queries": 100,
+      "adv_in_pool": 100,
+      "mean_adv_at_5": 0.99
+    },
+    "stealth": {
+      "queries": 100,
+      "adv_in_pool": 98,
+      "mean_adv_at_5": 0.94
+    }
+  }
+}

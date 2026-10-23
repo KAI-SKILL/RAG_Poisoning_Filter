@@ -1,0 +1,18 @@
+{
+  "done": 499,
+  "seconds": 73.04727787799948,
+  "batches": 42,
+  "at_cap_count": 0,
+  "max_observed_tokens": 415,
+  "load_seconds": 0.2633576329999414,
+  "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [
+      "pooler.dense.bias",
+      "pooler.dense.weight"
+    ],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "torch_version": "2.14.1+cpu"
+}

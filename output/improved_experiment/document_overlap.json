@@ -1,0 +1,19 @@
+{
+  "cross_fold_document_ids": {
+    "doc2147737": [
+      "test192",
+      "test79"
+    ],
+    "doc455105": [
+      "test418",
+      "test58"
+    ]
+  },
+  "affected_questions": [
+    "test192",
+    "test418",
+    "test58",
+    "test79"
+  ],
+  "scope": "Question-disjoint cross-validation, not strict document/topic holdout."
+}

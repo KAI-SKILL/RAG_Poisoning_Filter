@@ -1,0 +1,13 @@
+{"completed_unique_prompts":8,"elapsed_session_seconds":26.368,"expected":90,"last_batch_seconds":26.357,"new_responses":8}
+{"completed_unique_prompts":16,"elapsed_session_seconds":63.574,"expected":90,"last_batch_seconds":37.199,"new_responses":16}
+{"completed_unique_prompts":24,"elapsed_session_seconds":104.91,"expected":90,"last_batch_seconds":41.329,"new_responses":24}
+{"completed_unique_prompts":32,"elapsed_session_seconds":144.98,"expected":90,"last_batch_seconds":40.064,"new_responses":32}
+{"completed_unique_prompts":40,"elapsed_session_seconds":189.446,"expected":90,"last_batch_seconds":44.46,"new_responses":40}
+{"completed_unique_prompts":48,"elapsed_session_seconds":236.579,"expected":90,"last_batch_seconds":47.124,"new_responses":48}
+{"completed_unique_prompts":56,"elapsed_session_seconds":269.917,"expected":90,"last_batch_seconds":33.333,"new_responses":56}
+{"completed_unique_prompts":64,"elapsed_session_seconds":316.693,"expected":90,"last_batch_seconds":46.769,"new_responses":64}
+{"completed_unique_prompts":72,"elapsed_session_seconds":358.015,"expected":90,"last_batch_seconds":41.315,"new_responses":72}
+{"completed_unique_prompts":80,"elapsed_session_seconds":394.453,"expected":90,"last_batch_seconds":36.43,"new_responses":80}
+{"completed_unique_prompts":88,"elapsed_session_seconds":433.703,"expected":90,"last_batch_seconds":39.24,"new_responses":88}
+{"completed_unique_prompts":90,"elapsed_session_seconds":448.964,"expected":90,"last_batch_seconds":15.256,"new_responses":90}
+{"complete":true,"requested_rows":90,"unique_prompts":90}

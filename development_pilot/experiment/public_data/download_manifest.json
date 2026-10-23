@@ -1,0 +1,137 @@
+{
+  "NotInject_one.json": {
+    "url": "https://raw.githubusercontent.com/leolee99/PIGuard/main/datasets/NotInject_one.json",
+    "bytes": 26117,
+    "sha256": "69b535596d95102424e9c5946944feb4f2d596687eb8213f2ecad75478e5ffdd"
+  },
+  "NotInject_two.json": {
+    "url": "https://raw.githubusercontent.com/leolee99/PIGuard/main/datasets/NotInject_two.json",
+    "bytes": 29902,
+    "sha256": "6043d94e75b48d8e7682d25dc79eaf45359e1e561ce520e3b8fd5625a91060c6"
+  },
+  "NotInject_three.json": {
+    "url": "https://raw.githubusercontent.com/leolee99/PIGuard/main/datasets/NotInject_three.json",
+    "bytes": 35765,
+    "sha256": "ef01eff0d761d2e34571b3fdbcec08c30cd93efe8d0e1a2eb5c2baeb1873b070"
+  },
+  "BIPIA_text.json": {
+    "url": "https://raw.githubusercontent.com/leolee99/PIGuard/main/datasets/BIPIA_text.json",
+    "bytes": 6322,
+    "sha256": "75750e7b4e8b34e8f9d88d89b357aeaaf02bd07f9e493ccd37eda74a0cd7c7f8"
+  },
+  "BIPIA_code.json": {
+    "url": "https://raw.githubusercontent.com/leolee99/PIGuard/main/datasets/BIPIA_code.json",
+    "bytes": 16356,
+    "sha256": "892545c5aaec0645b1ded65dc7816b3d70e9ef4eadcba2301a7a3db93676b6e0"
+  },
+  "PIGuard_LICENSE": {
+    "url": "https://raw.githubusercontent.com/leolee99/PIGuard/main/LICENSE",
+    "bytes": 1062,
+    "sha256": "fd8281430399b97e9fbefaa173b7aa1cb58cc8e4aaadcccd5e910937a195d119"
+  },
+  "PIGuard_README.md": {
+    "url": "https://raw.githubusercontent.com/leolee99/PIGuard/main/README.md",
+    "bytes": 8934,
+    "sha256": "f934afb8a2ce9bc48bbcd7fa054a473e6aa242bdc432aaf073993f221e6230a2"
+  },
+  "PIGuard_eval_hf.py.txt": {
+    "url": "https://raw.githubusercontent.com/leolee99/PIGuard/main/eval_hf.py",
+    "bytes": 7768,
+    "sha256": "7c676fc726fc7b73b190f6bd31c54357751987218a7b865adbc7bbf63defda18"
+  },
+  "NotInject_dataset_metadata.json": {
+    "url": "https://huggingface.co/api/datasets/leolee99/NotInject",
+    "bytes": 2342,
+    "sha256": "f84fe18dcccd67fc328e3f1aedb4d621ad5637bd617d995e41ec2fbcb4ebfdc2"
+  },
+  "NotInject_dataset_card.md": {
+    "url": "https://huggingface.co/datasets/leolee99/NotInject/raw/847ae76cf8fea5ed325429e569ae8cfef022d2e0/README.md",
+    "bytes": 2973,
+    "sha256": "ffaf685021522a526f94af2047e5099ec6b7439a462c67e0ecaca0d631a0d43f"
+  },
+  "BIPIA_LICENSE": {
+    "url": "https://raw.githubusercontent.com/microsoft/BIPIA/main/LICENSE",
+    "bytes": 2642,
+    "sha256": "57cf81c45e0929899bc18051cf90134f00e55963ddecc7b37cfc5ea1494b1e8b"
+  },
+  "text_attack_train.json": {
+    "url": "https://raw.githubusercontent.com/microsoft/BIPIA/main/benchmark/text_attack_train.json",
+    "bytes": 5999,
+    "sha256": "63f95d3e67eac4178cdabdbdaf192cd05f2b6ed0702b578f1d30d556e5155670"
+  },
+  "text_attack_test.json": {
+    "url": "https://raw.githubusercontent.com/microsoft/BIPIA/main/benchmark/text_attack_test.json",
+    "bytes": 6322,
+    "sha256": "75750e7b4e8b34e8f9d88d89b357aeaaf02bd07f9e493ccd37eda74a0cd7c7f8"
+  },
+  "code_attack_train.json": {
+    "url": "https://raw.githubusercontent.com/microsoft/BIPIA/main/benchmark/code_attack_train.json",
+    "bytes": 16343,
+    "sha256": "fe515080b6da2b5c0b67ca7ba2a3b3c2ce57c48f45733c475ebc813cba118484"
+  },
+  "code_attack_test.json": {
+    "url": "https://raw.githubusercontent.com/microsoft/BIPIA/main/benchmark/code_attack_test.json",
+    "bytes": 16356,
+    "sha256": "892545c5aaec0645b1ded65dc7816b3d70e9ef4eadcba2301a7a3db93676b6e0"
+  },
+  "DistilBERT_ONNX_card.md": {
+    "url": "https://huggingface.co/protectai/fmops-distilbert-prompt-injection-onnx/raw/fcd250e33cdb9b78f3ee84ff13d59ff7aae2faf5/README.md",
+    "sha256": "3dd5bc9e2e914cd2fefb6f505915aaec8d5ee6c776c66427f1bb74dd41bff447",
+    "bytes": 619
+  },
+  "DistilBERT_ONNX_metadata.json": {
+    "url": "https://huggingface.co/api/models/protectai/fmops-distilbert-prompt-injection-onnx",
+    "sha256": "d356d7b6256e6f7538b4bb16611798d7746cf3b9ed94aeee4944c14d25a1d522",
+    "bytes": 3276
+  },
+  "DistilBERT_source_card.md": {
+    "url": "https://huggingface.co/fmops/distilbert-prompt-injection/raw/main/README.md",
+    "sha256": "2c5cf2e933ea5d0d67fd983481118509f5110a82c4e7680f15234fb85d7b26b5",
+    "bytes": 137
+  },
+  "DistilBERT_source_metadata.json": {
+    "url": "https://huggingface.co/api/models/fmops/distilbert-prompt-injection",
+    "sha256": "64bb86046b3af20864733343d14a159b780ee218778bae6146080190684e2e85",
+    "bytes": 1838
+  },
+  "DistilBERT_ONNX_commits.json": {
+    "url": "https://huggingface.co/api/models/protectai/fmops-distilbert-prompt-injection-onnx/commits/main",
+    "sha256": "c72e3416f313f52ef061df7ce1a564ffb34268748385980cee43b9047248dbc5",
+    "bytes": 2326
+  },
+  "DistilBERT_source_commits.json": {
+    "url": "https://huggingface.co/api/models/fmops/distilbert-prompt-injection/commits/main",
+    "sha256": "6993aae089e65cd1f39712fc1fd5799341552920a37343db7e954263b9f99dd5",
+    "bytes": 1422
+  },
+  "deepset_training_metadata.json": {
+    "url": "https://huggingface.co/api/datasets/deepset/prompt-injections",
+    "sha256": "abd112dbbccc03e678e2f0f816f67a84f5617d20cc3becfaa22ceddd89433a29",
+    "bytes": 1169
+  },
+  "deepset_training_card.md": {
+    "url": "https://huggingface.co/datasets/deepset/prompt-injections/raw/main/README.md",
+    "sha256": "d90b4518dfe06154deeec938243d1ec9119bdfbfd2105aee9cf1567999764b94",
+    "bytes": 500
+  },
+  "BIPIA_README.md": {
+    "url": "https://raw.githubusercontent.com/microsoft/BIPIA/main/README.md",
+    "bytes": 9765,
+    "sha256": "9fce640c22ae3277c83f31711044a90e64627501345c9ceb142b14167f07d47c"
+  },
+  "DistilBERT_ONNX_tree_fcd250e33cdb9b78f3ee84ff13d59ff7aae2faf5.json": {
+    "url": "https://huggingface.co/api/models/protectai/fmops-distilbert-prompt-injection-onnx/tree/fcd250e33cdb9b78f3ee84ff13d59ff7aae2faf5?recursive=true",
+    "bytes": 1007,
+    "sha256": "87751bfa8d67a433617df043624cc3357f31b342b9eb0dd5dff3828640fd87c0"
+  },
+  "DistilBERT_ONNX_tree_aa128590e6e1e8a86b42cc678a8084524ea833d6.json": {
+    "url": "https://huggingface.co/api/models/protectai/fmops-distilbert-prompt-injection-onnx/tree/aa128590e6e1e8a86b42cc678a8084524ea833d6?recursive=true",
+    "bytes": 912,
+    "sha256": "4e20f6d5c9cc2fb87d665d66fb2994894ff322a70f56fc33aee783870f9988b5"
+  },
+  "DistilBERT_source_tree_c5da1fefd33c98c447b50dd806fe86aeb9e8c26c.json": {
+    "url": "https://huggingface.co/api/models/fmops/distilbert-prompt-injection/tree/c5da1fefd33c98c447b50dd806fe86aeb9e8c26c?recursive=true",
+    "bytes": 2275,
+    "sha256": "f5dc5284d81a99670240ad570e475ba6be38de1f0a60e859d0fd8373b2a94275"
+  }
+}

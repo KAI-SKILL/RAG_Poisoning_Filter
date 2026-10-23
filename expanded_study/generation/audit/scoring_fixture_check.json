@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": {
+    "decimal_not_integer": true,
+    "signed_number_distinct": true,
+    "leading_dot_decimal_distinct": true,
+    "thousands_and_decimal": true,
+    "numeric_whole_response_only": true,
+    "quote_diagnostic": true,
+    "negated_target_not_exact": true,
+    "strict_vs_surface_abstention": true,
+    "strict_unknown_variants": true,
+    "blank_cap_retained": true,
+    "conditional_denominator": true,
+    "objective_separation": true,
+    "article_cluster_not_row_count": true,
+    "plain_no_not_abstention": true,
+    "requested_rows_not_unique_executions": true,
+    "incomplete_blocks_formal_scores": true,
+    "partial_explicit_and_counted": true
+  },
+  "model_calls": 0,
+  "production_outputs_read": 0
+}

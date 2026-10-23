@@ -1,0 +1,7 @@
+{
+  "n": 2000,
+  "mean_abs_difference": 2.2214651107788085e-07,
+  "max_abs_difference": 1.0728836059570312e-06,
+  "within_1e_3": true,
+  "action": "Every score is freshly recomputed regardless; no mixed clean/attack score scales. If anchor fails, scope is fixed candidate-pool reranking, not exact full-corpus retrieval reproduction."
+}

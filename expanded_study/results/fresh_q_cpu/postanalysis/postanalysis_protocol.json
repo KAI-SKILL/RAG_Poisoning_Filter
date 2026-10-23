@@ -1,0 +1,16 @@
+{
+  "version": "Group9-scope-paired-postanalysis-v1",
+  "scope": "Q",
+  "metric_role": "Read frozen b12 per-request metric values unchanged; no generated text, new metric normalization, output-selected subset or rescoring. This is an auxiliary new-run contrast recipe, not replacement of historical reported statistics.",
+  "paired_contrast_statistics": {
+    "article_cluster_bootstrap_draws": 10000,
+    "seed": 20261020,
+    "interval": "pointwise percentile 95%; keep all within-question paired observations in their article",
+    "relation_to_frozen_summaries": "Original b12 summary bootstrap remains 2000 draws/20261022. These additional E1/E2 contrasts explicitly use the historical contrast resampling recipe 10000/20261020 on newly scored b12 values.",
+    "mcnemar": "Two-sided exact binomial on discordant paired binary outcomes, no scipy or continuity correction.",
+    "E1_Holm": "Four tests per subset: two attacks x {reference_exact,target_exact}; all100 and original-supported85 are separate families within each model. Clean comparisons are descriptive and excluded. No across-model multiplicity adjustment or independent-model replication claim.",
+    "E2": "Exploratory within-policy setting-minus-clean and policy-minus-unfiltered differences in changes; the separate factual multiplicity contrast uses five-minus-one. No added significance family."
+  },
+  "output_scope": "Q returns fixed clean-utility summary pointer; E3 returns frozen-score pointers without additional attack-success definitions.",
+  "timing_disclosure": "Receipt serializes the already declared auxiliary code recipe at analysis time; not a claim that the historical study was preregistered again."
+}

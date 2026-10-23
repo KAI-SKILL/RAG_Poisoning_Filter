@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "split_training": 70,
+  "split_development": 30,
+  "source_groups": 83,
+  "support_exact_archived_documents": 22,
+  "all30_preserved": true,
+  "new_inference_executed": false,
+  "original_data_gate_passed": false,
+  "limits": "Validation checks frozen split and exact evidence identity, not independent current-world factual certification of100answers."
+}
